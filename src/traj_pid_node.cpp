@@ -69,6 +69,9 @@ private:
     void traj_callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
         target_linear_velocity_ = msg->linear.x;
         target_angular_velocity_ = msg->angular.z;
+
+        RCLCPP_INFO(this->get_logger(), "Received trajectory - Linear velocity: %f, Angular velocity: %f",
+                    target_linear_velocity_, target_angular_velocity_);
     }
 
     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
@@ -79,6 +82,9 @@ private:
         current_position_x_ = msg->pose.pose.position.x;
         current_position_y_ = msg->pose.pose.position.y;
 
+        RCLCPP_INFO(this->get_logger(), "Received Odometry - Position: x=%f, y=%f, Linear Velocity: %f, Angular Velocity: %f",
+                    current_position_x_, current_position_y_, current_linear_velocity_, current_angular_velocity_);
+
         // 获取当前朝向（四元数转换为欧拉角）
         tf2::Quaternion quat;
         tf2::fromMsg(msg->pose.pose.orientation, quat);
@@ -86,16 +92,17 @@ private:
         // 获取 yaw 值（转换为欧拉角）
         double roll, pitch;
         tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
-    }
 
+        RCLCPP_INFO(this->get_logger(), "Current yaw: %f (roll: %f, pitch: %f)", current_yaw_, roll, pitch);
+    }
 
     void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
         // 获取IMU的角速度和线性加速度
         double angular_velocity = msg->angular_velocity.z;  // 角速度
         double linear_acceleration = msg->linear_acceleration.x;  // 线性加速度
 
-        RCLCPP_INFO(this->get_logger(), "IMU - Angular Velocity: %f", angular_velocity);
-        RCLCPP_INFO(this->get_logger(), "IMU - Linear Acceleration: %f", linear_acceleration);
+        RCLCPP_INFO(this->get_logger(), "IMU - Angular Velocity: %f, Linear Acceleration: %f", 
+                    angular_velocity, linear_acceleration);
     }
 
     void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
@@ -135,7 +142,7 @@ private:
         double pid_angular_output = pid_orientation_control_.compute(orientation_error, 0.0);  // 朝向误差
 
         // 打印PID控制输出
-        RCLCPP_INFO(this->get_logger(), "Control Loop - PID Output: linear.x=%f, angular.z=%f",
+        RCLCPP_INFO(this->get_logger(), "Control Loop - PID Output: Linear Velocity: %f, Angular Velocity: %f",
                     pid_linear_output, pid_angular_output);
 
         // 生成控制命令
