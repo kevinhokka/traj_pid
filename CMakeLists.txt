@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(traj_pid_node)
 
-# set(CMAKE_PREFIX_PATH "/home/jetson/ws_livox/install" ${CAMKE_PREFIX_PATH})
+set(planner_DIR /home/jetson/ws_livox/install/planner/share/planner/cmake)
 
 # 设置编译选项
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
@@ -14,13 +14,14 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(planner REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(planner REQUIRED)
 
-rosidl_generate_interfaces(${PROJECT_NAME}
+rosidl_generate_interfaces(
+  planner
   "msg/Bspline.msg"
   DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
 )
@@ -42,6 +43,7 @@ ament_target_dependencies(traj_pid_node
   tf2
   tf2_ros
   tf2_geometry_msgs
+  rosidl_typesupport_cpp
 )
 
 rosidl_get_typesupport_target(
