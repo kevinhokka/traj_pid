@@ -42,6 +42,10 @@ public:
         return output;
     }
 
+    void print_parameters() const {
+        std::cout << "PID Parameters - P: " << p_gain << ", I: " << i_gain << ", D: " << d_gain << std::endl;
+    }
+
 private:
     double p_gain, i_gain, d_gain;
     double prev_error, integral;
@@ -55,7 +59,7 @@ public:
       pid_orientation_control_(1.0, 0.0, 0.1) // 朝向PID控制器
     {
         // 创建日志文件夹
-        std::string log_dir = "/home/jetson/ros2_ctl/traj_pid_node/traj_pid_log";
+        std::string log_dir = "/home/jetson/ros2_ws/src/traj_pid/traj_pid_log";
         if (!std::filesystem::exists(log_dir)) {
             std::filesystem::create_directory(log_dir);
         }
@@ -86,6 +90,10 @@ public:
         cmd_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
         RCLCPP_INFO(this->get_logger(), "PID 轨迹跟踪节点已启动");
+
+        // 输出PID控制器参数
+        pid_control_.print_parameters();
+        pid_orientation_control_.print_parameters();
     }
 
     ~TrajPidNode() {
@@ -133,40 +141,69 @@ private:
     }
 
     void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
+        log_file_ << "Received Bspline message - pos_pts size: " << msg->pos_pts.size()
+                  << ", yaw_pts size: " << msg->yaw_pts.size() << std::endl;
+    
         if (!msg->pos_pts.empty()) {
-            target_x_ = msg->pos_pts[0].x;
-            target_y_ = msg->pos_pts[0].y;
-
-            if (!msg->yaw_pts.empty()) {
-                target_yaw_ = msg->yaw_pts[0];
+            for (size_t i = 0; i < msg->pos_pts.size(); ++i) {
+                target_x_ = msg->pos_pts[i].x;
+                target_y_ = msg->pos_pts[i].y;
+    
+                if (i < msg->yaw_pts.size()) {
+                    target_yaw_ = msg->yaw_pts[i];
+                }
+    
+                log_file_ << "Target position " << i << ": x=" << target_x_
+                          << ", y=" << target_y_ << ", target yaw=" << target_yaw_ << std::endl;
             }
-
-            log_file_ << "Received Bspline - Target position: x=" << target_x_
-                      << ", y=" << target_y_ << ", target yaw=" << target_yaw_ << std::endl;
         }
     }
+    
 
     void control_loop() {
+        // 计算当前位置和目标位置的误差
         double position_error = std::sqrt(std::pow(target_x_ - current_position_x_, 2) + std::pow(target_y_ - current_position_y_, 2));
+        
+        // 使用PID控制器计算线速度输出
         double pid_linear_output = pid_control_.compute(position_error, 0.0);
-
+    
+        // 计算当前航向与目标航向之间的误差
         double orientation_error = target_yaw_ - current_yaw_;
-
+    
+        // 确保误差在 -π 到 π 之间
         if (orientation_error > M_PI) {
             orientation_error -= 2 * M_PI;
         } else if (orientation_error < -M_PI) {
             orientation_error += 2 * M_PI;
         }
-
+    
+        // 使用PID控制器计算角速度输出
         double pid_angular_output = pid_orientation_control_.compute(orientation_error, 0.0);
+    
+        // 输出限制（避免过大控制量）
+        const double max_linear_velocity = 2.0;  // 最大线速度
+        const double max_angular_velocity = 0.5; // 最大角速度
 
+        pid_linear_output = std::clamp(pid_linear_output, -max_linear_velocity, max_linear_velocity);
+        pid_angular_output = std::clamp(pid_angular_output, -max_angular_velocity, max_angular_velocity);
+    
+        // 将PID输出转化为控制指令
         log_file_ << "Control Loop - PID Output: Linear Velocity: " << pid_linear_output
                   << ", Angular Velocity: " << pid_angular_output << std::endl;
 
+        log_file_ << "PID Control - Linear Velocity Target: " << target_linear_velocity_
+                  << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
+
+        log_file_ << "Target Position - x: " << target_x_ << ", y: " << target_y_
+                  << ", Target Yaw: " << target_yaw_ << std::endl;
+
+        log_file_ << "Current Position - x: " << current_position_x_
+                  << ", y: " << current_position_y_ << ", Current Yaw: " << current_yaw_ << std::endl;
+    
         geometry_msgs::msg::Twist cmd_msg;
         cmd_msg.linear.x = pid_linear_output;
         cmd_msg.angular.z = pid_angular_output;
-
+    
         cmd_publisher_->publish(cmd_msg);
     }
 

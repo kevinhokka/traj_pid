@@ -8,6 +8,8 @@ endif()
 
 # 查找依赖
 
+#export LD_LIBRARY_PATH=/home/jetson/ros2_ctl/install/planner/lib:$LD_LIBRARY_PATH
+
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
@@ -95,7 +97,7 @@ set(
 
 target_link_libraries(
   traj_pid_node
-  /home/jetson/ros2_ctl/install/planner/lib/libplanner__rosidl_typesupport_cpp.so
+  /home/jetson/ros2_ws/install/planner/lib/libplanner__rosidl_typesupport_cpp.so
   ${rosidl_typesupport_cpp_LIBRARIES}
 )
 
