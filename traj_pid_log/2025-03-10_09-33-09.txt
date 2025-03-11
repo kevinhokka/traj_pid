@@ -1,0 +1,174 @@
+Received Bspline message - pos_pts size: 27, yaw_pts size: 65
+Target position 0: x=2.43329e-05, y=-3.26188e-05, target yaw=0
+Target position 1: x=4.26799e-05, y=-5.72132e-05, target yaw=0
+Target position 2: x=6.44284e-05, y=-8.63675e-05, target yaw=0
+Target position 3: x=0.0227275, y=-0.0132012, target yaw=-0.199912
+Target position 4: x=0.0823329, y=-0.0420658, target yaw=-0.385195
+Target position 5: x=0.188585, y=-0.0850101, target yaw=-0.446156
+Target position 6: x=0.345664, y=-0.135801, target yaw=-0.414963
+Target position 7: x=0.553755, y=-0.186729, target yaw=-0.359954
+Target position 8: x=0.809537, y=-0.230282, target yaw=-0.31839
+Target position 9: x=1.10704, y=-0.261336, target yaw=-0.292784
+Target position 10: x=1.43839, y=-0.279156, target yaw=-0.272664
+Target position 11: x=1.79459, y=-0.289544, target yaw=-0.250536
+Target position 12: x=2.16628, y=-0.306582, target yaw=-0.225187
+Target position 13: x=2.54447, y=-0.355846, target yaw=-0.198574
+Target position 14: x=2.92168, y=-0.462391, target yaw=-0.172574
+Target position 15: x=3.29344, y=-0.62053, target yaw=-0.148049
+Target position 16: x=3.65967, y=-0.767698, target yaw=-0.12517
+Target position 17: x=4.02336, y=-0.821038, target yaw=-0.104083
+Target position 18: x=4.38793, y=-0.745294, target yaw=-0.0851634
+Target position 19: x=4.75534, y=-0.592411, target yaw=-0.0689664
+Target position 20: x=5.12631, y=-0.44833, target yaw=-0.0562856
+Target position 21: x=5.50086, y=-0.360898, target yaw=-0.0479643
+Target position 22: x=5.87861, y=-0.313886, target yaw=-0.0448958
+Target position 23: x=6.25838, y=-0.269836, target yaw=-0.048107
+Target position 24: x=6.63835, y=-0.211257, target yaw=-0.0586599
+Target position 25: x=7.01633, y=-0.146276, target yaw=-0.0774387
+Target position 26: x=7.39305, y=-0.0879531, target yaw=-0.104814
+Received trajectory - Linear velocity: 0.000108088, Angular velocity: -0.0124245
+Received trajectory - Linear velocity: 0.000646194, Angular velocity: -0.0942604
+Received trajectory - Linear velocity: 0.00168666, Angular velocity: -0.252578
+Received trajectory - Linear velocity: 0.0032295, Angular velocity: -0.458622
+Received trajectory - Linear velocity: 0.00527469, Angular velocity: -0.59513
+Received trajectory - Linear velocity: 0.00782225, Angular velocity: -0.649558
+Received trajectory - Linear velocity: 0.0108722, Angular velocity: -0.629983
+Received trajectory - Linear velocity: 0.0144244, Angular velocity: -0.565762
+Received trajectory - Linear velocity: 0.0184036, Angular velocity: -0.459574
+Received trajectory - Linear velocity: 0.022701, Angular velocity: -0.323484
+Received trajectory - Linear velocity: 0.0273157, Angular velocity: -0.196689
+Received trajectory - Linear velocity: 0.0322478, Angular velocity: -0.0822004
+Received trajectory - Linear velocity: 0.0374972, Angular velocity: 0.0166
+Received trajectory - Linear velocity: 0.043064, Angular velocity: 0.0898825
+Received trajectory - Linear velocity: 0.0489482, Angular velocity: 0.13702
+Received trajectory - Linear velocity: 0.0551468, Angular velocity: 0.161193
+Received trajectory - Linear velocity: 0.0615905, Angular velocity: 0.170681
+Received trajectory - Linear velocity: 0.0682496, Angular velocity: 0.165914
+Received trajectory - Linear velocity: 0.0751241, Angular velocity: 0.150768
+Received trajectory - Linear velocity: 0.0822139, Angular velocity: 0.134288
+Received trajectory - Linear velocity: 0.089519, Angular velocity: 0.116847
+Received trajectory - Linear velocity: 0.0970396, Angular velocity: 0.100018
+Received trajectory - Linear velocity: 0.104775, Angular velocity: 0.087091
+Received trajectory - Linear velocity: 0.112707, Angular velocity: 0.0781699
+Received trajectory - Linear velocity: 0.120742, Angular velocity: 0.0728643
+Received trajectory - Linear velocity: 0.12887, Angular velocity: 0.0704425
+Received trajectory - Linear velocity: 0.137091, Angular velocity: 0.0708877
+Received trajectory - Linear velocity: 0.145405, Angular velocity: 0.0733108
+Received trajectory - Linear velocity: 0.153811, Angular velocity: 0.0762218
+Received trajectory - Linear velocity: 0.16231, Angular velocity: 0.0795974
+Received trajectory - Linear velocity: 0.170902, Angular velocity: 0.0829541
+Received trajectory - Linear velocity: 0.17955, Angular velocity: 0.0855689
+Received trajectory - Linear velocity: 0.188203, Angular velocity: 0.0874347
+Received trajectory - Linear velocity: 0.19686, Angular velocity: 0.0885649
+Received trajectory - Linear velocity: 0.205522, Angular velocity: 0.088977
+Received trajectory - Linear velocity: 0.214187, Angular velocity: 0.0886713
+Received trajectory - Linear velocity: 0.222857, Angular velocity: 0.0878252
+Received trajectory - Linear velocity: 0.231531, Angular velocity: 0.0866485
+Received trajectory - Linear velocity: 0.240206, Angular velocity: 0.0851417
+Received trajectory - Linear velocity: 0.248831, Angular velocity: 0.0834345
+Received trajectory - Linear velocity: 0.257382, Angular velocity: 0.081662
+Received trajectory - Linear velocity: 0.265859, Angular velocity: 0.0798245
+Received trajectory - Linear velocity: 0.274263, Angular velocity: 0.0779266
+Received trajectory - Linear velocity: 0.282592, Angular velocity: 0.0759727
+Received trajectory - Linear velocity: 0.290848, Angular velocity: 0.0739627
+Received trajectory - Linear velocity: 0.29903, Angular velocity: 0.0718484
+Received trajectory - Linear velocity: 0.307129, Angular velocity: 0.0695909
+Received trajectory - Linear velocity: 0.315101, Angular velocity: 0.0671899
+Received trajectory - Linear velocity: 0.322941, Angular velocity: 0.0646051
+Received trajectory - Linear velocity: 0.330648, Angular velocity: 0.0618075
+Received trajectory - Linear velocity: 0.338222, Angular velocity: 0.0587964
+Received trajectory - Linear velocity: 0.345664, Angular velocity: 0.055517
+Received trajectory - Linear velocity: 0.352974, Angular velocity: 0.0519342
+Received trajectory - Linear velocity: 0.360152, Angular velocity: 0.0480478
+Received trajectory - Linear velocity: 0.367179, Angular velocity: 0.0438456
+Received trajectory - Linear velocity: 0.374033, Angular velocity: 0.0393208
+Received trajectory - Linear velocity: 0.380711, Angular velocity: 0.0344729
+Received trajectory - Linear velocity: 0.387215, Angular velocity: 0.0292898
+Received trajectory - Linear velocity: 0.393544, Angular velocity: 0.0237648
+Received trajectory - Linear velocity: 0.399698, Angular velocity: 0.017897
+Received trajectory - Linear velocity: 0.405678, Angular velocity: 0.011652
+Received trajectory - Linear velocity: 0.411482, Angular velocity: 0.00501421
+Received trajectory - Linear velocity: 0.417093, Angular velocity: -0.00201689
+Received trajectory - Linear velocity: 0.422505, Angular velocity: -0.0094505
+Received trajectory - Linear velocity: 0.427717, Angular velocity: -0.0172904
+Received trajectory - Linear velocity: 0.432729, Angular velocity: -0.025534
+Received trajectory - Linear velocity: 0.437542, Angular velocity: -0.0341335
+Received trajectory - Linear velocity: 0.442154, Angular velocity: -0.0430713
+Received trajectory - Linear velocity: 0.446567, Angular velocity: -0.0523379
+Received trajectory - Linear velocity: 0.450779, Angular velocity: -0.0617928
+Received trajectory - Linear velocity: 0.454784, Angular velocity: -0.0713894
+Received trajectory - Linear velocity: 0.458581, Angular velocity: -0.0811094
+Received trajectory - Linear velocity: 0.46217, Angular velocity: -0.0907256
+Received trajectory - Linear velocity: 0.465552, Angular velocity: -0.100171
+Received trajectory - Linear velocity: 0.468726, Angular velocity: -0.109412
+Received trajectory - Linear velocity: 0.471692, Angular velocity: -0.118115
+Received trajectory - Linear velocity: 0.47445, Angular velocity: -0.12619
+Received trajectory - Linear velocity: 0.477004, Angular velocity: -0.133594
+Received trajectory - Linear velocity: 0.479359, Angular velocity: -0.139944
+Received trajectory - Linear velocity: 0.481515, Angular velocity: -0.145149
+Received trajectory - Linear velocity: 0.483472, Angular velocity: -0.149165
+Received trajectory - Linear velocity: 0.485229, Angular velocity: -0.151646
+Received trajectory - Linear velocity: 0.486787, Angular velocity: -0.152518
+Received trajectory - Linear velocity: 0.488146, Angular velocity: -0.151748
+Received trajectory - Linear velocity: 0.489307, Angular velocity: -0.149105
+Received trajectory - Linear velocity: 0.490292, Angular velocity: -0.144547
+Received trajectory - Linear velocity: 0.491111, Angular velocity: -0.13806
+Received trajectory - Linear velocity: 0.491763, Angular velocity: -0.129569
+Received trajectory - Linear velocity: 0.49225, Angular velocity: -0.119061
+Received trajectory - Linear velocity: 0.49257, Angular velocity: -0.106554
+Received trajectory - Linear velocity: 0.492724, Angular velocity: -0.0921379
+Received trajectory - Linear velocity: 0.492711, Angular velocity: -0.0758261
+Received trajectory - Linear velocity: 0.492543, Angular velocity: -0.0576553
+Received trajectory - Linear velocity: 0.49227, Angular velocity: -0.0377946
+Received trajectory - Linear velocity: 0.491898, Angular velocity: -0.0162649
+Received trajectory - Linear velocity: 0.491426, Angular velocity: 0.00686827
+Received trajectory - Linear velocity: 0.490855, Angular velocity: 0.0313385
+Received trajectory - Linear velocity: 0.490185, Angular velocity: 0.0571174
+Received trajectory - Linear velocity: 0.489415, Angular velocity: 0.0840603
+Received trajectory - Linear velocity: 0.488546, Angular velocity: 0.111642
+Received trajectory - Linear velocity: 0.487618, Angular velocity: 0.139815
+Received trajectory - Linear velocity: 0.486688, Angular velocity: 0.168297
+Received trajectory - Linear velocity: 0.485756, Angular velocity: 0.196172
+Received trajectory - Linear velocity: 0.484823, Angular velocity: 0.223371
+Received trajectory - Linear velocity: 0.483888, Angular velocity: 0.249507
+Received trajectory - Linear velocity: 0.482952, Angular velocity: 0.273457
+Received trajectory - Linear velocity: 0.482014, Angular velocity: 0.295151
+Received trajectory - Linear velocity: 0.481076, Angular velocity: 0.314195
+Received trajectory - Linear velocity: 0.480185, Angular velocity: 0.329567
+Received trajectory - Linear velocity: 0.479361, Angular velocity: 0.341214
+Received trajectory - Linear velocity: 0.478602, Angular velocity: 0.348933
+Received trajectory - Linear velocity: 0.47791, Angular velocity: 0.352245
+Received trajectory - Linear velocity: 0.477284, Angular velocity: 0.351132
+Received trajectory - Linear velocity: 0.476724, Angular velocity: 0.345699
+Received trajectory - Linear velocity: 0.47623, Angular velocity: 0.336171
+Received trajectory - Linear velocity: 0.475804, Angular velocity: 0.322553
+Received trajectory - Linear velocity: 0.475453, Angular velocity: 0.305269
+Received trajectory - Linear velocity: 0.475178, Angular velocity: 0.28511
+Received trajectory - Linear velocity: 0.474979, Angular velocity: 0.262093
+Received trajectory - Linear velocity: 0.474855, Angular velocity: 0.236824
+Received trajectory - Linear velocity: 0.474808, Angular velocity: 0.210318
+Received trajectory - Linear velocity: 0.474836, Angular velocity: 0.18259
+Received trajectory - Linear velocity: 0.474941, Angular velocity: 0.154209
+Received trajectory - Linear velocity: 0.475108, Angular velocity: 0.126023
+Received trajectory - Linear velocity: 0.475318, Angular velocity: 0.0980405
+Received trajectory - Linear velocity: 0.475572, Angular velocity: 0.0706898
+Received trajectory - Linear velocity: 0.47587, Angular velocity: 0.0445413
+Received trajectory - Linear velocity: 0.476211, Angular velocity: 0.0195978
+Received trajectory - Linear velocity: 0.476595, Angular velocity: -0.00387532
+Received trajectory - Linear velocity: 0.477023, Angular velocity: -0.0255647
+Received trajectory - Linear velocity: 0.477493, Angular velocity: -0.0454698
+Received trajectory - Linear velocity: 0.477988, Angular velocity: -0.0634197
+Received trajectory - Linear velocity: 0.478498, Angular velocity: -0.0792363
+Received trajectory - Linear velocity: 0.479025, Angular velocity: -0.0929196
+Received trajectory - Linear velocity: 0.479567, Angular velocity: -0.104368
+Received trajectory - Linear velocity: 0.480125, Angular velocity: -0.113489
+Received trajectory - Linear velocity: 0.4807, Angular velocity: -0.120283
+Received trajectory - Linear velocity: 0.48129, Angular velocity: -0.124797
+Received trajectory - Linear velocity: 0.481894, Angular velocity: -0.127069
+Received trajectory - Linear velocity: 0.482499, Angular velocity: -0.127101
+Received trajectory - Linear velocity: 0.483106, Angular velocity: -0.125126
+Received trajectory - Linear velocity: 0.483713, Angular velocity: -0.12131
+Received trajectory - Linear velocity: 0.484321, Angular velocity: -0.115658
+Received trajectory - Linear velocity: 0.48493, Angular velocity: -0.108563
+Received trajectory - Linear velocity: 0.485539, Angular velocity: -0.100279
+Received trajectory - Linear velocity: 0.486149, Angular velocity: -0.0908133

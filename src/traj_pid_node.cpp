@@ -57,6 +57,7 @@ public:
     : Node("traj_pid_node"),
       pid_control_(1.0, 0.0, 0.1),  // 初步设置PID参数
       pid_orientation_control_(1.0, 0.0, 0.1) // 朝向PID控制器
+
     {
         // 创建日志文件夹
         std::string log_dir = "/home/jetson/ros2_ws/src/traj_pid/traj_pid_log";
@@ -103,6 +104,9 @@ public:
     }
 
 private:
+
+    bool bspline_received_ = false;
+
     void traj_callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
         target_linear_velocity_ = msg->linear.x;
         target_angular_velocity_ = msg->angular.z;
@@ -141,21 +145,27 @@ private:
     }
 
     void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
-        log_file_ << "Received Bspline message - pos_pts size: " << msg->pos_pts.size()
-                  << ", yaw_pts size: " << msg->yaw_pts.size() << std::endl;
-    
-        if (!msg->pos_pts.empty()) {
-            for (size_t i = 0; i < msg->pos_pts.size(); ++i) {
-                target_x_ = msg->pos_pts[i].x;
-                target_y_ = msg->pos_pts[i].y;
-    
-                if (i < msg->yaw_pts.size()) {
-                    target_yaw_ = msg->yaw_pts[i];
-                }
-    
-                log_file_ << "Target position " << i << ": x=" << target_x_
-                          << ", y=" << target_y_ << ", target yaw=" << target_yaw_ << std::endl;
+        auto current_time = get_current_time_str(); // 获取当前时间戳
+        if (msg == nullptr || msg->pos_pts.empty() || msg->yaw_pts.empty()) {
+            log_file_ << "[" << current_time << "] Received Bspline message - Data is missing" << std::endl;
+            bspline_received_ = false;
+            return;
+        }
+
+        bspline_received_ = true;
+        log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " << msg->pos_pts.size()
+                << ", yaw_pts size: " << msg->yaw_pts.size() << std::endl;
+
+        for (size_t i = 0; i < msg->pos_pts.size(); ++i) {
+            target_x_ = msg->pos_pts[i].x;
+            target_y_ = msg->pos_pts[i].y;
+
+            if (i < msg->yaw_pts.size()) {
+                target_yaw_ = msg->yaw_pts[i];
             }
+
+            log_file_ << "[" << current_time << "] Target position " << i << ": x=" << target_x_
+                    << ", y=" << target_y_ << ", target yaw=" << target_yaw_ << std::endl;
         }
     }
     
