@@ -59,10 +59,13 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-          pid_control_(1.0, 0.0, 0.1),  // 初始化 PID 控制器（位置）
-          pid_orientation_control_(1.0, 0.0, 0.1),  // 初始化朝向 PID 控制器
-          pid_velocity_control_(1.0, 0.0, 0.1),  // 初始化线速度 PID 控制器
-          pid_angular_velocity_control_(1.0, 0.0, 0.1),  // 初始化角速度 PID 控制器
+          pid_control_(0.01, 0.1, 0.1),  // 初始化 PID 控制器（位置）
+          pid_orientation_control_(0.01, 0.1, 0.1),  // 初始化朝向 PID 控制器
+
+          pid_velocity_control_(10, 0.1, 0.1),  // 初始化线速度 PID 控制器
+          pid_angular_velocity_control_(10, 0.1, 0.1),  // 初始化角速度 PID 控制器
+
+
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
           current_linear_velocity_(0.0), current_angular_velocity_(0.0),  // 初始化当前线速度和角速度
           current_position_x_(0.0), current_position_y_(0.0), current_yaw_(0.0),  // 初始化位置和航向
@@ -288,18 +291,18 @@ class TrajPidNode : public rclcpp::Node {
             // 通过加权来组合各个控制输出
             // 调整加权系数，可以根据实际需要调整
             const double position_weight = 1.0;
-            const double velocity_weight = 1.0;
             const double orientation_weight = 1.0;
-            const double angular_velocity_weight = 1.0;
+            const double velocity_weight = 0;
+            const double angular_velocity_weight = 0;
         
             pid_linear_output = pid_linear_output * position_weight + pid_velocity_output * velocity_weight;
             pid_angular_output = pid_angular_output * orientation_weight + pid_angular_velocity_output * angular_velocity_weight;
         
-            // 限制输出，避免过大控制量
-            const double max_linear_velocity = 2.0;  // 最大线速度
-            const double max_angular_velocity = 0.5; // 最大角速度
-            pid_linear_output = std::clamp(pid_linear_output, -max_linear_velocity, max_linear_velocity);
-            pid_angular_output = std::clamp(pid_angular_output, -max_angular_velocity, max_angular_velocity);
+            // // 限制输出，避免过大控制量
+            // const double max_linear_velocity = 2.0;  // 最大线速度
+            // const double max_angular_velocity = 0.5; // 最大角速度
+            // pid_linear_output = std::clamp(pid_linear_output, -max_linear_velocity, max_linear_velocity);
+            // pid_angular_output = std::clamp(pid_angular_output, -max_angular_velocity, max_angular_velocity);
         
             // 判断数据是否已接收到，如果没有，输出 'NA'
             std::string position_str = odom_received_ ? "x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_) : "NA";
@@ -319,17 +322,23 @@ class TrajPidNode : public rclcpp::Node {
                       << "(x: " << target_x_ << ", y: " << target_y_ << ", yaw: " << target_yaw_ << ")" << std::endl;
         
             log_file_ << "&&&&&& TIMESTAMP: &&&&&&&" << get_current_time_str() << std::endl;
-            log_file_ << "Control Loop - PID Output: Linear Velocity: " << pid_linear_output
+            log_file_ << "-- PID Output: Linear Velocity: " << pid_linear_output
                       << ", Angular Velocity: " << pid_angular_output << std::endl;
         
-            log_file_ << "PID Control - Linear Velocity Target: " << target_linear_velocity_
+            log_file_ << "Linear Velocity Target: " << target_linear_velocity_
                       << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
         
             log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
             log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
+
+            log_file_ << "--Position ERROR: " << position_error << std::endl;
+            log_file_ << "--Orientation ERROR: " << orientation_error << std::endl;
         
             log_file_ << "Current Linear Velocity: " << actual_linear_velocity_str << std::endl;
             log_file_ << "Current Angular Velocity: " << actual_angular_velocity_str << std::endl;
+
+            log_file_ << "--Linear Velocity ERROR: " << velocity_error << std::endl;
+            log_file_ << "--Angular Velocity ERROR: " << angular_velocity_error << std::endl;
         
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "-------------------------" << std::endl;
