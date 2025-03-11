@@ -21,10 +21,13 @@ std::string get_current_time_str() {
     auto now = std::chrono::system_clock::now();
     auto now_time_t = std::chrono::system_clock::to_time_t(now);
     std::tm tm = *std::localtime(&now_time_t);
+    auto milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()) % 1000;
+
     std::stringstream ss;
-    ss << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S");
+    ss << std::put_time(&tm, "%Y-%m-%d_%H-%M-%S") << "." << std::setw(3) << std::setfill('0') << milliseconds.count();
     return ss.str();
 }
+
 
 class PIDController {
 public:
@@ -58,7 +61,7 @@ public:
       pid_control_(1.0, 0.0, 0.1),  // 初步设置PID参数
       pid_orientation_control_(1.0, 0.0, 0.1) // 朝向PID控制器
 
-    {
+    {   
         // 创建日志文件夹
         std::string log_dir = "/home/jetson/ros2_ws/src/traj_pid/traj_pid_log";
         if (!std::filesystem::exists(log_dir)) {
@@ -95,6 +98,10 @@ public:
         // 输出PID控制器参数
         pid_control_.print_parameters();
         pid_orientation_control_.print_parameters();
+
+        control_timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(100),  // 每100ms调用一次
+            std::bind(&TrajPidNode::control_loop, this));
     }
 
     ~TrajPidNode() {
@@ -105,7 +112,11 @@ public:
 
 private:
 
+    rclcpp::TimerBase::SharedPtr control_timer_;
+
     bool bspline_received_ = false;
+    bool odom_received_ = false;
+    bool imu_received_ = false;
 
     void traj_callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
         target_linear_velocity_ = msg->linear.x;
@@ -116,9 +127,16 @@ private:
     }
 
     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
+
+        if (msg == nullptr) {
+            odom_received_ = false;
+            return;
+        }
+    
+        odom_received_ = true;
+
         current_linear_velocity_ = msg->twist.twist.linear.x;
         current_angular_velocity_ = msg->twist.twist.angular.z;
-
         current_position_x_ = msg->pose.pose.position.x;
         current_position_y_ = msg->pose.pose.position.y;
 
@@ -137,6 +155,14 @@ private:
     }
 
     void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
+
+        if (msg == nullptr) {
+            imu_received_ = false;
+            return;
+        }
+
+        imu_received_ = true;
+
         double angular_velocity = msg->angular_velocity.z;
         double linear_acceleration = msg->linear_acceleration.x;
 
@@ -171,51 +197,72 @@ private:
     
 
     void control_loop() {
+        // 获取当前时间戳
+        std::string current_time = get_current_time_str();
+    
         // 计算当前位置和目标位置的误差
         double position_error = std::sqrt(std::pow(target_x_ - current_position_x_, 2) + std::pow(target_y_ - current_position_y_, 2));
         
         // 使用PID控制器计算线速度输出
         double pid_linear_output = pid_control_.compute(position_error, 0.0);
-    
+        
         // 计算当前航向与目标航向之间的误差
         double orientation_error = target_yaw_ - current_yaw_;
-    
+        
         // 确保误差在 -π 到 π 之间
         if (orientation_error > M_PI) {
             orientation_error -= 2 * M_PI;
         } else if (orientation_error < -M_PI) {
             orientation_error += 2 * M_PI;
         }
-    
+        
         // 使用PID控制器计算角速度输出
         double pid_angular_output = pid_orientation_control_.compute(orientation_error, 0.0);
-    
+        
         // 输出限制（避免过大控制量）
         const double max_linear_velocity = 2.0;  // 最大线速度
         const double max_angular_velocity = 0.5; // 最大角速度
-
+        
         pid_linear_output = std::clamp(pid_linear_output, -max_linear_velocity, max_linear_velocity);
         pid_angular_output = std::clamp(pid_angular_output, -max_angular_velocity, max_angular_velocity);
-    
-        // 将PID输出转化为控制指令
+        
+        // 判断数据是否已接收到，如果没有，输出 'NA'
+        std::string position_str = odom_received_ ? "x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_) : "NA";
+        std::string yaw_str = odom_received_ ? "Current Yaw: " + std::to_string(current_yaw_) : "NA";
+        std::string target_position_str = bspline_received_ ? "Target Position - x: " + std::to_string(target_x_) + ", y: " + std::to_string(target_y_) : "NA";
+        std::string target_yaw_str = bspline_received_ ? "Target Yaw: " + std::to_string(target_yaw_) : "NA";
+        std::string actual_linear_velocity_str = imu_received_ ? std::to_string(current_linear_velocity_) : "NA";
+        std::string actual_angular_velocity_str = imu_received_ ? std::to_string(current_angular_velocity_) : "NA";
+
+        // 日志记录PID控制输出和目标与当前状态
+        log_file_ << "-------------------------" << std::endl;
+        log_file_ << "-------------------------" << std::endl;
+        log_file_ << "Timestamp: " << current_time << std::endl;
         log_file_ << "Control Loop - PID Output: Linear Velocity: " << pid_linear_output
                   << ", Angular Velocity: " << pid_angular_output << std::endl;
-
+        
         log_file_ << "PID Control - Linear Velocity Target: " << target_linear_velocity_
                   << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
+        
+        log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
+        log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
 
-        log_file_ << "Target Position - x: " << target_x_ << ", y: " << target_y_
-                  << ", Target Yaw: " << target_yaw_ << std::endl;
+        // 记录实际的线速度和角速度，若未接收到IMU数据则显示NA
+        log_file_ << "Current Linear Velocity: " << actual_linear_velocity_str << std::endl;
+        log_file_ << "Current Angular Velocity: " << actual_angular_velocity_str << std::endl;
 
-        log_file_ << "Current Position - x: " << current_position_x_
-                  << ", y: " << current_position_y_ << ", Current Yaw: " << current_yaw_ << std::endl;
-    
+        log_file_ << "-------------------------" << std::endl;
+        log_file_ << "-------------------------" << std::endl;
+        
+        // 发布控制指令
         geometry_msgs::msg::Twist cmd_msg;
         cmd_msg.linear.x = pid_linear_output;
         cmd_msg.angular.z = pid_angular_output;
-    
+        
         cmd_publisher_->publish(cmd_msg);
     }
+    
+    
 
     PIDController pid_control_;
     PIDController pid_orientation_control_;

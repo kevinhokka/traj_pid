@@ -1,0 +1,3758 @@
+-------------------------
+Timestamp: 2025-03-10_23-34-26
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-26
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-26
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-26
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-26
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-26
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-27
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-28
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-29
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-30
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-31
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-32
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-33
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-34
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-35
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 0, Angular Velocity: 0
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: 0
+NA, NA
+Current Position - NA, NA
+-------------------------
+[2025-03-10_23-34-36] Received Bspline message - pos_pts size: 27, yaw_pts size: 65
+[2025-03-10_23-34-36] Target position 0: x=2.43329e-05, y=-3.26188e-05, target yaw=0
+[2025-03-10_23-34-36] Target position 1: x=4.26799e-05, y=-5.72132e-05, target yaw=0
+[2025-03-10_23-34-36] Target position 2: x=6.44284e-05, y=-8.63675e-05, target yaw=0
+[2025-03-10_23-34-36] Target position 3: x=0.0227275, y=-0.0132012, target yaw=-0.199912
+[2025-03-10_23-34-36] Target position 4: x=0.0823329, y=-0.0420658, target yaw=-0.385195
+[2025-03-10_23-34-36] Target position 5: x=0.188585, y=-0.0850101, target yaw=-0.446156
+[2025-03-10_23-34-36] Target position 6: x=0.345664, y=-0.135801, target yaw=-0.414963
+[2025-03-10_23-34-36] Target position 7: x=0.553755, y=-0.186729, target yaw=-0.359954
+[2025-03-10_23-34-36] Target position 8: x=0.809537, y=-0.230282, target yaw=-0.31839
+[2025-03-10_23-34-36] Target position 9: x=1.10704, y=-0.261336, target yaw=-0.292784
+[2025-03-10_23-34-36] Target position 10: x=1.43839, y=-0.279156, target yaw=-0.272664
+[2025-03-10_23-34-36] Target position 11: x=1.79459, y=-0.289544, target yaw=-0.250536
+[2025-03-10_23-34-36] Target position 12: x=2.16628, y=-0.306582, target yaw=-0.225187
+[2025-03-10_23-34-36] Target position 13: x=2.54447, y=-0.355846, target yaw=-0.198574
+[2025-03-10_23-34-36] Target position 14: x=2.92168, y=-0.462391, target yaw=-0.172574
+[2025-03-10_23-34-36] Target position 15: x=3.29344, y=-0.62053, target yaw=-0.148049
+[2025-03-10_23-34-36] Target position 16: x=3.65967, y=-0.767698, target yaw=-0.12517
+[2025-03-10_23-34-36] Target position 17: x=4.02336, y=-0.821038, target yaw=-0.104083
+[2025-03-10_23-34-36] Target position 18: x=4.38793, y=-0.745294, target yaw=-0.0851634
+[2025-03-10_23-34-36] Target position 19: x=4.75534, y=-0.592411, target yaw=-0.0689664
+[2025-03-10_23-34-36] Target position 20: x=5.12631, y=-0.44833, target yaw=-0.0562856
+[2025-03-10_23-34-36] Target position 21: x=5.50086, y=-0.360898, target yaw=-0.0479643
+[2025-03-10_23-34-36] Target position 22: x=5.87861, y=-0.313886, target yaw=-0.0448958
+[2025-03-10_23-34-36] Target position 23: x=6.25838, y=-0.269836, target yaw=-0.048107
+[2025-03-10_23-34-36] Target position 24: x=6.63835, y=-0.211257, target yaw=-0.0586599
+[2025-03-10_23-34-36] Target position 25: x=7.01633, y=-0.146276, target yaw=-0.0774387
+[2025-03-10_23-34-36] Target position 26: x=7.39305, y=-0.0879531, target yaw=-0.104814
+Received trajectory - Linear velocity: 6.65697e-05, Angular velocity: -0.00611857
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.115296
+PID Control - Linear Velocity Target: 6.65697e-05, Angular Velocity Target: -0.00611857
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.000519275, Angular velocity: -0.0749525
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.000519275, Angular Velocity Target: -0.0749525
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.00147434, Angular velocity: -0.220268
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.00147434, Angular Velocity Target: -0.220268
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.00293177, Angular velocity: -0.427253
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.00293177, Angular Velocity Target: -0.427253
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.00489156, Angular velocity: -0.577714
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.00489156, Angular Velocity Target: -0.577714
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.00735372, Angular velocity: -0.646096
+-------------------------
+Timestamp: 2025-03-10_23-34-36
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.00735372, Angular Velocity Target: -0.646096
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0103182, Angular velocity: -0.636727
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0103182, Angular Velocity Target: -0.636727
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0137851, Angular velocity: -0.57964
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0137851, Angular Velocity Target: -0.57964
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0177046, Angular velocity: -0.480587
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0177046, Angular Velocity Target: -0.480587
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.021948, Angular velocity: -0.346264
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.021948, Angular Velocity Target: -0.346264
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0265088, Angular velocity: -0.217376
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0265088, Angular Velocity Target: -0.217376
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.031387, Angular velocity: -0.100795
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.031387, Angular Velocity Target: -0.100795
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0365824, Angular velocity: 0.00154191
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0365824, Angular Velocity Target: 0.00154191
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0420953, Angular velocity: 0.079269
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0420953, Angular Velocity Target: 0.079269
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0479255, Angular velocity: 0.130852
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0479255, Angular Velocity Target: 0.130852
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0540728, Angular velocity: 0.158162
+-------------------------
+Timestamp: 2025-03-10_23-34-37
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0540728, Angular Velocity Target: 0.158162
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0604799, Angular velocity: 0.170074
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0604799, Angular Velocity Target: 0.170074
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0671024, Angular velocity: 0.16773
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0671024, Angular Velocity Target: 0.16773
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0739402, Angular velocity: 0.153474
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0739402, Angular Velocity Target: 0.153474
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0809934, Angular velocity: 0.137157
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0809934, Angular Velocity Target: 0.137157
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.088262, Angular velocity: 0.11988
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.088262, Angular Velocity Target: 0.11988
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.0957459, Angular velocity: 0.102614
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.0957459, Angular Velocity Target: 0.102614
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.103445, Angular velocity: 0.0890059
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.103445, Angular Velocity Target: 0.0890059
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.11135, Angular velocity: 0.0794039
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.11135, Angular Velocity Target: 0.0794039
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.11937, Angular velocity: 0.0735611
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.11937, Angular Velocity Target: 0.0735611
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.127482, Angular velocity: 0.0706519
+-------------------------
+Timestamp: 2025-03-10_23-34-38
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.127482, Angular Velocity Target: 0.0706519
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.135687, Angular velocity: 0.0706097
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.135687, Angular Velocity Target: 0.0706097
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.143985, Angular velocity: 0.0728621
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.143985, Angular Velocity Target: 0.0728621
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.152376, Angular velocity: 0.0756942
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.152376, Angular Velocity Target: 0.0756942
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.160859, Angular velocity: 0.0789908
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.160859, Angular Velocity Target: 0.0789908
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.169435, Angular velocity: 0.0824351
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.169435, Angular Velocity Target: 0.0824351
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.17808, Angular velocity: 0.0851772
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.17808, Angular Velocity Target: 0.0851772
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.186732, Angular velocity: 0.0871703
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.186732, Angular Velocity Target: 0.0871703
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.195388, Angular velocity: 0.0884234
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.195388, Angular Velocity Target: 0.0884234
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.204049, Angular velocity: 0.0889576
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.204049, Angular Velocity Target: 0.0889576
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.2128, Angular velocity: 0.0887684
+-------------------------
+Timestamp: 2025-03-10_23-34-39
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.2128, Angular Velocity Target: 0.0887684
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.221383, Angular velocity: 0.0879924
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.221383, Angular Velocity Target: 0.0879924
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.230142, Angular velocity: 0.086859
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.230142, Angular Velocity Target: 0.086859
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.23882, Angular velocity: 0.085405
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.23882, Angular Velocity Target: 0.085405
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.247456, Angular velocity: 0.083712
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.247456, Angular Velocity Target: 0.083712
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.256019, Angular velocity: 0.08195
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.256019, Angular Velocity Target: 0.08195
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.264508, Angular velocity: 0.0801229
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.264508, Angular Velocity Target: 0.0801229
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.272923, Angular velocity: 0.0782341
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.272923, Angular Velocity Target: 0.0782341
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.281264, Angular velocity: 0.0762891
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.281264, Angular Velocity Target: 0.0762891
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.289532, Angular velocity: 0.0742882
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.289532, Angular Velocity Target: 0.0742882
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.297726, Angular velocity: 0.0721963
+-------------------------
+Timestamp: 2025-03-10_23-34-40
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.297726, Angular Velocity Target: 0.0721963
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.305841, Angular velocity: 0.0699618
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.305841, Angular Velocity Target: 0.0699618
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.313834, Angular velocity: 0.0675839
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.313834, Angular Velocity Target: 0.0675839
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.321695, Angular velocity: 0.065033
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.321695, Angular Velocity Target: 0.065033
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.329423, Angular velocity: 0.0622694
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.329423, Angular Velocity Target: 0.0622694
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.337019, Angular velocity: 0.059293
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.337019, Angular Velocity Target: 0.059293
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.344483, Angular velocity: 0.0560621
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.344483, Angular Velocity Target: 0.0560621
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.351814, Angular velocity: 0.0525279
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.351814, Angular Velocity Target: 0.0525279
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.359012, Angular velocity: 0.0486902
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.359012, Angular Velocity Target: 0.0486902
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.366067, Angular velocity: 0.0445396
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.366067, Angular Velocity Target: 0.0445396
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.372948, Angular velocity: 0.0400664
+-------------------------
+Timestamp: 2025-03-10_23-34-41
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.372948, Angular Velocity Target: 0.0400664
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.379654, Angular velocity: 0.0352705
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.379654, Angular Velocity Target: 0.0352705
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.386186, Angular velocity: 0.030142
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.386186, Angular Velocity Target: 0.030142
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.392543, Angular velocity: 0.0246718
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.392543, Angular Velocity Target: 0.0246718
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.398725, Angular velocity: 0.0188597
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.398725, Angular Velocity Target: 0.0188597
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.404733, Angular velocity: 0.0126776
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.404733, Angular Velocity Target: 0.0126776
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.410565, Angular velocity: 0.00610267
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.410565, Angular Velocity Target: 0.00610267
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.416209, Angular velocity: -0.000865217
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.416209, Angular Velocity Target: -0.000865217
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.421653, Angular velocity: -0.00823381
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.421653, Angular Velocity Target: -0.00823381
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.426897, Angular velocity: -0.0160087
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.426897, Angular Velocity Target: -0.0160087
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.431941, Angular velocity: -0.0241895
+-------------------------
+Timestamp: 2025-03-10_23-34-42
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.431941, Angular Velocity Target: -0.0241895
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.436785, Angular velocity: -0.0327349
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.436785, Angular Velocity Target: -0.0327349
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.44143, Angular velocity: -0.0416185
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.44143, Angular Velocity Target: -0.0416185
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.445875, Angular velocity: -0.0508383
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.445875, Angular Velocity Target: -0.0508383
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.450119, Angular velocity: -0.0602704
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.450119, Angular Velocity Target: -0.0602704
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.454157, Angular velocity: -0.0698444
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.454157, Angular Velocity Target: -0.0698444
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.457987, Angular velocity: -0.0795549
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.457987, Angular Velocity Target: -0.0795549
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.46161, Angular velocity: -0.0891985
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.46161, Angular Velocity Target: -0.0891985
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.465025, Angular velocity: -0.0986709
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.465025, Angular Velocity Target: -0.0986709
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.468232, Angular velocity: -0.107962
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.468232, Angular Velocity Target: -0.107962
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.471231, Angular velocity: -0.116765
+-------------------------
+Timestamp: 2025-03-10_23-34-43
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.471231, Angular Velocity Target: -0.116765
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.474023, Angular velocity: -0.12494
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.474023, Angular Velocity Target: -0.12494
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.476609, Angular velocity: -0.132472
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.476609, Angular Velocity Target: -0.132472
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.478996, Angular velocity: -0.139005
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.478996, Angular Velocity Target: -0.139005
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.481183, Angular velocity: -0.144393
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.481183, Angular Velocity Target: -0.144393
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.483172, Angular velocity: -0.148619
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.483172, Angular Velocity Target: -0.148619
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.484961, Angular velocity: -0.151357
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.484961, Angular Velocity Target: -0.151357
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.486551, Angular velocity: -0.152487
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.486551, Angular Velocity Target: -0.152487
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.487942, Angular velocity: -0.151993
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.487942, Angular Velocity Target: -0.151993
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.489134, Angular velocity: -0.149657
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.489134, Angular Velocity Target: -0.149657
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.490146, Angular velocity: -0.145405
+-------------------------
+Timestamp: 2025-03-10_23-34-44
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.490146, Angular Velocity Target: -0.145405
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.490991, Angular velocity: -0.139232
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.490991, Angular Velocity Target: -0.139232
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49167, Angular velocity: -0.131063
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49167, Angular Velocity Target: -0.131063
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492183, Angular velocity: -0.120878
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492183, Angular Velocity Target: -0.120878
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49253, Angular velocity: -0.108684
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49253, Angular Velocity Target: -0.108684
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49271, Angular velocity: -0.0945719
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49271, Angular Velocity Target: -0.0945719
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492724, Angular velocity: -0.0785634
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492724, Angular Velocity Target: -0.0785634
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492578, Angular velocity: -0.0606781
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492578, Angular Velocity Target: -0.0606781
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492321, Angular velocity: -0.0410844
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492321, Angular Velocity Target: -0.0410844
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.491964, Angular velocity: -0.0198218
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.491964, Angular Velocity Target: -0.0198218
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.491508, Angular velocity: 0.00307446
+-------------------------
+Timestamp: 2025-03-10_23-34-45
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.491508, Angular Velocity Target: 0.00307446
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.490953, Angular velocity: 0.0273354
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.490953, Angular Velocity Target: 0.0273354
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.490298, Angular velocity: 0.0529048
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.490298, Angular Velocity Target: 0.0529048
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.489545, Angular velocity: 0.0797021
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.489545, Angular Velocity Target: 0.0797021
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.488692, Angular velocity: 0.107189
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.488692, Angular Velocity Target: 0.107189
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.487767, Angular velocity: 0.135267
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.487767, Angular Velocity Target: 0.135267
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.486837, Angular velocity: 0.163774
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.486837, Angular Velocity Target: 0.163774
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.485905, Angular velocity: 0.191758
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.485905, Angular Velocity Target: 0.191758
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.484972, Angular velocity: 0.219065
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.484972, Angular Velocity Target: 0.219065
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.484038, Angular velocity: 0.245465
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.484038, Angular Velocity Target: 0.245465
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.483102, Angular velocity: 0.269777
+-------------------------
+Timestamp: 2025-03-10_23-34-46
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.483102, Angular Velocity Target: 0.269777
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.482164, Angular velocity: 0.291831
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.482164, Angular Velocity Target: 0.291831
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.481225, Angular velocity: 0.311389
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.481225, Angular Velocity Target: 0.311389
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.480324, Angular velocity: 0.327358
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.480324, Angular Velocity Target: 0.327358
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.479488, Angular velocity: 0.339601
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.479488, Angular Velocity Target: 0.339601
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.478719, Angular velocity: 0.347992
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.478719, Angular Velocity Target: 0.347992
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.478016, Angular velocity: 0.352013
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.478016, Angular Velocity Target: 0.352013
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.477379, Angular velocity: 0.351607
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.477379, Angular Velocity Target: 0.351607
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.476809, Angular velocity: 0.346844
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.476809, Angular Velocity Target: 0.346844
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.476305, Angular velocity: 0.33797
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.476305, Angular Velocity Target: 0.33797
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475867, Angular velocity: 0.325007
+-------------------------
+Timestamp: 2025-03-10_23-34-47
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475867, Angular Velocity Target: 0.325007
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475504, Angular velocity: 0.30823
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475504, Angular Velocity Target: 0.30823
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475217, Angular velocity: 0.288527
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475217, Angular Velocity Target: 0.288527
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475006, Angular velocity: 0.265968
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475006, Angular Velocity Target: 0.265968
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.47487, Angular velocity: 0.240952
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.47487, Angular Velocity Target: 0.240952
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.47481, Angular velocity: 0.214641
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.47481, Angular Velocity Target: 0.214641
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.474827, Angular velocity: 0.187109
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.474827, Angular Velocity Target: 0.187109
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.474919, Angular velocity: 0.158738
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.474919, Angular Velocity Target: 0.158738
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475078, Angular velocity: 0.130519
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475078, Angular Velocity Target: 0.130519
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475282, Angular velocity: 0.102504
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475282, Angular Velocity Target: 0.102504
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475529, Angular velocity: 0.0749854
+-------------------------
+Timestamp: 2025-03-10_23-34-48
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475529, Angular Velocity Target: 0.0749854
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.475819, Angular velocity: 0.0486441
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.475819, Angular Velocity Target: 0.0486441
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.476153, Angular velocity: 0.0235078
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.476153, Angular Velocity Target: 0.0235078
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.476531, Angular velocity: -0.000239436
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.476531, Angular Velocity Target: -0.000239436
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.476951, Angular velocity: -0.0222143
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.476951, Angular Velocity Target: -0.0222143
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.477416, Angular velocity: -0.0424049
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.477416, Angular Velocity Target: -0.0424049
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.477908, Angular velocity: -0.0606911
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.477908, Angular Velocity Target: -0.0606911
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.478415, Angular velocity: -0.076849
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.478415, Angular Velocity Target: -0.076849
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.478939, Angular velocity: -0.0908737
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.478939, Angular Velocity Target: -0.0908737
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.479479, Angular velocity: -0.102693
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.479479, Angular Velocity Target: -0.102693
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.480035, Angular velocity: -0.112186
+-------------------------
+Timestamp: 2025-03-10_23-34-49
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.480035, Angular Velocity Target: -0.112186
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.480607, Angular velocity: -0.119352
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.480607, Angular Velocity Target: -0.119352
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.481194, Angular velocity: -0.124225
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.481194, Angular Velocity Target: -0.124225
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.481797, Angular velocity: -0.126856
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.481797, Angular Velocity Target: -0.126856
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.482402, Angular velocity: -0.127245
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.482402, Angular Velocity Target: -0.127245
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.483009, Angular velocity: -0.125565
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.483009, Angular Velocity Target: -0.125565
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.483616, Angular velocity: -0.122044
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.483616, Angular Velocity Target: -0.122044
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.484224, Angular velocity: -0.116682
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.484224, Angular Velocity Target: -0.116682
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.484832, Angular velocity: -0.109778
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.484832, Angular Velocity Target: -0.109778
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.485442, Angular velocity: -0.101684
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.485442, Angular Velocity Target: -0.101684
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.486051, Angular velocity: -0.0924002
+-------------------------
+Timestamp: 2025-03-10_23-34-50
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.486051, Angular Velocity Target: -0.0924002
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.486659, Angular velocity: -0.0823131
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.486659, Angular Velocity Target: -0.0823131
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.487259, Angular velocity: -0.0718244
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.487259, Angular Velocity Target: -0.0718244
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.487856, Angular velocity: -0.0608235
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.487856, Angular Velocity Target: -0.0608235
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.488432, Angular velocity: -0.0500305
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.488432, Angular Velocity Target: -0.0500305
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.489011, Angular velocity: -0.0393635
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.489011, Angular Velocity Target: -0.0393635
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.489576, Angular velocity: -0.0291457
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.489576, Angular Velocity Target: -0.0291457
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.490132, Angular velocity: -0.019576
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.490132, Angular Velocity Target: -0.019576
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.490679, Angular velocity: -0.0108929
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.490679, Angular Velocity Target: -0.0108929
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.491208, Angular velocity: -0.00309759
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.491208, Angular Velocity Target: -0.00309759
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49171, Angular velocity: 0.00368186
+-------------------------
+Timestamp: 2025-03-10_23-34-51
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49171, Angular Velocity Target: 0.00368186
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492186, Angular velocity: 0.00935658
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492186, Angular Velocity Target: 0.00935658
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492637, Angular velocity: 0.0139273
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492637, Angular Velocity Target: 0.0139273
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493061, Angular velocity: 0.0174481
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493061, Angular Velocity Target: 0.0174481
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493459, Angular velocity: 0.0199523
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493459, Angular Velocity Target: 0.0199523
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493831, Angular velocity: 0.0214443
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493831, Angular Velocity Target: 0.0214443
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494176, Angular velocity: 0.0221392
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494176, Angular Velocity Target: 0.0221392
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494482, Angular velocity: 0.0221558
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494482, Angular Velocity Target: 0.0221558
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494749, Angular velocity: 0.021503
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494749, Angular Velocity Target: 0.021503
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494975, Angular velocity: 0.0204955
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494975, Angular Velocity Target: 0.0204955
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49516, Angular velocity: 0.0192887
+-------------------------
+Timestamp: 2025-03-10_23-34-52
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49516, Angular Velocity Target: 0.0192887
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.495306, Angular velocity: 0.0178874
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.495306, Angular Velocity Target: 0.0178874
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49541, Angular velocity: 0.0164169
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49541, Angular Velocity Target: 0.0164169
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.495475, Angular velocity: 0.0149327
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.495475, Angular Velocity Target: 0.0149327
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.495497, Angular velocity: 0.0134331
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.495497, Angular Velocity Target: 0.0134331
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.49547, Angular velocity: 0.011883
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.49547, Angular Velocity Target: 0.011883
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.495394, Angular velocity: 0.0102685
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.495394, Angular Velocity Target: 0.0102685
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.495269, Angular velocity: 0.0085911
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.495269, Angular Velocity Target: 0.0085911
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.495096, Angular velocity: 0.00687571
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.495096, Angular Velocity Target: 0.00687571
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494873, Angular velocity: 0.00513122
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494873, Angular Velocity Target: 0.00513122
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494602, Angular velocity: 0.00337497
+-------------------------
+Timestamp: 2025-03-10_23-34-53
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494602, Angular Velocity Target: 0.00337497
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.494282, Angular velocity: 0.00184518
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.494282, Angular Velocity Target: 0.00184518
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493952, Angular velocity: 0.00061777
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493952, Angular Velocity Target: 0.00061777
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493638, Angular velocity: -0.000298132
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493638, Angular Velocity Target: -0.000298132
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493341, Angular velocity: -0.000797118
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493341, Angular Velocity Target: -0.000797118
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.493061, Angular velocity: -0.00084916
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.493061, Angular Velocity Target: -0.00084916
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492798, Angular velocity: -0.000499131
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492798, Angular Velocity Target: -0.000499131
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492551, Angular velocity: -0.000187193
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492551, Angular Velocity Target: -0.000187193
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0.492321, Angular velocity: -2.5225e-05
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0.492321, Angular Velocity Target: -2.5225e-05
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-54
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-55
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-56
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-57
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-58
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-34-59
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-00
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-01
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-02
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-03
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-04
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-05
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-06
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-07
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-08
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-09
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-10
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-11
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-12
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-13
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+Received trajectory - Linear velocity: 0, Angular velocity: -1.51569e-30
+-------------------------
+Timestamp: 2025-03-10_23-35-14
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-35-14
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-35-14
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-35-14
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-35-14
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
+-------------------------
+Timestamp: 2025-03-10_23-35-14
+Control Loop - PID Output: Linear Velocity: 2, Angular Velocity: -0.104814
+PID Control - Linear Velocity Target: 0, Angular Velocity Target: -1.51569e-30
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - NA, NA
+-------------------------
