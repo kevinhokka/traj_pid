@@ -15,6 +15,7 @@
 #include "tf2_geometry_msgs/tf2_geometry_msgs.hpp"
 #include <sys/stat.h>
 #include <filesystem>  // C++17文件系统库
+#include <cmath> 
 
 // 获取当前时间字符串
 std::string get_current_time_str() {
@@ -58,9 +59,12 @@ class TrajPidNode : public rclcpp::Node {
 public:
     TrajPidNode()
     : Node("traj_pid_node"),
-      pid_control_(1.0, 0.0, 0.1),  // 初步设置PID参数
-      pid_orientation_control_(1.0, 0.0, 0.1) // 朝向PID控制器
-
+        pid_control_(1.0, 0.0, 0.1),  // 初始化 PID 控制器
+        pid_orientation_control_(1.0, 0.0, 0.1),  // 初始化朝向 PID 控制器
+        target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
+        current_linear_velocity_(0.0), current_angular_velocity_(0.0),  // 初始化当前线速度和角速度
+        current_position_x_(0.0), current_position_y_(0.0), current_yaw_(0.0),  // 初始化位置和航向
+        target_x_(0.0), target_y_(0.0), target_yaw_(0.0)  // 初始化目标位置和航向
     {   
         // 创建日志文件夹
         std::string log_dir = "/home/jetson/ros2_ws/src/traj_pid/traj_pid_log";
@@ -85,9 +89,6 @@ public:
         odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
             "/Odometry", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
 
-        imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
-            "/livox/imu", 10, std::bind(&TrajPidNode::imu_callback, this, std::placeholders::_1));
-
         bspline_subscription_ = this->create_subscription<planner::msg::Bspline>(
             "/bspline", 10, std::bind(&TrajPidNode::bspline_callback, this, std::placeholders::_1));
 
@@ -111,36 +112,61 @@ public:
     }
 
 private:
+    // 控制点结构体
     struct ControlPoint {
         double x;
         double y;
         double yaw;
         double time;
     };
+
+    // 重载输出流操作符，输出控制点信息
+    friend std::ostream& operator<<(std::ostream& os, const ControlPoint& cp) {
+        os << "(x: " << cp.x << ", y: " << cp.y << ", yaw: " << cp.yaw << ", time: " << cp.time << ")";
+        return os;
+    }
+
+    // 声明成员变量
+    PIDController pid_control_;  // PID 控制器（线速度）
+    PIDController pid_orientation_control_;  // PID 控制器（角速度）
     
-    std::vector<ControlPoint> control_points_;  // 添加控制点存储
+    std::ofstream log_file_;  // 日志文件
+    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr traj_subscription_;  // Trajectory 订阅者
+    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscription_;  // Odometry 订阅者
+    rclcpp::Subscription<planner::msg::Bspline>::SharedPtr bspline_subscription_;  // Bspline 订阅者
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_publisher_;  // 速度控制指令发布者
+    rclcpp::TimerBase::SharedPtr control_timer_;  // 定时器
 
-    rclcpp::TimerBase::SharedPtr control_timer_;
+    // 控制点存储
+    std::vector<ControlPoint> control_points_;  
 
+    // 状态变量
     bool bspline_received_ = false;
     bool odom_received_ = false;
-    bool imu_received_ = false;
+    double target_linear_velocity_;
+    double target_angular_velocity_;
+    double current_linear_velocity_;
+    double current_angular_velocity_;
+    double current_position_x_;
+    double current_position_y_;
+    double current_yaw_;
+    double target_x_;
+    double target_y_;
+    double target_yaw_;
 
+    // 回调函数处理
     void traj_callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
         target_linear_velocity_ = msg->linear.x;
         target_angular_velocity_ = msg->angular.z;
-
         log_file_ << "Received trajectory - Linear velocity: " << target_linear_velocity_
-                  << ", Angular velocity: " << target_angular_velocity_ << std::endl;
+                    << ", Angular velocity: " << target_angular_velocity_ << std::endl;
     }
 
     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
-
         if (msg == nullptr) {
             odom_received_ = false;
             return;
         }
-    
         odom_received_ = true;
 
         current_linear_velocity_ = msg->twist.twist.linear.x;
@@ -149,56 +175,34 @@ private:
         current_position_y_ = msg->pose.pose.position.y;
 
         log_file_ << "Received Odometry - Position: x=" << current_position_x_
-                  << ", y=" << current_position_y_
-                  << ", Linear Velocity: " << current_linear_velocity_
-                  << ", Angular Velocity: " << current_angular_velocity_ << std::endl;
+                    << ", y=" << current_position_y_
+                    << ", Linear Velocity: " << current_linear_velocity_
+                    << ", Angular Velocity: " << current_angular_velocity_ << std::endl;
 
         tf2::Quaternion quat;
         tf2::fromMsg(msg->pose.pose.orientation, quat);
-
         double roll, pitch;
         tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
-
         log_file_ << "Current yaw: " << current_yaw_ << " (roll: " << roll << ", pitch: " << pitch << ")" << std::endl;
     }
 
-    void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
-
-        if (msg == nullptr) {
-            imu_received_ = false;
-            return;
-        }
-
-        imu_received_ = true;
-
-        double angular_velocity = msg->angular_velocity.z;
-        double linear_acceleration = msg->linear_acceleration.x;
-
-        log_file_ << "IMU - Angular Velocity: " << angular_velocity
-                  << ", Linear Acceleration: " << linear_acceleration << std::endl;
-    }
-
     void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
-        // auto current_time = get_current_time_str();
-
         double current_time_sec = this->now().seconds();  // 获取当前时间（单位：秒）
         std::string current_time = get_current_time_str();  // 用于日志
-        
+
         if (msg == nullptr || msg->pos_pts.empty() || msg->yaw_pts.empty()) {
             log_file_ << "[" << current_time << "] Received Bspline message - Data is missing" << std::endl;
             bspline_received_ = false;
             return;
         }
-    
+
         bspline_received_ = true;
         log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " << msg->pos_pts.size()
-                  << ", yaw_pts size: " << msg->yaw_pts.size() << std::endl;
-    
+                    << ", yaw_pts size: " << msg->yaw_pts.size() << std::endl;
+
         control_points_.clear();
-        // double current_time_sec = current_time.seconds();
-        // double start_time_sec = msg->start_time.sec + msg->start_time.nanosec * 1e-9;
         double yaw_dt = msg->yaw_dt; // 获取 yaw_dt
-    
+
         for (size_t i = 0; i < msg->pos_pts.size(); ++i) {
             ControlPoint cp;
             cp.x = msg->pos_pts[i].x;
@@ -206,136 +210,97 @@ private:
             cp.yaw = (i < msg->yaw_pts.size()) ? msg->yaw_pts[i] : 0.0;
             cp.time = current_time_sec + i * yaw_dt;  // 使用 yaw_dt 来计算控制点时间
             control_points_.push_back(cp);
-    
+
             log_file_ << "[" << current_time << "] Control point" << i << ": x=" << cp.x
-                      << ", y=" << cp.y << ", yaw=" << cp.yaw << ", time=" << std::setprecision(6) << cp.time << std::endl;
+                        << ", y=" << cp.y << ", yaw=" << cp.yaw << ", time=" << std::setprecision(6) << cp.time << std::endl;
         }
-    
+
         if (!control_points_.empty()) {
             target_x_ = control_points_[0].x;
             target_y_ = control_points_[0].y;
             target_yaw_ = control_points_[0].yaw;
         }
-    }    
-    
+    }
 
     void control_loop() {
         double current_time_sec = this->now().seconds();  // 获取当前时间（单位：秒）
         std::string current_time = get_current_time_str();  // 用于日志
 
-        // 检查控制点是否为空
         if (control_points_.empty()) {
             log_file_ << "[" << current_time << "] No control points available" << std::endl;
             return;
         }
 
-        // 找到当前时间对应的目标时间戳大于当前时间的最小控制点
-        ControlPoint target_control_point = control_points_.back();  // 默认选择最后一个点
-        size_t target_control_point_index = control_points_.size();  // 记录索引
-
+        ControlPoint target_control_point;
+        bool target_found = false;
 
         for (size_t i = 0; i < control_points_.size(); ++i) {
             const auto& cp = control_points_[i];
             if (cp.time > current_time_sec) {
                 target_control_point = cp;
-                target_control_point_index = i + 1;  // 索引加1，以便从1开始编号
-                break;  // 找到第一个大于当前时间的目标点，退出循环
+                target_found = true;
+                break;
             }
         }
-        
-        // 计算当前位置和目标位置的误差
+
+        if (target_found) {
+            target_x_ = target_control_point.x;
+            target_y_ = target_control_point.y;
+            target_yaw_ = target_control_point.yaw;
+        }
+
         double position_error = std::sqrt(std::pow(target_x_ - current_position_x_, 2) + std::pow(target_y_ - current_position_y_, 2));
-        
-        // 使用PID控制器计算线速度输出
         double pid_linear_output = pid_control_.compute(position_error, 0.0);
-        
-        // 计算当前航向与目标航向之间的误差
+
         double orientation_error = target_yaw_ - current_yaw_;
-        
-        // 确保误差在 -π 到 π 之间
         if (orientation_error > M_PI) {
             orientation_error -= 2 * M_PI;
         } else if (orientation_error < -M_PI) {
             orientation_error += 2 * M_PI;
         }
-        
-        // 使用PID控制器计算角速度输出
+
         double pid_angular_output = pid_orientation_control_.compute(orientation_error, 0.0);
-        
-        // 输出限制（避免过大控制量）
+
         const double max_linear_velocity = 2.0;  // 最大线速度
         const double max_angular_velocity = 0.5; // 最大角速度
-        
+
         pid_linear_output = std::clamp(pid_linear_output, -max_linear_velocity, max_linear_velocity);
         pid_angular_output = std::clamp(pid_angular_output, -max_angular_velocity, max_angular_velocity);
-        
-        // 判断数据是否已接收到，如果没有，输出 'NA'
+
         std::string position_str = odom_received_ ? "x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_) : "NA";
         std::string yaw_str = odom_received_ ? "Current Yaw: " + std::to_string(current_yaw_) : "NA";
         std::string target_position_str = bspline_received_ ? "Target Position - x: " + std::to_string(target_x_) + ", y: " + std::to_string(target_y_) : "NA";
         std::string target_yaw_str = bspline_received_ ? "Target Yaw: " + std::to_string(target_yaw_) : "NA";
-        std::string actual_linear_velocity_str = imu_received_ ? std::to_string(current_linear_velocity_) : "NA";
-        std::string actual_angular_velocity_str = imu_received_ ? std::to_string(current_angular_velocity_) : "NA";
 
-        // 日志记录PID控制输出和目标与当前状态
+        std::string actual_linear_velocity_str = odom_received_ ? std::to_string(current_linear_velocity_) : "NA";
+        std::string actual_angular_velocity_str = odom_received_ ? std::to_string(current_angular_velocity_) : "NA";
+
         log_file_ << "-------------------------" << std::endl;
         log_file_ << "-------------------------" << std::endl;
 
-        log_file_ << "[" << current_time << "] Selected control point " << target_control_point_index
-          << " - x: " << target_control_point.x
-          << ", y: " << target_control_point.y
-          << ", yaw: " << target_control_point.yaw
-          << ", time: " << target_control_point.time << std::endl;
-
-
-        log_file_ << "Timestamp: " << current_time << std::endl;
+        log_file_ << "[" << current_time << "] Selected control point " << target_control_point << std::endl;
+        log_file_ << "&&&&&& TIMESTAMP: &&&&&&&" << current_time << std::endl;
         log_file_ << "Control Loop - PID Output: Linear Velocity: " << pid_linear_output
-                  << ", Angular Velocity: " << pid_angular_output << std::endl;
-        
+                    << ", Angular Velocity: " << pid_angular_output << std::endl;
+
         log_file_ << "PID Control - Linear Velocity Target: " << target_linear_velocity_
-                  << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
-        
+                    << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
+
         log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
         log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
 
-        // 记录实际的线速度和角速度，若未接收到IMU数据则显示NA
         log_file_ << "Current Linear Velocity: " << actual_linear_velocity_str << std::endl;
         log_file_ << "Current Angular Velocity: " << actual_angular_velocity_str << std::endl;
 
         log_file_ << "-------------------------" << std::endl;
         log_file_ << "-------------------------" << std::endl;
-        
-        // 发布控制指令
+
         geometry_msgs::msg::Twist cmd_msg;
         cmd_msg.linear.x = pid_linear_output;
         cmd_msg.angular.z = pid_angular_output;
-        
+
         cmd_publisher_->publish(cmd_msg);
     }
-    
-    
-
-    PIDController pid_control_;
-    PIDController pid_orientation_control_;
-
-    rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr traj_subscription_;
-    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscription_;
-    rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr imu_subscription_;
-    rclcpp::Subscription<planner::msg::Bspline>::SharedPtr bspline_subscription_;
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_publisher_;
-
-    double target_linear_velocity_ = 0.0;
-    double target_angular_velocity_ = 0.0;
-    double current_linear_velocity_ = 0.0;
-    double current_angular_velocity_ = 0.0;
-    double target_x_ = 0.0;
-    double target_y_ = 0.0;
-    double current_position_x_ = 0.0;
-    double current_position_y_ = 0.0;
-    double current_yaw_ = 0.0;
-    double target_yaw_ = 0.0;
-
-    std::ofstream log_file_;
 };
 
 int main(int argc, char** argv) {
