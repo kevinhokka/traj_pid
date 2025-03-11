@@ -231,18 +231,17 @@ private:
 
         // 找到当前时间对应的目标时间戳大于当前时间的最小控制点
         ControlPoint target_control_point = control_points_.back();  // 默认选择最后一个点
+        size_t target_control_point_index = control_points_.size();  // 记录索引
 
-        for (const auto& cp : control_points_) {
+
+        for (size_t i = 0; i < control_points_.size(); ++i) {
+            const auto& cp = control_points_[i];
             if (cp.time > current_time_sec) {
                 target_control_point = cp;
+                target_control_point_index = i + 1;  // 索引加1，以便从1开始编号
                 break;  // 找到第一个大于当前时间的目标点，退出循环
             }
         }
-
-         // 打印当前采用的目标点
-        log_file_ << "[" << current_time << "] Selected control point - x: " << target_control_point.x
-                << ", y: " << target_control_point.y << ", yaw: " << target_control_point.yaw
-                << ", time: " << target_control_point.time << std::endl;
         
         // 计算当前位置和目标位置的误差
         double position_error = std::sqrt(std::pow(target_x_ - current_position_x_, 2) + std::pow(target_y_ - current_position_y_, 2));
@@ -281,6 +280,14 @@ private:
         // 日志记录PID控制输出和目标与当前状态
         log_file_ << "-------------------------" << std::endl;
         log_file_ << "-------------------------" << std::endl;
+
+        log_file_ << "[" << current_time << "] Selected control point " << target_control_point_index
+          << " - x: " << target_control_point.x
+          << ", y: " << target_control_point.y
+          << ", yaw: " << target_control_point.yaw
+          << ", time: " << target_control_point.time << std::endl;
+
+
         log_file_ << "Timestamp: " << current_time << std::endl;
         log_file_ << "Control Loop - PID Output: Linear Velocity: " << pid_linear_output
                   << ", Angular Velocity: " << pid_angular_output << std::endl;
