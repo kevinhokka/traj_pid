@@ -61,11 +61,14 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-          pid_control_(0.1, 0.1, 0.1),  // 初始化 PID 控制器（位置）
-          pid_orientation_control_(0.1, 0.1, 0.1),  // 初始化朝向 PID 控制器
+        pid_control_(4.7932, 0.0010, 0.0010),  // 初始化 PID 控制器（位置）
+        pid_orientation_control_(2.4884, 0.0010, 0.0010),  // 初始化朝向 PID 控制器
 
-          pid_velocity_control_(10, 0.1, 0.1),  // 初始化线速度 PID 控制器
-          pid_angular_velocity_control_(10, 0.1, 0.1),  // 初始化角速度 PID 控制器
+        //   pid_velocity_control_(2, 0.5, 0.1),  // 初始化线速度 PID 控制器
+        //   pid_angular_velocity_control_(3, 0.8, 0.2),  // 初始化角速度 PID 控制器
+
+        pid_velocity_control_(0.0010, 9.9736, 0.0010),  // 初始化线速度 PID 控制器
+        pid_angular_velocity_control_(0.0010, 8.8820, 0.1125),  // 初始化角速度 PID 控制器
 
 
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
@@ -294,7 +297,7 @@ class TrajPidNode : public rclcpp::Node {
                 log_file_ << "  Pt[" << i << "] (x=" << control_points_[i].x 
                         << ", y=" << control_points_[i].y 
                         << ", yaw=" << control_points_[i].yaw
-                        << ", t=" << control_points_[i].time << ")" << std::endl;
+                        << ", t=" << control_points_[i].time - current_time_sec << ")" << std::endl;
             }
 
             // 9. 若需要，把第一个控制点当作当前 target
@@ -364,10 +367,10 @@ class TrajPidNode : public rclcpp::Node {
             double w_inner = pid_angular_velocity_control_.compute(angular_velocity_error, 0.0);
 
             // 将外环和内环的输出按一定权重组合（此处权重可调）
-            const double position_weight = 0.8;
-            const double velocity_weight = 0.2;
-            const double orientation_weight = 0.8;
-            const double angular_velocity_weight = 0.2;
+            const double position_weight = 0;
+            const double velocity_weight = 0.6546;
+            const double orientation_weight = 1;
+            const double angular_velocity_weight = 0.2424;
             double pid_linear_output  = v_outer * position_weight + v_inner * velocity_weight;
             double pid_angular_output = w_outer * orientation_weight + w_inner * angular_velocity_weight;
 
