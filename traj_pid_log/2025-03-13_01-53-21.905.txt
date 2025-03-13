@@ -1,0 +1,4042 @@
+[2025-03-13_01-53-22.014] No control points available
+[2025-03-13_01-53-22.114] No control points available
+[2025-03-13_01-53-22.215] No control points available
+[2025-03-13_01-53-22.314] No control points available
+[2025-03-13_01-53-22.415] No control points available
+[2025-03-13_01-53-22.515] No control points available
+[2025-03-13_01-53-22.615] No control points available
+[2025-03-13_01-53-22.715] No control points available
+[2025-03-13_01-53-22.815] No control points available
+[2025-03-13_01-53-22.915] No control points available
+[2025-03-13_01-53-23.015] No control points available
+[2025-03-13_01-53-23.115] No control points available
+[2025-03-13_01-53-23.215] No control points available
+[2025-03-13_01-53-23.315] No control points available
+[2025-03-13_01-53-23.415] No control points available
+[2025-03-13_01-53-23.515] No control points available
+[2025-03-13_01-53-23.615] No control points available
+[2025-03-13_01-53-23.715] No control points available
+[2025-03-13_01-53-23.815] No control points available
+[2025-03-13_01-53-23.915] No control points available
+[2025-03-13_01-53-24.015] No control points available
+[2025-03-13_01-53-24.115] No control points available
+[2025-03-13_01-53-24.215] No control points available
+[2025-03-13_01-53-24.315] No control points available
+[2025-03-13_01-53-24.415] No control points available
+[2025-03-13_01-53-24.515] No control points available
+[2025-03-13_01-53-24.615] No control points available
+[2025-03-13_01-53-24.715] No control points available
+[2025-03-13_01-53-24.815] No control points available
+[2025-03-13_01-53-24.915] No control points available
+[2025-03-13_01-53-25.015] No control points available
+[2025-03-13_01-53-25.115] No control points available
+[2025-03-13_01-53-25.215] No control points available
+[2025-03-13_01-53-25.315] No control points available
+[2025-03-13_01-53-25.415] No control points available
+[2025-03-13_01-53-25.515] No control points available
+[2025-03-13_01-53-25.615] No control points available
+[2025-03-13_01-53-25.715] No control points available
+[2025-03-13_01-53-25.815] No control points available
+[2025-03-13_01-53-25.915] No control points available
+[2025-03-13_01-53-26.015] No control points available
+[2025-03-13_01-53-26.115] No control points available
+[2025-03-13_01-53-26.215] No control points available
+[2025-03-13_01-53-26.315] No control points available
+[2025-03-13_01-53-26.415] No control points available
+[2025-03-13_01-53-26.515] No control points available
+[2025-03-13_01-53-26.615] No control points available
+[2025-03-13_01-53-26.715] No control points available
+[2025-03-13_01-53-26.722] Received Bspline message - pos_pts size: 27, yaw_pts size: 65
+[2025-03-13_01-53-26.722] Control point 0: x=2.43329e-05, y=-3.26188e-05, yaw=0, time=1741845206.723
+[2025-03-13_01-53-26.722] Control point 1: x=0.000, y=-0.000, yaw=0.000, time=1741845207.020
+[2025-03-13_01-53-26.722] Control point 2: x=0.000, y=-0.000, yaw=0.000, time=1741845207.316
+[2025-03-13_01-53-26.722] Control point 3: x=0.023, y=-0.013, yaw=-0.200, time=1741845207.613
+[2025-03-13_01-53-26.722] Control point 4: x=0.082, y=-0.042, yaw=-0.385, time=1741845207.910
+[2025-03-13_01-53-26.722] Control point 5: x=0.189, y=-0.085, yaw=-0.446, time=1741845208.207
+[2025-03-13_01-53-26.722] Control point 6: x=0.346, y=-0.136, yaw=-0.415, time=1741845208.504
+[2025-03-13_01-53-26.722] Control point 7: x=0.554, y=-0.187, yaw=-0.360, time=1741845208.800
+[2025-03-13_01-53-26.722] Control point 8: x=0.810, y=-0.230, yaw=-0.318, time=1741845209.097
+[2025-03-13_01-53-26.722] Control point 9: x=1.107, y=-0.261, yaw=-0.293, time=1741845209.394
+[2025-03-13_01-53-26.722] Control point 10: x=1.438, y=-0.279, yaw=-0.273, time=1741845209.691
+[2025-03-13_01-53-26.722] Control point 11: x=1.795, y=-0.290, yaw=-0.251, time=1741845209.987
+[2025-03-13_01-53-26.722] Control point 12: x=2.166, y=-0.307, yaw=-0.225, time=1741845210.284
+[2025-03-13_01-53-26.722] Control point 13: x=2.544, y=-0.356, yaw=-0.199, time=1741845210.581
+[2025-03-13_01-53-26.722] Control point 14: x=2.922, y=-0.462, yaw=-0.173, time=1741845210.878
+[2025-03-13_01-53-26.722] Control point 15: x=3.293, y=-0.621, yaw=-0.148, time=1741845211.175
+[2025-03-13_01-53-26.722] Control point 16: x=3.660, y=-0.768, yaw=-0.125, time=1741845211.471
+[2025-03-13_01-53-26.722] Control point 17: x=4.023, y=-0.821, yaw=-0.104, time=1741845211.768
+[2025-03-13_01-53-26.722] Control point 18: x=4.388, y=-0.745, yaw=-0.085, time=1741845212.065
+[2025-03-13_01-53-26.722] Control point 19: x=4.755, y=-0.592, yaw=-0.069, time=1741845212.362
+[2025-03-13_01-53-26.722] Control point 20: x=5.126, y=-0.448, yaw=-0.056, time=1741845212.658
+[2025-03-13_01-53-26.722] Control point 21: x=5.501, y=-0.361, yaw=-0.048, time=1741845212.955
+[2025-03-13_01-53-26.722] Control point 22: x=5.879, y=-0.314, yaw=-0.045, time=1741845213.252
+[2025-03-13_01-53-26.722] Control point 23: x=6.258, y=-0.270, yaw=-0.048, time=1741845213.549
+[2025-03-13_01-53-26.722] Control point 24: x=6.638, y=-0.211, yaw=-0.059, time=1741845213.845
+[2025-03-13_01-53-26.722] Control point 25: x=7.016, y=-0.146, yaw=-0.077, time=1741845214.142
+[2025-03-13_01-53-26.722] Control point 26: x=7.393, y=-0.088, yaw=-0.105, time=1741845214.439
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.030
+-------------------------
+-------------------------
+[2025-03-13_01-53-26.815] Selected control point: (x: 0.000, y: -0.000, yaw: 0.000)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-26.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.030
+Target Position - x: 0.000043, y: -0.000057, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000
+--Position ERROR (signed): 0.000
+--Orientation ERROR: -0.930
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.000
+--Angular Velocity ERROR: -0.030
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.001, Angular velocity: -0.135
+-------------------------
+-------------------------
+[2025-03-13_01-53-26.915] Selected control point: (x: 0.000, y: -0.000, yaw: 0.000)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-26.915
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.001, Angular Velocity Target: -0.135
+Target Position - x: 0.000043, y: -0.000057, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000
+--Position ERROR (signed): 0.000
+--Orientation ERROR: -0.930
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.001
+--Angular Velocity ERROR: -0.135
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.002, Angular velocity: -0.317
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.015] Selected control point: (x: 0.000, y: -0.000, yaw: 0.000)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.015
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.002, Angular Velocity Target: -0.317
+Target Position - x: 0.000043, y: -0.000057, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000
+--Position ERROR (signed): 0.000
+--Orientation ERROR: -0.930
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.002
+--Angular Velocity ERROR: -0.317
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.004, Angular velocity: -0.510
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.115] Selected control point: (x: 0.000, y: -0.000, yaw: 0.000)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.115
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.004, Angular Velocity Target: -0.510
+Target Position - x: 0.000064, y: -0.000086, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000
+--Position ERROR (signed): 0.000
+--Orientation ERROR: -0.930
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.004
+--Angular Velocity ERROR: -0.510
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.006, Angular velocity: -0.621
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.215] Selected control point: (x: 0.000, y: -0.000, yaw: 0.000)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.006, Angular Velocity Target: -0.621
+Target Position - x: 0.000064, y: -0.000086, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000
+--Position ERROR (signed): 0.000
+--Orientation ERROR: -0.930
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.006
+--Angular Velocity ERROR: -0.621
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.009, Angular velocity: -0.650
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.315] Selected control point: (x: 0.000, y: -0.000, yaw: 0.000)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.315
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.009, Angular Velocity Target: -0.650
+Target Position - x: 0.000064, y: -0.000086, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000
+--Position ERROR (signed): 0.000
+--Orientation ERROR: -0.930
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.009
+--Angular Velocity ERROR: -0.650
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.012, Angular velocity: -0.615
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.415] Selected control point: (x: 0.023, y: -0.013, yaw: -0.200)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.415
+-- PID Output: Linear Velocity: 0.019, Angular Velocity: -0.500
+Linear Velocity Target: 0.012, Angular Velocity Target: -0.615
+Target Position - x: 0.022728, y: -0.013201, Target Yaw: -0.199912
+Current Position - NA, NA
+--Distance to Target (abs): 0.026
+--Position ERROR (signed): 0.023
+--Orientation ERROR: -0.526
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.012
+--Angular Velocity ERROR: -0.615
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.016, Angular velocity: -0.537
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.515] Selected control point: (x: 0.023, y: -0.013, yaw: -0.200)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.515
+-- PID Output: Linear Velocity: 0.021, Angular Velocity: -0.500
+Linear Velocity Target: 0.016, Angular Velocity Target: -0.537
+Target Position - x: 0.022728, y: -0.013201, Target Yaw: -0.199912
+Current Position - NA, NA
+--Distance to Target (abs): 0.026
+--Position ERROR (signed): 0.023
+--Orientation ERROR: -0.526
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.016
+--Angular Velocity ERROR: -0.537
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.020, Angular velocity: -0.418
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.615] Selected control point: (x: 0.082, y: -0.042, yaw: -0.385)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.615
+-- PID Output: Linear Velocity: 0.074, Angular Velocity: -0.500
+Linear Velocity Target: 0.020, Angular Velocity Target: -0.418
+Target Position - x: 0.082333, y: -0.042066, Target Yaw: -0.385195
+Current Position - NA, NA
+--Distance to Target (abs): 0.092
+--Position ERROR (signed): 0.082
+--Orientation ERROR: -0.472
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.020
+--Angular Velocity ERROR: -0.418
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.024, Angular velocity: -0.283
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.715] Selected control point: (x: 0.082, y: -0.042, yaw: -0.385)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.715
+-- PID Output: Linear Velocity: 0.083, Angular Velocity: -0.500
+Linear Velocity Target: 0.024, Angular Velocity Target: -0.283
+Target Position - x: 0.082333, y: -0.042066, Target Yaw: -0.385195
+Current Position - NA, NA
+--Distance to Target (abs): 0.092
+--Position ERROR (signed): 0.082
+--Orientation ERROR: -0.472
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.024
+--Angular Velocity ERROR: -0.283
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.029, Angular velocity: -0.160
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.815] Selected control point: (x: 0.082, y: -0.042, yaw: -0.385)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.815
+-- PID Output: Linear Velocity: 0.098, Angular Velocity: -0.500
+Linear Velocity Target: 0.029, Angular Velocity Target: -0.160
+Target Position - x: 0.082333, y: -0.042066, Target Yaw: -0.385195
+Current Position - NA, NA
+--Distance to Target (abs): 0.092
+--Position ERROR (signed): 0.082
+--Orientation ERROR: -0.472
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.029
+--Angular Velocity ERROR: -0.160
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.034, Angular velocity: -0.049
+-------------------------
+-------------------------
+[2025-03-13_01-53-27.915] Selected control point: (x: 0.189, y: -0.085, yaw: -0.446)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-27.915
+-- PID Output: Linear Velocity: 0.200, Angular Velocity: -0.500
+Linear Velocity Target: 0.034, Angular Velocity Target: -0.049
+Target Position - x: 0.188585, y: -0.085010, Target Yaw: -0.446156
+Current Position - NA, NA
+--Distance to Target (abs): 0.207
+--Position ERROR (signed): 0.189
+--Orientation ERROR: -0.424
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.034
+--Angular Velocity ERROR: -0.049
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.039, Angular velocity: 0.042
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.015] Selected control point: (x: 0.189, y: -0.085, yaw: -0.446)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.015
+-- PID Output: Linear Velocity: 0.224, Angular Velocity: -0.500
+Linear Velocity Target: 0.039, Angular Velocity Target: 0.042
+Target Position - x: 0.188585, y: -0.085010, Target Yaw: -0.446156
+Current Position - NA, NA
+--Distance to Target (abs): 0.207
+--Position ERROR (signed): 0.189
+--Orientation ERROR: -0.424
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.039
+--Angular Velocity ERROR: 0.042
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.045, Angular velocity: 0.107
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.115] Selected control point: (x: 0.189, y: -0.085, yaw: -0.446)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.115
+-- PID Output: Linear Velocity: 0.259, Angular Velocity: -0.500
+Linear Velocity Target: 0.045, Angular Velocity Target: 0.107
+Target Position - x: 0.188585, y: -0.085010, Target Yaw: -0.446156
+Current Position - NA, NA
+--Distance to Target (abs): 0.207
+--Position ERROR (signed): 0.189
+--Orientation ERROR: -0.424
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.045
+--Angular Velocity ERROR: 0.107
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.051, Angular velocity: 0.146
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.215] Selected control point: (x: 0.346, y: -0.136, yaw: -0.415)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.215
+-- PID Output: Linear Velocity: 0.422, Angular Velocity: -0.500
+Linear Velocity Target: 0.051, Angular Velocity Target: 0.146
+Target Position - x: 0.345664, y: -0.135801, Target Yaw: -0.414963
+Current Position - NA, NA
+--Distance to Target (abs): 0.371
+--Position ERROR (signed): 0.346
+--Orientation ERROR: -0.374
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.051
+--Angular Velocity ERROR: 0.146
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.057, Angular velocity: 0.166
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.315] Selected control point: (x: 0.346, y: -0.136, yaw: -0.415)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.315
+-- PID Output: Linear Velocity: 0.470, Angular Velocity: -0.500
+Linear Velocity Target: 0.057, Angular Velocity Target: 0.166
+Target Position - x: 0.345664, y: -0.135801, Target Yaw: -0.414963
+Current Position - NA, NA
+--Distance to Target (abs): 0.371
+--Position ERROR (signed): 0.346
+--Orientation ERROR: -0.374
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.057
+--Angular Velocity ERROR: 0.166
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.064, Angular velocity: 0.171
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.415] Selected control point: (x: 0.346, y: -0.136, yaw: -0.415)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.415
+-- PID Output: Linear Velocity: 0.533, Angular Velocity: -0.500
+Linear Velocity Target: 0.064, Angular Velocity Target: 0.171
+Target Position - x: 0.345664, y: -0.135801, Target Yaw: -0.414963
+Current Position - NA, NA
+--Distance to Target (abs): 0.371
+--Position ERROR (signed): 0.346
+--Orientation ERROR: -0.374
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.064
+--Angular Velocity ERROR: 0.171
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.070, Angular velocity: 0.162
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.515] Selected control point: (x: 0.554, y: -0.187, yaw: -0.360)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.515
+-- PID Output: Linear Velocity: 0.768, Angular Velocity: -0.500
+Linear Velocity Target: 0.070, Angular Velocity Target: 0.162
+Target Position - x: 0.553755, y: -0.186729, Target Yaw: -0.359954
+Current Position - NA, NA
+--Distance to Target (abs): 0.584
+--Position ERROR (signed): 0.554
+--Orientation ERROR: -0.325
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.070
+--Angular Velocity ERROR: 0.162
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.000, y=0.000, Linear Velocity: 0.000, Angular Velocity: 0.000
+Current yaw: 0.000 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.077, Angular velocity: 0.146
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.615] Selected control point: (x: 0.554, y: -0.187, yaw: -0.360)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.615
+-- PID Output: Linear Velocity: 0.848, Angular Velocity: -0.500
+Linear Velocity Target: 0.077, Angular Velocity Target: 0.146
+Target Position - x: 0.553755, y: -0.186729, Target Yaw: -0.359954
+Current Position - x: 0.000000, y: 0.000000, Current Yaw: 0.000000
+--Distance to Target (abs): 0.584
+--Position ERROR (signed): 0.554
+--Orientation ERROR: -0.325
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.000000
+--Linear Velocity ERROR: 0.077
+--Angular Velocity ERROR: 0.146
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.085, y=0.000, Linear Velocity: 0.848, Angular Velocity: -0.500
+Current yaw: -0.050 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.084, Angular velocity: 0.129
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.715] Selected control point: (x: 0.554, y: -0.187, yaw: -0.360)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.715
+-- PID Output: Linear Velocity: 0.888, Angular Velocity: -0.500
+Linear Velocity Target: 0.084, Angular Velocity Target: 0.129
+Target Position - x: 0.553755, y: -0.186729, Target Yaw: -0.359954
+Current Position - x: 0.084848, y: 0.000000, Current Yaw: -0.050000
+--Distance to Target (abs): 0.505
+--Position ERROR (signed): 0.478
+--Orientation ERROR: -0.329
+Current Linear Velocity: 0.848480
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.764
+--Angular Velocity ERROR: 0.629
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.173, y=-0.004, Linear Velocity: 0.888, Angular Velocity: -0.500
+Current yaw: -0.100 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.092, Angular velocity: 0.111
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.815] Selected control point: (x: 0.810, y: -0.230, yaw: -0.318)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.815
+-- PID Output: Linear Velocity: 1.129, Angular Velocity: -0.500
+Linear Velocity Target: 0.092, Angular Velocity Target: 0.111
+Target Position - x: 0.809537, y: -0.230282, Target Yaw: -0.318390
+Current Position - x: 0.173492, y: -0.004436, Current Yaw: -0.100000
+--Distance to Target (abs): 0.675
+--Position ERROR (signed): 0.655
+--Orientation ERROR: -0.241
+Current Linear Velocity: 0.887547
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.796
+--Angular Velocity ERROR: 0.611
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.286, y=-0.016, Linear Velocity: 1.129, Angular Velocity: -0.500
+Current yaw: -0.150 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.099, Angular velocity: 0.096
+-------------------------
+-------------------------
+[2025-03-13_01-53-28.915] Selected control point: (x: 0.810, y: -0.230, yaw: -0.318)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-28.915
+-- PID Output: Linear Velocity: 1.145, Angular Velocity: -0.500
+Linear Velocity Target: 0.099, Angular Velocity Target: 0.096
+Target Position - x: 0.809537, y: -0.230282, Target Yaw: -0.318390
+Current Position - x: 0.285799, y: -0.015704, Current Yaw: -0.150000
+--Distance to Target (abs): 0.566
+--Position ERROR (signed): 0.550
+--Orientation ERROR: -0.239
+Current Linear Velocity: 1.128712
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.029
+--Angular Velocity ERROR: 0.596
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.399, y=-0.033, Linear Velocity: 1.145, Angular Velocity: -0.500
+Current yaw: -0.200 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.107, Angular velocity: 0.084
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.015] Selected control point: (x: 0.810, y: -0.230, yaw: -0.318)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.015
+-- PID Output: Linear Velocity: 1.167, Angular Velocity: -0.500
+Linear Velocity Target: 0.107, Angular Velocity Target: 0.084
+Target Position - x: 0.809537, y: -0.230282, Target Yaw: -0.318390
+Current Position - x: 0.398965, y: -0.032808, Current Yaw: -0.200000
+--Distance to Target (abs): 0.456
+--Position ERROR (signed): 0.442
+--Orientation ERROR: -0.248
+Current Linear Velocity: 1.144514
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.037
+--Angular Velocity ERROR: 0.584
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.513, y=-0.056, Linear Velocity: 1.167, Angular Velocity: -0.500
+Current yaw: -0.250 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.115, Angular velocity: 0.076
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.115] Selected control point: (x: 1.107, y: -0.261, yaw: -0.293)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.115
+-- PID Output: Linear Velocity: 1.410, Angular Velocity: -0.500
+Linear Velocity Target: 0.115, Angular Velocity Target: 0.076
+Target Position - x: 1.107041, y: -0.261336, Target Yaw: -0.292784
+Current Position - x: 0.513338, y: -0.055992, Current Yaw: -0.250000
+--Distance to Target (abs): 0.628
+--Position ERROR (signed): 0.626
+--Orientation ERROR: -0.083
+Current Linear Velocity: 1.166987
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.052
+--Angular Velocity ERROR: 0.576
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.650, y=-0.091, Linear Velocity: 1.410, Angular Velocity: -0.500
+Current yaw: -0.300 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.123, Angular velocity: 0.072
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.215] Selected control point: (x: 1.107, y: -0.261, yaw: -0.293)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.215
+-- PID Output: Linear Velocity: 1.392, Angular Velocity: -0.500
+Linear Velocity Target: 0.123, Angular Velocity Target: 0.072
+Target Position - x: 1.107041, y: -0.261336, Target Yaw: -0.292784
+Current Position - x: 0.649978, y: -0.090882, Current Yaw: -0.300000
+--Distance to Target (abs): 0.488
+--Position ERROR (signed): 0.487
+--Orientation ERROR: -0.057
+Current Linear Velocity: 1.410239
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.287
+--Angular Velocity ERROR: 0.572
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.783, y=-0.132, Linear Velocity: 1.392, Angular Velocity: -0.500
+Current yaw: -0.350 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.131, Angular velocity: 0.070
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.315] Selected control point: (x: 1.107, y: -0.261, yaw: -0.293)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.315
+-- PID Output: Linear Velocity: 1.382, Angular Velocity: -0.500
+Linear Velocity Target: 0.131, Angular Velocity Target: 0.070
+Target Position - x: 1.107041, y: -0.261336, Target Yaw: -0.292784
+Current Position - x: 0.783004, y: -0.132032, Current Yaw: -0.350000
+--Distance to Target (abs): 0.349
+--Position ERROR (signed): 0.349
+--Orientation ERROR: -0.030
+Current Linear Velocity: 1.392453
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.261
+--Angular Velocity ERROR: 0.570
+-------------------------
+-------------------------
+Received Odometry - Position: x=0.913, y=-0.179, Linear Velocity: 1.382, Angular Velocity: -0.500
+Current yaw: -0.400 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.140, Angular velocity: 0.072
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.415] Selected control point: (x: 1.438, y: -0.279, yaw: -0.273)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.415
+-- PID Output: Linear Velocity: 1.603, Angular Velocity: -0.500
+Linear Velocity Target: 0.140, Angular Velocity Target: 0.072
+Target Position - x: 1.438394, y: -0.279156, Target Yaw: -0.272664
+Current Position - x: 0.912837, y: -0.179424, Current Yaw: -0.400000
+--Distance to Target (abs): 0.535
+--Position ERROR (signed): 0.523
+--Orientation ERROR: 0.212
+Current Linear Velocity: 1.382121
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.242
+--Angular Velocity ERROR: 0.572
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.060, y=-0.242, Linear Velocity: 1.603, Angular Velocity: -0.500
+Current yaw: -0.450 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.148, Angular velocity: 0.074
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.515] Selected control point: (x: 1.438, y: -0.279, yaw: -0.273)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.515
+-- PID Output: Linear Velocity: 1.545, Angular Velocity: -0.500
+Linear Velocity Target: 0.148, Angular Velocity Target: 0.074
+Target Position - x: 1.438394, y: -0.279156, Target Yaw: -0.272664
+Current Position - x: 1.060475, y: -0.241845, Current Yaw: -0.450000
+--Distance to Target (abs): 0.380
+--Position ERROR (signed): 0.357
+--Orientation ERROR: 0.352
+Current Linear Velocity: 1.602920
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.455
+--Angular Velocity ERROR: 0.574
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.200, y=-0.309, Linear Velocity: 1.545, Angular Velocity: -0.500
+Current yaw: -0.500 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.156, Angular velocity: 0.077
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.615] Selected control point: (x: 1.438, y: -0.279, yaw: -0.273)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.615
+-- PID Output: Linear Velocity: 1.494, Angular Velocity: -0.500
+Linear Velocity Target: 0.156, Angular Velocity Target: 0.077
+Target Position - x: 1.438394, y: -0.279156, Target Yaw: -0.272664
+Current Position - x: 1.199575, y: -0.309038, Current Yaw: -0.500000
+--Distance to Target (abs): 0.241
+--Position ERROR (signed): 0.195
+--Orientation ERROR: 0.624
+Current Linear Velocity: 1.544783
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.388
+--Angular Velocity ERROR: 0.577
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.331, y=-0.381, Linear Velocity: 1.494, Angular Velocity: -0.500
+Current yaw: -0.550 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.165, Angular velocity: 0.081
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.715] Selected control point: (x: 1.795, y: -0.290, yaw: -0.251)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.715
+-- PID Output: Linear Velocity: 1.672, Angular Velocity: -0.500
+Linear Velocity Target: 0.165, Angular Velocity Target: 0.081
+Target Position - x: 1.794593, y: -0.289544, Target Yaw: -0.250536
+Current Position - x: 1.330720, y: -0.380683, Current Yaw: -0.550000
+--Distance to Target (abs): 0.473
+--Position ERROR (signed): 0.348
+--Orientation ERROR: 0.744
+Current Linear Velocity: 1.494389
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.329
+--Angular Velocity ERROR: 0.581
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.473, y=-0.468, Linear Velocity: 1.672, Angular Velocity: -0.500
+Current yaw: -0.600 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.174, Angular velocity: 0.084
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.815] Selected control point: (x: 1.795, y: -0.290, yaw: -0.251)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.815
+-- PID Output: Linear Velocity: 1.570, Angular Velocity: -0.500
+Linear Velocity Target: 0.174, Angular Velocity Target: 0.084
+Target Position - x: 1.794593, y: -0.289544, Target Yaw: -0.250536
+Current Position - x: 1.473227, y: -0.468055, Current Yaw: -0.600000
+--Distance to Target (abs): 0.368
+--Position ERROR (signed): 0.164
+--Orientation ERROR: 1.107
+Current Linear Velocity: 1.671597
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.498
+--Angular Velocity ERROR: 0.584
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.603, y=-0.557, Linear Velocity: 1.570, Angular Velocity: -0.500
+Current yaw: -0.650 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.182, Angular velocity: 0.086
+-------------------------
+-------------------------
+[2025-03-13_01-53-29.915] Selected control point: (x: 1.795, y: -0.290, yaw: -0.251)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-29.915
+-- PID Output: Linear Velocity: 1.476, Angular Velocity: -0.500
+Linear Velocity Target: 0.182, Angular Velocity Target: 0.086
+Target Position - x: 1.794593, y: -0.289544, Target Yaw: -0.250536
+Current Position - x: 1.602768, y: -0.556678, Current Yaw: -0.650000
+--Distance to Target (abs): 0.329
+--Position ERROR (signed): -0.009
+--Orientation ERROR: 1.598
+Current Linear Velocity: 1.569551
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.387
+--Angular Velocity ERROR: 0.586
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.720, y=-0.646, Linear Velocity: 1.476, Angular Velocity: -0.500
+Current yaw: -0.700 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.191, Angular velocity: 0.088
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.015] Selected control point: (x: 2.166, y: -0.307, yaw: -0.225)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.015
+-- PID Output: Linear Velocity: 1.599, Angular Velocity: -0.460
+Linear Velocity Target: 0.191, Angular Velocity Target: 0.088
+Target Position - x: 2.166276, y: -0.306582, Target Yaw: -0.225187
+Current Position - x: 1.720244, y: -0.645984, Current Yaw: -0.700000
+--Distance to Target (abs): 0.560
+--Position ERROR (signed): 0.122
+--Orientation ERROR: 1.350
+Current Linear Velocity: 1.475671
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -1.285
+--Angular Velocity ERROR: 0.588
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.843, y=-0.749, Linear Velocity: 1.599, Angular Velocity: -0.460
+Current yaw: -0.746 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.200, Angular velocity: 0.089
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.115] Selected control point: (x: 2.166, y: -0.307, yaw: -0.225)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.115
+-- PID Output: Linear Velocity: 1.457, Angular Velocity: 0.087
+Linear Velocity Target: 0.200, Angular Velocity Target: 0.089
+Target Position - x: 2.166276, y: -0.306582, Target Yaw: -0.225187
+Current Position - x: 1.842565, y: -0.749014, Current Yaw: -0.745977
+--Distance to Target (abs): 0.548
+--Position ERROR (signed): -0.063
+--Orientation ERROR: 1.685
+Current Linear Velocity: 1.599303
+Current Angular Velocity: -0.459765
+--Linear Velocity ERROR: -1.400
+--Angular Velocity ERROR: 0.549
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.950, y=-0.848, Linear Velocity: 1.457, Angular Velocity: 0.087
+Current yaw: -0.737 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.208, Angular velocity: 0.089
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.215] Selected control point: (x: 2.166, y: -0.307, yaw: -0.225)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.208, Angular Velocity Target: 0.089
+Target Position - x: 2.166276, y: -0.306582, Target Yaw: -0.225187
+Current Position - x: 1.949549, y: -0.847878, Current Yaw: -0.737234
+--Distance to Target (abs): 0.583
+--Position ERROR (signed): -0.203
+--Orientation ERROR: 1.927
+Current Linear Velocity: 1.456698
+Current Angular Velocity: 0.087430
+--Linear Velocity ERROR: -1.248
+--Angular Velocity ERROR: 0.002
+-------------------------
+-------------------------
+Received Odometry - Position: x=1.950, y=-0.848, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: -0.687 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.217, Angular velocity: 0.088
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.315] Selected control point: (x: 2.544, y: -0.356, yaw: -0.199)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.315
+-- PID Output: Linear Velocity: 1.613, Angular Velocity: 0.440
+Linear Velocity Target: 0.217, Angular Velocity Target: 0.088
+Target Position - x: 2.544469, y: -0.355846, Target Yaw: -0.198574
+Current Position - x: 1.949549, y: -0.847878, Current Yaw: -0.687234
+--Distance to Target (abs): 0.772
+--Position ERROR (signed): 0.148
+--Orientation ERROR: 1.378
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.217
+--Angular Velocity ERROR: -0.412
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.074, y=-0.950, Linear Velocity: 1.613, Angular Velocity: 0.440
+Current yaw: -0.643 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.226, Angular velocity: 0.087
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.415] Selected control point: (x: 2.544, y: -0.356, yaw: -0.199)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.415
+-- PID Output: Linear Velocity: 1.500, Angular Velocity: 0.500
+Linear Velocity Target: 0.226, Angular Velocity Target: 0.087
+Target Position - x: 2.544469, y: -0.355846, Target Yaw: -0.198574
+Current Position - x: 2.074247, y: -0.950217, Current Yaw: -0.643207
+--Distance to Target (abs): 0.758
+--Position ERROR (signed): 0.020
+--Orientation ERROR: 1.545
+Current Linear Velocity: 1.613159
+Current Angular Velocity: 0.440261
+--Linear Velocity ERROR: -1.388
+--Angular Velocity ERROR: -0.353
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.194, y=-1.040, Linear Velocity: 1.500, Angular Velocity: 0.500
+Current yaw: -0.593 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.234, Angular velocity: 0.086
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.515] Selected control point: (x: 2.544, y: -0.356, yaw: -0.199)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.515
+-- PID Output: Linear Velocity: 1.425, Angular Velocity: 0.500
+Linear Velocity Target: 0.234, Angular Velocity Target: 0.086
+Target Position - x: 2.544469, y: -0.355846, Target Yaw: -0.198574
+Current Position - x: 2.194279, y: -1.040187, Current Yaw: -0.593207
+--Distance to Target (abs): 0.769
+--Position ERROR (signed): -0.092
+--Orientation ERROR: 1.691
+Current Linear Velocity: 1.500075
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.266
+--Angular Velocity ERROR: -0.414
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.312, y=-1.120, Linear Velocity: 1.425, Angular Velocity: 0.500
+Current yaw: -0.543 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.243, Angular velocity: 0.085
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.615] Selected control point: (x: 2.922, y: -0.462, yaw: -0.173)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.615
+-- PID Output: Linear Velocity: 1.644, Angular Velocity: 0.500
+Linear Velocity Target: 0.243, Angular Velocity Target: 0.085
+Target Position - x: 2.921680, y: -0.462391, Target Yaw: -0.172574
+Current Position - x: 2.312396, y: -1.119822, Current Yaw: -0.543207
+--Distance to Target (abs): 0.896
+--Position ERROR (signed): 0.182
+--Orientation ERROR: 1.367
+Current Linear Velocity: 1.424552
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.182
+--Angular Velocity ERROR: -0.415
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.453, y=-1.205, Linear Velocity: 1.644, Angular Velocity: 0.500
+Current yaw: -0.493 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.251, Angular velocity: 0.083
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.715] Selected control point: (x: 2.922, y: -0.462, yaw: -0.173)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.715
+-- PID Output: Linear Velocity: 1.551, Angular Velocity: 0.500
+Linear Velocity Target: 0.251, Angular Velocity Target: 0.083
+Target Position - x: 2.921680, y: -0.462391, Target Yaw: -0.172574
+Current Position - x: 2.453114, y: -1.204787, Current Yaw: -0.493207
+--Distance to Target (abs): 0.878
+--Position ERROR (signed): 0.061
+--Orientation ERROR: 1.501
+Current Linear Velocity: 1.643792
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.392
+--Angular Velocity ERROR: -0.417
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.590, y=-1.278, Linear Velocity: 1.551, Angular Velocity: 0.500
+Current yaw: -0.443 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.260, Angular velocity: 0.081
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.815] Selected control point: (x: 2.922, y: -0.462, yaw: -0.173)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.815
+-- PID Output: Linear Velocity: 1.483, Angular Velocity: 0.500
+Linear Velocity Target: 0.260, Angular Velocity Target: 0.081
+Target Position - x: 2.921680, y: -0.462391, Target Yaw: -0.172574
+Current Position - x: 2.589708, y: -1.278209, Current Yaw: -0.443207
+--Distance to Target (abs): 0.881
+--Position ERROR (signed): -0.050
+--Orientation ERROR: 1.628
+Current Linear Velocity: 1.550761
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.291
+--Angular Velocity ERROR: -0.419
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.724, y=-1.342, Linear Velocity: 1.483, Angular Velocity: 0.500
+Current yaw: -0.393 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.268, Angular velocity: 0.079
+-------------------------
+-------------------------
+[2025-03-13_01-53-30.915] Selected control point: (x: 3.293, y: -0.621, yaw: -0.148)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-30.915
+-- PID Output: Linear Velocity: 1.731, Angular Velocity: 0.500
+Linear Velocity Target: 0.268, Angular Velocity Target: 0.079
+Target Position - x: 3.293436, y: -0.620530, Target Yaw: -0.148049
+Current Position - x: 2.723656, y: -1.341795, Current Yaw: -0.393207
+--Distance to Target (abs): 0.919
+--Position ERROR (signed): 0.250
+--Orientation ERROR: 1.295
+Current Linear Velocity: 1.482748
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.214
+--Angular Velocity ERROR: -0.421
+-------------------------
+-------------------------
+Received Odometry - Position: x=2.884, y=-1.408, Linear Velocity: 1.731, Angular Velocity: 0.500
+Current yaw: -0.343 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.277, Angular velocity: 0.077
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.015] Selected control point: (x: 3.293, y: -0.621, yaw: -0.148)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.015
+-- PID Output: Linear Velocity: 1.641, Angular Velocity: 0.500
+Linear Velocity Target: 0.277, Angular Velocity Target: 0.077
+Target Position - x: 3.293436, y: -0.620530, Target Yaw: -0.148049
+Current Position - x: 2.883542, y: -1.408117, Current Yaw: -0.343207
+--Distance to Target (abs): 0.888
+--Position ERROR (signed): 0.121
+--Orientation ERROR: 1.434
+Current Linear Velocity: 1.730949
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.454
+--Angular Velocity ERROR: -0.423
+-------------------------
+-------------------------
+Received Odometry - Position: x=3.038, y=-1.463, Linear Velocity: 1.641, Angular Velocity: 0.500
+Current yaw: -0.293 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.285, Angular velocity: 0.075
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.115] Selected control point: (x: 3.293, y: -0.621, yaw: -0.148)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.115
+-- PID Output: Linear Velocity: 1.577, Angular Velocity: 0.500
+Linear Velocity Target: 0.285, Angular Velocity Target: 0.075
+Target Position - x: 3.293436, y: -0.620530, Target Yaw: -0.148049
+Current Position - x: 3.038061, y: -1.463334, Current Yaw: -0.293207
+--Distance to Target (abs): 0.881
+--Position ERROR (signed): 0.001
+--Orientation ERROR: 1.570
+Current Linear Velocity: 1.640890
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.356
+--Angular Velocity ERROR: -0.425
+-------------------------
+-------------------------
+Received Odometry - Position: x=3.189, y=-1.509, Linear Velocity: 1.577, Angular Velocity: 0.500
+Current yaw: -0.243 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.293, Angular velocity: 0.073
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.215] Selected control point: (x: 3.660, y: -0.768, yaw: -0.125)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.215
+-- PID Output: Linear Velocity: 1.817, Angular Velocity: 0.500
+Linear Velocity Target: 0.293, Angular Velocity Target: 0.073
+Target Position - x: 3.659669, y: -0.767698, Target Yaw: -0.125170
+Current Position - x: 3.189067, y: -1.508924, Current Yaw: -0.243207
+--Distance to Target (abs): 0.878
+--Position ERROR (signed): 0.278
+--Orientation ERROR: 1.248
+Current Linear Velocity: 1.577379
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.284
+--Angular Velocity ERROR: -0.427
+-------------------------
+-------------------------
+Received Odometry - Position: x=3.365, y=-1.553, Linear Velocity: 1.817, Angular Velocity: 0.500
+Current yaw: -0.193 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.302, Angular velocity: 0.071
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.315] Selected control point: (x: 3.660, y: -0.768, yaw: -0.125)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.315
+-- PID Output: Linear Velocity: 1.725, Angular Velocity: 0.500
+Linear Velocity Target: 0.302, Angular Velocity Target: 0.071
+Target Position - x: 3.659669, y: -0.767698, Target Yaw: -0.125170
+Current Position - x: 3.365448, y: -1.552688, Current Yaw: -0.193207
+--Distance to Target (abs): 0.838
+--Position ERROR (signed): 0.138
+--Orientation ERROR: 1.405
+Current Linear Velocity: 1.817292
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.516
+--Angular Velocity ERROR: -0.429
+-------------------------
+-------------------------
+Received Odometry - Position: x=3.535, y=-1.586, Linear Velocity: 1.725, Angular Velocity: 0.500
+Current yaw: -0.143 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.310, Angular velocity: 0.069
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.415] Selected control point: (x: 3.660, y: -0.768, yaw: -0.125)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.415
+-- PID Output: Linear Velocity: 1.657, Angular Velocity: 0.500
+Linear Velocity Target: 0.310, Angular Velocity Target: 0.069
+Target Position - x: 3.659669, y: -0.767698, Target Yaw: -0.125170
+Current Position - x: 3.534782, y: -1.585818, Current Yaw: -0.143207
+--Distance to Target (abs): 0.828
+--Position ERROR (signed): 0.007
+--Orientation ERROR: 1.563
+Current Linear Velocity: 1.725443
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.416
+--Angular Velocity ERROR: -0.431
+-------------------------
+-------------------------
+Received Odometry - Position: x=3.699, y=-1.609, Linear Velocity: 1.657, Angular Velocity: 0.500
+Current yaw: -0.093 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.318, Angular velocity: 0.066
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.515] Selected control point: (x: 4.023, y: -0.821, yaw: -0.104)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.515
+-- PID Output: Linear Velocity: 1.871, Angular Velocity: 0.500
+Linear Velocity Target: 0.318, Angular Velocity Target: 0.066
+Target Position - x: 4.023361, y: -0.821038, Target Yaw: -0.104083
+Current Position - x: 3.698793, y: -1.609467, Current Yaw: -0.093207
+--Distance to Target (abs): 0.853
+--Position ERROR (signed): 0.250
+--Orientation ERROR: 1.273
+Current Linear Velocity: 1.657072
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.340
+--Angular Velocity ERROR: -0.434
+-------------------------
+-------------------------
+Received Odometry - Position: x=3.885, y=-1.627, Linear Velocity: 1.871, Angular Velocity: 0.500
+Current yaw: -0.043 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.325, Angular velocity: 0.064
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.615] Selected control point: (x: 4.023, y: -0.821, yaw: -0.104)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.615
+-- PID Output: Linear Velocity: 1.772, Angular Velocity: 0.500
+Linear Velocity Target: 0.325, Angular Velocity Target: 0.064
+Target Position - x: 4.023361, y: -0.821038, Target Yaw: -0.104083
+Current Position - x: 3.885072, y: -1.626880, Current Yaw: -0.043207
+--Distance to Target (abs): 0.818
+--Position ERROR (signed): 0.103
+--Orientation ERROR: 1.444
+Current Linear Velocity: 1.870913
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.546
+--Angular Velocity ERROR: -0.436
+-------------------------
+-------------------------
+Received Odometry - Position: x=4.062, y=-1.635, Linear Velocity: 1.772, Angular Velocity: 0.500
+Current yaw: 0.007 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.333, Angular velocity: 0.061
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.715] Selected control point: (x: 4.023, y: -0.821, yaw: -0.104)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.715
+-- PID Output: Linear Velocity: 1.694, Angular Velocity: 0.500
+Linear Velocity Target: 0.333, Angular Velocity Target: 0.061
+Target Position - x: 4.023361, y: -0.821038, Target Yaw: -0.104083
+Current Position - x: 4.062126, y: -1.634535, Current Yaw: 0.006793
+--Distance to Target (abs): 0.814
+--Position ERROR (signed): -0.033
+--Orientation ERROR: 1.612
+Current Linear Velocity: 1.772198
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.439
+--Angular Velocity ERROR: -0.439
+-------------------------
+-------------------------
+Received Odometry - Position: x=4.231, y=-1.633, Linear Velocity: 1.694, Angular Velocity: 0.500
+Current yaw: 0.057 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.341, Angular velocity: 0.058
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.815] Selected control point: (x: 4.388, y: -0.745, yaw: -0.085)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.815
+-- PID Output: Linear Velocity: 1.898, Angular Velocity: 0.500
+Linear Velocity Target: 0.341, Angular Velocity Target: 0.058
+Target Position - x: 4.387933, y: -0.745294, Target Yaw: -0.085163
+Current Position - x: 4.231486, y: -1.633384, Current Yaw: 0.056793
+--Distance to Target (abs): 0.902
+--Position ERROR (signed): 0.207
+--Orientation ERROR: 1.340
+Current Linear Velocity: 1.693641
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.353
+--Angular Velocity ERROR: -0.442
+-------------------------
+-------------------------
+Received Odometry - Position: x=4.421, y=-1.623, Linear Velocity: 1.898, Angular Velocity: 0.500
+Current yaw: 0.107 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.348, Angular velocity: 0.054
+-------------------------
+-------------------------
+[2025-03-13_01-53-31.915] Selected control point: (x: 4.388, y: -0.745, yaw: -0.085)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-31.915
+-- PID Output: Linear Velocity: 1.792, Angular Velocity: 0.500
+Linear Velocity Target: 0.348, Angular Velocity Target: 0.054
+Target Position - x: 4.387933, y: -0.745294, Target Yaw: -0.085163
+Current Position - x: 4.420994, y: -1.622610, Current Yaw: 0.106793
+--Distance to Target (abs): 0.878
+--Position ERROR (signed): 0.061
+--Orientation ERROR: 1.502
+Current Linear Velocity: 1.898137
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.550
+--Angular Velocity ERROR: -0.446
+-------------------------
+-------------------------
+Received Odometry - Position: x=4.599, y=-1.604, Linear Velocity: 1.792, Angular Velocity: 0.500
+Current yaw: 0.157 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.355, Angular velocity: 0.051
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.015] Selected control point: (x: 4.388, y: -0.745, yaw: -0.085)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.015
+-- PID Output: Linear Velocity: 1.707, Angular Velocity: 0.500
+Linear Velocity Target: 0.355, Angular Velocity Target: 0.051
+Target Position - x: 4.387933, y: -0.745294, Target Yaw: -0.085163
+Current Position - x: 4.599192, y: -1.603507, Current Yaw: 0.156793
+--Distance to Target (abs): 0.884
+--Position ERROR (signed): -0.075
+--Orientation ERROR: 1.655
+Current Linear Velocity: 1.792192
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.437
+--Angular Velocity ERROR: -0.449
+-------------------------
+-------------------------
+Received Odometry - Position: x=4.768, y=-1.577, Linear Velocity: 1.707, Angular Velocity: 0.500
+Current yaw: 0.207 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.362, Angular velocity: 0.047
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.115] Selected control point: (x: 4.755, y: -0.592, yaw: -0.069)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.115
+-- PID Output: Linear Velocity: 1.924, Angular Velocity: 0.500
+Linear Velocity Target: 0.362, Angular Velocity Target: 0.047
+Target Position - x: 4.755342, y: -0.592411, Target Yaw: -0.068966
+Current Position - x: 4.767780, y: -1.576855, Current Yaw: 0.206793
+--Distance to Target (abs): 0.985
+--Position ERROR (signed): 0.190
+--Orientation ERROR: 1.377
+Current Linear Velocity: 1.706818
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.344
+--Angular Velocity ERROR: -0.453
+-------------------------
+-------------------------
+Received Odometry - Position: x=4.956, y=-1.537, Linear Velocity: 1.924, Angular Velocity: 0.500
+Current yaw: 0.257 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.369, Angular velocity: 0.042
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.215] Selected control point: (x: 4.755, y: -0.592, yaw: -0.069)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.215
+-- PID Output: Linear Velocity: 1.814, Angular Velocity: 0.500
+Linear Velocity Target: 0.369, Angular Velocity Target: 0.042
+Target Position - x: 4.755342, y: -0.592411, Target Yaw: -0.068966
+Current Position - x: 4.956074, y: -1.537353, Current Yaw: 0.256793
+--Distance to Target (abs): 0.966
+--Position ERROR (signed): 0.046
+--Orientation ERROR: 1.523
+Current Linear Velocity: 1.923926
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.555
+--Angular Velocity ERROR: -0.458
+-------------------------
+-------------------------
+Received Odometry - Position: x=5.132, y=-1.491, Linear Velocity: 1.814, Angular Velocity: 0.500
+Current yaw: 0.307 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.376, Angular velocity: 0.038
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.315] Selected control point: (x: 4.755, y: -0.592, yaw: -0.069)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.315
+-- PID Output: Linear Velocity: 1.728, Angular Velocity: 0.500
+Linear Velocity Target: 0.376, Angular Velocity Target: 0.038
+Target Position - x: 4.755342, y: -0.592411, Target Yaw: -0.068966
+Current Position - x: 5.131523, y: -1.491282, Current Yaw: 0.306793
+--Distance to Target (abs): 0.974
+--Position ERROR (signed): -0.087
+--Orientation ERROR: 1.660
+Current Linear Velocity: 1.813975
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.438
+--Angular Velocity ERROR: -0.462
+-------------------------
+-------------------------
+Received Odometry - Position: x=5.296, y=-1.439, Linear Velocity: 1.728, Angular Velocity: 0.500
+Current yaw: 0.357 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.383, Angular velocity: 0.033
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.415] Selected control point: (x: 5.126, y: -0.448, yaw: -0.056)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.415
+-- PID Output: Linear Velocity: 1.950, Angular Velocity: 0.500
+Linear Velocity Target: 0.383, Angular Velocity Target: 0.033
+Target Position - x: 5.126307, y: -0.448330, Target Yaw: -0.056286
+Current Position - x: 5.296215, y: -1.439108, Current Yaw: 0.356793
+--Distance to Target (abs): 1.005
+--Position ERROR (signed): 0.187
+--Orientation ERROR: 1.384
+Current Linear Velocity: 1.727587
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.345
+--Angular Velocity ERROR: -0.467
+-------------------------
+-------------------------
+Received Odometry - Position: x=5.479, y=-1.371, Linear Velocity: 1.950, Angular Velocity: 0.500
+Current yaw: 0.407 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.389, Angular velocity: 0.028
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.515] Selected control point: (x: 5.126, y: -0.448, yaw: -0.056)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.515
+-- PID Output: Linear Velocity: 1.837, Angular Velocity: 0.500
+Linear Velocity Target: 0.389, Angular Velocity Target: 0.028
+Target Position - x: 5.126307, y: -0.448330, Target Yaw: -0.056286
+Current Position - x: 5.478923, y: -1.371004, Current Yaw: 0.406793
+--Distance to Target (abs): 0.988
+--Position ERROR (signed): 0.041
+--Orientation ERROR: 1.529
+Current Linear Velocity: 1.949880
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.561
+--Angular Velocity ERROR: -0.472
+-------------------------
+-------------------------
+Received Odometry - Position: x=5.648, y=-1.298, Linear Velocity: 1.837, Angular Velocity: 0.500
+Current yaw: 0.457 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.395, Angular velocity: 0.022
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.615] Selected control point: (x: 5.126, y: -0.448, yaw: -0.056)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.615
+-- PID Output: Linear Velocity: 1.749, Angular Velocity: 0.500
+Linear Velocity Target: 0.395, Angular Velocity Target: 0.022
+Target Position - x: 5.126307, y: -0.448330, Target Yaw: -0.056286
+Current Position - x: 5.647649, y: -1.298313, Current Yaw: 0.456793
+--Distance to Target (abs): 0.997
+--Position ERROR (signed): -0.093
+--Orientation ERROR: 1.664
+Current Linear Velocity: 1.837185
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.442
+--Angular Velocity ERROR: -0.478
+-------------------------
+-------------------------
+Received Odometry - Position: x=5.805, y=-1.221, Linear Velocity: 1.749, Angular Velocity: 0.500
+Current yaw: 0.507 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.402, Angular velocity: 0.016
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.715] Selected control point: (x: 5.501, y: -0.361, yaw: -0.048)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.715
+-- PID Output: Linear Velocity: 1.947, Angular Velocity: 0.500
+Linear Velocity Target: 0.402, Angular Velocity Target: 0.016
+Target Position - x: 5.500861, y: -0.360898, Target Yaw: -0.047964
+Current Position - x: 5.804627, y: -1.221165, Current Yaw: 0.506793
+--Distance to Target (abs): 0.912
+--Position ERROR (signed): 0.152
+--Orientation ERROR: 1.403
+Current Linear Velocity: 1.749104
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.348
+--Angular Velocity ERROR: -0.484
+-------------------------
+-------------------------
+Received Odometry - Position: x=5.975, y=-1.127, Linear Velocity: 1.947, Angular Velocity: 0.500
+Current yaw: 0.557 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.407, Angular velocity: 0.010
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.815] Selected control point: (x: 5.501, y: -0.361, yaw: -0.048)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.815
+-- PID Output: Linear Velocity: 1.827, Angular Velocity: 0.500
+Linear Velocity Target: 0.407, Angular Velocity Target: 0.010
+Target Position - x: 5.500861, y: -0.360898, Target Yaw: -0.047964
+Current Position - x: 5.974819, y: -1.126682, Current Yaw: 0.556793
+--Distance to Target (abs): 0.901
+--Position ERROR (signed): 0.002
+--Orientation ERROR: 1.568
+Current Linear Velocity: 1.946602
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.539
+--Angular Velocity ERROR: -0.490
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.130, y=-1.030, Linear Velocity: 1.827, Angular Velocity: 0.500
+Current yaw: 0.607 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.413, Angular velocity: 0.003
+-------------------------
+-------------------------
+[2025-03-13_01-53-32.915] Selected control point: (x: 5.501, y: -0.361, yaw: -0.048)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-32.915
+-- PID Output: Linear Velocity: 1.730, Angular Velocity: 0.500
+Linear Velocity Target: 0.413, Angular Velocity Target: 0.003
+Target Position - x: 5.500861, y: -0.360898, Target Yaw: -0.047964
+Current Position - x: 6.129932, y: -1.030126, Current Yaw: 0.606793
+--Distance to Target (abs): 0.918
+--Position ERROR (signed): -0.135
+--Orientation ERROR: 1.718
+Current Linear Velocity: 1.827103
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.414
+--Angular Velocity ERROR: -0.497
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.272, y=-0.931, Linear Velocity: 1.730, Angular Velocity: 0.500
+Current yaw: 0.657 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.419, Angular velocity: -0.004
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.015] Selected control point: (x: 5.879, y: -0.314, yaw: -0.045)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.015
+-- PID Output: Linear Velocity: 1.883, Angular Velocity: 0.500
+Linear Velocity Target: 0.419, Angular Velocity Target: -0.004
+Target Position - x: 5.878610, y: -0.313886, Target Yaw: -0.044896
+Current Position - x: 6.272016, y: -0.931497, Current Yaw: 0.656793
+--Distance to Target (abs): 0.732
+--Position ERROR (signed): 0.066
+--Orientation ERROR: 1.481
+Current Linear Velocity: 1.729614
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.311
+--Angular Velocity ERROR: -0.504
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.421, y=-0.817, Linear Velocity: 1.883, Angular Velocity: 0.500
+Current yaw: 0.707 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.424, Angular velocity: -0.012
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.115] Selected control point: (x: 5.879, y: -0.314, yaw: -0.045)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.115
+-- PID Output: Linear Velocity: 1.751, Angular Velocity: 0.500
+Linear Velocity Target: 0.424, Angular Velocity Target: -0.012
+Target Position - x: 5.878610, y: -0.313886, Target Yaw: -0.044896
+Current Position - x: 6.421170, y: -0.816503, Current Yaw: 0.706793
+--Distance to Target (abs): 0.740
+--Position ERROR (signed): -0.086
+--Orientation ERROR: 1.688
+Current Linear Velocity: 1.883364
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.459
+--Angular Velocity ERROR: -0.512
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.554, y=-0.703, Linear Velocity: 1.751, Angular Velocity: 0.500
+Current yaw: 0.757 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.429, Angular velocity: -0.020
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.215] Selected control point: (x: 5.879, y: -0.314, yaw: -0.045)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.429, Angular Velocity Target: -0.020
+Target Position - x: 5.878610, y: -0.313886, Target Yaw: -0.044896
+Current Position - x: 6.554304, y: -0.702811, Current Yaw: 0.756793
+--Distance to Target (abs): 0.780
+--Position ERROR (signed): -0.224
+--Orientation ERROR: 1.863
+Current Linear Velocity: 1.750728
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.321
+--Angular Velocity ERROR: -0.520
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.554, y=-0.703, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 0.807 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.434, Angular velocity: -0.028
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.315] Selected control point: (x: 6.258, y: -0.270, yaw: -0.048)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.315
+-- PID Output: Linear Velocity: 1.882, Angular Velocity: 0.500
+Linear Velocity Target: 0.434, Angular Velocity Target: -0.028
+Target Position - x: 6.258381, y: -0.269836, Target Yaw: -0.048107
+Current Position - x: 6.554304, y: -0.702811, Current Yaw: 0.806793
+--Distance to Target (abs): 0.524
+--Position ERROR (signed): 0.108
+--Orientation ERROR: 1.364
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.434
+--Angular Velocity ERROR: -0.528
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.685, y=-0.567, Linear Velocity: 1.882, Angular Velocity: 0.500
+Current yaw: 0.857 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.439, Angular velocity: -0.037
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.415] Selected control point: (x: 6.258, y: -0.270, yaw: -0.048)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.415
+-- PID Output: Linear Velocity: 1.735, Angular Velocity: 0.500
+Linear Velocity Target: 0.439, Angular Velocity Target: -0.037
+Target Position - x: 6.258381, y: -0.269836, Target Yaw: -0.048107
+Current Position - x: 6.684515, y: -0.566906, Current Yaw: 0.856793
+--Distance to Target (abs): 0.519
+--Position ERROR (signed): -0.055
+--Orientation ERROR: 1.676
+Current Linear Velocity: 1.882156
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.443
+--Angular Velocity ERROR: -0.537
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.798, y=-0.436, Linear Velocity: 1.735, Angular Velocity: 0.500
+Current yaw: 0.907 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.444, Angular velocity: -0.046
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.515] Selected control point: (x: 6.258, y: -0.270, yaw: -0.048)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.515
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.444, Angular Velocity Target: -0.046
+Target Position - x: 6.258381, y: -0.269836, Target Yaw: -0.048107
+Current Position - x: 6.798156, y: -0.435758, Current Yaw: 0.906793
+--Distance to Target (abs): 0.565
+--Position ERROR (signed): -0.202
+--Orientation ERROR: 1.937
+Current Linear Velocity: 1.735334
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.292
+--Angular Velocity ERROR: -0.546
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.798, y=-0.436, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 0.957 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.448, Angular velocity: -0.055
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.615] Selected control point: (x: 6.638, y: -0.211, yaw: -0.059)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.615
+-- PID Output: Linear Velocity: 1.839, Angular Velocity: 0.500
+Linear Velocity Target: 0.448, Angular Velocity Target: -0.055
+Target Position - x: 6.638353, y: -0.211257, Target Yaw: -0.058660
+Current Position - x: 6.798156, y: -0.435758, Current Yaw: 0.956793
+--Distance to Target (abs): 0.276
+--Position ERROR (signed): 0.091
+--Orientation ERROR: 1.233
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.448
+--Angular Velocity ERROR: -0.555
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.904, y=-0.285, Linear Velocity: 1.839, Angular Velocity: 0.500
+Current yaw: 1.007 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.452, Angular velocity: -0.065
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.715] Selected control point: (x: 6.638, y: -0.211, yaw: -0.059)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.715
+-- PID Output: Linear Velocity: 1.686, Angular Velocity: 0.500
+Linear Velocity Target: 0.452, Angular Velocity Target: -0.065
+Target Position - x: 6.638353, y: -0.211257, Target Yaw: -0.058660
+Current Position - x: 6.904117, y: -0.285437, Current Yaw: 1.006793
+--Distance to Target (abs): 0.276
+--Position ERROR (signed): -0.079
+--Orientation ERROR: 1.863
+Current Linear Velocity: 1.839138
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.387
+--Angular Velocity ERROR: -0.565
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.994, y=-0.143, Linear Velocity: 1.686, Angular Velocity: 0.500
+Current yaw: 1.057 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.456, Angular velocity: -0.074
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.815] Selected control point: (x: 6.638, y: -0.211, yaw: -0.059)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.456, Angular Velocity Target: -0.074
+Target Position - x: 6.638353, y: -0.211257, Target Yaw: -0.058660
+Current Position - x: 6.994263, y: -0.142922, Current Yaw: 1.056793
+--Distance to Target (abs): 0.362
+--Position ERROR (signed): -0.234
+--Orientation ERROR: 2.274
+Current Linear Velocity: 1.686318
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.230
+--Angular Velocity ERROR: -0.574
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.994, y=-0.143, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.107 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.460, Angular velocity: -0.084
+-------------------------
+-------------------------
+[2025-03-13_01-53-33.915] Selected control point: (x: 7.016, y: -0.146, yaw: -0.077)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-33.915
+-- PID Output: Linear Velocity: 1.732, Angular Velocity: 0.500
+Linear Velocity Target: 0.460, Angular Velocity Target: -0.084
+Target Position - x: 7.016326, y: -0.146276, Target Yaw: -0.077439
+Current Position - x: 6.994263, y: -0.142922, Current Yaw: 1.106793
+--Distance to Target (abs): 0.022
+--Position ERROR (signed): 0.007
+--Orientation ERROR: -1.258
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.460
+--Angular Velocity ERROR: -0.584
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.072, y=0.012, Linear Velocity: 1.732, Angular Velocity: 0.500
+Current yaw: 1.157 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.463, Angular velocity: -0.094
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.015] Selected control point: (x: 7.016, y: -0.146, yaw: -0.077)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.015
+-- PID Output: Linear Velocity: 1.566, Angular Velocity: 0.500
+Linear Velocity Target: 0.463, Angular Velocity Target: -0.094
+Target Position - x: 7.016326, y: -0.146276, Target Yaw: -0.077439
+Current Position - x: 7.071783, y: 0.011980, Current Yaw: 1.156793
+--Distance to Target (abs): 0.168
+--Position ERROR (signed): -0.167
+--Orientation ERROR: -3.065
+Current Linear Velocity: 1.732171
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.269
+--Angular Velocity ERROR: -0.594
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.135, y=0.155, Linear Velocity: 1.566, Angular Velocity: 0.500
+Current yaw: 1.207 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.467, Angular velocity: -0.103
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.115] Selected control point: (x: 7.016, y: -0.146, yaw: -0.077)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.115
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.467, Angular Velocity Target: -0.103
+Target Position - x: 7.016326, y: -0.146276, Target Yaw: -0.077439
+Current Position - x: 7.134795, y: 0.155384, Current Yaw: 1.206793
+--Distance to Target (abs): 0.324
+--Position ERROR (signed): -0.324
+--Orientation ERROR: 3.131
+Current Linear Velocity: 1.566367
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.100
+--Angular Velocity ERROR: -0.603
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.135, y=0.155, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.257 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.470, Angular velocity: -0.112
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.215
+-- PID Output: Linear Velocity: 1.522, Angular Velocity: 0.500
+Linear Velocity Target: 0.470, Angular Velocity Target: -0.112
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.134795, y: 0.155384, Current Yaw: 1.256793
+--Distance to Target (abs): 0.355
+--Position ERROR (signed): -0.152
+--Orientation ERROR: -2.012
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.470
+--Angular Velocity ERROR: -0.612
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 1.522, Angular Velocity: 0.500
+Current yaw: 1.307 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.473, Angular velocity: -0.121
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.315
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.473, Angular Velocity Target: -0.121
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.306793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.320
+--Orientation ERROR: -2.379
+Current Linear Velocity: 1.522116
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: -1.050
+--Angular Velocity ERROR: -0.621
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.357 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: -0.129
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.415
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: -0.129
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.356793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.334
+--Orientation ERROR: -2.429
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.475
+--Angular Velocity ERROR: -0.629
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.407 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.478, Angular velocity: -0.136
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.515
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.478, Angular Velocity Target: -0.136
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.406793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.348
+--Orientation ERROR: -2.479
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.478
+--Angular Velocity ERROR: -0.636
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.457 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.480, Angular velocity: -0.142
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.615
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.480, Angular Velocity Target: -0.142
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.456793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.362
+--Orientation ERROR: -2.529
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.480
+--Angular Velocity ERROR: -0.642
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.507 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.482, Angular velocity: -0.147
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.715
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.482, Angular Velocity Target: -0.147
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.506793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.374
+--Orientation ERROR: -2.579
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.482
+--Angular Velocity ERROR: -0.647
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.557 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.484, Angular velocity: -0.150
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.484, Angular Velocity Target: -0.150
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.556793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.385
+--Orientation ERROR: -2.629
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.484
+--Angular Velocity ERROR: -0.650
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.607 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.486, Angular velocity: -0.152
+-------------------------
+-------------------------
+[2025-03-13_01-53-34.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-34.915
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.486, Angular Velocity Target: -0.152
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.606793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.395
+--Orientation ERROR: -2.679
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.486
+--Angular Velocity ERROR: -0.652
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.657 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.487, Angular velocity: -0.152
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.015
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.487, Angular Velocity Target: -0.152
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.656793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.405
+--Orientation ERROR: -2.729
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.487
+--Angular Velocity ERROR: -0.652
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.707 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.489, Angular velocity: -0.151
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.115
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.489, Angular Velocity Target: -0.151
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.706793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.413
+--Orientation ERROR: -2.779
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.489
+--Angular Velocity ERROR: -0.651
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.757 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.490, Angular velocity: -0.148
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.490, Angular Velocity Target: -0.148
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.756793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.420
+--Orientation ERROR: -2.829
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.490
+--Angular Velocity ERROR: -0.648
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.807 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.491, Angular velocity: -0.143
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.315
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.491, Angular Velocity Target: -0.143
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.806793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.427
+--Orientation ERROR: -2.879
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.491
+--Angular Velocity ERROR: -0.643
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.857 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.491, Angular velocity: -0.136
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.415
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.491, Angular Velocity Target: -0.136
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.856793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.432
+--Orientation ERROR: -2.929
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.491
+--Angular Velocity ERROR: -0.636
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.907 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.127
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.515
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.127
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.906793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.436
+--Orientation ERROR: -2.979
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.492
+--Angular Velocity ERROR: -0.627
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 1.957 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.115
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.615
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: 0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.115
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.956793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.439
+--Orientation ERROR: -3.029
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.492
+--Angular Velocity ERROR: -0.615
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: 0.500
+Current yaw: 2.007 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.102
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.715
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.048
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.102
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 2.006793
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.441
+--Orientation ERROR: -3.079
+Current Linear Velocity: 0.000000
+Current Angular Velocity: 0.500000
+--Linear Velocity ERROR: 0.493
+--Angular Velocity ERROR: -0.602
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.048
+Current yaw: 2.002 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.087
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.087
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 2.002028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.441
+--Orientation ERROR: -3.074
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.047646
+--Linear Velocity ERROR: 0.493
+--Angular Velocity ERROR: -0.040
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.952 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.070
+-------------------------
+-------------------------
+[2025-03-13_01-53-35.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-35.915
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.070
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.952028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.439
+--Orientation ERROR: -3.024
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.493
+--Angular Velocity ERROR: 0.430
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.902 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.052
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.015
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.052
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.902028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.436
+--Orientation ERROR: -2.974
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.492
+--Angular Velocity ERROR: 0.448
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.852 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.031
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.115
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.031
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.852028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.431
+--Orientation ERROR: -2.924
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.492
+--Angular Velocity ERROR: 0.469
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.802 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.009
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.009
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.802028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.426
+--Orientation ERROR: -2.874
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.492
+--Angular Velocity ERROR: 0.491
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.752 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.491, Angular velocity: 0.014
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.315
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.491, Angular Velocity Target: 0.014
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.752028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.420
+--Orientation ERROR: -2.824
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.491
+--Angular Velocity ERROR: 0.514
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.702 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.491, Angular velocity: 0.039
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.415
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.491, Angular Velocity Target: 0.039
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.702028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.412
+--Orientation ERROR: -2.774
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.491
+--Angular Velocity ERROR: 0.539
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.652 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.490, Angular velocity: 0.065
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.515
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.490, Angular Velocity Target: 0.065
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.652028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.404
+--Orientation ERROR: -2.724
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.490
+--Angular Velocity ERROR: 0.565
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.602 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.489, Angular velocity: 0.093
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.615
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.489, Angular Velocity Target: 0.093
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.602028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.395
+--Orientation ERROR: -2.674
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.489
+--Angular Velocity ERROR: 0.593
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.552 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.488, Angular velocity: 0.120
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.715
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.488, Angular Velocity Target: 0.120
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.552028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.384
+--Orientation ERROR: -2.624
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.488
+--Angular Velocity ERROR: 0.620
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.502 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.487, Angular velocity: 0.149
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.487, Angular Velocity Target: 0.149
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.502028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.373
+--Orientation ERROR: -2.574
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.487
+--Angular Velocity ERROR: 0.649
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.452 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.486, Angular velocity: 0.177
+-------------------------
+-------------------------
+[2025-03-13_01-53-36.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-36.915
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.486, Angular Velocity Target: 0.177
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.452028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.360
+--Orientation ERROR: -2.524
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.486
+--Angular Velocity ERROR: 0.677
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.402 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.485, Angular velocity: 0.205
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.015
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.485, Angular Velocity Target: 0.205
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.402028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.347
+--Orientation ERROR: -2.474
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.485
+--Angular Velocity ERROR: 0.705
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.352 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.485, Angular velocity: 0.232
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.115
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.485, Angular Velocity Target: 0.232
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.352028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.333
+--Orientation ERROR: -2.424
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.485
+--Angular Velocity ERROR: 0.732
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.302 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.484, Angular velocity: 0.257
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.484, Angular Velocity Target: 0.257
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.302028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.318
+--Orientation ERROR: -2.374
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.484
+--Angular Velocity ERROR: 0.757
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.252 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.483, Angular velocity: 0.280
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.315
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.483, Angular Velocity Target: 0.280
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.252028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.302
+--Orientation ERROR: -2.324
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.483
+--Angular Velocity ERROR: 0.780
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.202 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.482, Angular velocity: 0.301
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.415
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.482, Angular Velocity Target: 0.301
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.202028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.286
+--Orientation ERROR: -2.274
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.482
+--Angular Velocity ERROR: 0.801
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.152 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.481, Angular velocity: 0.319
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.515
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.481, Angular Velocity Target: 0.319
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.152028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.269
+--Orientation ERROR: -2.224
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.481
+--Angular Velocity ERROR: 0.819
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.102 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.480, Angular velocity: 0.334
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.615
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.480, Angular Velocity Target: 0.334
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.102028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.251
+--Orientation ERROR: -2.174
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.480
+--Angular Velocity ERROR: 0.834
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.052 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.479, Angular velocity: 0.344
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.715
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.479, Angular Velocity Target: 0.344
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.052028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.232
+--Orientation ERROR: -2.124
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.479
+--Angular Velocity ERROR: 0.844
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 1.002 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.478, Angular velocity: 0.350
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.478, Angular Velocity Target: 0.350
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 1.002028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.213
+--Orientation ERROR: -2.074
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.478
+--Angular Velocity ERROR: 0.850
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.182, y=0.300, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: 0.952 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.478, Angular velocity: 0.352
+-------------------------
+-------------------------
+[2025-03-13_01-53-37.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-37.915
+-- PID Output: Linear Velocity: -1.009, Angular Velocity: -0.500
+Linear Velocity Target: 0.478, Angular Velocity Target: 0.352
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.181808, y: 0.300153, Current Yaw: 0.952028
+--Distance to Target (abs): 0.442
+--Position ERROR (signed): -0.194
+--Orientation ERROR: -2.024
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.478
+--Angular Velocity ERROR: 0.852
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.123, y=0.218, Linear Velocity: -1.009, Angular Velocity: -0.500
+Current yaw: 0.902 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.477, Angular velocity: 0.350
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.015
+-- PID Output: Linear Velocity: -0.948, Angular Velocity: -0.500
+Linear Velocity Target: 0.477, Angular Velocity Target: 0.350
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.123262, y: 0.217931, Current Yaw: 0.902028
+--Distance to Target (abs): 0.408
+--Position ERROR (signed): -0.073
+--Orientation ERROR: -1.750
+Current Linear Velocity: -1.009360
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 1.486
+--Angular Velocity ERROR: 0.850
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.065, y=0.144, Linear Velocity: -0.948, Angular Velocity: -0.500
+Current yaw: 0.852 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.477, Angular velocity: 0.343
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.115
+-- PID Output: Linear Velocity: -0.879, Angular Velocity: -0.500
+Linear Velocity Target: 0.477, Angular Velocity Target: 0.343
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.064512, y: 0.143587, Current Yaw: 0.852028
+--Distance to Target (abs): 0.402
+--Position ERROR (signed): 0.042
+--Orientation ERROR: -1.466
+Current Linear Velocity: -0.947557
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 1.424
+--Angular Velocity ERROR: 0.843
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.007, y=0.077, Linear Velocity: -0.879, Angular Velocity: -0.500
+Current yaw: 0.802 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.476, Angular velocity: 0.332
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.215
+-- PID Output: Linear Velocity: -0.794, Angular Velocity: -0.500
+Linear Velocity Target: 0.476, Angular Velocity Target: 0.332
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.006651, y: 0.077452, Current Yaw: 0.802028
+--Distance to Target (abs): 0.420
+--Position ERROR (signed): 0.150
+--Orientation ERROR: -1.206
+Current Linear Velocity: -0.878733
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 1.355
+--Angular Velocity ERROR: 0.832
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.951, y=0.020, Linear Velocity: -0.794, Angular Velocity: -0.500
+Current yaw: 0.752 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.476, Angular velocity: 0.318
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.315
+-- PID Output: Linear Velocity: -0.696, Angular Velocity: -0.500
+Linear Velocity Target: 0.476, Angular Velocity Target: 0.318
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.951443, y: 0.020377, Current Yaw: 0.752028
+--Distance to Target (abs): 0.455
+--Position ERROR (signed): 0.249
+--Orientation ERROR: -0.993
+Current Linear Velocity: -0.794074
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 1.270
+--Angular Velocity ERROR: 0.818
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.901, y=-0.027, Linear Velocity: -0.696, Angular Velocity: -0.500
+Current yaw: 0.702 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.299
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.415
+-- PID Output: Linear Velocity: -0.588, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.299
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.900592, y: -0.027189, Current Yaw: 0.702028
+--Distance to Target (abs): 0.496
+--Position ERROR (signed): 0.337
+--Orientation ERROR: -0.825
+Current Linear Velocity: -0.696297
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 1.172
+--Angular Velocity ERROR: 0.799
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.856, y=-0.065, Linear Velocity: -0.588, Angular Velocity: -0.500
+Current yaw: 0.652 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.278
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.515
+-- PID Output: Linear Velocity: -0.472, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.278
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.855687, y: -0.065168, Current Yaw: 0.652028
+--Distance to Target (abs): 0.538
+--Position ERROR (signed): 0.413
+--Orientation ERROR: -0.694
+Current Linear Velocity: -0.588125
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 1.063
+--Angular Velocity ERROR: 0.778
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.818, y=-0.094, Linear Velocity: -0.472, Angular Velocity: -0.500
+Current yaw: 0.602 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.254
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.615
+-- PID Output: Linear Velocity: -0.352, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.254
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.818141, y: -0.093830, Current Yaw: 0.602028
+--Distance to Target (abs): 0.575
+--Position ERROR (signed): 0.477
+--Orientation ERROR: -0.592
+Current Linear Velocity: -0.472352
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.947
+--Angular Velocity ERROR: 0.754
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.789, y=-0.114, Linear Velocity: -0.352, Angular Velocity: -0.500
+Current yaw: 0.552 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.229
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.715
+-- PID Output: Linear Velocity: -0.229, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.229
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.789149, y: -0.113752, Current Yaw: 0.552028
+--Distance to Target (abs): 0.604
+--Position ERROR (signed): 0.528
+--Orientation ERROR: -0.509
+Current Linear Velocity: -0.351774
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.827
+--Angular Velocity ERROR: 0.729
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.770, y=-0.126, Linear Velocity: -0.229, Angular Velocity: -0.500
+Current yaw: 0.502 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.202
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.815
+-- PID Output: Linear Velocity: -0.107, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.202
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.769639, y: -0.125768, Current Yaw: 0.502028
+--Distance to Target (abs): 0.625
+--Position ERROR (signed): 0.565
+--Orientation ERROR: -0.441
+Current Linear Velocity: -0.229133
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.704
+--Angular Velocity ERROR: 0.702
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.760, y=-0.131, Linear Velocity: -0.107, Angular Velocity: -0.500
+Current yaw: 0.452 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.174
+-------------------------
+-------------------------
+[2025-03-13_01-53-38.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-38.915
+-- PID Output: Linear Velocity: 0.012, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.174
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.760253, y: -0.130920, Current Yaw: 0.452028
+--Distance to Target (abs): 0.634
+--Position ERROR (signed): 0.588
+--Orientation ERROR: -0.384
+Current Linear Velocity: -0.107065
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.582
+--Angular Velocity ERROR: 0.674
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.761, y=-0.130, Linear Velocity: 0.012, Angular Velocity: -0.500
+Current yaw: 0.402 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.145
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.015
+-- PID Output: Linear Velocity: 0.126, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.145
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.761328, y: -0.130398, Current Yaw: 0.402028
+--Distance to Target (abs): 0.633
+--Position ERROR (signed): 0.598
+--Orientation ERROR: -0.335
+Current Linear Velocity: 0.011948
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.463
+--Angular Velocity ERROR: 0.645
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.773, y=-0.125, Linear Velocity: 0.126, Angular Velocity: -0.500
+Current yaw: 0.352 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.117
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.115
+-- PID Output: Linear Velocity: 0.232, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.117
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.772889, y: -0.125483, Current Yaw: 0.352028
+--Distance to Target (abs): 0.621
+--Position ERROR (signed): 0.595
+--Orientation ERROR: -0.292
+Current Linear Velocity: 0.125625
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.350
+--Angular Velocity ERROR: 0.617
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.795, y=-0.117, Linear Velocity: 0.232, Angular Velocity: -0.500
+Current yaw: 0.302 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.475, Angular velocity: 0.089
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.215
+-- PID Output: Linear Velocity: 0.329, Angular Velocity: -0.500
+Linear Velocity Target: 0.475, Angular Velocity Target: 0.089
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.794658, y: -0.117486, Current Yaw: 0.302028
+--Distance to Target (abs): 0.599
+--Position ERROR (signed): 0.580
+--Orientation ERROR: -0.253
+Current Linear Velocity: 0.231915
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.243
+--Angular Velocity ERROR: 0.589
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.826, y=-0.108, Linear Velocity: 0.329, Angular Velocity: -0.500
+Current yaw: 0.252 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.476, Angular velocity: 0.062
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.315
+-- PID Output: Linear Velocity: 0.415, Angular Velocity: -0.500
+Linear Velocity Target: 0.476, Angular Velocity Target: 0.062
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.826073, y: -0.107699, Current Yaw: 0.252028
+--Distance to Target (abs): 0.567
+--Position ERROR (signed): 0.554
+--Orientation ERROR: -0.217
+Current Linear Velocity: 0.329035
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.147
+--Angular Velocity ERROR: 0.562
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.866, y=-0.097, Linear Velocity: 0.415, Angular Velocity: -0.500
+Current yaw: 0.202 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.476, Angular velocity: 0.037
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.415
+-- PID Output: Linear Velocity: 0.490, Angular Velocity: -0.500
+Linear Velocity Target: 0.476, Angular Velocity Target: 0.037
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.866309, y: -0.097338, Current Yaw: 0.202028
+--Distance to Target (abs): 0.527
+--Position ERROR (signed): 0.518
+--Orientation ERROR: -0.184
+Current Linear Velocity: 0.415486
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.060
+--Angular Velocity ERROR: 0.537
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.914, y=-0.088, Linear Velocity: 0.490, Angular Velocity: -0.500
+Current yaw: 0.152 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.476, Angular velocity: 0.012
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.515
+-- PID Output: Linear Velocity: 0.552, Angular Velocity: -0.500
+Linear Velocity Target: 0.476, Angular Velocity Target: 0.012
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.914319, y: -0.087504, Current Yaw: 0.152028
+--Distance to Target (abs): 0.479
+--Position ERROR (signed): 0.473
+--Orientation ERROR: -0.153
+Current Linear Velocity: 0.490069
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.014
+--Angular Velocity ERROR: 0.512
+-------------------------
+-------------------------
+Received Odometry - Position: x=6.969, y=-0.079, Linear Velocity: 0.552, Angular Velocity: -0.500
+Current yaw: 0.102 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.477, Angular velocity: -0.011
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.615
+-- PID Output: Linear Velocity: 0.600, Angular Velocity: -0.500
+Linear Velocity Target: 0.477, Angular Velocity Target: -0.011
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 6.968872, y: -0.079146, Current Yaw: 0.102028
+--Distance to Target (abs): 0.424
+--Position ERROR (signed): 0.421
+--Orientation ERROR: -0.123
+Current Linear Velocity: 0.551897
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.075
+--Angular Velocity ERROR: 0.489
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.029, y=-0.073, Linear Velocity: 0.600, Angular Velocity: -0.500
+Current yaw: 0.052 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.477, Angular velocity: -0.032
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.715
+-- PID Output: Linear Velocity: 0.635, Angular Velocity: -0.500
+Linear Velocity Target: 0.477, Angular Velocity Target: -0.032
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.028599, y: -0.073031, Current Yaw: 0.052028
+--Distance to Target (abs): 0.365
+--Position ERROR (signed): 0.363
+--Orientation ERROR: -0.093
+Current Linear Velocity: 0.600393
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.123
+--Angular Velocity ERROR: 0.468
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.092, y=-0.070, Linear Velocity: 0.635, Angular Velocity: -0.500
+Current yaw: 0.002 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.478, Angular velocity: -0.051
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.815
+-- PID Output: Linear Velocity: 0.657, Angular Velocity: -0.500
+Linear Velocity Target: 0.478, Angular Velocity Target: -0.051
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.092041, y: -0.069727, Current Yaw: 0.002028
+--Distance to Target (abs): 0.302
+--Position ERROR (signed): 0.301
+--Orientation ERROR: -0.063
+Current Linear Velocity: 0.635285
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.158
+--Angular Velocity ERROR: 0.449
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.158, y=-0.070, Linear Velocity: 0.657, Angular Velocity: -0.500
+Current yaw: -0.048 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.478, Angular velocity: -0.069
+-------------------------
+-------------------------
+[2025-03-13_01-53-39.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-39.915
+-- PID Output: Linear Velocity: 0.665, Angular Velocity: -0.500
+Linear Velocity Target: 0.478, Angular Velocity Target: -0.069
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.157701, y: -0.069594, Current Yaw: -0.047972
+--Distance to Target (abs): 0.236
+--Position ERROR (signed): 0.236
+--Orientation ERROR: -0.030
+Current Linear Velocity: 0.656598
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.178
+--Angular Velocity ERROR: 0.431
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.224, y=-0.073, Linear Velocity: 0.665, Angular Velocity: -0.500
+Current yaw: -0.098 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.479, Angular velocity: -0.084
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.015
+-- PID Output: Linear Velocity: 0.660, Angular Velocity: -0.500
+Linear Velocity Target: 0.479, Angular Velocity Target: -0.084
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.224088, y: -0.072781, Current Yaw: -0.097972
+--Distance to Target (abs): 0.170
+--Position ERROR (signed): 0.170
+--Orientation ERROR: 0.008
+Current Linear Velocity: 0.664634
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.186
+--Angular Velocity ERROR: 0.416
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.290, y=-0.079, Linear Velocity: 0.660, Angular Velocity: -0.500
+Current yaw: -0.148 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.479, Angular velocity: -0.097
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.115
+-- PID Output: Linear Velocity: 0.643, Angular Velocity: -0.500
+Linear Velocity Target: 0.479, Angular Velocity Target: -0.097
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.289767, y: -0.079237, Current Yaw: -0.147972
+--Distance to Target (abs): 0.104
+--Position ERROR (signed): 0.103
+--Orientation ERROR: 0.064
+Current Linear Velocity: 0.659951
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.181
+--Angular Velocity ERROR: 0.403
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.353, y=-0.089, Linear Velocity: 0.643, Angular Velocity: -0.500
+Current yaw: -0.198 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.480, Angular velocity: -0.107
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.215
+-- PID Output: Linear Velocity: 0.616, Angular Velocity: -0.500
+Linear Velocity Target: 0.480, Angular Velocity Target: -0.107
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.353398, y: -0.088722, Current Yaw: -0.197972
+--Distance to Target (abs): 0.040
+--Position ERROR (signed): 0.039
+--Orientation ERROR: 0.217
+Current Linear Velocity: 0.643340
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.164
+--Angular Velocity ERROR: 0.393
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.414, y=-0.101, Linear Velocity: 0.616, Angular Velocity: -0.500
+Current yaw: -0.248 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.480, Angular velocity: -0.116
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.315
+-- PID Output: Linear Velocity: 0.578, Angular Velocity: -0.500
+Linear Velocity Target: 0.480, Angular Velocity Target: -0.116
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.413774, y: -0.100833, Current Yaw: -0.247972
+--Distance to Target (abs): 0.024
+--Position ERROR (signed): -0.023
+--Orientation ERROR: 2.833
+Current Linear Velocity: 0.615795
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.135
+--Angular Velocity ERROR: 0.384
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.470, y=-0.115, Linear Velocity: 0.578, Angular Velocity: -0.500
+Current yaw: -0.298 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.481, Angular velocity: -0.122
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.415
+-- PID Output: Linear Velocity: 0.533, Angular Velocity: -0.500
+Linear Velocity Target: 0.481, Angular Velocity Target: -0.122
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.469853, y: -0.115031, Current Yaw: -0.297972
+--Distance to Target (abs): 0.081
+--Position ERROR (signed): -0.081
+--Orientation ERROR: 3.101
+Current Linear Velocity: 0.578479
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.098
+--Angular Velocity ERROR: 0.378
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.521, y=-0.131, Linear Velocity: 0.533, Angular Velocity: -0.500
+Current yaw: -0.348 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.481, Angular velocity: -0.126
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.515
+-- PID Output: Linear Velocity: 0.480, Angular Velocity: -0.500
+Linear Velocity Target: 0.481, Angular Velocity Target: -0.126
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.520775, y: -0.130670, Current Yaw: -0.347972
+--Distance to Target (abs): 0.135
+--Position ERROR (signed): -0.135
+--Orientation ERROR: -3.116
+Current Linear Velocity: 0.532694
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.051
+--Angular Velocity ERROR: 0.374
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.566, y=-0.147, Linear Velocity: 0.480, Angular Velocity: -0.500
+Current yaw: -0.398 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.482, Angular velocity: -0.127
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.615
+-- PID Output: Linear Velocity: 0.421, Angular Velocity: -0.500
+Linear Velocity Target: 0.482, Angular Velocity Target: -0.127
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.565884, y: -0.147033, Current Yaw: -0.397972
+--Distance to Target (abs): 0.183
+--Position ERROR (signed): -0.182
+--Orientation ERROR: -3.073
+Current Linear Velocity: 0.479847
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.002
+--Angular Velocity ERROR: 0.373
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.421, Angular Velocity: -0.500
+Current yaw: -0.448 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.483, Angular velocity: -0.127
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.715
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.483, Angular Velocity Target: -0.127
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.447972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.223
+--Orientation ERROR: -3.036
+Current Linear Velocity: 0.421410
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.061
+--Angular Velocity ERROR: 0.373
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.498 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.483, Angular velocity: -0.124
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.815
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.483, Angular Velocity Target: -0.124
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.497972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.222
+--Orientation ERROR: -2.986
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.483
+--Angular Velocity ERROR: 0.376
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.548 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.484, Angular velocity: -0.120
+-------------------------
+-------------------------
+[2025-03-13_01-53-40.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-40.915
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.484, Angular Velocity Target: -0.120
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.547972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.220
+--Orientation ERROR: -2.936
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.484
+--Angular Velocity ERROR: 0.380
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.598 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.485, Angular velocity: -0.114
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.015
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.485, Angular Velocity Target: -0.114
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.597972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.217
+--Orientation ERROR: -2.886
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.485
+--Angular Velocity ERROR: 0.386
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.648 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.485, Angular velocity: -0.106
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.115
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.485, Angular Velocity Target: -0.106
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.647972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.214
+--Orientation ERROR: -2.836
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.485
+--Angular Velocity ERROR: 0.394
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.698 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.486, Angular velocity: -0.097
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.215
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.486, Angular Velocity Target: -0.097
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.697972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.211
+--Orientation ERROR: -2.786
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.486
+--Angular Velocity ERROR: 0.403
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.748 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.486, Angular velocity: -0.088
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.315
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.486, Angular Velocity Target: -0.088
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.747972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.206
+--Orientation ERROR: -2.736
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.486
+--Angular Velocity ERROR: 0.412
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.798 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.487, Angular velocity: -0.077
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.415
+-- PID Output: Linear Velocity: 0.000, Angular Velocity: -0.500
+Linear Velocity Target: 0.487, Angular Velocity Target: -0.077
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.797972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.202
+--Orientation ERROR: -2.686
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.487
+--Angular Velocity ERROR: 0.423
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.605, y=-0.163, Linear Velocity: 0.000, Angular Velocity: -0.500
+Current yaw: -0.848 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.488, Angular velocity: -0.067
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.515
+-- PID Output: Linear Velocity: 0.068, Angular Velocity: -0.500
+Linear Velocity Target: 0.488, Angular Velocity Target: -0.067
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.604731, y: -0.163364, Current Yaw: -0.847972
+--Distance to Target (abs): 0.225
+--Position ERROR (signed): -0.197
+--Orientation ERROR: -2.636
+Current Linear Velocity: 0.000000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.488
+--Angular Velocity ERROR: 0.433
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.609, y=-0.168, Linear Velocity: 0.068, Angular Velocity: -0.500
+Current yaw: -0.898 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.488, Angular velocity: -0.056
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.615
+-- PID Output: Linear Velocity: 0.031, Angular Velocity: -0.500
+Linear Velocity Target: 0.488, Angular Velocity Target: -0.056
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.609244, y: -0.168480, Current Yaw: -0.897972
+--Distance to Target (abs): 0.231
+--Position ERROR (signed): -0.198
+--Orientation ERROR: -2.600
+Current Linear Velocity: 0.068220
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.420
+--Angular Velocity ERROR: 0.444
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.611, y=-0.171, Linear Velocity: 0.031, Angular Velocity: -0.500
+Current yaw: -0.948 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.489, Angular velocity: -0.045
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.715
+-- PID Output: Linear Velocity: -0.003, Angular Velocity: -0.500
+Linear Velocity Target: 0.489, Angular Velocity Target: -0.045
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.611159, y: -0.170883, Current Yaw: -0.947972
+--Distance to Target (abs): 0.233
+--Position ERROR (signed): -0.195
+--Orientation ERROR: -2.557
+Current Linear Velocity: 0.030725
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.458
+--Angular Velocity ERROR: 0.455
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.611, y=-0.171, Linear Velocity: -0.003, Angular Velocity: -0.500
+Current yaw: -0.998 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.489, Angular velocity: -0.035
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.815
+-- PID Output: Linear Velocity: -0.033, Angular Velocity: -0.500
+Linear Velocity Target: 0.489, Angular Velocity Target: -0.035
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.610992, y: -0.170651, Current Yaw: -0.997972
+--Distance to Target (abs): 0.233
+--Position ERROR (signed): -0.188
+--Orientation ERROR: -2.506
+Current Linear Velocity: -0.002858
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.492
+--Angular Velocity ERROR: 0.465
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.609, y=-0.168, Linear Velocity: -0.033, Angular Velocity: -0.500
+Current yaw: -1.048 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.490, Angular velocity: -0.025
+-------------------------
+-------------------------
+[2025-03-13_01-53-41.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-41.915
+-- PID Output: Linear Velocity: -0.060, Angular Velocity: -0.500
+Linear Velocity Target: 0.490, Angular Velocity Target: -0.025
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.609196, y: -0.167866, Current Yaw: -1.047972
+--Distance to Target (abs): 0.230
+--Position ERROR (signed): -0.177
+--Orientation ERROR: -2.448
+Current Linear Velocity: -0.033137
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.523
+--Angular Velocity ERROR: 0.475
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.606, y=-0.163, Linear Velocity: -0.060, Angular Velocity: -0.500
+Current yaw: -1.098 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.490, Angular velocity: -0.015
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.015
+-- PID Output: Linear Velocity: -0.082, Angular Velocity: -0.500
+Linear Velocity Target: 0.490, Angular Velocity Target: -0.015
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.606217, y: -0.162698, Current Yaw: -1.097972
+--Distance to Target (abs): 0.226
+--Position ERROR (signed): -0.164
+--Orientation ERROR: -2.381
+Current Linear Velocity: -0.059655
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.550
+--Angular Velocity ERROR: 0.485
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.602, y=-0.155, Linear Velocity: -0.082, Angular Velocity: -0.500
+Current yaw: -1.148 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.491, Angular velocity: -0.007
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.115
+-- PID Output: Linear Velocity: -0.100, Angular Velocity: -0.500
+Linear Velocity Target: 0.491, Angular Velocity Target: -0.007
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.602480, y: -0.155391, Current Yaw: -1.147972
+--Distance to Target (abs): 0.220
+--Position ERROR (signed): -0.147
+--Orientation ERROR: -2.305
+Current Linear Velocity: -0.082069
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.573
+--Angular Velocity ERROR: 0.493
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.598, y=-0.146, Linear Velocity: -0.100, Angular Velocity: -0.500
+Current yaw: -1.198 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.491, Angular velocity: 0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.215
+-- PID Output: Linear Velocity: -0.114, Angular Velocity: -0.500
+Linear Velocity Target: 0.491, Angular Velocity Target: 0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.598371, y: -0.146259, Current Yaw: -1.197972
+--Distance to Target (abs): 0.213
+--Position ERROR (signed): -0.129
+--Orientation ERROR: -2.220
+Current Linear Velocity: -0.100141
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.592
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.594, y=-0.136, Linear Velocity: -0.114, Angular Velocity: -0.500
+Current yaw: -1.248 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: 0.006
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.315
+-- PID Output: Linear Velocity: -0.123, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: 0.006
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.594228, y: -0.135667, Current Yaw: -1.247972
+--Distance to Target (abs): 0.207
+--Position ERROR (signed): -0.109
+--Orientation ERROR: -2.126
+Current Linear Velocity: -0.113732
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.606
+--Angular Velocity ERROR: 0.506
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.590, y=-0.124, Linear Velocity: -0.123, Angular Velocity: -0.500
+Current yaw: -1.298 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: 0.012
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.415
+-- PID Output: Linear Velocity: -0.127, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: 0.012
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.590332, y: -0.124021, Current Yaw: -1.297972
+--Distance to Target (abs): 0.201
+--Position ERROR (signed): -0.088
+--Orientation ERROR: -2.024
+Current Linear Velocity: -0.122805
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.615
+--Angular Velocity ERROR: 0.512
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.587, y=-0.112, Linear Velocity: -0.127, Angular Velocity: -0.500
+Current yaw: -1.348 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: 0.016
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.515
+-- PID Output: Linear Velocity: -0.128, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: 0.016
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.586899, y: -0.111751, Current Yaw: -1.347972
+--Distance to Target (abs): 0.195
+--Position ERROR (signed): -0.066
+--Orientation ERROR: -1.916
+Current Linear Velocity: -0.127419
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.620
+--Angular Velocity ERROR: 0.516
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.584, y=-0.099, Linear Velocity: -0.128, Angular Velocity: -0.500
+Current yaw: -1.398 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: 0.019
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.615
+-- PID Output: Linear Velocity: -0.124, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: 0.019
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.584076, y: -0.099295, Current Yaw: -1.397972
+--Distance to Target (abs): 0.191
+--Position ERROR (signed): -0.044
+--Orientation ERROR: -1.803
+Current Linear Velocity: -0.127718
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.621
+--Angular Velocity ERROR: 0.519
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.582, y=-0.087, Linear Velocity: -0.124, Angular Velocity: -0.500
+Current yaw: -1.448 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.494, Angular velocity: 0.021
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.715
+-- PID Output: Linear Velocity: -0.116, Angular Velocity: -0.500
+Linear Velocity Target: 0.494, Angular Velocity Target: 0.021
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.581945, y: -0.087086, Current Yaw: -1.447972
+--Distance to Target (abs): 0.189
+--Position ERROR (signed): -0.022
+--Orientation ERROR: -1.689
+Current Linear Velocity: -0.123931
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.618
+--Angular Velocity ERROR: 0.521
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.581, y=-0.076, Linear Velocity: -0.116, Angular Velocity: -0.500
+Current yaw: -1.498 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.494, Angular velocity: 0.022
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.815
+-- PID Output: Linear Velocity: -0.105, Angular Velocity: -0.500
+Linear Velocity Target: 0.494, Angular Velocity Target: 0.022
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.580520, y: -0.075538, Current Yaw: -1.497972
+--Distance to Target (abs): 0.188
+--Position ERROR (signed): -0.001
+--Orientation ERROR: -1.577
+Current Linear Velocity: -0.116356
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.610
+--Angular Velocity ERROR: 0.522
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.580, y=-0.065, Linear Velocity: -0.105, Angular Velocity: -0.500
+Current yaw: -1.548 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.494, Angular velocity: 0.022
+-------------------------
+-------------------------
+[2025-03-13_01-53-42.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-42.915
+-- PID Output: Linear Velocity: -0.091, Angular Velocity: -0.500
+Linear Velocity Target: 0.494, Angular Velocity Target: 0.022
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.579753, y: -0.065031, Current Yaw: -1.547972
+--Distance to Target (abs): 0.188
+--Position ERROR (signed): 0.019
+--Orientation ERROR: -1.471
+Current Linear Velocity: -0.105354
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.600
+--Angular Velocity ERROR: 0.522
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.580, y=-0.056, Linear Velocity: -0.091, Angular Velocity: -0.500
+Current yaw: -1.598 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.022
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.015
+-- PID Output: Linear Velocity: -0.075, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.022
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.579545, y: -0.055899, Current Yaw: -1.597972
+--Distance to Target (abs): 0.189
+--Position ERROR (signed): 0.037
+--Orientation ERROR: -1.373
+Current Linear Velocity: -0.091336
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.586
+--Angular Velocity ERROR: 0.522
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.580, y=-0.048, Linear Velocity: -0.075, Angular Velocity: -0.500
+Current yaw: -1.648 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.021
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.115
+-- PID Output: Linear Velocity: -0.056, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.021
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.579748, y: -0.048427, Current Yaw: -1.647972
+--Distance to Target (abs): 0.191
+--Position ERROR (signed): 0.054
+--Orientation ERROR: -1.285
+Current Linear Velocity: -0.074754
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.570
+--Angular Velocity ERROR: 0.521
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.580, y=-0.043, Linear Velocity: -0.056, Angular Velocity: -0.500
+Current yaw: -1.698 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.020
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.215
+-- PID Output: Linear Velocity: -0.036, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.020
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.580180, y: -0.042835, Current Yaw: -1.697972
+--Distance to Target (abs): 0.192
+--Position ERROR (signed): 0.068
+--Orientation ERROR: -1.207
+Current Linear Velocity: -0.056087
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.551
+--Angular Velocity ERROR: 0.520
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.581, y=-0.039, Linear Velocity: -0.036, Angular Velocity: -0.500
+Current yaw: -1.748 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.019
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.315
+-- PID Output: Linear Velocity: -0.014, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.019
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.580635, y: -0.039280, Current Yaw: -1.747972
+--Distance to Target (abs): 0.194
+--Position ERROR (signed): 0.081
+--Orientation ERROR: -1.140
+Current Linear Velocity: -0.035832
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.531
+--Angular Velocity ERROR: 0.519
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.581, y=-0.038, Linear Velocity: -0.014, Angular Velocity: -0.500
+Current yaw: -1.798 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.017
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.415
+-- PID Output: Linear Velocity: 0.007, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.017
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.580890, y: -0.037854, Current Yaw: -1.797972
+--Distance to Target (abs): 0.194
+--Position ERROR (signed): 0.091
+--Orientation ERROR: -1.083
+Current Linear Velocity: -0.014490
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.510
+--Angular Velocity ERROR: 0.517
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.581, y=-0.039, Linear Velocity: 0.007, Angular Velocity: -0.500
+Current yaw: -1.848 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.016
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.515
+-- PID Output: Linear Velocity: 0.029, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.016
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.580722, y: -0.038579, Current Yaw: -1.847972
+--Distance to Target (abs): 0.194
+--Position ERROR (signed): 0.099
+--Orientation ERROR: -1.036
+Current Linear Velocity: 0.007442
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.488
+--Angular Velocity ERROR: 0.516
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.580, y=-0.041, Linear Velocity: 0.029, Angular Velocity: -0.500
+Current yaw: -1.898 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.014
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.615
+-- PID Output: Linear Velocity: 0.051, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.014
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.579916, y: -0.041415, Current Yaw: -1.897972
+--Distance to Target (abs): 0.193
+--Position ERROR (signed): 0.104
+--Orientation ERROR: -1.000
+Current Linear Velocity: 0.029481
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.466
+--Angular Velocity ERROR: 0.514
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.578, y=-0.046, Linear Velocity: 0.051, Angular Velocity: -0.500
+Current yaw: -1.948 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.013
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.715
+-- PID Output: Linear Velocity: 0.072, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.013
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.578271, y: -0.046260, Current Yaw: -1.947972
+--Distance to Target (abs): 0.190
+--Position ERROR (signed): 0.107
+--Orientation ERROR: -0.972
+Current Linear Velocity: 0.051169
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.444
+--Angular Velocity ERROR: 0.513
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.576, y=-0.053, Linear Velocity: 0.072, Angular Velocity: -0.500
+Current yaw: -1.998 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.011
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.815
+-- PID Output: Linear Velocity: 0.092, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.011
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.575617, y: -0.052962, Current Yaw: -1.997972
+--Distance to Target (abs): 0.186
+--Position ERROR (signed): 0.107
+--Orientation ERROR: -0.954
+Current Linear Velocity: 0.072081
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.423
+--Angular Velocity ERROR: 0.511
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.572, y=-0.061, Linear Velocity: 0.092, Angular Velocity: -0.500
+Current yaw: -2.048 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.010
+-------------------------
+-------------------------
+[2025-03-13_01-53-43.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-43.915
+-- PID Output: Linear Velocity: 0.110, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.010
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.571812, y: -0.061319, Current Yaw: -2.047972
+--Distance to Target (abs): 0.181
+--Position ERROR (signed): 0.106
+--Orientation ERROR: -0.946
+Current Linear Velocity: 0.091830
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.404
+--Angular Velocity ERROR: 0.510
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.567, y=-0.071, Linear Velocity: 0.110, Angular Velocity: -0.500
+Current yaw: -2.098 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.008
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.015
+-- PID Output: Linear Velocity: 0.127, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.008
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.566757, y: -0.071097, Current Yaw: -2.097972
+--Distance to Target (abs): 0.175
+--Position ERROR (signed): 0.102
+--Orientation ERROR: -0.947
+Current Linear Velocity: 0.110073
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.385
+--Angular Velocity ERROR: 0.508
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.560, y=-0.082, Linear Velocity: 0.127, Angular Velocity: -0.500
+Current yaw: -2.148 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.006
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.115
+-- PID Output: Linear Velocity: 0.141, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.006
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.560392, y: -0.082032, Current Yaw: -2.147972
+--Distance to Target (abs): 0.167
+--Position ERROR (signed): 0.096
+--Orientation ERROR: -0.958
+Current Linear Velocity: 0.126520
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.368
+--Angular Velocity ERROR: 0.506
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.553, y=-0.094, Linear Velocity: 0.141, Angular Velocity: -0.500
+Current yaw: -2.198 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.495, Angular velocity: 0.004
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.215
+-- PID Output: Linear Velocity: 0.153, Angular Velocity: -0.500
+Linear Velocity Target: 0.495, Angular Velocity Target: 0.004
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.552702, y: -0.093842, Current Yaw: -2.197972
+--Distance to Target (abs): 0.160
+--Position ERROR (signed): 0.089
+--Orientation ERROR: -0.980
+Current Linear Velocity: 0.140930
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.354
+--Angular Velocity ERROR: 0.504
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.544, y=-0.106, Linear Velocity: 0.153, Angular Velocity: -0.500
+Current yaw: -2.248 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.494, Angular velocity: 0.003
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.315
+-- PID Output: Linear Velocity: 0.163, Angular Velocity: -0.500
+Linear Velocity Target: 0.494, Angular Velocity Target: 0.003
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.543715, y: -0.106240, Current Yaw: -2.247972
+--Distance to Target (abs): 0.152
+--Position ERROR (signed): 0.080
+--Orientation ERROR: -1.014
+Current Linear Velocity: 0.153120
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.341
+--Angular Velocity ERROR: 0.503
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.534, y=-0.119, Linear Velocity: 0.163, Angular Velocity: -0.500
+Current yaw: -2.298 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.494, Angular velocity: 0.001
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.415
+-- PID Output: Linear Velocity: 0.170, Angular Velocity: -0.500
+Linear Velocity Target: 0.494, Angular Velocity Target: 0.001
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.533504, y: -0.118940, Current Yaw: -2.297972
+--Distance to Target (abs): 0.144
+--Position ERROR (signed): 0.070
+--Orientation ERROR: -1.061
+Current Linear Velocity: 0.162961
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.331
+--Angular Velocity ERROR: 0.501
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.522, y=-0.132, Linear Velocity: 0.170, Angular Velocity: -0.500
+Current yaw: -2.348 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.494, Angular velocity: 0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.515
+-- PID Output: Linear Velocity: 0.175, Angular Velocity: -0.500
+Linear Velocity Target: 0.494, Angular Velocity Target: 0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.522178, y: -0.131668, Current Yaw: -2.347972
+--Distance to Target (abs): 0.136
+--Position ERROR (signed): 0.059
+--Orientation ERROR: -1.120
+Current Linear Velocity: 0.170380
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.323
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.510, y=-0.144, Linear Velocity: 0.175, Angular Velocity: -0.500
+Current yaw: -2.398 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.001
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.615
+-- PID Output: Linear Velocity: 0.178, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.001
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.509881, y: -0.144169, Current Yaw: -2.397972
+--Distance to Target (abs): 0.130
+--Position ERROR (signed): 0.048
+--Orientation ERROR: -1.192
+Current Linear Velocity: 0.175358
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.318
+--Angular Velocity ERROR: 0.499
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.497, y=-0.156, Linear Velocity: 0.178, Angular Velocity: -0.500
+Current yaw: -2.448 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.001
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.715
+-- PID Output: Linear Velocity: 0.178, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.001
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.496785, y: -0.156214, Current Yaw: -2.447972
+--Distance to Target (abs): 0.124
+--Position ERROR (signed): 0.036
+--Orientation ERROR: -1.276
+Current Linear Velocity: 0.177926
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.315
+--Angular Velocity ERROR: 0.499
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.483, y=-0.168, Linear Velocity: 0.178, Angular Velocity: -0.500
+Current yaw: -2.498 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.001
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.815
+-- PID Output: Linear Velocity: 0.176, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.001
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.483085, y: -0.167605, Current Yaw: -2.497972
+--Distance to Target (abs): 0.120
+--Position ERROR (signed): 0.024
+--Orientation ERROR: -1.368
+Current Linear Velocity: 0.178165
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.315
+--Angular Velocity ERROR: 0.499
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.469, y=-0.178, Linear Velocity: 0.176, Angular Velocity: -0.500
+Current yaw: -2.548 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.493, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-44.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-44.915
+-- PID Output: Linear Velocity: 0.172, Angular Velocity: -0.500
+Linear Velocity Target: 0.493, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.468991, y: -0.178178, Current Yaw: -2.547972
+--Distance to Target (abs): 0.118
+--Position ERROR (signed): 0.012
+--Orientation ERROR: -1.465
+Current Linear Velocity: 0.176199
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.316
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.455, y=-0.188, Linear Velocity: 0.172, Angular Velocity: -0.500
+Current yaw: -2.598 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.015
+-- PID Output: Linear Velocity: 0.166, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.454718, y: -0.187810, Current Yaw: -2.597972
+--Distance to Target (abs): 0.117
+--Position ERROR (signed): 0.001
+--Orientation ERROR: -1.561
+Current Linear Velocity: 0.172188
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.320
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.440, y=-0.196, Linear Velocity: 0.166, Angular Velocity: -0.500
+Current yaw: -2.648 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.492, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.115
+-- PID Output: Linear Velocity: 0.159, Angular Velocity: -0.500
+Linear Velocity Target: 0.492, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.440482, y: -0.196413, Current Yaw: -2.647972
+--Distance to Target (abs): 0.118
+--Position ERROR (signed): -0.010
+--Orientation ERROR: -1.652
+Current Linear Velocity: 0.166330
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: 0.326
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.426, y=-0.204, Linear Velocity: 0.159, Angular Velocity: -0.500
+Current yaw: -2.698 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.215
+-- PID Output: Linear Velocity: 0.150, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.426494, y: -0.203940, Current Yaw: -2.697972
+--Distance to Target (abs): 0.121
+--Position ERROR (signed): -0.020
+--Orientation ERROR: -1.734
+Current Linear Velocity: 0.158846
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.159
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.413, y=-0.210, Linear Velocity: 0.150, Angular Velocity: -0.500
+Current yaw: -2.748 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.315
+-- PID Output: Linear Velocity: 0.140, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.412948, y: -0.210377, Current Yaw: -2.747972
+--Distance to Target (abs): 0.124
+--Position ERROR (signed): -0.029
+--Orientation ERROR: -1.803
+Current Linear Velocity: 0.149982
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.150
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.400, y=-0.216, Linear Velocity: 0.140, Angular Velocity: -0.500
+Current yaw: -2.798 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.415
+-- PID Output: Linear Velocity: 0.129, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.400019, y: -0.215746, Current Yaw: -2.797972
+--Distance to Target (abs): 0.128
+--Position ERROR (signed): -0.036
+--Orientation ERROR: -1.860
+Current Linear Velocity: 0.139995
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.140
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.388, y=-0.220, Linear Velocity: 0.129, Angular Velocity: -0.500
+Current yaw: -2.848 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.515
+-- PID Output: Linear Velocity: 0.118, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.387858, y: -0.220098, Current Yaw: -2.847972
+--Distance to Target (abs): 0.132
+--Position ERROR (signed): -0.043
+--Orientation ERROR: -1.904
+Current Linear Velocity: 0.129156
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.129
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.377, y=-0.224, Linear Velocity: 0.118, Angular Velocity: -0.500
+Current yaw: -2.898 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.615
+-- PID Output: Linear Velocity: 0.106, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.376589, y: -0.223505, Current Yaw: -2.897972
+--Distance to Target (abs): 0.137
+--Position ERROR (signed): -0.049
+--Orientation ERROR: -1.935
+Current Linear Velocity: 0.117735
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.118
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.366, y=-0.226, Linear Velocity: 0.106, Angular Velocity: -0.500
+Current yaw: -2.948 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.715
+-- PID Output: Linear Velocity: 0.094, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.366302, y: -0.226062, Current Yaw: -2.947972
+--Distance to Target (abs): 0.141
+--Position ERROR (signed): -0.053
+--Orientation ERROR: -1.956
+Current Linear Velocity: 0.106000
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.106
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.357, y=-0.228, Linear Velocity: 0.094, Angular Velocity: -0.500
+Current yaw: -2.998 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.815] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.815
+-- PID Output: Linear Velocity: 0.083, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.357056, y: -0.227875, Current Yaw: -2.997972
+--Distance to Target (abs): 0.144
+--Position ERROR (signed): -0.056
+--Orientation ERROR: -1.966
+Current Linear Velocity: 0.094212
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.094
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.349, y=-0.229, Linear Velocity: 0.083, Angular Velocity: -0.500
+Current yaw: -3.048 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-45.915] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-45.915
+-- PID Output: Linear Velocity: 0.071, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.348880, y: -0.229057, Current Yaw: -3.047972
+--Distance to Target (abs): 0.148
+--Position ERROR (signed): -0.057
+--Orientation ERROR: -1.968
+Current Linear Velocity: 0.082618
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.083
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.342, y=-0.230, Linear Velocity: 0.071, Angular Velocity: -0.500
+Current yaw: -3.098 (roll: 0.000, pitch: 0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.015] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.015
+-- PID Output: Linear Velocity: 0.061, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.341766, y: -0.229725, Current Yaw: -3.097972
+--Distance to Target (abs): 0.151
+--Position ERROR (signed): -0.057
+--Orientation ERROR: -1.962
+Current Linear Velocity: 0.071448
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.071
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.336, y=-0.230, Linear Velocity: 0.061, Angular Velocity: -0.500
+Current yaw: 3.135 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.115] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.115
+-- PID Output: Linear Velocity: 0.051, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.335681, y: -0.229991, Current Yaw: 3.135213
+--Distance to Target (abs): 0.153
+--Position ERROR (signed): -0.056
+--Orientation ERROR: -1.948
+Current Linear Velocity: 0.060910
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.061
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.331, y=-0.230, Linear Velocity: 0.051, Angular Velocity: -0.500
+Current yaw: 3.085 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.215] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.215
+-- PID Output: Linear Velocity: 0.042, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.330562, y: -0.229958, Current Yaw: 3.085213
+--Distance to Target (abs): 0.155
+--Position ERROR (signed): -0.054
+--Orientation ERROR: -1.929
+Current Linear Velocity: 0.051190
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.051
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.326, y=-0.230, Linear Velocity: 0.042, Angular Velocity: -0.500
+Current yaw: 3.035 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.315] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.315
+-- PID Output: Linear Velocity: 0.035, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.326325, y: -0.229719, Current Yaw: 3.035213
+--Distance to Target (abs): 0.157
+--Position ERROR (signed): -0.051
+--Orientation ERROR: -1.904
+Current Linear Velocity: 0.042443
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.042
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.323, y=-0.229, Linear Velocity: 0.035, Angular Velocity: -0.500
+Current yaw: 2.985 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.415] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.415
+-- PID Output: Linear Velocity: 0.028, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.322864, y: -0.229350, Current Yaw: 2.985213
+--Distance to Target (abs): 0.158
+--Position ERROR (signed): -0.047
+--Orientation ERROR: -1.875
+Current Linear Velocity: 0.034799
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.035
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.320, y=-0.229, Linear Velocity: 0.028, Angular Velocity: -0.500
+Current yaw: 2.935 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.515] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.515
+-- PID Output: Linear Velocity: 0.023, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.320063, y: -0.228908, Current Yaw: 2.935213
+--Distance to Target (abs): 0.159
+--Position ERROR (signed): -0.043
+--Orientation ERROR: -1.842
+Current Linear Velocity: 0.028357
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.028
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.318, y=-0.228, Linear Velocity: 0.023, Angular Velocity: -0.500
+Current yaw: 2.885 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.615] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.615
+-- PID Output: Linear Velocity: 0.019, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.317794, y: -0.228433, Current Yaw: 2.885213
+--Distance to Target (abs): 0.159
+--Position ERROR (signed): -0.037
+--Orientation ERROR: -1.806
+Current Linear Velocity: 0.023185
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.023
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.316, y=-0.228, Linear Velocity: 0.019, Angular Velocity: -0.500
+Current yaw: 2.835 (roll: 0.000, pitch: -0.000)
+Received trajectory - Linear velocity: 0.000, Angular velocity: -0.000
+-------------------------
+-------------------------
+[2025-03-13_01-53-46.715] Selected control point: (x: 7.393, y: -0.088, yaw: -0.105)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_01-53-46.715
+-- PID Output: Linear Velocity: 0.017, Angular Velocity: -0.500
+Linear Velocity Target: 0.000, Angular Velocity Target: -0.000
+Target Position - x: 7.393053, y: -0.087953, Target Yaw: -0.104814
+Current Position - x: 7.315925, y: -0.227943, Current Yaw: 2.835213
+--Distance to Target (abs): 0.160
+--Position ERROR (signed): -0.031
+--Orientation ERROR: -1.768
+Current Linear Velocity: 0.019323
+Current Angular Velocity: -0.500000
+--Linear Velocity ERROR: -0.019
+--Angular Velocity ERROR: 0.500
+-------------------------
+-------------------------
+Received Odometry - Position: x=7.314, y=-0.227, Linear Velocity: 0.017, Angular Velocity: -0.500
+Current yaw: 2.785 (roll: 0.000, pitch: -0.000)

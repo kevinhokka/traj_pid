@@ -21,10 +21,27 @@ find_package(tf2_geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(rosidl_typesupport_cpp REQUIRED)
 find_package(OpenCV REQUIRED)
-
+find_package(Eigen3 REQUIRED)
+find_package(planner REQUIRED)
+find_package(pcl_conversions REQUIRED)
+find_package(cv_bridge REQUIRED)
+find_package(pcl_ros REQUIRED)
+find_package(octomap REQUIRED)
+find_package(octomap_ros REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(PCL REQUIRED)
+find_package(yaml-cpp REQUIRED)
+find_package(NLopt REQUIRED)
+find_package(OpenMP REQUIRED)
 
 
 set(TRAJ_INTERFACES traj_pid)
+
+include_directories(
+  include
+  include/plugin
+  include/utils
+)
 
 set(msg_files
   "msg/Bspline.msg"
@@ -37,14 +54,11 @@ set(msg_files
 #   LIBRARY_NAME ${PROJECT_NAME}
 # )
 
-find_package(planner REQUIRED)
-
 rosidl_generate_interfaces(
   ${PROJECT_NAME}
   ${msg_files}
   DEPENDENCIES std_msgs geometry_msgs builtin_interfaces planner
 )
-
 
 
 ament_export_dependencies(
@@ -61,8 +75,11 @@ ament_export_dependencies(
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 编译目标
-add_executable(traj_pid_node src/traj_pid_node.cpp)
+add_executable(traj_pid_node
+  src/traj_pid_node.cpp
+  # 这里直接把 NonUniformBspline.cpp, BsplineOptimizer.cpp 也加进可执行文件编译
+  src/plugin/non_uniform_bspline.cpp
+)
 
 # 链接依赖库
 ament_target_dependencies(
@@ -78,6 +95,12 @@ ament_target_dependencies(
   builtin_interfaces
   OpenCV
   planner
+  pcl_ros
+  cv_bridge
+  pcl_conversions
+  octomap
+  octomap_ros
+  visualization_msgs  
 )
 
 
@@ -98,8 +121,23 @@ set(
 target_link_libraries(
   traj_pid_node
   /home/jetson/ros2_ws/install/planner/lib/libplanner__rosidl_typesupport_cpp.so
+
+  Boost::date_time
+  ${PCL_LIBRARIES}
+  ${YAML_CPP_LIBRARIES}
+  ${OpenCV_LIBS}
+  OpenMP::OpenMP_CXX
+
   ${rosidl_typesupport_cpp_LIBRARIES}
 )
+
+include_directories(
+  include
+  include/plugin
+  include/utils
+
+)
+
 
 # jetson@jetson:~/ros2_ctl$ echo $LD_LIBRARY_PATH
 # /home/jetson/ros2_ctl/install/planner/lib:/home/jetson/ros2_ctl/install/traj_pid_node/lib:/home/jetson/ros2_ctl/install/traj_pid/lib:/home/jetson/ros2_ctl/install/serial/lib:/home/jetson/ros2_ctl/install/planner/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/lib:/usr/local/lib
@@ -116,6 +154,7 @@ install(TARGETS
   traj_pid_node
   DESTINATION lib/${PROJECT_NAME}
 )
+
 
 
 # 编译测试时的配置

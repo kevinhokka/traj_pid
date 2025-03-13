@@ -1,0 +1,367 @@
+[2025-03-13_00-25-57.206] No control points available
+[2025-03-13_00-25-57.306] No control points available
+[2025-03-13_00-25-57.406] No control points available
+[2025-03-13_00-25-57.506] No control points available
+[2025-03-13_00-25-57.606] No control points available
+[2025-03-13_00-25-57.706] No control points available
+[2025-03-13_00-25-57.806] No control points available
+[2025-03-13_00-25-57.906] No control points available
+[2025-03-13_00-25-58.006] No control points available
+[2025-03-13_00-25-58.106] No control points available
+[2025-03-13_00-25-58.206] No control points available
+[2025-03-13_00-25-58.306] No control points available
+[2025-03-13_00-25-58.406] No control points available
+[2025-03-13_00-25-58.506] No control points available
+[2025-03-13_00-25-58.606] No control points available
+[2025-03-13_00-25-58.706] No control points available
+[2025-03-13_00-25-58.806] No control points available
+[2025-03-13_00-25-58.906] No control points available
+[2025-03-13_00-25-59.006] No control points available
+[2025-03-13_00-25-59.106] No control points available
+[2025-03-13_00-25-59.206] No control points available
+[2025-03-13_00-25-59.306] No control points available
+[2025-03-13_00-25-59.406] No control points available
+[2025-03-13_00-25-59.506] No control points available
+[2025-03-13_00-25-59.606] No control points available
+[2025-03-13_00-25-59.706] No control points available
+[2025-03-13_00-25-59.806] No control points available
+[2025-03-13_00-25-59.906] No control points available
+[2025-03-13_00-26-00.006] No control points available
+[2025-03-13_00-26-00.106] No control points available
+[2025-03-13_00-26-00.206] No control points available
+[2025-03-13_00-26-00.306] No control points available
+[2025-03-13_00-26-00.406] No control points available
+[2025-03-13_00-26-00.506] No control points available
+[2025-03-13_00-26-00.606] No control points available
+[2025-03-13_00-26-00.706] No control points available
+[2025-03-13_00-26-00.806] No control points available
+[2025-03-13_00-26-00.906] No control points available
+[2025-03-13_00-26-01.006] No control points available
+[2025-03-13_00-26-01.106] No control points available
+[2025-03-13_00-26-01.206] No control points available
+[2025-03-13_00-26-01.306] No control points available
+[2025-03-13_00-26-01.406] No control points available
+[2025-03-13_00-26-01.506] No control points available
+[2025-03-13_00-26-01.606] No control points available
+[2025-03-13_00-26-01.706] No control points available
+[2025-03-13_00-26-01.806] No control points available
+[2025-03-13_00-26-01.906] No control points available
+[2025-03-13_00-26-02.006] No control points available
+[2025-03-13_00-26-02.027] Received Bspline message - pos_pts size: 27, yaw_pts size: 65
+[2025-03-13_00-26-02.027] Control point0: x=2.43329e-05, y=-3.26188e-05, yaw=0, time=0
+[2025-03-13_00-26-02.027] Control point1: x=4.26799e-05, y=-5.72132e-05, yaw=0, time=0.296774
+[2025-03-13_00-26-02.027] Control point2: x=6.44284e-05, y=-8.63675e-05, yaw=0, time=0.593548
+[2025-03-13_00-26-02.027] Control point3: x=0.0227275, y=-0.0132012, yaw=-0.199912, time=0.890323
+[2025-03-13_00-26-02.027] Control point4: x=0.0823329, y=-0.0420658, yaw=-0.385195, time=1.1871
+[2025-03-13_00-26-02.027] Control point5: x=0.188585, y=-0.0850101, yaw=-0.446156, time=1.48387
+[2025-03-13_00-26-02.027] Control point6: x=0.345664, y=-0.135801, yaw=-0.414963, time=1.78065
+[2025-03-13_00-26-02.027] Control point7: x=0.553755, y=-0.186729, yaw=-0.359954, time=2.07742
+[2025-03-13_00-26-02.027] Control point8: x=0.809537, y=-0.230282, yaw=-0.31839, time=2.37419
+[2025-03-13_00-26-02.027] Control point9: x=1.10704, y=-0.261336, yaw=-0.292784, time=2.67097
+[2025-03-13_00-26-02.027] Control point10: x=1.43839, y=-0.279156, yaw=-0.272664, time=2.96774
+[2025-03-13_00-26-02.027] Control point11: x=1.79459, y=-0.289544, yaw=-0.250536, time=3.26452
+[2025-03-13_00-26-02.027] Control point12: x=2.16628, y=-0.306582, yaw=-0.225187, time=3.56129
+[2025-03-13_00-26-02.027] Control point13: x=2.54447, y=-0.355846, yaw=-0.198574, time=3.85806
+[2025-03-13_00-26-02.027] Control point14: x=2.92168, y=-0.462391, yaw=-0.172574, time=4.15484
+[2025-03-13_00-26-02.027] Control point15: x=3.29344, y=-0.62053, yaw=-0.148049, time=4.45161
+[2025-03-13_00-26-02.027] Control point16: x=3.65967, y=-0.767698, yaw=-0.12517, time=4.74839
+[2025-03-13_00-26-02.027] Control point17: x=4.02336, y=-0.821038, yaw=-0.104083, time=5.04516
+[2025-03-13_00-26-02.027] Control point18: x=4.38793, y=-0.745294, yaw=-0.0851634, time=5.34194
+[2025-03-13_00-26-02.027] Control point19: x=4.75534, y=-0.592411, yaw=-0.0689664, time=5.63871
+[2025-03-13_00-26-02.027] Control point20: x=5.12631, y=-0.44833, yaw=-0.0562856, time=5.93548
+[2025-03-13_00-26-02.027] Control point21: x=5.50086, y=-0.360898, yaw=-0.0479643, time=6.23226
+[2025-03-13_00-26-02.027] Control point22: x=5.87861, y=-0.313886, yaw=-0.0448958, time=6.52903
+[2025-03-13_00-26-02.027] Control point23: x=6.25838, y=-0.269836, yaw=-0.048107, time=6.82581
+[2025-03-13_00-26-02.027] Control point24: x=6.63835, y=-0.211257, yaw=-0.0586599, time=7.12258
+[2025-03-13_00-26-02.027] Control point25: x=7.01633, y=-0.146276, yaw=-0.0774387, time=7.41935
+[2025-03-13_00-26-02.027] Control point26: x=7.39305, y=-0.0879531, yaw=-0.104814, time=7.71613
+Received trajectory - Linear velocity: 0.00017552, Angular velocity: -0.0226731
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.106] Selected control point: (x: 4.26799e-05, y: -5.72132e-05, yaw: 0)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.106
+-- PID Output: Linear Velocity: 3.5044e-05, Angular Velocity: -0.5
+Linear Velocity Target: 0.00017552, Angular Velocity Target: -0.0226731
+Target Position - x: 0.000043, y: -0.000057, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 7.13787e-05
+--Position ERROR (signed): 4.26799e-05
+--Orientation ERROR: -0.929873
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.00017552
+--Angular Velocity ERROR: -0.0226731
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.000814099, Angular velocity: -0.119805
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.206] Selected control point: (x: 4.26799e-05, y: -5.72132e-05, yaw: 0)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.206
+-- PID Output: Linear Velocity: 3.86031e-05, Angular Velocity: -0.5
+Linear Velocity Target: 0.000814099, Angular Velocity Target: -0.119805
+Target Position - x: 0.000043, y: -0.000057, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 7.13787e-05
+--Position ERROR (signed): 4.26799e-05
+--Orientation ERROR: -0.929873
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.000814099
+--Angular Velocity ERROR: -0.119805
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.00195504, Angular velocity: -0.29342
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.306] Selected control point: (x: 4.26799e-05, y: -5.72132e-05, yaw: 0)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.306
+-- PID Output: Linear Velocity: 4.64301e-05, Angular Velocity: -0.5
+Linear Velocity Target: 0.00195504, Angular Velocity Target: -0.29342
+Target Position - x: 0.000043, y: -0.000057, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 7.13787e-05
+--Position ERROR (signed): 4.26799e-05
+--Orientation ERROR: -0.929873
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.00195504
+--Angular Velocity ERROR: -0.29342
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.00359834, Angular velocity: -0.49249
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.406] Selected control point: (x: 6.44284e-05, y: -8.63675e-05, yaw: 0)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.406
+-- PID Output: Linear Velocity: 7.21147e-05, Angular Velocity: -0.5
+Linear Velocity Target: 0.00359834, Angular Velocity Target: -0.49249
+Target Position - x: 0.000064, y: -0.000086, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000107751
+--Position ERROR (signed): 6.44284e-05
+--Orientation ERROR: -0.929873
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.00359834
+--Angular Velocity ERROR: -0.49249
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.00574401, Angular velocity: -0.612582
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.506] Selected control point: (x: 6.44284e-05, y: -8.63675e-05, yaw: 0)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.506
+-- PID Output: Linear Velocity: 8.17554e-05, Angular Velocity: -0.5
+Linear Velocity Target: 0.00574401, Angular Velocity Target: -0.612582
+Target Position - x: 0.000064, y: -0.000086, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000107751
+--Position ERROR (signed): 6.44284e-05
+--Orientation ERROR: -0.929873
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.00574401
+--Angular Velocity ERROR: -0.612582
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.00839204, Angular velocity: -0.650594
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.606] Selected control point: (x: 6.44284e-05, y: -8.63675e-05, yaw: 0)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.606
+-- PID Output: Linear Velocity: 9.35709e-05, Angular Velocity: -0.5
+Linear Velocity Target: 0.00839204, Angular Velocity Target: -0.650594
+Target Position - x: 0.000064, y: -0.000086, Target Yaw: 0.000000
+Current Position - NA, NA
+--Distance to Target (abs): 0.000107751
+--Position ERROR (signed): 6.44284e-05
+--Orientation ERROR: -0.929873
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.00839204
+--Angular Velocity ERROR: -0.650594
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0115424, Angular velocity: -0.620496
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.706] Selected control point: (x: 0.0227275, y: -0.0132012, yaw: -0.199912)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.706
+-- PID Output: Linear Velocity: 0.0187138, Angular Velocity: -0.5
+Linear Velocity Target: 0.0115424, Angular Velocity Target: -0.620496
+Target Position - x: 0.022728, y: -0.013201, Target Yaw: -0.199912
+Current Position - NA, NA
+--Distance to Target (abs): 0.0262833
+--Position ERROR (signed): 0.0227275
+--Orientation ERROR: -0.526218
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0115424
+--Angular Velocity ERROR: -0.620496
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0151942, Angular velocity: -0.547881
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.806] Selected control point: (x: 0.0227275, y: -0.0132012, yaw: -0.199912)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.806
+-- PID Output: Linear Velocity: 0.0206155, Angular Velocity: -0.5
+Linear Velocity Target: 0.0151942, Angular Velocity Target: -0.547881
+Target Position - x: 0.022728, y: -0.013201, Target Yaw: -0.199912
+Current Position - NA, NA
+--Distance to Target (abs): 0.0262833
+--Position ERROR (signed): 0.0227275
+--Orientation ERROR: -0.526218
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0151942
+--Angular Velocity ERROR: -0.547881
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0192377, Angular velocity: -0.4333
+-------------------------
+-------------------------
+[2025-03-13_00-26-02.906] Selected control point: (x: 0.0227275, y: -0.0132012, yaw: -0.199912)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-02.906
+-- PID Output: Linear Velocity: 0.0247835, Angular Velocity: -0.5
+Linear Velocity Target: 0.0192377, Angular Velocity Target: -0.4333
+Target Position - x: 0.022728, y: -0.013201, Target Yaw: -0.199912
+Current Position - NA, NA
+--Distance to Target (abs): 0.0262833
+--Position ERROR (signed): 0.0227275
+--Orientation ERROR: -0.526218
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0192377
+--Angular Velocity ERROR: -0.4333
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0235985, Angular velocity: -0.297141
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.006] Selected control point: (x: 0.0823329, y: -0.0420658, yaw: -0.385195)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.006
+-- PID Output: Linear Velocity: 0.0778929, Angular Velocity: -0.5
+Linear Velocity Target: 0.0235985, Angular Velocity Target: -0.297141
+Target Position - x: 0.082333, y: -0.042066, Target Yaw: -0.385195
+Current Position - NA, NA
+--Distance to Target (abs): 0.0924567
+--Position ERROR (signed): 0.0823329
+--Orientation ERROR: -0.472348
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0235985
+--Angular Velocity ERROR: -0.297141
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0282767, Angular velocity: -0.172806
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.106] Selected control point: (x: 0.0823329, y: -0.0420658, yaw: -0.385195)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.106
+-- PID Output: Linear Velocity: 0.0870314, Angular Velocity: -0.5
+Linear Velocity Target: 0.0282767, Angular Velocity Target: -0.172806
+Target Position - x: 0.082333, y: -0.042066, Target Yaw: -0.385195
+Current Position - NA, NA
+--Distance to Target (abs): 0.0924567
+--Position ERROR (signed): 0.0823329
+--Orientation ERROR: -0.472348
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0282767
+--Angular Velocity ERROR: -0.172806
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0332723, Angular velocity: -0.0607796
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.206] Selected control point: (x: 0.0823329, y: -0.0420658, yaw: -0.385195)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.206
+-- PID Output: Linear Velocity: 0.10213, Angular Velocity: -0.5
+Linear Velocity Target: 0.0332723, Angular Velocity Target: -0.0607796
+Target Position - x: 0.082333, y: -0.042066, Target Yaw: -0.385195
+Current Position - NA, NA
+--Distance to Target (abs): 0.0924567
+--Position ERROR (signed): 0.0823329
+--Orientation ERROR: -0.472348
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0332723
+--Angular Velocity ERROR: -0.0607796
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0385852, Angular velocity: 0.0333481
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.306] Selected control point: (x: 0.188585, y: -0.0850101, yaw: -0.446156)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.306
+-- PID Output: Linear Velocity: 0.204472, Angular Velocity: -0.5
+Linear Velocity Target: 0.0385852, Angular Velocity Target: 0.0333481
+Target Position - x: 0.188585, y: -0.085010, Target Yaw: -0.446156
+Current Position - NA, NA
+--Distance to Target (abs): 0.20686
+--Position ERROR (signed): 0.188585
+--Orientation ERROR: -0.423501
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0385852
+--Angular Velocity ERROR: 0.0333481
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0442155, Angular velocity: 0.101402
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.406] Selected control point: (x: 0.188585, y: -0.0850101, yaw: -0.446156)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.407
+-- PID Output: Linear Velocity: 0.228432, Angular Velocity: -0.5
+Linear Velocity Target: 0.0442155, Angular Velocity Target: 0.101402
+Target Position - x: 0.188585, y: -0.085010, Target Yaw: -0.446156
+Current Position - NA, NA
+--Distance to Target (abs): 0.20686
+--Position ERROR (signed): 0.188585
+--Orientation ERROR: -0.423501
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0442155
+--Angular Velocity ERROR: 0.101402
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0501631, Angular velocity: 0.143311
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.506] Selected control point: (x: 0.188585, y: -0.0850101, yaw: -0.446156)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.506
+-- PID Output: Linear Velocity: 0.263016, Angular Velocity: -0.5
+Linear Velocity Target: 0.0501631, Angular Velocity Target: 0.143311
+Target Position - x: 0.188585, y: -0.085010, Target Yaw: -0.446156
+Current Position - NA, NA
+--Distance to Target (abs): 0.20686
+--Position ERROR (signed): 0.188585
+--Orientation ERROR: -0.423501
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0501631
+--Angular Velocity ERROR: 0.143311
+-------------------------
+-------------------------
+Received trajectory - Linear velocity: 0.0564183, Angular velocity: 0.164231
+-------------------------
+-------------------------
+[2025-03-13_00-26-03.606] Selected control point: (x: 0.345664, y: -0.135801, yaw: -0.414963)
+&&&&&& TIMESTAMP: &&&&&&&2025-03-13_00-26-03.606
+-- PID Output: Linear Velocity: 0.426576, Angular Velocity: -0.5
+Linear Velocity Target: 0.0564183, Angular Velocity Target: 0.164231
+Target Position - x: 0.345664, y: -0.135801, Target Yaw: -0.414963
+Current Position - NA, NA
+--Distance to Target (abs): 0.371383
+--Position ERROR (signed): 0.345664
+--Orientation ERROR: -0.374344
+Current Linear Velocity: NA
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0.0564183
+--Angular Velocity ERROR: 0.164231
+-------------------------
+-------------------------
+Received Odometry - Position: x=0, y=0, Linear Velocity: 0, Angular Velocity: 0
+Current yaw: 0 (roll: 0, pitch: -0)
