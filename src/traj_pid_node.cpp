@@ -61,8 +61,8 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-          pid_control_(0.5377, 0.18339, 0.1),  // 初始化 PID 控制器（位置）
-          pid_orientation_control_(0.5377, 0.18339, 0.1),  // 初始化朝向 PID 控制器
+          pid_control_(0.1, 0.1, 0.1),  // 初始化 PID 控制器（位置）
+          pid_orientation_control_(0.1, 0.1, 0.1),  // 初始化朝向 PID 控制器
 
           pid_velocity_control_(10, 0.1, 0.1),  // 初始化线速度 PID 控制器
           pid_angular_velocity_control_(10, 0.1, 0.1),  // 初始化角速度 PID 控制器
@@ -305,119 +305,88 @@ class TrajPidNode : public rclcpp::Node {
             }
         }
     
-        void control_loop() {
-            double current_time_sec = this->now().seconds();  // 获取当前时间（单位：秒）
-            std::string current_time = get_current_time_str();  // 用于日志
-        
+        void control_loop() 
+        {
+            double current_time_sec = this->now().seconds();
+            std::string current_time = get_current_time_str();
+
+            // 若无控制点，直接返回
             if (control_points_.empty()) {
-                log_file_ << "[" << current_time << "] No control points available" << std::endl;
+                log_file_ << "-------------------------" << std::endl;
+                log_file_ << "-------------------------" << std::endl;
+                log_file_ << "[" << get_current_time_str() << "] Selected control point: NA" << std::endl;
+                log_file_ << "&&&&&& TIMESTAMP: &&&&&&&" << get_current_time_str() << std::endl;
+                log_file_ << "-------------------------" << std::endl;
+                log_file_ << "-------------------------" << std::endl;
                 return;
             }
-        
-            // 1) 查找当前时刻要使用的目标控制点
-            ControlPoint target_control_point;
+
+            // ===== 外环控制：根据B样条获得目标点，计算位置和姿态误差 =====
+            // 从control_points_中找到当前时刻要跟踪的目标控制点
+            ControlPoint target_cp;
             bool target_found = false;
-        
             for (size_t i = 0; i < control_points_.size(); ++i) {
-                const auto& cp = control_points_[i];
-                if (cp.time > current_time_sec) {
-                    target_control_point = cp;
+                if (control_points_[i].time > current_time_sec) {
+                    target_cp = control_points_[i];
                     target_found = true;
                     break;
                 }
             }
-        
-            // 如果找到合适目标，就更新 target_x_、target_y_、target_yaw_
-            if (target_found) {
-                target_x_ = target_control_point.x;
-                target_y_ = target_control_point.y;
-                target_yaw_ = target_control_point.yaw;  // 这里的 yaw_ 仅供参考/日志
+            if (!target_found) {
+                target_cp = control_points_.back();
             }
-        
-            // -------------------------
-            // 2) 计算到目标的偏差
-            // -------------------------
-            // (a) 计算 dx, dy, 以及绝对距离 distance
+            // 更新全局目标变量（后续日志依赖它们）
+            target_x_   = target_cp.x;
+            target_y_   = target_cp.y;
+            target_yaw_ = target_cp.yaw;
+
+            // 计算位置误差（dx, dy、距离）和朝向误差
             double dx = target_x_ - current_position_x_;
             double dy = target_y_ - current_position_y_;
             double distance = std::sqrt(dx * dx + dy * dy);
-        
-            // (b) 到目标点的“全局”方位角
             double angle_to_target = std::atan2(dy, dx);
-        
-            // (c) 朝向误差 alpha = (到目标的方位角) - (当前朝向)
             double alpha = angle_to_target - current_yaw_;
-            // 归一化到 [-π, π]
-            if (alpha > M_PI) {
-                alpha -= 2.0 * M_PI;
-            } else if (alpha < -M_PI) {
-                alpha += 2.0 * M_PI;
-            }
-        
-            // (d) 计算带符号的“前后误差” e_forward = distance * cos(alpha)
-            //     当目标在机器人前方 => e_forward为正
-            //     当目标在后方 => e_forward为负
+            if (alpha > M_PI)  alpha -= 2.0 * M_PI;
+            else if (alpha < -M_PI) alpha += 2.0 * M_PI;
             double e_forward = distance * std::cos(alpha);
-        
-            // -------------------------
-            // 3) 计算线速度 / 角速度控制量 (PID)
-            // -------------------------
-            // 位置PID：用 e_forward 当作误差
-            double pid_linear_output = pid_control_.compute(e_forward, 0.0);
-        
-            // 朝向PID：用 alpha 当作误差
-            double pid_angular_output = pid_orientation_control_.compute(alpha, 0.0);
-        
-            // 暂时保留速度误差PID，但不启用
+
+            // 外环PID：利用几何/姿态误差计算期望速度（v_d, w_d）
+            double v_outer = pid_control_.compute(e_forward, 0.0);
+            double w_outer = pid_orientation_control_.compute(alpha, 0.0);
+
+            // ===== 内环控制：基于目标与实际速度差异补偿 =====
+            // 速度误差（这里仍保留原来由/traj话题设置的目标速度）
             double velocity_error = target_linear_velocity_ - current_linear_velocity_;
             double angular_velocity_error = target_angular_velocity_ - current_angular_velocity_;
-            double pid_velocity_output = pid_velocity_control_.compute(velocity_error, 0.0);
-            double pid_angular_velocity_output = pid_angular_velocity_control_.compute(angular_velocity_error, 0.0);
-        
-            // 通过加权合成（暂时不用速度PID输出）
-            const double position_weight          = 1.0;
-            const double orientation_weight       = 1.0;
-            const double velocity_weight          = 0.0;
-            const double angular_velocity_weight  = 0.0;
-        
-            pid_linear_output = pid_linear_output * position_weight + pid_velocity_output * velocity_weight;
-            pid_angular_output = pid_angular_output * orientation_weight + pid_angular_velocity_output * angular_velocity_weight;
-        
-            // -------------------------
-            // 4) 对输出进行限幅
-            // -------------------------
-            const double max_linear_speed = 2.0;   // 允许前进/后退速度最大绝对值
+
+            // 内环PID：对速度误差进行跟踪
+            double v_inner = pid_velocity_control_.compute(velocity_error, 0.0);
+            double w_inner = pid_angular_velocity_control_.compute(angular_velocity_error, 0.0);
+
+            // 将外环和内环的输出按一定权重组合（此处权重可调）
+            const double position_weight = 0.8;
+            const double velocity_weight = 0.2;
+            const double orientation_weight = 0.8;
+            const double angular_velocity_weight = 0.2;
+            double pid_linear_output  = v_outer * position_weight + v_inner * velocity_weight;
+            double pid_angular_output = w_outer * orientation_weight + w_inner * angular_velocity_weight;
+
+            // 在角速度上加一简单滑模补偿（示例：积分+符号修正，防止抖振可做边界层处理）
+            static double w_sliding_integral = 0.0;
+            w_sliding_integral += angular_velocity_error * 0.1; // 10Hz采样周期
+            double sliding_gain = 0.1;
+            double sliding_term = sliding_gain * (w_outer - current_angular_velocity_ + 0.01 * w_sliding_integral);
+            pid_angular_output += sliding_term;
+
+            // 限幅处理
+            const double max_linear_speed = 2.0;
             if (pid_linear_output >  max_linear_speed)  pid_linear_output =  max_linear_speed;
             if (pid_linear_output < -max_linear_speed)  pid_linear_output = -max_linear_speed;
-        
-            // 如果你不想倒车，可把负的裁剪到0：
-            // if (pid_linear_output < 0) pid_linear_output = 0;
-        
-            const double max_angular_speed = 0.5;  // 允许角速度最大绝对值
+            const double max_angular_speed = 0.5;
             if (pid_angular_output >  max_angular_speed)  pid_angular_output =  max_angular_speed;
             if (pid_angular_output < -max_angular_speed)  pid_angular_output = -max_angular_speed;
-        
-            // -------------------------
-            // 4.1) 判断“是否超过目标一定距离”，令线速度归零
-            // -------------------------
-            // 举例：若 e_forward < -0.2，则说明我们“把目标抛在后面0.2米以上”。
-            // 也可以用 distance < some_small_threshold (到目标很近) 的方式。
-            // 你也可以把 overshoot_threshold 改大或小
-            double overshoot_threshold = 0.2; 
-            if (e_forward < -overshoot_threshold) {
-                // 已经超过目标0.2米了，强制速度 = 0
-                pid_linear_output = 0.0;
-            }
-        
-            // 如果你还想在“到目标附近”时自动停止，也可以加：
-            // double near_threshold = 0.1;
-            // if (distance < near_threshold) {
-            //     pid_linear_output = 0.0;
-            // }
-        
-            // -------------------------
-            // 5) 记录日志 (与原逻辑基本相同)
-            // -------------------------
+
+            // ===== 日志记录部分【格式保持不变】=====
             std::string position_str = odom_received_
                 ? ("x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_))
                 : "NA";
@@ -430,46 +399,35 @@ class TrajPidNode : public rclcpp::Node {
             std::string target_yaw_str = bspline_received_
                 ? ("Target Yaw: " + std::to_string(target_yaw_))
                 : "NA";
-        
             std::string actual_linear_velocity_str = odom_received_ ? std::to_string(current_linear_velocity_) : "NA";
             std::string actual_angular_velocity_str = odom_received_ ? std::to_string(current_angular_velocity_) : "NA";
-        
+
+            // 以下日志格式与原代码完全一致，不做任何调整
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "-------------------------" << std::endl;
-        
             log_file_ << "[" << get_current_time_str() << "] Selected control point: "
-                      << "(x: " << target_x_ << ", y: " << target_y_ << ", yaw: " << target_yaw_ << ")"
-                      << std::endl;
-        
+                    << "(x: " << target_x_ << ", y: " << target_y_ << ", yaw: " << target_yaw_ << ")"
+                    << std::endl;
             log_file_ << "&&&&&& TIMESTAMP: &&&&&&&" << get_current_time_str() << std::endl;
             log_file_ << "-- PID Output: Linear Velocity: " << pid_linear_output
-                      << ", Angular Velocity: " << pid_angular_output << std::endl;
-        
+                    << ", Angular Velocity: " << pid_angular_output << std::endl;
             log_file_ << "Linear Velocity Target: " << target_linear_velocity_
-                      << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
-        
+                    << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
             log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
             log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
-        
-            // 打印：绝对距离 distance，带符号误差 e_forward，朝向误差 alpha
             log_file_ << "--Distance to Target (abs): " << distance << std::endl;
             log_file_ << "--Position ERROR (signed): " << e_forward << std::endl;
             log_file_ << "--Orientation ERROR: " << alpha << std::endl;
-        
             log_file_ << "Current Linear Velocity: " << actual_linear_velocity_str << std::endl;
             log_file_ << "Current Angular Velocity: " << actual_angular_velocity_str << std::endl;
-        
             log_file_ << "--Linear Velocity ERROR: " << velocity_error << std::endl;
             log_file_ << "--Angular Velocity ERROR: " << angular_velocity_error << std::endl;
-        
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "-------------------------" << std::endl;
-        
-            // -------------------------
-            // 6) 发布控制指令到 /cmd_vel
-            // -------------------------
+
+            // ===== 最后发布控制指令 =====
             geometry_msgs::msg::Twist cmd_msg;
-            cmd_msg.linear.x = pid_linear_output;
+            cmd_msg.linear.x  = pid_linear_output;
             cmd_msg.angular.z = pid_angular_output;
             cmd_publisher_->publish(cmd_msg);
         }
