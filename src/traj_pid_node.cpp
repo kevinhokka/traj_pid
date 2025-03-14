@@ -62,8 +62,8 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(0.2377, 0.0020, 1.2649),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(8.5194, 0.0102, 0.6750),  // 初始化朝向 PID 控制器
+        pid_control_(0.001, 0.0010, 1.0422),  // 初始化 PID 控制器（位置）
+        pid_orientation_control_(5.56, 0.0024, 0.0975),  // 初始化朝向 PID 控制器
 
         //   pid_velocity_control_(2, 0.5, 0.1),  // 初始化线速度 PID 控制器
         //   pid_angular_velocity_control_(3, 0.8, 0.2),  // 初始化角速度 PID 控制器
@@ -282,76 +282,89 @@ class TrajPidNode : public rclcpp::Node {
         void control_loop() {
             double current_time_sec = this->now().seconds();
             std::string current_time = get_current_time_str();
-    
+        
             if (!receive_traj_) {
                 log_file_ << "-------------------------" << std::endl;
                 log_file_ << "[" << current_time << "] No B-spline trajectory received." << std::endl;
                 log_file_ << "-------------------------" << std::endl;
                 return;
             }
-    
-            // 计算从轨迹开始到当前的时间差（考虑缓冲时间）
-            double buffer = 2.2;
-            std::chrono::duration<double> buffer_duration(buffer);
+        
             auto now_tp = std::chrono::system_clock::now();
-            double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ - buffer_duration).count();
-    
+            double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ ).count();
+            
+            t_diff = t_diff - 3;
+        
             // 保证 t_diff 非负
-            if(t_diff < 0)
-                t_diff = 0;
-    
+            // if(t_diff < 0)
+            //     t_diff = 0;
+        
             // 如果 t_diff 超过轨迹持续时间，则机器人停止（直至下一段 Bspline 消息到来）
             if (t_diff > traj_duration_) {
                 log_file_ << "-------------------------" << std::endl;
                 log_file_ << "[" << get_current_time_str() << "] Trajectory finished (t_diff: " 
                             << t_diff << " > traj_duration: " << traj_duration_ << "), stopping robot." << std::endl;
                 log_file_ << "-------------------------" << std::endl;
-    
+        
                 geometry_msgs::msg::Twist cmd_msg;
                 cmd_msg.linear.x  = 0.0;
                 cmd_msg.angular.z = 0.0;
                 cmd_publisher_->publish(cmd_msg);
                 return;
             }
-    
+            
             // 评估当前时刻的轨迹状态
             Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_diff);
             Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_diff);
-            double yaw = traj_[3].evaluateDeBoor(t_diff)(0);
-            double yaw_dot = traj_[4].evaluateDeBoor(t_diff)(0);
-    
+            // double yaw = traj_[3].evaluateDeBoor(t_diff)(0);
+            // double yaw_dot = traj_[4].evaluateDeBoor(t_diff)(0);
+        
             // 设置目标值（轨迹输出）
             target_x_ = pos(0);
             target_y_ = pos(1);
-            target_yaw_ = yaw;
+            // target_yaw_ = yaw;
             target_linear_velocity_ = vel(0);
-            target_angular_velocity_ = yaw_dot;
-    
+            target_linear_velocity_ = vel(1);
+            // target_angular_velocity_ = yaw_dot;
+        
             // 计算位置误差
             double dx = target_x_ - current_position_x_;
             double dy = target_y_ - current_position_y_;
             double distance = std::sqrt(dx * dx + dy * dy);
-    
+
+        
             // 计算目标方向（用于反馈控制）
             double angle_to_target = std::atan2(dy, dx);
+
+            target_yaw_ = angle_to_target;
+
             double alpha = angle_to_target - current_yaw_;
             while (alpha > M_PI)  alpha -= 2.0 * M_PI;
             while (alpha < -M_PI) alpha += 2.0 * M_PI;
             // 前向误差（仅用于日志输出）
             double e_forward = distance * std::cos(alpha);
-    
-            // 使用位置 PID 控制器计算修正（期望 distance 误差为 0）
+        
+            // 分别计算位置和朝向的 PID 输出
+            // double pos_pid = pid_control_.compute(distance, 0);
+            // double norm_target_yaw = std::atan2(std::sin(target_yaw_), std::cos(target_yaw_));
+            // double norm_current_yaw = std::atan2(std::sin(current_yaw_), std::cos(current_yaw_));
+            // double orient_pid = pid_orientation_control_.compute(norm_target_yaw, norm_current_yaw);
+
+
             double pos_pid = pid_control_.compute(distance, 0);
-    
-            // 使用朝向 PID 控制器计算修正（归一化到 [-pi,pi]）
             double norm_target_yaw = std::atan2(std::sin(target_yaw_), std::cos(target_yaw_));
             double norm_current_yaw = std::atan2(std::sin(current_yaw_), std::cos(current_yaw_));
-            double orient_pid = pid_orientation_control_.compute(norm_target_yaw, norm_current_yaw);
-    
-            // 组合 B-spline 前馈与 PID 反馈得到最终指令
-            double linear_cmd = vel(0) + pos_pid;
-            double angular_cmd = yaw_dot + orient_pid;
-    
+            double orient_pid = pid_orientation_control_.compute(alpha, 0);
+        
+        
+            // 添加可调权重参数（这里设置的初始值均为1.0，可根据需要调整或通过ROS参数加载）
+            double weight_position = 1.0;    // 位置权重
+            double weight_orientation =1.0; // 朝向权重
+        
+            // 组合 B-spline 前馈与 PID 反馈（注意：仅控制命令部分发生了变化）
+            double linear_cmd = vel(0) + weight_position * pos_pid;
+            double angular_cmd = vel(1) + weight_orientation * orient_pid;
+        
             // 限幅处理
             const double max_linear_speed = 2.0;
             const double max_angular_speed = 1;
@@ -359,8 +372,8 @@ class TrajPidNode : public rclcpp::Node {
             if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
             if (angular_cmd >  max_angular_speed)  angular_cmd =  max_angular_speed;
             if (angular_cmd < -max_angular_speed)  angular_cmd = -max_angular_speed;
-    
-            // 构造日志字符串，保持原有输出格式
+        
+            // 以下输出日志格式保持不变
             std::string position_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
                 ? ("x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_))
                 : "NA";
@@ -375,7 +388,7 @@ class TrajPidNode : public rclcpp::Node {
                 : "NA";
             std::string actual_linear_velocity_str = (current_linear_velocity_ != 0) ? std::to_string(current_linear_velocity_) : "NA";
             std::string actual_angular_velocity_str = (current_angular_velocity_ != 0) ? std::to_string(current_angular_velocity_) : "NA";
-    
+        
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "[" << get_current_time_str() << "] Selected control point: "
                         << "(x: " << target_x_ << ", y: " << target_y_ 
@@ -395,13 +408,14 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "--Linear Velocity ERROR: " << 0.0 << std::endl;
             log_file_ << "--Angular Velocity ERROR: " << 0.0 << std::endl;
             log_file_ << "-------------------------" << std::endl;
-    
+        
             // 发布控制指令
             geometry_msgs::msg::Twist cmd_msg;
             cmd_msg.linear.x  = linear_cmd;
             cmd_msg.angular.z = angular_cmd;
             cmd_publisher_->publish(cmd_msg);
         }
+        
     
     
 
