@@ -61,13 +61,13 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(5.9494, 0.0045, 2.3590),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(9.8604, 0.3550, 5.8480),  // 初始化朝向 PID 控制器
+        pid_control_(4.9371, 0.0019, 0.9322),  // 初始化 PID 控制器（位置）
+        pid_orientation_control_(7, 0.0083, 0.6812),  // 初始化朝向 PID 控制器
 
         //   pid_velocity_control_(2, 0.5, 0.1),  // 初始化线速度 PID 控制器
         //   pid_angular_velocity_control_(3, 0.8, 0.2),  // 初始化角速度 PID 控制器
 
-        pid_velocity_control_(0.1588, 6.9423, 6.4988),  // 初始化线速度 PID 控制器
+        pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(9.9905, 9.5899, 3.1715),  // 初始化角速度 PID 控制器
 
 
@@ -203,8 +203,8 @@ class TrajPidNode : public rclcpp::Node {
         
         void bspline_callback(const planner::msg::Bspline::SharedPtr msg)
         {
-            double current_time_sec = this->now().seconds();  
-            std::string current_time = get_current_time_str();  
+            double current_time_sec = this->now().seconds();
+            std::string current_time = get_current_time_str();
 
             // 1. 检查消息有效性
             if (!msg) {
@@ -212,85 +212,63 @@ class TrajPidNode : public rclcpp::Node {
                 bspline_received_ = false;
                 return;
             }
-            if (msg->pos_pts.empty() || msg->knots.empty()) {
-                log_file_ << "[" << current_time << "] B-spline message missing pos_pts or knots." << std::endl;
+            if (msg->pos_pts.empty() || msg->yaw_pts.empty()) {
+                log_file_ << "[" << current_time << "] B-spline message missing pos_pts or yaw_pts." << std::endl;
                 bspline_received_ = false;
                 return;
             }
-            if (msg->yaw_pts.empty()) {
-                log_file_ << "[" << current_time << "] B-spline message missing yaw_pts." << std::endl;
-                bspline_received_ = false;
-                return;
-            }
-
             bspline_received_ = true;
             log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " 
                     << msg->pos_pts.size() << ", yaw_pts size: " << msg->yaw_pts.size() 
                     << ", order=" << msg->order << std::endl;
 
-            // 2. 把消息中的位置控制点 pos_pts 转成 Eigen 矩阵
-            int n_pos = static_cast<int>(msg->pos_pts.size());
-            Eigen::MatrixXd pos_pts(n_pos, 3);
-            for (int i = 0; i < n_pos; i++) {
-                pos_pts(i,0) = msg->pos_pts[i].x;
-                pos_pts(i,1) = msg->pos_pts[i].y;
-                pos_pts(i,2) = msg->pos_pts[i].z;
-            }
-
-            // 3. 构造 NonUniformBspline 对象 (位置)
-            //    第三个参数 dt 先给个占位值，比如0.1
-            planner::NonUniformBspline pos_bspline(pos_pts, msg->order, 0.1);
-
-            // 4. 拷贝 knots 到 Eigen::VectorXd 再 setKnot
-            int n_knots = static_cast<int>(msg->knots.size());
-            Eigen::VectorXd eigen_knots(n_knots);
-            for (int i = 0; i < n_knots; i++) {
-                eigen_knots(i) = msg->knots[i];
-            }
-            pos_bspline.setKnot(eigen_knots);
-
-            // 5. 获取 yaw_dt
-            double yaw_dt = msg->yaw_dt;
+            // 2. 获取 yaw_dt、pos_pts 和 yaw_pts 的数量
             int n_yaw = static_cast<int>(msg->yaw_pts.size());
+            int n_pos = static_cast<int>(msg->pos_pts.size());
+            double yaw_dt = msg->yaw_dt;
 
-            // 6. 清空原 control_points_ 容器
+            // 总时间 T 按照 yaw 数据计算：T = (n_yaw - 1) * yaw_dt
+            double total_time = (n_yaw - 1) * yaw_dt;
+
+            // 3. 清空旧的控制点
             control_points_.clear();
 
-            // 7. 遍历 knots，计算每个时刻 t=knots[i] 时的位置
-            //    并用 (t / yaw_dt) 找到航向角 yaw
-            // 注意三次B样条常在首尾各重复 3 次 knot，你可自行决定跳过
-            // 这里简单示例全部遍历
-            for (int i = 0; i < n_knots; i++) {
-                double t = eigen_knots(i);
-
-                // Evaluate 轨迹在时刻 t 的 (x,y,z)
-                // 如果 t 不在 [knot(0), knot(end)] 范围，也可能要额外处理
+            // 4. 遍历每个 yaw 点，生成控制点
+            //    对于每个 yaw 索引 i，对应时间 t = i * yaw_dt
+            //    位置通过对 pos_pts 进行线性插值获得，下标：
+            //         pos_index = (t / total_time) * (n_pos - 1)
+            //    航向直接使用 msg->yaw_pts[i]
+            for (int i = 0; i < n_yaw; i++) {
+                double t = i * yaw_dt;
+                double pos_index = 0.0;
+                if (total_time > 0 && n_pos > 1) {
+                    pos_index = (t / total_time) * (n_pos - 1);
+                }
+                int j = static_cast<int>(std::floor(pos_index));
+                double fraction = pos_index - j;
                 Eigen::Vector3d pos_xyz;
-                try {
-                    pos_xyz = pos_bspline.evaluateDeBoorT(t);
-                } catch(...) {
-                    // 避免越界/异常
-                    continue;
+                if (j >= n_pos - 1) {
+                    // 超出插值范围，直接使用最后一个点
+                    pos_xyz << msg->pos_pts[n_pos - 1].x,
+                            msg->pos_pts[n_pos - 1].y,
+                            msg->pos_pts[n_pos - 1].z;
+                } else {
+                    // 线性插值：p = (1 - fraction) * pos_pts[j] + fraction * pos_pts[j+1]
+                    pos_xyz.x() = (1.0 - fraction) * msg->pos_pts[j].x + fraction * msg->pos_pts[j + 1].x;
+                    pos_xyz.y() = (1.0 - fraction) * msg->pos_pts[j].y + fraction * msg->pos_pts[j + 1].y;
+                    pos_xyz.z() = (1.0 - fraction) * msg->pos_pts[j].z + fraction * msg->pos_pts[j + 1].z;
                 }
 
-                // 根据 t 算 yaw 的索引
-                int j = static_cast<int>( std::floor(t / yaw_dt) );
-                if      (j < 0)       j = 0;
-                else if (j >= n_yaw)  j = n_yaw - 1;
-
-                double yaw_val = msg->yaw_pts[j];
-
-                // 构造 ControlPoint
+                // 构造控制点：位置插值结果 + 直接抓取的 yaw 数据
                 ControlPoint cp;
                 cp.x    = pos_xyz.x();
                 cp.y    = pos_xyz.y();
-                cp.yaw  = yaw_val;
-                cp.time = cp.time = current_time_sec + t;  
-
+                cp.yaw  = msg->yaw_pts[i];   // 不进行插值，直接使用所有 yaw 信息
+                cp.time = current_time_sec + t;
                 control_points_.push_back(cp);
             }
 
-            // 8. 打印调试信息
+            // 5. 打印调试信息
             log_file_ << "[" << current_time << "] Constructed " 
                     << control_points_.size() << " control points from B-spline." << std::endl;
             for (size_t i = 0; i < control_points_.size(); i++) {
@@ -300,37 +278,32 @@ class TrajPidNode : public rclcpp::Node {
                         << ", t=" << control_points_[i].time - current_time_sec << ")" << std::endl;
             }
 
-            // 9. 若需要，把第一个控制点当作当前 target
+            // 6. 将第一个控制点作为当前目标（如果存在）
             if (!control_points_.empty()) {
                 target_x_   = control_points_[0].x;
                 target_y_   = control_points_[0].y;
                 target_yaw_ = control_points_[0].yaw;
             }
         }
-    
-        void control_loop() 
-        {
+
+        void control_loop() {
             double current_time_sec = this->now().seconds();
             std::string current_time = get_current_time_str();
-
-            // 若无控制点，直接返回
+        
+            // 若没有控制点，则记录日志并返回
             if (control_points_.empty()) {
                 log_file_ << "-------------------------" << std::endl;
-                log_file_ << "-------------------------" << std::endl;
-                log_file_ << "[" << get_current_time_str() << "] Selected control point: NA" << std::endl;
-                log_file_ << "&&&&&& TIMESTAMP: &&&&&&&" << get_current_time_str() << std::endl;
-                log_file_ << "-------------------------" << std::endl;
+                log_file_ << "[" << current_time << "] Selected control point: NA" << std::endl;
                 log_file_ << "-------------------------" << std::endl;
                 return;
             }
-
-            // ===== 外环控制：根据B样条获得目标点，计算位置和姿态误差 =====
-            // 从control_points_中找到当前时刻要跟踪的目标控制点
+        
+            // ===== 外环控制：选择目标控制点 =====
             ControlPoint target_cp;
             bool target_found = false;
-            for (size_t i = 0; i < control_points_.size(); ++i) {
-                if (control_points_[i].time > current_time_sec) {
-                    target_cp = control_points_[i];
+            for (const auto &cp : control_points_) {
+                if (cp.time > current_time_sec) {
+                    target_cp = cp;
                     target_found = true;
                     break;
                 }
@@ -338,58 +311,33 @@ class TrajPidNode : public rclcpp::Node {
             if (!target_found) {
                 target_cp = control_points_.back();
             }
-            // 更新全局目标变量（后续日志依赖它们）
             target_x_   = target_cp.x;
             target_y_   = target_cp.y;
             target_yaw_ = target_cp.yaw;
-
-            // 计算位置误差（dx, dy、距离）和朝向误差
+        
+            // ===== 计算位置和航向误差 =====
             double dx = target_x_ - current_position_x_;
             double dy = target_y_ - current_position_y_;
             double distance = std::sqrt(dx * dx + dy * dy);
             double angle_to_target = std::atan2(dy, dx);
             double alpha = angle_to_target - current_yaw_;
-            if (alpha > M_PI)  alpha -= 2.0 * M_PI;
-            else if (alpha < -M_PI) alpha += 2.0 * M_PI;
+            while (alpha > M_PI)  alpha -= 2.0 * M_PI;
+            while (alpha < -M_PI) alpha += 2.0 * M_PI;
             double e_forward = distance * std::cos(alpha);
-
-            // 外环PID：利用几何/姿态误差计算期望速度（v_d, w_d）
-            double v_outer = pid_control_.compute(e_forward, 0.0);
-            double w_outer = pid_orientation_control_.compute(alpha, 0.0);
-
-            // ===== 内环控制：基于目标与实际速度差异补偿 =====
-            // 速度误差（这里仍保留原来由/traj话题设置的目标速度）
-            double velocity_error = target_linear_velocity_ - current_linear_velocity_;
-            double angular_velocity_error = target_angular_velocity_ - current_angular_velocity_;
-
-            // 内环PID：对速度误差进行跟踪
-            double v_inner = pid_velocity_control_.compute(velocity_error, 0.0);
-            double w_inner = pid_angular_velocity_control_.compute(angular_velocity_error, 0.0);
-
-            // 将外环和内环的输出按一定权重组合（此处权重可调）
-            const double position_weight = 0.9810;
-            const double velocity_weight = 0.3996;
-            const double orientation_weight = 0.0190;
-            const double angular_velocity_weight = 0.9696;
-            double pid_linear_output  = v_outer * position_weight + v_inner * velocity_weight;
-            double pid_angular_output = w_outer * orientation_weight + w_inner * angular_velocity_weight;
-
-            // 在角速度上加一简单滑模补偿（示例：积分+符号修正，防止抖振可做边界层处理）
-            static double w_sliding_integral = 0.0;
-            w_sliding_integral += angular_velocity_error * 0.1; // 10Hz采样周期
-            double sliding_gain = 0.1;
-            double sliding_term = sliding_gain * (w_outer - current_angular_velocity_ + 0.01 * w_sliding_integral);
-            pid_angular_output += sliding_term;
-
+        
+            // ===== 使用PID控制器计算输出 =====
+            double linear_cmd = pid_control_.compute(e_forward, 0.0);
+            double angular_cmd = pid_orientation_control_.compute(alpha, 0.0);
+        
             // 限幅处理
             const double max_linear_speed = 2.0;
-            if (pid_linear_output >  max_linear_speed)  pid_linear_output =  max_linear_speed;
-            if (pid_linear_output < -max_linear_speed)  pid_linear_output = -max_linear_speed;
             const double max_angular_speed = 0.5;
-            if (pid_angular_output >  max_angular_speed)  pid_angular_output =  max_angular_speed;
-            if (pid_angular_output < -max_angular_speed)  pid_angular_output = -max_angular_speed;
-
-            // ===== 日志记录部分【格式保持不变】=====
+            if (linear_cmd >  max_linear_speed)  linear_cmd =  max_linear_speed;
+            if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
+            if (angular_cmd >  max_angular_speed)  angular_cmd =  max_angular_speed;
+            if (angular_cmd < -max_angular_speed)  angular_cmd = -max_angular_speed;
+        
+            // ===== 准备日志信息 =====
             std::string position_str = odom_received_
                 ? ("x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_))
                 : "NA";
@@ -404,18 +352,16 @@ class TrajPidNode : public rclcpp::Node {
                 : "NA";
             std::string actual_linear_velocity_str = odom_received_ ? std::to_string(current_linear_velocity_) : "NA";
             std::string actual_angular_velocity_str = odom_received_ ? std::to_string(current_angular_velocity_) : "NA";
-
-            // 以下日志格式与原代码完全一致，不做任何调整
-            log_file_ << "-------------------------" << std::endl;
+        
+            // ===== 日志记录（格式保持不变） =====
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "[" << get_current_time_str() << "] Selected control point: "
-                    << "(x: " << target_x_ << ", y: " << target_y_ << ", yaw: " << target_yaw_ << ")"
-                    << std::endl;
-            log_file_ << "&&&&&& TIMESTAMP: &&&&&&&" << get_current_time_str() << std::endl;
-            log_file_ << "-- PID Output: Linear Velocity: " << pid_linear_output
-                    << ", Angular Velocity: " << pid_angular_output << std::endl;
+                      << "(x: " << target_x_ << ", y: " << target_y_ << ", yaw: " << target_yaw_ << ")"
+                      << std::endl;
+            log_file_ << "-- PID Output: Linear Velocity: " << linear_cmd
+                      << ", Angular Velocity: " << angular_cmd << std::endl;
             log_file_ << "Linear Velocity Target: " << target_linear_velocity_
-                    << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
+                      << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
             log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
             log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
             log_file_ << "--Distance to Target (abs): " << distance << std::endl;
@@ -423,15 +369,15 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "--Orientation ERROR: " << alpha << std::endl;
             log_file_ << "Current Linear Velocity: " << actual_linear_velocity_str << std::endl;
             log_file_ << "Current Angular Velocity: " << actual_angular_velocity_str << std::endl;
-            log_file_ << "--Linear Velocity ERROR: " << velocity_error << std::endl;
-            log_file_ << "--Angular Velocity ERROR: " << angular_velocity_error << std::endl;
+            // 简化后的算法未使用内环控制，故速度误差均为0
+            log_file_ << "--Linear Velocity ERROR: " << 0.0 << std::endl;
+            log_file_ << "--Angular Velocity ERROR: " << 0.0 << std::endl;
             log_file_ << "-------------------------" << std::endl;
-            log_file_ << "-------------------------" << std::endl;
-
-            // ===== 最后发布控制指令 =====
+        
+            // ===== 发布控制指令 =====
             geometry_msgs::msg::Twist cmd_msg;
-            cmd_msg.linear.x  = pid_linear_output;
-            cmd_msg.angular.z = pid_angular_output;
+            cmd_msg.linear.x  = linear_cmd;
+            cmd_msg.angular.z = angular_cmd;
             cmd_publisher_->publish(cmd_msg);
         }
 
