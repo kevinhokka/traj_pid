@@ -94,8 +94,8 @@ class TrajPidNode : public rclcpp::Node {
     
             RCLCPP_INFO(this->get_logger(), "Logging to file: %s", log_filename.c_str());
     
-            traj_subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
-                "/traj", 10, std::bind(&TrajPidNode::traj_callback, this, std::placeholders::_1));
+            // traj_subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
+            //     "/traj", 10, std::bind(&TrajPidNode::traj_callback, this, std::placeholders::_1));
     
             odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
                 "/Odometry", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
@@ -173,12 +173,12 @@ class TrajPidNode : public rclcpp::Node {
         double target_yaw_;
     
         // 回调函数处理
-        void traj_callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
-            target_linear_velocity_ = msg->linear.x;
-            target_angular_velocity_ = msg->angular.z;
-            log_file_ << "Received trajectory - Linear velocity: " << target_linear_velocity_
-                        << ", Angular velocity: " << target_angular_velocity_ << std::endl;
-        }
+        // void traj_callback(const geometry_msgs::msg::Twist::SharedPtr msg) {
+        //     target_linear_velocity_ = msg->linear.x;
+        //     target_angular_velocity_ = msg->angular.z;
+        //     log_file_ << "Received trajectory - Linear velocity: " << target_linear_velocity_
+        //                 << ", Angular velocity: " << target_angular_velocity_ << std::endl;
+        // }
     
         void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
             if (msg == nullptr) {
@@ -204,11 +204,9 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "Current yaw: " << current_yaw_ << " (roll: " << roll << ", pitch: " << pitch << ")" << std::endl;
         }
     
-        
-        // 修改后的 B-spline 回调：利用 bspline.msg 中的时间信息（如果有）设置轨迹起始时间
         void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
             std::string current_time = get_current_time_str();
-
+        
             if (!msg) {
                 log_file_ << "[" << current_time << "] B-spline message is null." << std::endl;
                 receive_traj_ = false;
@@ -219,7 +217,7 @@ class TrajPidNode : public rclcpp::Node {
                 receive_traj_ = false;
                 return;
             }
-
+        
             // 构造位置点矩阵
             Eigen::MatrixXd pos_pts(msg->pos_pts.size(), 3);
             for (size_t i = 0; i < msg->pos_pts.size(); i++) {
@@ -232,72 +230,93 @@ class TrajPidNode : public rclcpp::Node {
             for (size_t i = 0; i < msg->knots.size(); i++) {
                 knots(i) = msg->knots[i];
             }
-
+        
             // 构造位置轨迹，时间分辨率设置为 0.1
             planner::NonUniformBspline pos_traj(pos_pts, msg->order, 0.1);
             pos_traj.setKnot(knots);
-
+        
             // 构造 yaw 轨迹
             Eigen::MatrixXd yaw_pts(msg->yaw_pts.size(), 1);
             for (size_t i = 0; i < msg->yaw_pts.size(); i++) {
                 yaw_pts(i, 0) = msg->yaw_pts[i];
             }
             planner::NonUniformBspline yaw_traj(yaw_pts, msg->order, msg->yaw_dt);
-
-            // 如果消息中包含有效的 start_time（假设大于0有效），则使用消息中的时间作为轨迹起始时间；
-            // 否则使用当前系统时间。
-            if (msg->start_time > 0) {
-                // 这里假设 msg->start_time 是 double 类型，表示从纪元开始的秒数
-                std::time_t t = static_cast<std::time_t>(msg->start_time);
-                start_time_ = std::chrono::system_clock::from_time_t(t);
-                // 注意：这种转换可能会丢失毫秒级别的精度，如需要更高精度，可根据具体数据进行调整
-            } else {
-                start_time_ = std::chrono::system_clock::now();
-            }
-
+        
+            // 使用当前系统时间作为轨迹起始时间
+            start_time_ = std::chrono::system_clock::now();
             traj_.clear();
-            traj_.push_back(pos_traj);                   // traj_[0]：位置
-            traj_.push_back(pos_traj.getDerivative());     // traj_[1]：速度
-            traj_.push_back(traj_[1].getDerivative());       // traj_[2]：加速度
-            traj_.push_back(yaw_traj);                     // traj_[3]：航向
-            traj_.push_back(yaw_traj.getDerivative());       // traj_[4]：航向导数
-
+            traj_.push_back(pos_traj);                    // traj_[0]：位置
+            traj_.push_back(pos_traj.getDerivative());      // traj_[1]：速度
+            traj_.push_back(traj_[1].getDerivative());        // traj_[2]：加速度
+            traj_.push_back(yaw_traj);                      // traj_[3]：航向
+            traj_.push_back(yaw_traj.getDerivative());        // traj_[4]：航向导数
+        
             traj_duration_ = traj_[0].getTimeSum();
             receive_traj_ = true;
-
+        
             log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " 
-                    << msg->pos_pts.size() << ", yaw_pts size: " << msg->yaw_pts.size() 
-                    << ", order=" << msg->order << std::endl;
+                      << msg->pos_pts.size() << ", yaw_pts size: " << msg->yaw_pts.size() 
+                      << ", order=" << msg->order << std::endl;
+        
+        
+            // ----------------- 遍历轨迹并打印每个控制点的信息 -----------------
+            log_file_ << "----- Control Points -----" << std::endl;
+            double dt = 0.1;  // 采样时间间隔，可根据需要调整
+            int index = 0;
+            for (double t = 0; t <= traj_duration_; t += dt, index++) {
+                Eigen::Vector3d p = traj_[0].evaluateDeBoor(t);
+                Eigen::Vector3d v = traj_[1].evaluateDeBoor(t);
+                double y = traj_[3].evaluateDeBoor(t)(0);
+                double y_dot = traj_[4].evaluateDeBoor(t)(0);
+                log_file_ << "Point[" << index << "]: time = " << t 
+                          << ", pos = (" << p(0) << ", " << p(1) << ", " << p(2) << ")"
+                          << ", vel = (" << v(0) << ", " << v(1) << ", " << v(2) << ")"
+                          << ", yaw = " << y << ", yaw_dot = " << y_dot << std::endl;
+            }
+            log_file_ << "--------------------------" << std::endl;
         }
-
-        // 修改后的控制循环：利用 B-spline 直接评估当前轨迹状态，并计算目标点
+    
+        // 控制循环：利用 B-spline 直接评估当前轨迹状态
         void control_loop() {
+            double current_time_sec = this->now().seconds();
             std::string current_time = get_current_time_str();
-
+    
             if (!receive_traj_) {
                 log_file_ << "-------------------------" << std::endl;
                 log_file_ << "[" << current_time << "] No B-spline trajectory received." << std::endl;
                 log_file_ << "-------------------------" << std::endl;
                 return;
             }
+    
+            // // 计算从轨迹开始到当前的时间差
+            double buffer = 2.1;
+            std::chrono::duration<double> buffer_duration(buffer);
 
-            // 计算从轨迹起始时间（可能来自消息）到当前的时间差
+
+            // auto now_tp = std::chrono::system_clock::now();
+            // double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ ).count();
+            
             auto now_tp = std::chrono::system_clock::now();
-            double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_).count();
-            if (t_diff < 0) t_diff = 0;
-            if (t_diff > traj_duration_) t_diff = traj_duration_;
-
+            double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ - buffer_duration).count();
+            
+            // if (t_diff < 0) t_diff = 0;
+            // if (t_diff > traj_duration_) t_diff = traj_duration_;
+    
             // 评估当前时刻的轨迹状态
             Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_diff);
             Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_diff);
             double yaw = traj_[3].evaluateDeBoor(t_diff)(0);
             double yaw_dot = traj_[4].evaluateDeBoor(t_diff)(0);
-
+    
             // 设置目标值
             target_x_ = pos(0);
             target_y_ = pos(1);
             target_yaw_ = yaw;
 
+            target_linear_velocity_ = vel(0);
+            target_angular_velocity_ = yaw_dot;
+            // target_angular_velocity_ = vel(1);
+    
             // 计算位置和航向误差（用于日志输出）
             double dx = target_x_ - current_position_x_;
             double dy = target_y_ - current_position_y_;
@@ -307,11 +326,11 @@ class TrajPidNode : public rclcpp::Node {
             while (alpha > M_PI)  alpha -= 2.0 * M_PI;
             while (alpha < -M_PI) alpha += 2.0 * M_PI;
             double e_forward = distance * std::cos(alpha);
-
-            // 这里暂时直接使用 B-spline 评估的速度和航向变化率作为控制输出
-            double linear_cmd = vel(0);  // 假设沿 x 方向的速度为前进速度
+    
+            // 使用 B-spline 评估的速度和航向变化率作为控制输出
+            double linear_cmd = vel(0);
             double angular_cmd = yaw_dot;
-
+    
             // 限幅处理
             const double max_linear_speed = 2.0;
             const double max_angular_speed = 0.5;
@@ -319,7 +338,7 @@ class TrajPidNode : public rclcpp::Node {
             if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
             if (angular_cmd >  max_angular_speed)  angular_cmd =  max_angular_speed;
             if (angular_cmd < -max_angular_speed)  angular_cmd = -max_angular_speed;
-
+    
             // 构造日志字符串（输出格式保持不变）
             std::string position_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
                 ? ("x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_))
@@ -335,15 +354,22 @@ class TrajPidNode : public rclcpp::Node {
                 : "NA";
             std::string actual_linear_velocity_str = (current_linear_velocity_ != 0) ? std::to_string(current_linear_velocity_) : "NA";
             std::string actual_angular_velocity_str = (current_angular_velocity_ != 0) ? std::to_string(current_angular_velocity_) : "NA";
-
+    
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "[" << get_current_time_str() << "] Selected control point: "
-                    << "(x: " << target_x_ << ", y: " << target_y_ << ", yaw: " << target_yaw_ << ")"
-                    << std::endl;
+                      << "(x: " << target_x_ << ", y: " << target_y_ 
+                      << ", yaw: " << target_yaw_ << ")" << std::endl;
+
+            log_file_ << "Time diff: " <<  t_diff  << std::endl;       
+
             log_file_ << "-- PID Output: Linear Velocity: " << linear_cmd
-                    << ", Angular Velocity: " << angular_cmd << std::endl;
+                      << ", Angular Velocity: " << angular_cmd << std::endl;
             log_file_ << "Linear Velocity Target: " << target_linear_velocity_
-                    << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
+                      << ", Angular Velocity Target: " << target_angular_velocity_ << std::endl;
+            
+            // log_file_ << "ANOTHER angular Velocity Target: " << another_angular_vel << std::endl;
+
+
             log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
             log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
             log_file_ << "--Distance to Target (abs): " << distance << std::endl;
@@ -354,13 +380,14 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "--Linear Velocity ERROR: " << 0.0 << std::endl;
             log_file_ << "--Angular Velocity ERROR: " << 0.0 << std::endl;
             log_file_ << "-------------------------" << std::endl;
-
+    
             // 发布控制指令
             geometry_msgs::msg::Twist cmd_msg;
             cmd_msg.linear.x  = linear_cmd;
             cmd_msg.angular.z = angular_cmd;
             cmd_publisher_->publish(cmd_msg);
         }
+    
     
 
 };

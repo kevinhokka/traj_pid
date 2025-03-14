@@ -8,14 +8,6 @@ import os
 def generate_launch_description():
     return LaunchDescription([
         # 启动 planner 包中的 test_bspline 节点
-        Node(
-            package='planner',
-            executable='test_bspline',
-            name='test_bspline_node',
-            output='screen',
-            parameters=[],
-            remappings=[]
-        ),
 
         # 启动 planner 包中的 traj_server 节点
         Node(
@@ -58,5 +50,19 @@ def generate_launch_description():
             output='screen',
             parameters=[],
             remappings=[]
+        ),
+
+         TimerAction(
+            period=4,  # 延迟时间，单位为秒
+            actions=[
+                Node(
+                        package='planner',
+                        executable='test_bspline',
+                        name='test_bspline_node',
+                        output='screen',
+                        parameters=[],
+                        remappings=[]
+                    )
+            ]
         ),
     ])
