@@ -1,0 +1,3818 @@
+-------------------------
+[2025-03-17_20-24-09.406] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-09.506] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-09.606] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-09.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-09.806] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-09.906] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.006] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.106] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.306] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.406] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.506] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.606] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.806] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-10.906] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.006] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.106] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.306] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.406] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.506] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.606] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.806] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-11.906] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-12.006] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-12.106] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-12.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-12.306] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-12.406] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=3.58551e-05, y=-3.58398e-05, Linear Velocity: 0.00113441, Angular Velocity: 0
+Current yaw: 9.58482e-05 (roll: -0.0234961, pitch: -0.0143504)
+-------------------------
+[2025-03-17_20-24-12.506] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00627833, y=0.00295742, Linear Velocity: 0.00713233, Angular Velocity: 0
+Current yaw: 0.000154245 (roll: -0.0236654, pitch: -0.0142217)
+Received Odometry - Position: x=0.00315709, y=-0.00228424, Linear Velocity: -0.0307608, Angular Velocity: 0
+Current yaw: -0.0011416 (roll: -0.0265353, pitch: -0.0141086)
+Received Odometry - Position: x=0.000137813, y=-0.00776267, Linear Velocity: -0.0282331, Angular Velocity: 0
+Current yaw: 0.000322087 (roll: -0.0248251, pitch: -0.0140439)
+-------------------------
+[2025-03-17_20-24-12.606] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.000308596, y=-0.00954022, Linear Velocity: -0.0145413, Angular Velocity: 0
+Current yaw: -0.000909802 (roll: -0.0250315, pitch: -0.0138618)
+Received Odometry - Position: x=-0.00104808, y=-0.00522017, Linear Velocity: -0.00966071, Angular Velocity: 0
+Current yaw: -0.000402891 (roll: -0.0261077, pitch: -0.0138739)
+Received Odometry - Position: x=0.00147795, y=-0.00445303, Linear Velocity: 0.00427469, Angular Velocity: 0
+Current yaw: -0.000192833 (roll: -0.0248652, pitch: -0.014215)
+Received Odometry - Position: x=0.000834462, y=-0.00571833, Linear Velocity: 0.00332629, Angular Velocity: 0
+Current yaw: -0.000792047 (roll: -0.0242733, pitch: -0.0137886)
+-------------------------
+[2025-03-17_20-24-12.706] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00295921, y=-0.00684778, Linear Velocity: 0.0154948, Angular Velocity: 0
+Current yaw: -2.54963e-05 (roll: -0.0247373, pitch: -0.0143703)
+Received Odometry - Position: x=0.00468763, y=-0.00696169, Linear Velocity: 0.0167684, Angular Velocity: 0
+Current yaw: 0.000419735 (roll: -0.0259154, pitch: -0.0144846)
+Received Odometry - Position: x=0.00222663, y=-0.00749658, Linear Velocity: 0.00224904, Angular Velocity: 0
+Current yaw: -0.000342294 (roll: -0.0259241, pitch: -0.0140538)
+Received Odometry - Position: x=0.00305798, y=-0.00724893, Linear Velocity: 0.00538097, Angular Velocity: 0
+Current yaw: 1.00076e-05 (roll: -0.0239507, pitch: -0.0146739)
+-------------------------
+[2025-03-17_20-24-12.806] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00581216, y=-0.00537263, Linear Velocity: 0.0238161, Angular Velocity: 0
+Current yaw: -0.000599261 (roll: -0.0256587, pitch: -0.0145092)
+Received Odometry - Position: x=0.00823366, y=-0.00584942, Linear Velocity: 0.0267957, Angular Velocity: 0
+Current yaw: 0.000334018 (roll: -0.0252155, pitch: -0.0150226)
+Received Odometry - Position: x=0.00260458, y=-0.00172272, Linear Velocity: -0.0268335, Angular Velocity: 0
+Current yaw: -0.000396184 (roll: -0.0258906, pitch: -0.0140211)
+-------------------------
+[2025-03-17_20-24-12.906] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00195712, y=-0.00308301, Linear Velocity: -0.0236086, Angular Velocity: 0
+Current yaw: -0.000567481 (roll: -0.0256963, pitch: -0.013717)
+Received Odometry - Position: x=-0.00378341, y=-0.00949873, Linear Velocity: -0.0190517, Angular Velocity: 0
+Current yaw: -0.000780035 (roll: -0.0258945, pitch: -0.0133651)
+Received Odometry - Position: x=-0.00218287, y=-0.0126231, Linear Velocity: 0.00332996, Angular Velocity: 0
+Current yaw: -0.00134028 (roll: -0.0245897, pitch: -0.0136365)
+Received Odometry - Position: x=-0.00285845, y=-0.011426, Linear Velocity: 0.00189047, Angular Velocity: 0
+Current yaw: -0.000918318 (roll: -0.0249886, pitch: -0.0140772)
+-------------------------
+[2025-03-17_20-24-13.006] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.001282, y=-0.0106398, Linear Velocity: 0.0103417, Angular Velocity: 0
+Current yaw: -0.000396231 (roll: -0.0249811, pitch: -0.0135526)
+-------------------------
+[2025-03-17_20-24-13.106] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00041349, y=-0.00966718, Linear Velocity: 0.0146223, Angular Velocity: 0
+Current yaw: -0.00101953 (roll: -0.0251045, pitch: -0.0146059)
+-------------------------
+[2025-03-17_20-24-13.206] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00187396, y=-0.0103746, Linear Velocity: 0.0174727, Angular Velocity: 0
+Current yaw: -0.000782705 (roll: -0.0249924, pitch: -0.0141734)
+-------------------------
+[2025-03-17_20-24-13.306] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00290097, y=-0.0122196, Linear Velocity: 0.0176804, Angular Velocity: 0
+Current yaw: -0.000475523 (roll: -0.0256571, pitch: -0.0145952)
+-------------------------
+[2025-03-17_20-24-13.406] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00265026, y=-0.0101236, Linear Velocity: 0.0144867, Angular Velocity: 0
+Current yaw: -0.00105761 (roll: -0.025468, pitch: -0.0145954)
+-------------------------
+[2025-03-17_20-24-13.506] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00251864, y=-0.00855965, Linear Velocity: 0.0113336, Angular Velocity: 0
+Current yaw: -0.000677916 (roll: -0.0243255, pitch: -0.0144473)
+-------------------------
+[2025-03-17_20-24-13.606] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.000146449, y=-0.0106839, Linear Velocity: 0.0023619, Angular Velocity: 0
+Current yaw: -0.00140831 (roll: -0.0241721, pitch: -0.0146404)
+-------------------------
+[2025-03-17_20-24-13.706] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00078419, y=-0.0100375, Linear Velocity: 0.000953226, Angular Velocity: 0
+Current yaw: -0.000297779 (roll: -0.0238422, pitch: -0.0142003)
+-------------------------
+[2025-03-17_20-24-13.806] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.000149953, y=-0.00841686, Linear Velocity: 0.00612423, Angular Velocity: 0
+Current yaw: -0.00041711 (roll: -0.0250139, pitch: -0.0144561)
+-------------------------
+[2025-03-17_20-24-13.906] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.000786071, y=-0.0108885, Linear Velocity: 0.00203088, Angular Velocity: 0
+Current yaw: -0.00132809 (roll: -0.0250378, pitch: -0.0147876)
+-------------------------
+[2025-03-17_20-24-14.006] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00159734, y=-0.0109259, Linear Velocity: 0.0109802, Angular Velocity: 0
+Current yaw: -0.000583774 (roll: -0.0254, pitch: -0.0149373)
+-------------------------
+[2025-03-17_20-24-14.106] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=7.89976e-05, y=-0.0126896, Linear Velocity: 0.00442728, Angular Velocity: 0
+Current yaw: -0.00099487 (roll: -0.0246025, pitch: -0.0145473)
+-------------------------
+[2025-03-17_20-24-14.206] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00183101, y=-0.0124544, Linear Velocity: -0.00279995, Angular Velocity: 0
+Current yaw: -0.00113163 (roll: -0.024671, pitch: -0.0144161)
+-------------------------
+[2025-03-17_20-24-14.306] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00206056, y=-0.0139302, Linear Velocity: -0.00161077, Angular Velocity: 0
+Current yaw: -0.00116377 (roll: -0.0251213, pitch: -0.0143857)
+-------------------------
+[2025-03-17_20-24-14.406] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00390661, y=-0.0133799, Linear Velocity: -0.00543756, Angular Velocity: 0
+Current yaw: -0.000765844 (roll: -0.0243883, pitch: -0.0139172)
+-------------------------
+[2025-03-17_20-24-14.506] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00586778, y=-0.0147206, Linear Velocity: -0.00810458, Angular Velocity: 0
+Current yaw: -0.000432651 (roll: -0.0239534, pitch: -0.0141364)
+-------------------------
+[2025-03-17_20-24-14.606] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00487956, y=-0.0149729, Linear Velocity: -0.00254917, Angular Velocity: 0
+Current yaw: -0.000448339 (roll: -0.0247421, pitch: -0.0140717)
+-------------------------
+[2025-03-17_20-24-14.706] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00456121, y=-0.0146649, Linear Velocity: 0.00116286, Angular Velocity: 0
+Current yaw: -0.00121144 (roll: -0.0243274, pitch: -0.0139766)
+-------------------------
+[2025-03-17_20-24-14.806] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.0031008, y=-0.0139883, Linear Velocity: 0.00640863, Angular Velocity: 0
+Current yaw: -0.0002265 (roll: -0.0247946, pitch: -0.0139505)
+-------------------------
+[2025-03-17_20-24-14.906] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00412457, y=-0.014659, Linear Velocity: 0.00229133, Angular Velocity: 0
+Current yaw: -0.000950915 (roll: -0.0247303, pitch: -0.0136343)
+-------------------------
+[2025-03-17_20-24-15.006] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00502459, y=-0.0157, Linear Velocity: -0.000445996, Angular Velocity: 0
+Current yaw: -0.0008033 (roll: -0.0250836, pitch: -0.0140165)
+-------------------------
+[2025-03-17_20-24-15.106] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00404079, y=-0.015404, Linear Velocity: 0.00254203, Angular Velocity: 0
+Current yaw: -0.000319452 (roll: -0.0249455, pitch: -0.0136926)
+-------------------------
+[2025-03-17_20-24-15.206] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00234518, y=-0.0178711, Linear Velocity: 0.00740488, Angular Velocity: 0
+Current yaw: -0.000505122 (roll: -0.0252985, pitch: -0.0143215)
+-------------------------
+[2025-03-17_20-24-15.306] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00126263, y=-0.0177641, Linear Velocity: 0.00927572, Angular Velocity: 0
+Current yaw: -0.000678514 (roll: -0.0249487, pitch: -0.0141816)
+-------------------------
+[2025-03-17_20-24-15.407] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-15.507] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-15.611] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-15.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-15.809] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.000571384, y=-0.0226771, Linear Velocity: 0.00871005, Angular Velocity: 0
+Current yaw: -0.00079339 (roll: -0.0259406, pitch: -0.0147001)
+-------------------------
+[2025-03-17_20-24-16.574] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.000792032, y=-0.0233237, Linear Velocity: 0.011014, Angular Velocity: 0
+Current yaw: -0.000788209 (roll: -0.0256069, pitch: -0.0144674)
+-------------------------
+[2025-03-17_20-24-17.889] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-20.716] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-23.190] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00198983, y=-0.0242581, Linear Velocity: 0.013173, Angular Velocity: 0
+Current yaw: -0.000658506 (roll: -0.0254869, pitch: -0.0138096)
+-------------------------
+[2025-03-17_20-24-28.621] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.0177618, y=-0.0398127, Linear Velocity: -0.00685287, Angular Velocity: 0
+Current yaw: -0.00174596 (roll: -0.0250785, pitch: -0.0120633)
+-------------------------
+[2025-03-17_20-24-28.710] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-28.810] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00805979, y=0.013352, Linear Velocity: 0.0519893, Angular Velocity: 0
+Current yaw: -0.00145834 (roll: -0.0211549, pitch: -0.00944669)
+-------------------------
+[2025-03-17_20-24-28.906] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-0.00387332, y=-0.0215851, Linear Velocity: 0.0540442, Angular Velocity: 0
+Current yaw: -0.000559985 (roll: -0.0257202, pitch: -0.0143392)
+-------------------------
+[2025-03-17_20-24-29.006] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.0189857, y=-0.014024, Linear Velocity: -0.00451125, Angular Velocity: 0
+Current yaw: -0.00184677 (roll: -0.0243483, pitch: -0.0177985)
+Received Odometry - Position: x=0.011738, y=0.0484812, Linear Velocity: -0.117255, Angular Velocity: 0
+Current yaw: -0.00360056 (roll: 0.0106139, pitch: -0.0158096)
+Received Odometry - Position: x=-0.220578, y=0.155312, Linear Velocity: -0.223635, Angular Velocity: 0
+Current yaw: -0.0116158 (roll: -0.0051823, pitch: -0.0218368)
+Received Odometry - Position: x=0.0748813, y=-0.635355, Linear Velocity: -1.27503, Angular Velocity: 0
+Current yaw: -0.13499 (roll: 0.0108415, pitch: -0.193898)
+-------------------------
+[2025-03-17_20-24-29.106] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-2.84648, y=-2.27311, Linear Velocity: -4.34598, Angular Velocity: 0
+Current yaw: -0.239363 (roll: 0.0349366, pitch: -0.285748)
+Received Odometry - Position: x=-13.1634, y=-4.27734, Linear Velocity: -8.97518, Angular Velocity: 0
+Current yaw: -0.350664 (roll: 0.0708229, pitch: -0.376566)
+Received Odometry - Position: x=-34.735, y=-5.95552, Linear Velocity: -14.7287, Angular Velocity: 0
+Current yaw: -0.470015 (roll: 0.11918, pitch: -0.462885)
+Received Odometry - Position: x=-71.2302, y=-6.23844, Linear Velocity: -21.1839, Angular Velocity: 0
+Current yaw: -0.599659 (roll: 0.181418, pitch: -0.543053)
+-------------------------
+[2025-03-17_20-24-29.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-29.306] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-127.446, y=-3.63152, Linear Velocity: -27.9899, Angular Velocity: 0
+Current yaw: -0.745512 (roll: 0.261111, pitch: -0.616806)
+-------------------------
+[2025-03-17_20-24-29.406] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-209.997, y=4.1618, Linear Velocity: -34.6669, Angular Velocity: 0
+Current yaw: -0.914321 (roll: 0.363017, pitch: -0.682251)
+-------------------------
+[2025-03-17_20-24-29.506] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-325.394, y=20.4031, Linear Velocity: -40.3714, Angular Velocity: 0
+Current yaw: -1.10826 (roll: 0.489023, pitch: -0.734207)
+Received Odometry - Position: x=-481.295, y=49.5921, Linear Velocity: -44.0473, Angular Velocity: 0
+Current yaw: -1.32743 (roll: 0.638408, pitch: -0.766895)
+Received Odometry - Position: x=-684.432, y=97.3875, Linear Velocity: -44.3855, Angular Velocity: 0
+Current yaw: -1.56444 (roll: 0.803446, pitch: -0.774277)
+-------------------------
+[2025-03-17_20-24-29.606] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-726.766, y=109.57, Linear Velocity: -44.2387, Angular Velocity: 0
+Current yaw: -1.60505 (roll: 0.829391, pitch: -0.772708)
+Received Odometry - Position: x=-1261.29, y=267.896, Linear Velocity: -24.8655, Angular Velocity: 0
+Current yaw: -2.06934 (roll: 1.15939, pitch: -0.694369)
+Received Odometry - Position: x=-2173.83, y=622.654, Linear Velocity: 37.552, Angular Velocity: 0
+Current yaw: -2.52583 (roll: 1.43502, pitch: -0.470621)
+Received Odometry - Position: x=-3585.36, y=1351.44, Linear Velocity: 164.84, Angular Velocity: 0
+Current yaw: -2.92478 (roll: 1.57812, pitch: -0.121651)
+Received Odometry - Position: x=-5336.45, y=2574.5, Linear Velocity: 330.695, Angular Velocity: 0
+Current yaw: 2.99565 (roll: 1.5763, pitch: 0.259092)
+Received Odometry - Position: x=-7227.37, y=4371.2, Linear Velocity: 487.204, Angular Velocity: 0
+Current yaw: 2.5626 (roll: 1.4125, pitch: 0.610446)
+-------------------------
+[2025-03-17_20-24-29.706] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-9483.21, y=7337.66, Linear Velocity: 585.611, Angular Velocity: 0
+Current yaw: 1.73031 (roll: 0.862081, pitch: 0.859627)
+Received Odometry - Position: x=-11322.9, y=11130.9, Linear Velocity: 488.342, Angular Velocity: 0
+Current yaw: 0.817984 (roll: 0.227248, pitch: 0.695459)
+Received Odometry - Position: x=-12527.4, y=15488.6, Linear Velocity: 181.669, Angular Velocity: 0
+Current yaw: 0.240096 (roll: -0.0235756, pitch: 0.272721)
+-------------------------
+[2025-03-17_20-24-29.806] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-29.906] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.006] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.106] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.306] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.406] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.506] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.606] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.806] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-30.906] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.006] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.106] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.306] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.406] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.506] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.606] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.806] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-31.906] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.006] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.106] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.206] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.306] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.406] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.506] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.606] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.706] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.807] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-32.907] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.007] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.107] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.207] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.307] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.407] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.507] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.607] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.707] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.807] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-33.907] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.007] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.107] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.207] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.307] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.407] No B-spline trajectory received.
+-------------------------
+[2025-03-17_20-24-34.454] Received Bspline message - pos_pts size: 27, yaw_pts size: 65, order=3
+----- Control Points -----
+Point[0]: time = 0, pos = (4.32468e-05, -5.79732e-05, 0), vel = (2.61492e-05, -3.50535e-05, 0), yaw = 0, yaw_dot = 0
+Point[1]: time = 0.1, pos = (5.42634e-05, -6.63554e-05, 0), vel = (0.000277909, -0.000180972, 0), yaw = -0.0012747, yaw_dot = -0.0382411
+Point[2]: time = 0.2, pos = (0.000115574, -0.000103844, 0), vel = (0.00103203, -0.000617178, 0), yaw = -0.0101976, yaw_dot = -0.152964
+Point[3]: time = 0.3, pos = (0.000277415, -0.000199467, 0), vel = (0.00228852, -0.00134367, 0), yaw = -0.0344169, yaw_dot = -0.344087
+Point[4]: time = 0.4, pos = (0.000590023, -0.000382254, 0), vel = (0.00404736, -0.00236045, 0), yaw = -0.0786742, yaw_dot = -0.527379
+Point[5]: time = 0.5, pos = (0.00110363, -0.000681233, 0), vel = (0.00630857, -0.00366751, 0), yaw = -0.137157, yaw_dot = -0.628593
+Point[6]: time = 0.6, pos = (0.00186848, -0.00112543, 0), vel = (0.00907215, -0.00526486, 0), yaw = -0.201657, yaw_dot = -0.647811
+Point[7]: time = 0.7, pos = (0.00293481, -0.00174388, 0), vel = (0.0123381, -0.0071525, 0), yaw = -0.264773, yaw_dot = -0.607511
+Point[8]: time = 0.8, pos = (0.00435273, -0.00256547, 0), vel = (0.0160961, -0.00931758, 0), yaw = -0.32176, yaw_dot = -0.525244
+Point[9]: time = 0.9, pos = (0.00616552, -0.00361051, 0), vel = (0.0202126, -0.0115931, 0), yaw = -0.368423, yaw_dot = -0.401265
+Point[10]: time = 1, pos = (0.00840583, -0.00488607, 0), vel = (0.0246464, -0.0139278, 0), yaw = -0.401757, yaw_dot = -0.267454
+Point[11]: time = 1.1, pos = (0.0111054, -0.00639805, 0), vel = (0.0293976, -0.0163216, 0), yaw = -0.422324, yaw_dot = -0.14595
+Point[12]: time = 1.2, pos = (0.0142959, -0.00815236, 0), vel = (0.0344662, -0.0187746, 0), yaw = -0.431358, yaw_dot = -0.0368694
+Point[13]: time = 1.3, pos = (0.0180092, -0.0101549, 0), vel = (0.0398521, -0.0212866, 0), yaw = -0.430417, yaw_dot = 0.0513155
+Point[14]: time = 1.4, pos = (0.0222769, -0.0124117, 0), vel = (0.0455553, -0.0238577, 0), yaw = -0.421966, yaw_dot = 0.113356
+Point[15]: time = 1.5, pos = (0.0271308, -0.0149284, 0), vel = (0.0515759, -0.026488, 0), yaw = -0.408617, yaw_dot = 0.149406
+Point[16]: time = 1.6, pos = (0.0326022, -0.0177107, 0), vel = (0.0578912, -0.029156, 0), yaw = -0.392677, yaw_dot = 0.16702
+Point[17]: time = 1.7, pos = (0.0387163, -0.0207585, 0), vel = (0.0644276, -0.0317923, 0), yaw = -0.375688, yaw_dot = 0.170378
+Point[18]: time = 1.8, pos = (0.0454949, -0.024068, 0), vel = (0.0711792, -0.0343916, 0), yaw = -0.359075, yaw_dot = 0.159731
+Point[19]: time = 1.9, pos = (0.0529594, -0.0276356, 0), vel = (0.0781463, -0.0369537, 0), yaw = -0.34389, yaw_dot = 0.143799
+Point[20]: time = 2, pos = (0.0611313, -0.0314575, 0), vel = (0.0853287, -0.0394789, 0), yaw = -0.330347, yaw_dot = 0.126906
+Point[21]: time = 2.1, pos = (0.0700323, -0.0355301, 0), vel = (0.0927265, -0.0419669, 0), yaw = -0.31854, yaw_dot = 0.109179
+Point[22]: time = 2.2, pos = (0.0796838, -0.0398496, 0), vel = (0.10034, -0.0444179, 0), yaw = -0.308416, yaw_dot = 0.0939684
+Point[23]: time = 2.3, pos = (0.0901074, -0.0444124, 0), vel = (0.108168, -0.0468319, 0), yaw = -0.299613, yaw_dot = 0.082764
+Point[24]: time = 2.4, pos = (0.101323, -0.0492131, 0), vel = (0.116151, -0.0491582, 0), yaw = -0.29173, yaw_dot = 0.0755276
+Point[25]: time = 2.5, pos = (0.113341, -0.0542395, 0), vel = (0.124226, -0.0513461, 0), yaw = -0.284404, yaw_dot = 0.0714716
+Point[26]: time = 2.6, pos = (0.126171, -0.0594777, 0), vel = (0.132394, -0.0533957, 0), yaw = -0.27734, yaw_dot = 0.0702826
+Point[27]: time = 2.7, pos = (0.139822, -0.064914, 0), vel = (0.140655, -0.0553069, 0), yaw = -0.270253, yaw_dot = 0.0718593
+Point[28]: time = 2.8, pos = (0.154305, -0.0705345, 0), vel = (0.149008, -0.0570799, 0), yaw = -0.262939, yaw_dot = 0.0745056
+Point[29]: time = 2.9, pos = (0.169627, -0.0763254, 0), vel = (0.157454, -0.0587145, 0), yaw = -0.255336, yaw_dot = 0.0776164
+Point[30]: time = 3, pos = (0.185799, -0.0822728, 0), vel = (0.165993, -0.0602108, 0), yaw = -0.2474, yaw_dot = 0.0811286
+Point[31]: time = 3.1, pos = (0.202829, -0.0883629, 0), vel = (0.17462, -0.0615669, 0), yaw = -0.239129, yaw_dot = 0.0841702
+Point[32]: time = 3.2, pos = (0.220723, -0.0945806, 0), vel = (0.183271, -0.0627592, 0), yaw = -0.230591, yaw_dot = 0.0864629
+Point[33]: time = 3.3, pos = (0.239483, -0.100909, 0), vel = (0.191925, -0.0637805, 0), yaw = -0.221862, yaw_dot = 0.0880087
+Point[34]: time = 3.4, pos = (0.259109, -0.107331, 0), vel = (0.200584, -0.0646308, 0), yaw = -0.213014, yaw_dot = 0.0888301
+Point[35]: time = 3.5, pos = (0.2796, -0.113829, 0), vel = (0.209247, -0.0653099, 0), yaw = -0.20412, yaw_dot = 0.0889335
+Point[36]: time = 3.6, pos = (0.300958, -0.120387, 0), vel = (0.217915, -0.0658181, 0), yaw = -0.195251, yaw_dot = 0.0883481
+Point[37]: time = 3.7, pos = (0.323183, -0.126987, 0), vel = (0.226586, -0.0661551, 0), yaw = -0.186462, yaw_dot = 0.0873597
+Point[38]: time = 3.8, pos = (0.346276, -0.133613, 0), vel = (0.235262, -0.0663212, 0), yaw = -0.17779, yaw_dot = 0.0860411
+Point[39]: time = 3.9, pos = (0.370235, -0.140246, 0), vel = (0.243924, -0.0663171, 0), yaw = -0.169265, yaw_dot = 0.0844156
+Point[40]: time = 4, pos = (0.395058, -0.14687, 0), vel = (0.252517, -0.066146, 0), yaw = -0.16091, yaw_dot = 0.0826803
+Point[41]: time = 4.1, pos = (0.420736, -0.15347, 0), vel = (0.261036, -0.0658082, 0), yaw = -0.152731, yaw_dot = 0.0808799
+Point[42]: time = 4.2, pos = (0.447263, -0.160027, 0), vel = (0.269482, -0.0653037, 0), yaw = -0.144736, yaw_dot = 0.0790153
+Point[43]: time = 4.3, pos = (0.47463, -0.166525, 0), vel = (0.277853, -0.0646324, 0), yaw = -0.13693, yaw_dot = 0.0770933
+Point[44]: time = 4.4, pos = (0.502831, -0.172947, 0), vel = (0.286151, -0.0637943, 0), yaw = -0.129319, yaw_dot = 0.0751153
+Point[45]: time = 4.5, pos = (0.531858, -0.179278, 0), vel = (0.294376, -0.0627896, 0), yaw = -0.121909, yaw_dot = 0.0730711
+Point[46]: time = 4.6, pos = (0.561704, -0.1855, 0), vel = (0.302526, -0.061618, 0), yaw = -0.114709, yaw_dot = 0.0708953
+Point[47]: time = 4.7, pos = (0.59236, -0.191597, 0), vel = (0.310573, -0.0603063, 0), yaw = -0.107735, yaw_dot = 0.0685762
+Point[48]: time = 4.8, pos = (0.623814, -0.197557, 0), vel = (0.318488, -0.0588809, 0), yaw = -0.100999, yaw_dot = 0.0661046
+Point[49]: time = 4.9, pos = (0.656053, -0.203369, 0), vel = (0.326271, -0.0573419, 0), yaw = -0.0945206, yaw_dot = 0.0634282
+Point[50]: time = 5, pos = (0.689064, -0.209022, 0), vel = (0.333921, -0.0556892, 0), yaw = -0.0883204, yaw_dot = 0.0605391
+Point[51]: time = 5.1, pos = (0.722833, -0.214503, 0), vel = (0.341439, -0.0539228, 0), yaw = -0.0824201, yaw_dot = 0.0574234
+Point[52]: time = 5.2, pos = (0.757347, -0.219803, 0), vel = (0.348824, -0.0520428, 0), yaw = -0.0768457, yaw_dot = 0.0540136
+Point[53]: time = 5.3, pos = (0.792593, -0.224908, 0), vel = (0.356077, -0.0500492, 0), yaw = -0.0716275, yaw_dot = 0.0503003
+Point[54]: time = 5.4, pos = (0.828558, -0.229809, 0), vel = (0.363195, -0.0479473, 0), yaw = -0.0667958, yaw_dot = 0.0462804
+Point[55]: time = 5.5, pos = (0.865226, -0.234497, 0), vel = (0.370148, -0.0458074, 0), yaw = -0.0623821, yaw_dot = 0.0419395
+Point[56]: time = 5.6, pos = (0.902582, -0.23897, 0), vel = (0.376926, -0.0436511, 0), yaw = -0.0584187, yaw_dot = 0.0372759
+Point[57]: time = 5.7, pos = (0.940606, -0.243226, 0), vel = (0.383529, -0.0414785, 0), yaw = -0.0549378, yaw_dot = 0.0322861
+Point[58]: time = 5.8, pos = (0.979281, -0.247265, 0), vel = (0.389958, -0.0392895, 0), yaw = -0.0519728, yaw_dot = 0.0269559
+Point[59]: time = 5.9, pos = (1.01859, -0.251084, 0), vel = (0.396212, -0.0370841, 0), yaw = -0.049558, yaw_dot = 0.021284
+Point[60]: time = 6, pos = (1.05852, -0.254681, 0), vel = (0.402291, -0.0348624, 0), yaw = -0.0477276, yaw_dot = 0.0152598
+Point[61]: time = 6.1, pos = (1.09904, -0.258056, 0), vel = (0.408195, -0.0326243, 0), yaw = -0.0465191, yaw_dot = 0.00884592
+Point[62]: time = 6.2, pos = (1.14015, -0.261206, 0), vel = (0.413919, -0.0304021, 0), yaw = -0.0459716, yaw_dot = 0.00203916
+Point[63]: time = 6.3, pos = (1.18182, -0.26414, 0), vel = (0.419445, -0.0283006, 0), yaw = -0.0461244, yaw_dot = -0.00516355
+Point[64]: time = 6.4, pos = (1.22403, -0.266871, 0), vel = (0.424771, -0.0263279, 0), yaw = -0.0470178, yaw_dot = -0.0127719
+Point[65]: time = 6.5, pos = (1.26677, -0.26941, 0), vel = (0.429897, -0.024484, 0), yaw = -0.0486923, yaw_dot = -0.0207865
+Point[66]: time = 6.6, pos = (1.31001, -0.271772, 0), vel = (0.434823, -0.0227689, 0), yaw = -0.0511882, yaw_dot = -0.0291903
+Point[67]: time = 6.7, pos = (1.35373, -0.273968, 0), vel = (0.43955, -0.0211826, 0), yaw = -0.0545417, yaw_dot = -0.0379353
+Point[68]: time = 6.8, pos = (1.39791, -0.276013, 0), vel = (0.444076, -0.0197251, 0), yaw = -0.0587866, yaw_dot = -0.0470186
+Point[69]: time = 6.9, pos = (1.44254, -0.277918, 0), vel = (0.448403, -0.0183963, 0), yaw = -0.0639554, yaw_dot = -0.0563861
+Point[70]: time = 7, pos = (1.48758, -0.279699, 0), vel = (0.452527, -0.0172882, 0), yaw = -0.0700686, yaw_dot = -0.065902
+Point[71]: time = 7.1, pos = (1.53303, -0.281386, 0), vel = (0.456442, -0.0164926, 0), yaw = -0.0771405, yaw_dot = -0.0755596
+Point[72]: time = 7.2, pos = (1.57886, -0.283008, 0), vel = (0.46015, -0.0160095, 0), yaw = -0.0851828, yaw_dot = -0.0852653
+Point[73]: time = 7.3, pos = (1.62506, -0.284598, 0), vel = (0.46365, -0.0158388, 0), yaw = -0.0941879, yaw_dot = -0.0948079
+Point[74]: time = 7.4, pos = (1.67159, -0.286186, 0), vel = (0.466942, -0.0159806, 0), yaw = -0.104139, yaw_dot = -0.104179
+Point[75]: time = 7.5, pos = (1.71844, -0.287804, 0), vel = (0.470026, -0.0164349, 0), yaw = -0.115014, yaw_dot = -0.113231
+Point[76]: time = 7.6, pos = (1.76559, -0.289484, 0), vel = (0.472903, -0.0172017, 0), yaw = -0.126764, yaw_dot = -0.121664
+Point[77]: time = 7.7, pos = (1.81301, -0.291255, 0), vel = (0.475573, -0.0182951, 0), yaw = -0.139326, yaw_dot = -0.129469
+Point[78]: time = 7.8, pos = (1.86069, -0.29316, 0), vel = (0.478041, -0.0198994, 0), yaw = -0.152632, yaw_dot = -0.136465
+Point[79]: time = 7.9, pos = (1.90861, -0.295254, 0), vel = (0.480311, -0.0220713, 0), yaw = -0.166581, yaw_dot = -0.142322
+Point[80]: time = 8, pos = (1.95675, -0.297594, 0), vel = (0.482381, -0.0248108, 0), yaw = -0.181058, yaw_dot = -0.147036
+Point[81]: time = 8.1, pos = (2.00508, -0.300235, 0), vel = (0.484252, -0.0281178, 0), yaw = -0.195945, yaw_dot = -0.150429
+Point[82]: time = 8.2, pos = (2.05359, -0.303236, 0), vel = (0.485923, -0.0319924, 0), yaw = -0.21109, yaw_dot = -0.152218
+Point[83]: time = 8.3, pos = (2.10226, -0.306653, 0), vel = (0.487396, -0.0364345, 0), yaw = -0.226335, yaw_dot = -0.152399
+Point[84]: time = 8.4, pos = (2.15107, -0.310542, 0), vel = (0.48867, -0.0414442, 0), yaw = -0.241513, yaw_dot = -0.150846
+Point[85]: time = 8.5, pos = (2.19999, -0.31496, 0), vel = (0.489751, -0.0470189, 0), yaw = -0.25644, yaw_dot = -0.14738
+Point[86]: time = 8.6, pos = (2.24901, -0.319964, 0), vel = (0.490665, -0.0531503, 0), yaw = -0.270925, yaw_dot = -0.141998
+Point[87]: time = 8.7, pos = (2.29812, -0.325609, 0), vel = (0.491412, -0.0598377, 0), yaw = -0.284774, yaw_dot = -0.134656
+Point[88]: time = 8.8, pos = (2.34729, -0.33195, 0), vel = (0.491993, -0.0670811, 0), yaw = -0.297789, yaw_dot = -0.125298
+Point[89]: time = 8.9, pos = (2.39651, -0.339044, 0), vel = (0.492408, -0.0748805, 0), yaw = -0.309767, yaw_dot = -0.113923
+Point[90]: time = 9, pos = (2.44576, -0.346945, 0), vel = (0.492656, -0.0832359, 0), yaw = -0.320508, yaw_dot = -0.100587
+Point[91]: time = 9.1, pos = (2.49503, -0.355709, 0), vel = (0.492739, -0.0921474, 0), yaw = -0.329821, yaw_dot = -0.0853562
+Point[92]: time = 9.2, pos = (2.54431, -0.365393, 0), vel = (0.492655, -0.101615, 0), yaw = -0.337516, yaw_dot = -0.0682291
+Point[93]: time = 9.3, pos = (2.59356, -0.37604, 0), vel = (0.492438, -0.111297, 0), yaw = -0.343407, yaw_dot = -0.0493197
+Point[94]: time = 9.4, pos = (2.64279, -0.387648, 0), vel = (0.492122, -0.120853, 0), yaw = -0.347324, yaw_dot = -0.0287414
+Point[95]: time = 9.5, pos = (2.69198, -0.400206, 0), vel = (0.491707, -0.130283, 0), yaw = -0.3491, yaw_dot = -0.00649427
+Point[96]: time = 9.6, pos = (2.74113, -0.4137, 0), vel = (0.491192, -0.139587, 0), yaw = -0.348574, yaw_dot = 0.0172301
+Point[97]: time = 9.7, pos = (2.79022, -0.428119, 0), vel = (0.490579, -0.148764, 0), yaw = -0.34561, yaw_dot = 0.0422631
+Point[98]: time = 9.8, pos = (2.83924, -0.443449, 0), vel = (0.489866, -0.157815, 0), yaw = -0.340078, yaw_dot = 0.0686031
+Point[99]: time = 9.9, pos = (2.88819, -0.459678, 0), vel = (0.489054, -0.16674, 0), yaw = -0.33186, yaw_dot = 0.0958481
+Point[100]: time = 10, pos = (2.93705, -0.476792, 0), vel = (0.488147, -0.175468, 0), yaw = -0.320889, yaw_dot = 0.123684
+Point[101]: time = 10.1, pos = (2.98582, -0.494732, 0), vel = (0.487218, -0.183089, 0), yaw = -0.307104, yaw_dot = 0.152105
+Point[102]: time = 10.2, pos = (3.03449, -0.513364, 0), vel = (0.486287, -0.189321, 0), yaw = -0.290475, yaw_dot = 0.180366
+Point[103]: time = 10.3, pos = (3.08307, -0.53255, 0), vel = (0.485355, -0.194165, 0), yaw = -0.271053, yaw_dot = 0.207951
+Point[104]: time = 10.4, pos = (3.13156, -0.55215, 0), vel = (0.484421, -0.197621, 0), yaw = -0.248907, yaw_dot = 0.234845
+Point[105]: time = 10.5, pos = (3.17996, -0.572027, 0), vel = (0.483486, -0.199688, 0), yaw = -0.224142, yaw_dot = 0.260082
+Point[106]: time = 10.6, pos = (3.22826, -0.592042, 0), vel = (0.482549, -0.200367, 0), yaw = -0.196966, yaw_dot = 0.283062
+Point[107]: time = 10.7, pos = (3.27647, -0.612055, 0), vel = (0.48161, -0.199658, 0), yaw = -0.167605, yaw_dot = 0.303766
+Point[108]: time = 10.8, pos = (3.32458, -0.631925, 0), vel = (0.480685, -0.19746, 0), yaw = -0.136323, yaw_dot = 0.321261
+Point[109]: time = 10.9, pos = (3.37261, -0.651486, 0), vel = (0.479823, -0.193449, 0), yaw = -0.103477, yaw_dot = 0.335032
+Point[110]: time = 11, pos = (3.42055, -0.670553, 0), vel = (0.479026, -0.187598, 0), yaw = -0.0694405, yaw_dot = 0.345064
+Point[111]: time = 11.1, pos = (3.46841, -0.688944, 0), vel = (0.478296, -0.179909, 0), yaw = -0.0346054, yaw_dot = 0.3509
+Point[112]: time = 11.2, pos = (3.51621, -0.706474, 0), vel = (0.477632, -0.170382, 0), yaw = 0.00059192, yaw_dot = 0.352309
+Point[113]: time = 11.3, pos = (3.56394, -0.722959, 0), vel = (0.477035, -0.159015, 0), yaw = 0.0357089, yaw_dot = 0.349301
+Point[114]: time = 11.4, pos = (3.61162, -0.738216, 0), vel = (0.476503, -0.14581, 0), yaw = 0.0703132, yaw_dot = 0.342103
+Point[115]: time = 11.5, pos = (3.65925, -0.75206, 0), vel = (0.476038, -0.130766, 0), yaw = 0.103993, yaw_dot = 0.330816
+Point[116]: time = 11.6, pos = (3.70683, -0.764325, 0), vel = (0.475644, -0.114412, 0), yaw = 0.136341, yaw_dot = 0.315482
+Point[117]: time = 11.7, pos = (3.75438, -0.774916, 0), vel = (0.475325, -0.097275, 0), yaw = 0.166986, yaw_dot = 0.296951
+Point[118]: time = 11.8, pos = (3.8019, -0.783754, 0), vel = (0.475083, -0.0793559, 0), yaw = 0.195635, yaw_dot = 0.275563
+Point[119]: time = 11.9, pos = (3.8494, -0.790761, 0), vel = (0.474916, -0.0606544, 0), yaw = 0.222004, yaw_dot = 0.251386
+Point[120]: time = 12, pos = (3.89688, -0.795859, 0), vel = (0.474826, -0.0411705, 0), yaw = 0.245862, yaw_dot = 0.225576
+Point[121]: time = 12.1, pos = (3.94436, -0.798969, 0), vel = (0.474811, -0.0209043, 0), yaw = 0.267078, yaw_dot = 0.198545
+Point[122]: time = 12.2, pos = (3.99185, -0.800014, 0), vel = (0.474872, 0.000144293, 0), yaw = 0.285531, yaw_dot = 0.170366
+Point[123]: time = 12.3, pos = (4.03934, -0.798916, 0), vel = (0.475007, 0.0218677, 0), yaw = 0.301151, yaw_dot = 0.142064
+Point[124]: time = 12.4, pos = (4.08685, -0.795669, 0), vel = (0.475193, 0.0428685, 0), yaw = 0.313951, yaw_dot = 0.113966
+Point[125]: time = 12.5, pos = (4.13438, -0.79038, 0), vel = (0.475422, 0.0627165, 0), yaw = 0.323952, yaw_dot = 0.0861336
+Point[126]: time = 12.6, pos = (4.18194, -0.783164, 0), vel = (0.475695, 0.0814118, 0), yaw = 0.331213, yaw_dot = 0.0592983
+Point[127]: time = 12.7, pos = (4.22952, -0.774136, 0), vel = (0.476011, 0.0989544, 0), yaw = 0.335852, yaw_dot = 0.033668
+Point[128]: time = 12.8, pos = (4.27714, -0.763412, 0), vel = (0.476371, 0.115344, 0), yaw = 0.337988, yaw_dot = 0.00928602
+Point[129]: time = 12.9, pos = (4.3248, -0.751106, 0), vel = (0.476774, 0.130581, 0), yaw = 0.337766, yaw_dot = -0.0134204
+Point[130]: time = 13, pos = (4.3725, -0.737334, 0), vel = (0.47722, 0.144666, 0), yaw = 0.335363, yaw_dot = -0.0343426
+Point[131]: time = 13.1, pos = (4.42024, -0.722215, 0), vel = (0.477704, 0.15743, 0), yaw = 0.330957, yaw_dot = -0.0534497
+Point[132]: time = 13.2, pos = (4.46804, -0.705911, 0), vel = (0.478205, 0.168329, 0), yaw = 0.324743, yaw_dot = -0.0704823
+Point[133]: time = 13.3, pos = (4.51588, -0.688613, 0), vel = (0.478723, 0.17732, 0), yaw = 0.316932, yaw_dot = -0.0853816
+Point[134]: time = 13.4, pos = (4.56378, -0.670511, 0), vel = (0.479256, 0.184405, 0), yaw = 0.307738, yaw_dot = -0.0981277
+Point[135]: time = 13.5, pos = (4.61173, -0.651795, 0), vel = (0.479805, 0.189582, 0), yaw = 0.297384, yaw_dot = -0.108576
+Point[136]: time = 13.6, pos = (4.65974, -0.632658, 0), vel = (0.48037, 0.192853, 0), yaw = 0.286101, yaw_dot = -0.116696
+Point[137]: time = 13.7, pos = (4.70781, -0.613288, 0), vel = (0.480951, 0.194216, 0), yaw = 0.274122, yaw_dot = -0.122499
+Point[138]: time = 13.8, pos = (4.75593, -0.593878, 0), vel = (0.481549, 0.193672, 0), yaw = 0.261676, yaw_dot = -0.126048
+Point[139]: time = 13.9, pos = (4.80412, -0.574603, 0), vel = (0.482154, 0.191643, 0), yaw = 0.248987, yaw_dot = -0.127357
+Point[140]: time = 14, pos = (4.85237, -0.555585, 0), vel = (0.48276, 0.188553, 0), yaw = 0.236278, yaw_dot = -0.126477
+Point[141]: time = 14.1, pos = (4.90067, -0.536928, 0), vel = (0.483367, 0.184401, 0), yaw = 0.223754, yaw_dot = -0.12371
+Point[142]: time = 14.2, pos = (4.94904, -0.51874, 0), vel = (0.483975, 0.179188, 0), yaw = 0.211598, yaw_dot = -0.119103
+Point[143]: time = 14.3, pos = (4.99747, -0.501126, 0), vel = (0.484583, 0.172912, 0), yaw = 0.199993, yaw_dot = -0.112753
+Point[144]: time = 14.4, pos = (5.04596, -0.484193, 0), vel = (0.485192, 0.165575, 0), yaw = 0.189088, yaw_dot = -0.105147
+Point[145]: time = 14.5, pos = (5.0945, -0.468047, 0), vel = (0.485801, 0.157176, 0), yaw = 0.179003, yaw_dot = -0.0963506
+Point[146]: time = 14.6, pos = (5.14312, -0.452792, 0), vel = (0.486411, 0.147794, 0), yaw = 0.169855, yaw_dot = -0.0864974
+Point[147]: time = 14.7, pos = (5.19179, -0.438483, 0), vel = (0.487014, 0.138456, 0), yaw = 0.161718, yaw_dot = -0.0761733
+Point[148]: time = 14.8, pos = (5.24052, -0.425089, 0), vel = (0.487609, 0.129479, 0), yaw = 0.154633, yaw_dot = -0.0654476
+Point[149]: time = 14.9, pos = (5.28931, -0.412575, 0), vel = (0.488195, 0.120861, 0), yaw = 0.148639, yaw_dot = -0.0544598
+Point[150]: time = 15, pos = (5.33816, -0.400905, 0), vel = (0.488772, 0.112604, 0), yaw = 0.143731, yaw_dot = -0.043757
+Point[151]: time = 15.1, pos = (5.38706, -0.390042, 0), vel = (0.48934, 0.104707, 0), yaw = 0.139876, yaw_dot = -0.033395
+Point[152]: time = 15.2, pos = (5.43602, -0.379951, 0), vel = (0.4899, 0.0971701, 0), yaw = 0.137038, yaw_dot = -0.0234873
+Point[153]: time = 15.3, pos = (5.48504, -0.370596, 0), vel = (0.490451, 0.0899932, 0), yaw = 0.135149, yaw_dot = -0.0144318
+Point[154]: time = 15.4, pos = (5.53411, -0.361938, 0), vel = (0.490989, 0.0832812, 0), yaw = 0.134122, yaw_dot = -0.00626304
+Point[155]: time = 15.5, pos = (5.58324, -0.353912, 0), vel = (0.491502, 0.0773743, 0), yaw = 0.133866, yaw_dot = 0.000969049
+Point[156]: time = 15.6, pos = (5.63241, -0.346436, 0), vel = (0.49199, 0.0722986, 0), yaw = 0.134279, yaw_dot = 0.00710775
+Point[157]: time = 15.7, pos = (5.68164, -0.339425, 0), vel = (0.492451, 0.0680541, 0), yaw = 0.135251, yaw_dot = 0.0121417
+Point[158]: time = 15.8, pos = (5.7309, -0.332797, 0), vel = (0.492886, 0.0646409, 0), yaw = 0.136671, yaw_dot = 0.0160932
+Point[159]: time = 15.9, pos = (5.78021, -0.326469, 0), vel = (0.493295, 0.062059, 0), yaw = 0.138436, yaw_dot = 0.0190243
+Point[160]: time = 16, pos = (5.82956, -0.320358, 0), vel = (0.493678, 0.0603082, 0), yaw = 0.140442, yaw_dot = 0.0209389
+Point[161]: time = 16.1, pos = (5.87895, -0.31438, 0), vel = (0.494035, 0.0593888, 0), yaw = 0.142592, yaw_dot = 0.02193
+Point[162]: time = 16.2, pos = (5.92837, -0.30846, 0), vel = (0.494359, 0.059079, 0), yaw = 0.144805, yaw_dot = 0.0222315
+Point[163]: time = 16.3, pos = (5.97782, -0.302551, 0), vel = (0.494642, 0.0591573, 0), yaw = 0.147015, yaw_dot = 0.0218546
+Point[164]: time = 16.4, pos = (6.02729, -0.296615, 0), vel = (0.494885, 0.0596237, 0), yaw = 0.149157, yaw_dot = 0.0209429
+Point[165]: time = 16.5, pos = (6.07679, -0.290613, 0), vel = (0.495087, 0.0604783, 0), yaw = 0.151197, yaw_dot = 0.0198198
+Point[166]: time = 16.6, pos = (6.12631, -0.284507, 0), vel = (0.49525, 0.061721, 0), yaw = 0.153115, yaw_dot = 0.0184974
+Point[167]: time = 16.7, pos = (6.17584, -0.278256, 0), vel = (0.495371, 0.0633518, 0), yaw = 0.154892, yaw_dot = 0.0170362
+Point[168]: time = 16.8, pos = (6.22538, -0.271823, 0), vel = (0.495453, 0.0653707, 0), yaw = 0.156521, yaw_dot = 0.0155577
+Point[169]: time = 16.9, pos = (6.27493, -0.26517, 0), vel = (0.495493, 0.0677461, 0), yaw = 0.158003, yaw_dot = 0.0140656
+Point[170]: time = 17, pos = (6.32448, -0.258277, 0), vel = (0.495487, 0.0700676, 0), yaw = 0.159334, yaw_dot = 0.0125419
+Point[171]: time = 17.1, pos = (6.37403, -0.251162, 0), vel = (0.495432, 0.0722087, 0), yaw = 0.160509, yaw_dot = 0.0109545
+Point[172]: time = 17.2, pos = (6.42356, -0.243842, 0), vel = (0.495328, 0.0741695, 0), yaw = 0.161522, yaw_dot = 0.0093026
+Point[173]: time = 17.3, pos = (6.47309, -0.236334, 0), vel = (0.495175, 0.0759499, 0), yaw = 0.162368, yaw_dot = 0.00759972
+Point[174]: time = 17.4, pos = (6.5226, -0.228658, 0), vel = (0.494973, 0.0775501, 0), yaw = 0.163041, yaw_dot = 0.00586745
+Point[175]: time = 17.5, pos = (6.57208, -0.22083, 0), vel = (0.494722, 0.0789699, 0), yaw = 0.16354, yaw_dot = 0.0041061
+Point[176]: time = 17.6, pos = (6.62154, -0.21287, 0), vel = (0.494422, 0.0802094, 0), yaw = 0.163866, yaw_dot = 0.00245086
+Point[177]: time = 17.7, pos = (6.67097, -0.204795, 0), vel = (0.494089, 0.0812442, 0), yaw = 0.164041, yaw_dot = 0.00109645
+Point[178]: time = 17.8, pos = (6.72036, -0.19663, 0), vel = (0.493768, 0.0819953, 0), yaw = 0.164095, yaw_dot = 4.44198e-05
+Point[179]: time = 17.9, pos = (6.76972, -0.188405, 0), vel = (0.493464, 0.0824566, 0), yaw = 0.164061, yaw_dot = -0.000641981
+Point[180]: time = 18, pos = (6.81905, -0.180149, 0), vel = (0.493177, 0.082628, 0), yaw = 0.163982, yaw_dot = -0.00088174
+Point[181]: time = 18.1, pos = (6.86836, -0.171889, 0), vel = (0.492906, 0.0825096, 0), yaw = 0.1639, yaw_dot = -0.000674556
+Point[182]: time = 18.2, pos = (6.91763, -0.163657, 0), vel = (0.492652, 0.0821014, 0), yaw = 0.163853, yaw_dot = -0.000299941
+Point[183]: time = 18.3, pos = (6.96689, -0.155479, 0), vel = (0.492415, 0.0814033, 0), yaw = 0.163835, yaw_dot = -7.49852e-05
+--------------------------
+-------------------------
+[2025-03-17_20-24-34.507] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.94745
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.607] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.84742
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.707] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.7474
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.807] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.64743
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-34.907] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.54744
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.007] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.44739
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.107] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.34739
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.207] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.24737
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.307] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.14736
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.407] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -2.04735
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.507] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.94735
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.607] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.84734
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.707] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.74734
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.807] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.64733
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-35.907] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.54737
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.007] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.44732
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.107] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.34732
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.207] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.24732
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.307] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.14728
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.407] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -1.0473
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.507] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.947204
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.607] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.847284
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.707] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.747276
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.807] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.647272
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-36.907] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.547276
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.007] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.447244
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.107] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.347256
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.207] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.24725
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.307] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.147247
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.407] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: -0.890703)
+Time diff: -0.0472384
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.507] Selected control point: (x: 4.58648e-05, y: -6.05445e-05, yaw: -0.890703)
+Time diff: 0.0527674
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -7.58765e-05, Angular Velocity Target: 0
+Target Position - x: 0.000046, y: -0.000061, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.607] Selected control point: (x: 7.71673e-05, y: -8.06723e-05, yaw: -0.890703)
+Time diff: 0.152779
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.000375025, Angular Velocity Target: 0
+Target Position - x: 0.000077, y: -0.000081, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.707] Selected control point: (x: 0.000185281, y: -0.000145229, yaw: -0.890703)
+Time diff: 0.252781
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.000964457, Angular Velocity Target: 0
+Target Position - x: 0.000185, y: -0.000145, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.807] Selected control point: (x: 0.000420454, y: -0.00028325, yaw: -0.890703)
+Time diff: 0.352786
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.00184422, Angular Velocity Target: 0
+Target Position - x: 0.000420, y: -0.000283, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.96
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-37.907] Selected control point: (x: 0.000832823, y: -0.000523706, yaw: -0.890703)
+Time diff: 0.452771
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.00301402, Angular Velocity Target: 0
+Target Position - x: 0.000833, y: -0.000524, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.007] Selected control point: (x: 0.00147374, y: -0.000896271, yaw: -0.890703)
+Time diff: 0.552898
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.00447632, Angular Velocity Target: 0
+Target Position - x: 0.001474, y: -0.000896, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.107] Selected control point: (x: 0.00239189, y: -0.00142908, yaw: -0.890703)
+Time diff: 0.652907
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.00622738, Angular Velocity Target: 0
+Target Position - x: 0.002392, y: -0.001429, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.207] Selected control point: (x: 0.00363839, y: -0.00215167, yaw: -0.890703)
+Time diff: 0.752931
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.00826914, Angular Velocity Target: 0
+Target Position - x: 0.003638, y: -0.002152, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.307] Selected control point: (x: 0.00525871, y: -0.00308898, yaw: -0.890703)
+Time diff: 0.852809
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0105119, Angular Velocity Target: 0
+Target Position - x: 0.005259, y: -0.003089, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.407] Selected control point: (x: 0.00729584, y: -0.00425646, yaw: -0.890703)
+Time diff: 0.952921
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0128213, Angular Velocity Target: 0
+Target Position - x: 0.007296, y: -0.004256, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.508] Selected control point: (x: 0.00977593, y: -0.00565678, yaw: -0.890703)
+Time diff: 1.05295
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0151879, Angular Velocity Target: 0
+Target Position - x: 0.009776, y: -0.005657, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.97
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.608] Selected control point: (x: 0.0127387, y: -0.0073003, yaw: -0.890703)
+Time diff: 1.15317
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0176185, Angular Velocity Target: 0
+Target Position - x: 0.012739, y: -0.007300, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.98
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.707] Selected control point: (x: 0.0161954, y: -0.00918167, yaw: -0.890703)
+Time diff: 1.25296
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0200976, Angular Velocity Target: 0
+Target Position - x: 0.016195, y: -0.009182, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.98
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.807] Selected control point: (x: 0.0201939, y: -0.0113158, yaw: -0.890703)
+Time diff: 1.35286
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0226383, Angular Velocity Target: 0
+Target Position - x: 0.020194, y: -0.011316, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.98
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-38.907] Selected control point: (x: 0.0247723, y: -0.0137117, yaw: -0.890703)
+Time diff: 1.45296
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0252432, Angular Velocity Target: 0
+Target Position - x: 0.024772, y: -0.013712, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.99
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.007] Selected control point: (x: 0.0299437, y: -0.0163656, yaw: -0.890703)
+Time diff: 1.55285
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0279002, Angular Velocity Target: 0
+Target Position - x: 0.029944, y: -0.016366, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.99
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.107] Selected control point: (x: 0.0357527, y: -0.019289, yaw: -0.890703)
+Time diff: 1.65286
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0305542, Angular Velocity Target: 0
+Target Position - x: 0.035753, y: -0.019289, Target Yaw: -0.890703
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8484.99
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.207] Selected control point: (x: 0.0422165, y: -0.0224761, yaw: -0.890702)
+Time diff: 1.75288
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0331713, Angular Velocity Target: 0
+Target Position - x: 0.042216, y: -0.022476, Target Yaw: -0.890702
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.7
+--Position ERROR (signed): 8485
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.307] Selected control point: (x: 0.0493546, y: -0.0259223, yaw: -0.890702)
+Time diff: 1.85287
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0357508, Angular Velocity Target: 0
+Target Position - x: 0.049355, y: -0.025922, Target Yaw: -0.890702
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.01
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.407] Selected control point: (x: 0.0571915, y: -0.0296253, yaw: -0.890702)
+Time diff: 1.95288
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0382937, Angular Velocity Target: 0
+Target Position - x: 0.057191, y: -0.029625, Target Yaw: -0.890702
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.01
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.507] Selected control point: (x: 0.0657466, y: -0.0335804, yaw: -0.890702)
+Time diff: 2.05289
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0407994, Angular Velocity Target: 0
+Target Position - x: 0.065747, y: -0.033580, Target Yaw: -0.890702
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.02
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.607] Selected control point: (x: 0.0750492, y: -0.0377874, yaw: -0.890702)
+Time diff: 2.15296
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0432697, Angular Velocity Target: 0
+Target Position - x: 0.075049, y: -0.037787, Target Yaw: -0.890702
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.03
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.707] Selected control point: (x: 0.0851008, y: -0.0422335, yaw: -0.890701)
+Time diff: 2.25291
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0456997, Angular Velocity Target: 0
+Target Position - x: 0.085101, y: -0.042234, Target Yaw: -0.890701
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.04
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.808] Selected control point: (x: 0.0959573, y: -0.0469301, yaw: -0.890701)
+Time diff: 2.35305
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0480831, Angular Velocity Target: 0
+Target Position - x: 0.095957, y: -0.046930, Target Yaw: -0.890701
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.05
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-39.908] Selected control point: (x: 0.107593, y: -0.0518503, yaw: -0.890701)
+Time diff: 2.45301
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0503352, Angular Velocity Target: 0
+Target Position - x: 0.107593, y: -0.051850, Target Yaw: -0.890701
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.06
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.008] Selected control point: (x: 0.120043, y: -0.0569921, yaw: -0.8907)
+Time diff: 2.55303
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0524503, Angular Velocity Target: 0
+Target Position - x: 0.120043, y: -0.056992, Target Yaw: -0.890700
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.07
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.108] Selected control point: (x: 0.13331, y: -0.0623378, yaw: -0.8907)
+Time diff: 2.65305
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0544268, Angular Velocity Target: 0
+Target Position - x: 0.133310, y: -0.062338, Target Yaw: -0.890700
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.08
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.207] Selected control point: (x: 0.147393, y: -0.0678703, yaw: -0.8907)
+Time diff: 2.75299
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0562637, Angular Velocity Target: 0
+Target Position - x: 0.147393, y: -0.067870, Target Yaw: -0.890700
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.8
+--Position ERROR (signed): 8485.09
+--Orientation ERROR: -1.1308
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.307] Selected control point: (x: 0.162319, y: -0.0735826, yaw: -0.890699)
+Time diff: 2.85299
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0579632, Angular Velocity Target: 0
+Target Position - x: 0.162319, y: -0.073583, Target Yaw: -0.890699
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.9
+--Position ERROR (signed): 8485.1
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.407] Selected control point: (x: 0.178094, y: -0.0794596, yaw: -0.890699)
+Time diff: 2.95301
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0595249, Angular Velocity Target: 0
+Target Position - x: 0.178094, y: -0.079460, Target Yaw: -0.890699
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.9
+--Position ERROR (signed): 8485.12
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.507] Selected control point: (x: 0.194709, y: -0.0854805, yaw: -0.890698)
+Time diff: 3.05295
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.060947, Angular Velocity Target: 0
+Target Position - x: 0.194709, y: -0.085481, Target Yaw: -0.890698
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.9
+--Position ERROR (signed): 8485.13
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.607] Selected control point: (x: 0.2122, y: -0.0916415, yaw: -0.890698)
+Time diff: 3.15297
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0622198, Angular Velocity Target: 0
+Target Position - x: 0.212200, y: -0.091642, Target Yaw: -0.890698
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.9
+--Position ERROR (signed): 8485.15
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.707] Selected control point: (x: 0.230554, y: -0.0979205, yaw: -0.890697)
+Time diff: 3.25298
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0633216, Angular Velocity Target: 0
+Target Position - x: 0.230554, y: -0.097920, Target Yaw: -0.890697
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.9
+--Position ERROR (signed): 8485.17
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.807] Selected control point: (x: 0.249768, y: -0.104299, yaw: -0.890697)
+Time diff: 3.35295
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.064252, Angular Velocity Target: 0
+Target Position - x: 0.249768, y: -0.104299, Target Yaw: -0.890697
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19920.9
+--Position ERROR (signed): 8485.18
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-40.907] Selected control point: (x: 0.269858, y: -0.110766, yaw: -0.890696)
+Time diff: 3.45298
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0650119, Angular Velocity Target: 0
+Target Position - x: 0.269858, y: -0.110766, Target Yaw: -0.890696
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921
+--Position ERROR (signed): 8485.2
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.007] Selected control point: (x: 0.290811, y: -0.117298, yaw: -0.890696)
+Time diff: 3.553
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0656005, Angular Velocity Target: 0
+Target Position - x: 0.290811, y: -0.117298, Target Yaw: -0.890696
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921
+--Position ERROR (signed): 8485.22
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.108] Selected control point: (x: 0.312632, y: -0.123882, yaw: -0.890695)
+Time diff: 3.65301
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0660181, Angular Velocity Target: 0
+Target Position - x: 0.312632, y: -0.123882, Target Yaw: -0.890695
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921
+--Position ERROR (signed): 8485.24
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.208] Selected control point: (x: 0.335323, y: -0.130499, yaw: -0.890694)
+Time diff: 3.75304
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0662645, Angular Velocity Target: 0
+Target Position - x: 0.335323, y: -0.130499, Target Yaw: -0.890694
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921
+--Position ERROR (signed): 8485.26
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.308] Selected control point: (x: 0.358872, y: -0.13713, yaw: -0.890694)
+Time diff: 3.85303
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0663399, Angular Velocity Target: 0
+Target Position - x: 0.358872, y: -0.137130, Target Yaw: -0.890694
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921
+--Position ERROR (signed): 8485.28
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.408] Selected control point: (x: 0.383294, y: -0.143762, yaw: -0.890693)
+Time diff: 3.95304
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0662471, Angular Velocity Target: 0
+Target Position - x: 0.383294, y: -0.143762, Target Yaw: -0.890693
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.1
+--Position ERROR (signed): 8485.3
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.508] Selected control point: (x: 0.40857, y: -0.150374, yaw: -0.890692)
+Time diff: 4.05303
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0659877, Angular Velocity Target: 0
+Target Position - x: 0.408570, y: -0.150374, Target Yaw: -0.890692
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.1
+--Position ERROR (signed): 8485.33
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.608] Selected control point: (x: 0.434699, y: -0.156953, yaw: -0.890691)
+Time diff: 4.15303
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0655614, Angular Velocity Target: 0
+Target Position - x: 0.434699, y: -0.156953, Target Yaw: -0.890691
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.1
+--Position ERROR (signed): 8485.35
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.708] Selected control point: (x: 0.461677, y: -0.163482, yaw: -0.89069)
+Time diff: 4.25305
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0649683, Angular Velocity Target: 0
+Target Position - x: 0.461677, y: -0.163482, Target Yaw: -0.890690
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.1
+--Position ERROR (signed): 8485.37
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.808] Selected control point: (x: 0.489491, y: -0.169943, yaw: -0.89069)
+Time diff: 4.35306
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0642085, Angular Velocity Target: 0
+Target Position - x: 0.489491, y: -0.169943, Target Yaw: -0.890690
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.1
+--Position ERROR (signed): 8485.4
+--Orientation ERROR: -1.13079
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-41.908] Selected control point: (x: 0.518124, y: -0.176318, yaw: -0.890689)
+Time diff: 4.45304
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0632822, Angular Velocity Target: 0
+Target Position - x: 0.518124, y: -0.176318, Target Yaw: -0.890689
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.2
+--Position ERROR (signed): 8485.43
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.008] Selected control point: (x: 0.547632, y: -0.182602, yaw: -0.890688)
+Time diff: 4.55319
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0621872, Angular Velocity Target: 0
+Target Position - x: 0.547632, y: -0.182602, Target Yaw: -0.890688
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.2
+--Position ERROR (signed): 8485.45
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.108] Selected control point: (x: 0.577908, y: -0.188759, yaw: -0.890687)
+Time diff: 4.65319
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0609345, Angular Velocity Target: 0
+Target Position - x: 0.577908, y: -0.188759, Target Yaw: -0.890687
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.2
+--Position ERROR (signed): 8485.48
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.208] Selected control point: (x: 0.608991, y: -0.194785, yaw: -0.890686)
+Time diff: 4.75319
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0595623, Angular Velocity Target: 0
+Target Position - x: 0.608991, y: -0.194785, Target Yaw: -0.890686
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.2
+--Position ERROR (signed): 8485.51
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.308] Selected control point: (x: 0.640873, y: -0.200669, yaw: -0.890685)
+Time diff: 4.85322
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0580761, Angular Velocity Target: 0
+Target Position - x: 0.640873, y: -0.200669, Target Yaw: -0.890685
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.3
+--Position ERROR (signed): 8485.54
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.408] Selected control point: (x: 0.673519, y: -0.206397, yaw: -0.890684)
+Time diff: 4.9532
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0564768, Angular Velocity Target: 0
+Target Position - x: 0.673519, y: -0.206397, Target Yaw: -0.890684
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.3
+--Position ERROR (signed): 8485.57
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.508] Selected control point: (x: 0.706952, y: -0.211963, yaw: -0.890682)
+Time diff: 5.05325
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0547627, Angular Velocity Target: 0
+Target Position - x: 0.706952, y: -0.211963, Target Yaw: -0.890682
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.3
+--Position ERROR (signed): 8485.6
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.608] Selected control point: (x: 0.741072, y: -0.217341, yaw: -0.890681)
+Time diff: 5.15311
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0529385, Angular Velocity Target: 0
+Target Position - x: 0.741072, y: -0.217341, Target Yaw: -0.890681
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.3
+--Position ERROR (signed): 8485.63
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.708] Selected control point: (x: 0.776021, y: -0.222546, yaw: -0.89068)
+Time diff: 5.25324
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0509956, Angular Velocity Target: 0
+Target Position - x: 0.776021, y: -0.222546, Target Yaw: -0.890680
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.4
+--Position ERROR (signed): 8485.67
+--Orientation ERROR: -1.13078
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.808] Selected control point: (x: 0.811611, y: -0.227538, yaw: -0.890679)
+Time diff: 5.35313
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0489438, Angular Velocity Target: 0
+Target Position - x: 0.811611, y: -0.227538, Target Yaw: -0.890679
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.4
+--Position ERROR (signed): 8485.7
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-42.908] Selected control point: (x: 0.847948, y: -0.232325, yaw: -0.890678)
+Time diff: 5.45312
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0468127, Angular Velocity Target: 0
+Target Position - x: 0.847948, y: -0.232325, Target Yaw: -0.890678
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.4
+--Position ERROR (signed): 8485.73
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.008] Selected control point: (x: 0.884992, y: -0.2369, yaw: -0.890676)
+Time diff: 5.55314
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0446636, Angular Velocity Target: 0
+Target Position - x: 0.884992, y: -0.236900, Target Yaw: -0.890676
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.4
+--Position ERROR (signed): 8485.77
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.108] Selected control point: (x: 0.922707, y: -0.241259, yaw: -0.890675)
+Time diff: 5.65314
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0424985, Angular Velocity Target: 0
+Target Position - x: 0.922707, y: -0.241259, Target Yaw: -0.890675
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.5
+--Position ERROR (signed): 8485.8
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.208] Selected control point: (x: 0.961082, y: -0.2454, yaw: -0.890674)
+Time diff: 5.75315
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0403171, Angular Velocity Target: 0
+Target Position - x: 0.961082, y: -0.245400, Target Yaw: -0.890674
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.5
+--Position ERROR (signed): 8485.84
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.308] Selected control point: (x: 1.0001, y: -0.249322, yaw: -0.890672)
+Time diff: 5.85315
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0381193, Angular Velocity Target: 0
+Target Position - x: 1.000099, y: -0.249322, Target Yaw: -0.890672
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.5
+--Position ERROR (signed): 8485.88
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.408] Selected control point: (x: 1.03975, y: -0.253024, yaw: -0.890671)
+Time diff: 5.95318
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0359047, Angular Velocity Target: 0
+Target Position - x: 1.039747, y: -0.253024, Target Yaw: -0.890671
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.6
+--Position ERROR (signed): 8485.91
+--Orientation ERROR: -1.13077
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.508] Selected control point: (x: 1.08, y: -0.256504, yaw: -0.890669)
+Time diff: 6.05319
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0336739, Angular Velocity Target: 0
+Target Position - x: 1.080001, y: -0.256504, Target Yaw: -0.890669
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.6
+--Position ERROR (signed): 8485.95
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.608] Selected control point: (x: 1.12083, y: -0.259759, yaw: -0.890668)
+Time diff: 6.15318
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0314304, Angular Velocity Target: 0
+Target Position - x: 1.120832, y: -0.259759, Target Yaw: -0.890668
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.6
+--Position ERROR (signed): 8485.99
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.708] Selected control point: (x: 1.16225, y: -0.262793, yaw: -0.890666)
+Time diff: 6.25319
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0292683, Angular Velocity Target: 0
+Target Position - x: 1.162247, y: -0.262793, Target Yaw: -0.890666
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.6
+--Position ERROR (signed): 8486.03
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.808] Selected control point: (x: 1.20422, y: -0.265618, yaw: -0.890665)
+Time diff: 6.35321
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0272349, Angular Velocity Target: 0
+Target Position - x: 1.204216, y: -0.265618, Target Yaw: -0.890665
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.7
+--Position ERROR (signed): 8486.07
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-43.908] Selected control point: (x: 1.2467, y: -0.268244, yaw: -0.890663)
+Time diff: 6.4532
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.025331, Angular Velocity Target: 0
+Target Position - x: 1.246703, y: -0.268244, Target Yaw: -0.890663
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.7
+--Position ERROR (signed): 8486.11
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.008] Selected control point: (x: 1.28972, y: -0.270688, yaw: -0.890662)
+Time diff: 6.55322
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0235552, Angular Velocity Target: 0
+Target Position - x: 1.289718, y: -0.270688, Target Yaw: -0.890662
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.7
+--Position ERROR (signed): 8486.15
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.108] Selected control point: (x: 1.33322, y: -0.272961, yaw: -0.89066)
+Time diff: 6.65323
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0219084, Angular Velocity Target: 0
+Target Position - x: 1.333222, y: -0.272961, Target Yaw: -0.890660
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.8
+--Position ERROR (signed): 8486.19
+--Orientation ERROR: -1.13076
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.208] Selected control point: (x: 1.37719, y: -0.275075, yaw: -0.890658)
+Time diff: 6.75324
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0203906, Angular Velocity Target: 0
+Target Position - x: 1.377193, y: -0.275075, Target Yaw: -0.890658
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.8
+--Position ERROR (signed): 8486.24
+--Orientation ERROR: -1.13075
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.308] Selected control point: (x: 1.42161, y: -0.277043, yaw: -0.890657)
+Time diff: 6.85323
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0190018, Angular Velocity Target: 0
+Target Position - x: 1.421609, y: -0.277043, Target Yaw: -0.890657
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.8
+--Position ERROR (signed): 8486.28
+--Orientation ERROR: -1.13075
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.408] Selected control point: (x: 1.46646, y: -0.27888, yaw: -0.890655)
+Time diff: 6.95323
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0177676, Angular Velocity Target: 0
+Target Position - x: 1.466463, y: -0.278880, Target Yaw: -0.890655
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.8
+--Position ERROR (signed): 8486.32
+--Orientation ERROR: -1.13075
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.508] Selected control point: (x: 1.51175, y: -0.280607, yaw: -0.890653)
+Time diff: 7.05327
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0168255, Angular Velocity Target: 0
+Target Position - x: 1.511745, y: -0.280607, Target Yaw: -0.890653
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.9
+--Position ERROR (signed): 8486.37
+--Orientation ERROR: -1.13075
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.608] Selected control point: (x: 1.5574, y: -0.282256, yaw: -0.890651)
+Time diff: 7.15326
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0161964, Angular Velocity Target: 0
+Target Position - x: 1.557397, y: -0.282256, Target Yaw: -0.890651
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.9
+--Position ERROR (signed): 8486.41
+--Orientation ERROR: -1.13075
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.708] Selected control point: (x: 1.60342, y: -0.283857, yaw: -0.89065)
+Time diff: 7.25325
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0158797, Angular Velocity Target: 0
+Target Position - x: 1.603420, y: -0.283857, Target Yaw: -0.890650
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19921.9
+--Position ERROR (signed): 8486.45
+--Orientation ERROR: -1.13075
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.808] Selected control point: (x: 1.64981, y: -0.285442, yaw: -0.890648)
+Time diff: 7.35329
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0158755, Angular Velocity Target: 0
+Target Position - x: 1.649811, y: -0.285442, Target Yaw: -0.890648
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922
+--Position ERROR (signed): 8486.5
+--Orientation ERROR: -1.13074
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-44.908] Selected control point: (x: 1.69651, y: -0.287043, yaw: -0.890646)
+Time diff: 7.45327
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0161838, Angular Velocity Target: 0
+Target Position - x: 1.696508, y: -0.287043, Target Yaw: -0.890646
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922
+--Position ERROR (signed): 8486.54
+--Orientation ERROR: -1.13074
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.008] Selected control point: (x: 1.74352, y: -0.28869, yaw: -0.890644)
+Time diff: 7.55328
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0168046, Angular Velocity Target: 0
+Target Position - x: 1.743524, y: -0.288690, Target Yaw: -0.890644
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922
+--Position ERROR (signed): 8486.59
+--Orientation ERROR: -1.13074
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.108] Selected control point: (x: 1.79088, y: -0.290416, yaw: -0.890643)
+Time diff: 7.6534
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0177391, Angular Velocity Target: 0
+Target Position - x: 1.790877, y: -0.290416, Target Yaw: -0.890643
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.1
+--Position ERROR (signed): 8486.64
+--Orientation ERROR: -1.13074
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.208] Selected control point: (x: 1.83863, y: -0.29226, yaw: -0.890641)
+Time diff: 7.75379
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0190875, Angular Velocity Target: 0
+Target Position - x: 1.838628, y: -0.292260, Target Yaw: -0.890641
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.1
+--Position ERROR (signed): 8486.68
+--Orientation ERROR: -1.13074
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.308] Selected control point: (x: 1.88622, y: -0.29425, yaw: -0.890639)
+Time diff: 7.85333
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.020987, Angular Velocity Target: 0
+Target Position - x: 1.886219, y: -0.294250, Target Yaw: -0.890639
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.1
+--Position ERROR (signed): 8486.73
+--Orientation ERROR: -1.13073
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.408] Selected control point: (x: 1.93426, y: -0.296467, yaw: -0.890637)
+Time diff: 7.95333
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0234616, Angular Velocity Target: 0
+Target Position - x: 1.934257, y: -0.296467, Target Yaw: -0.890637
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.1
+--Position ERROR (signed): 8486.77
+--Orientation ERROR: -1.13073
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.508] Selected control point: (x: 1.98249, y: -0.298961, yaw: -0.890635)
+Time diff: 8.05331
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0265031, Angular Velocity Target: 0
+Target Position - x: 1.982493, y: -0.298961, Target Yaw: -0.890635
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.2
+--Position ERROR (signed): 8486.82
+--Orientation ERROR: -1.13073
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.608] Selected control point: (x: 2.031, y: -0.301791, yaw: -0.890634)
+Time diff: 8.15346
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0301187, Angular Velocity Target: 0
+Target Position - x: 2.030998, y: -0.301791, Target Yaw: -0.890634
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.2
+--Position ERROR (signed): 8486.87
+--Orientation ERROR: -1.13073
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.708] Selected control point: (x: 2.07958, y: -0.305007, yaw: -0.890632)
+Time diff: 8.25344
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0342957, Angular Velocity Target: 0
+Target Position - x: 2.079583, y: -0.305007, Target Yaw: -0.890632
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.2
+--Position ERROR (signed): 8486.91
+--Orientation ERROR: -1.13073
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.808] Selected control point: (x: 2.12827, y: -0.308664, yaw: -0.89063)
+Time diff: 8.35333
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0390355, Angular Velocity Target: 0
+Target Position - x: 2.128272, y: -0.308664, Target Yaw: -0.890630
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.3
+--Position ERROR (signed): 8486.96
+--Orientation ERROR: -1.13073
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-45.908] Selected control point: (x: 2.17716, y: -0.312831, yaw: -0.890628)
+Time diff: 8.45337
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0443502, Angular Velocity Target: 0
+Target Position - x: 2.177164, y: -0.312831, Target Yaw: -0.890628
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.3
+--Position ERROR (signed): 8487
+--Orientation ERROR: -1.13072
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.008] Selected control point: (x: 2.22616, y: -0.317556, yaw: -0.890626)
+Time diff: 8.5534
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0502241, Angular Velocity Target: 0
+Target Position - x: 2.226156, y: -0.317556, Target Yaw: -0.890626
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.3
+--Position ERROR (signed): 8487.05
+--Orientation ERROR: -1.13072
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.108] Selected control point: (x: 2.27522, y: -0.322894, yaw: -0.890625)
+Time diff: 8.65339
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0566513, Angular Velocity Target: 0
+Target Position - x: 2.275216, y: -0.322894, Target Yaw: -0.890625
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.4
+--Position ERROR (signed): 8487.1
+--Orientation ERROR: -1.13072
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.208] Selected control point: (x: 2.32436, y: -0.328904, yaw: -0.890623)
+Time diff: 8.75339
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0636357, Angular Velocity Target: 0
+Target Position - x: 2.324361, y: -0.328904, Target Yaw: -0.890623
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.4
+--Position ERROR (signed): 8487.14
+--Orientation ERROR: -1.13072
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.308] Selected control point: (x: 2.37358, y: -0.335643, yaw: -0.890621)
+Time diff: 8.85343
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0711795, Angular Velocity Target: 0
+Target Position - x: 2.373583, y: -0.335643, Target Yaw: -0.890621
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.5
+--Position ERROR (signed): 8487.19
+--Orientation ERROR: -1.13072
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.408] Selected control point: (x: 2.4228, y: -0.343158, yaw: -0.89062)
+Time diff: 8.95339
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0792723, Angular Velocity Target: 0
+Target Position - x: 2.422803, y: -0.343158, Target Yaw: -0.890620
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.5
+--Position ERROR (signed): 8487.24
+--Orientation ERROR: -1.13072
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.508] Selected control point: (x: 2.47208, y: -0.351515, yaw: -0.890618)
+Time diff: 9.05341
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0879267, Angular Velocity Target: 0
+Target Position - x: 2.472080, y: -0.351515, Target Yaw: -0.890618
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.5
+--Position ERROR (signed): 8487.28
+--Orientation ERROR: -1.13071
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.608] Selected control point: (x: 2.52135, y: -0.360764, yaw: -0.890616)
+Time diff: 9.15341
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0971352, Angular Velocity Target: 0
+Target Position - x: 2.521353, y: -0.360764, Target Yaw: -0.890616
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.6
+--Position ERROR (signed): 8487.33
+--Orientation ERROR: -1.13071
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.708] Selected control point: (x: 2.57063, y: -0.370961, yaw: -0.890615)
+Time diff: 9.25343
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.106804, Angular Velocity Target: 0
+Target Position - x: 2.570625, y: -0.370961, Target Yaw: -0.890615
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.6
+--Position ERROR (signed): 8487.37
+--Orientation ERROR: -1.13071
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.808] Selected control point: (x: 2.61987, y: -0.382125, yaw: -0.890613)
+Time diff: 9.35344
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.11642, Angular Velocity Target: 0
+Target Position - x: 2.619874, y: -0.382125, Target Yaw: -0.890613
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.6
+--Position ERROR (signed): 8487.42
+--Orientation ERROR: -1.13071
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-46.908] Selected control point: (x: 2.66908, y: -0.394242, yaw: -0.890612)
+Time diff: 9.45344
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.125908, Angular Velocity Target: 0
+Target Position - x: 2.669084, y: -0.394242, Target Yaw: -0.890612
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.7
+--Position ERROR (signed): 8487.46
+--Orientation ERROR: -1.13071
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.008] Selected control point: (x: 2.71826, y: -0.407303, yaw: -0.89061)
+Time diff: 9.55345
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.135271, Angular Velocity Target: 0
+Target Position - x: 2.718256, y: -0.407303, Target Yaw: -0.890610
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.7
+--Position ERROR (signed): 8487.51
+--Orientation ERROR: -1.13071
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.108] Selected control point: (x: 2.76738, y: -0.421296, yaw: -0.890609)
+Time diff: 9.65347
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.14451, Angular Velocity Target: 0
+Target Position - x: 2.767384, y: -0.421296, Target Yaw: -0.890609
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.8
+--Position ERROR (signed): 8487.55
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.208] Selected control point: (x: 2.81644, y: -0.436204, yaw: -0.890607)
+Time diff: 9.75347
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.153619, Angular Velocity Target: 0
+Target Position - x: 2.816439, y: -0.436204, Target Yaw: -0.890607
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.8
+--Position ERROR (signed): 8487.6
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.308] Selected control point: (x: 2.86544, y: -0.452021, yaw: -0.890606)
+Time diff: 9.8535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.162606, Angular Velocity Target: 0
+Target Position - x: 2.865438, y: -0.452021, Target Yaw: -0.890606
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.9
+--Position ERROR (signed): 8487.64
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.408] Selected control point: (x: 2.91433, y: -0.468721, yaw: -0.890604)
+Time diff: 9.95348
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.171461, Angular Velocity Target: 0
+Target Position - x: 2.914328, y: -0.468721, Target Yaw: -0.890604
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.9
+--Position ERROR (signed): 8487.68
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.508] Selected control point: (x: 2.96315, y: -0.486295, yaw: -0.890603)
+Time diff: 10.0535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.179718, Angular Velocity Target: 0
+Target Position - x: 2.963151, y: -0.486295, Target Yaw: -0.890603
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19922.9
+--Position ERROR (signed): 8487.73
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.608] Selected control point: (x: 3.01187, y: -0.504622, yaw: -0.890602)
+Time diff: 10.1535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.186596, Angular Velocity Target: 0
+Target Position - x: 3.011868, y: -0.504622, Target Yaw: -0.890602
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923
+--Position ERROR (signed): 8487.77
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.708] Selected control point: (x: 3.06051, y: -0.523573, yaw: -0.8906)
+Time diff: 10.2535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.192087, Angular Velocity Target: 0
+Target Position - x: 3.060508, y: -0.523573, Target Yaw: -0.890600
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923
+--Position ERROR (signed): 8487.81
+--Orientation ERROR: -1.1307
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.808] Selected control point: (x: 3.10904, y: -0.542997, yaw: -0.890599)
+Time diff: 10.3535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.196188, Angular Velocity Target: 0
+Target Position - x: 3.109036, y: -0.542997, Target Yaw: -0.890599
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.1
+--Position ERROR (signed): 8487.86
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-47.908] Selected control point: (x: 3.15748, y: -0.562765, yaw: -0.890598)
+Time diff: 10.4535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.1989, Angular Velocity Target: 0
+Target Position - x: 3.157479, y: -0.562765, Target Yaw: -0.890598
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.1
+--Position ERROR (signed): 8487.9
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.008] Selected control point: (x: 3.20583, y: -0.582737, yaw: -0.890597)
+Time diff: 10.5536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.200225, Angular Velocity Target: 0
+Target Position - x: 3.205835, y: -0.582737, Target Yaw: -0.890597
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.2
+--Position ERROR (signed): 8487.94
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.108] Selected control point: (x: 3.25408, y: -0.602767, yaw: -0.890595)
+Time diff: 10.6535
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.20016, Angular Velocity Target: 0
+Target Position - x: 3.254084, y: -0.602767, Target Yaw: -0.890595
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.2
+--Position ERROR (signed): 8487.98
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.208] Selected control point: (x: 3.30225, y: -0.622724, yaw: -0.890594)
+Time diff: 10.7536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.198698, Angular Velocity Target: 0
+Target Position - x: 3.302248, y: -0.622724, Target Yaw: -0.890594
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.3
+--Position ERROR (signed): 8488.02
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.308] Selected control point: (x: 3.35037, y: -0.642476, yaw: -0.890593)
+Time diff: 10.8537
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.195535, Angular Velocity Target: 0
+Target Position - x: 3.350373, y: -0.642476, Target Yaw: -0.890593
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.3
+--Position ERROR (signed): 8488.07
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.408] Selected control point: (x: 3.39831, y: -0.661777, yaw: -0.890592)
+Time diff: 10.9536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.190542, Angular Velocity Target: 0
+Target Position - x: 3.398307, y: -0.661777, Target Yaw: -0.890592
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.4
+--Position ERROR (signed): 8488.11
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.508] Selected control point: (x: 3.4462, y: -0.680502, yaw: -0.89059)
+Time diff: 11.0536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.183708, Angular Velocity Target: 0
+Target Position - x: 3.446200, y: -0.680502, Target Yaw: -0.890590
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.4
+--Position ERROR (signed): 8488.15
+--Orientation ERROR: -1.13069
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.608] Selected control point: (x: 3.49402, y: -0.698452, yaw: -0.890589)
+Time diff: 11.1536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.175035, Angular Velocity Target: 0
+Target Position - x: 3.494021, y: -0.698452, Target Yaw: -0.890589
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.4
+--Position ERROR (signed): 8488.19
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.708] Selected control point: (x: 3.5418, y: -0.715452, yaw: -0.890588)
+Time diff: 11.2536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.164518, Angular Velocity Target: 0
+Target Position - x: 3.541803, y: -0.715452, Target Yaw: -0.890588
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.5
+--Position ERROR (signed): 8488.23
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.808] Selected control point: (x: 3.58951, y: -0.731302, yaw: -0.890586)
+Time diff: 11.3536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.152165, Angular Velocity Target: 0
+Target Position - x: 3.589507, y: -0.731302, Target Yaw: -0.890586
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.5
+--Position ERROR (signed): 8488.28
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-48.908] Selected control point: (x: 3.63715, y: -0.745823, yaw: -0.890585)
+Time diff: 11.4536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.137976, Angular Velocity Target: 0
+Target Position - x: 3.637151, y: -0.745823, Target Yaw: -0.890585
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.6
+--Position ERROR (signed): 8488.32
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.008] Selected control point: (x: 3.68476, y: -0.758839, yaw: -0.890583)
+Time diff: 11.5536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.122095, Angular Velocity Target: 0
+Target Position - x: 3.684762, y: -0.758839, Target Yaw: -0.890583
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.6
+--Position ERROR (signed): 8488.36
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.108] Selected control point: (x: 3.73246, y: -0.770247, yaw: -0.890582)
+Time diff: 11.6539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.105272, Angular Velocity Target: 0
+Target Position - x: 3.732462, y: -0.770247, Target Yaw: -0.890582
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.6
+--Position ERROR (signed): 8488.41
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.208] Selected control point: (x: 3.7799, y: -0.779886, yaw: -0.89058)
+Time diff: 11.7537
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0877484, Angular Velocity Target: 0
+Target Position - x: 3.779901, y: -0.779886, Target Yaw: -0.890580
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.7
+--Position ERROR (signed): 8488.45
+--Orientation ERROR: -1.13068
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.308] Selected control point: (x: 3.82738, y: -0.787746, yaw: -0.890579)
+Time diff: 11.8536
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0694208, Angular Velocity Target: 0
+Target Position - x: 3.827379, y: -0.787746, Target Yaw: -0.890579
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.7
+--Position ERROR (signed): 8488.49
+--Orientation ERROR: -1.13067
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.408] Selected control point: (x: 3.87492, y: -0.793744, yaw: -0.890577)
+Time diff: 11.9538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0502778, Angular Velocity Target: 0
+Target Position - x: 3.874924, y: -0.793744, Target Yaw: -0.890577
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.8
+--Position ERROR (signed): 8488.54
+--Orientation ERROR: -1.13067
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.508] Selected control point: (x: 3.92241, y: -0.797783, yaw: -0.890575)
+Time diff: 12.0538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.0303721, Angular Velocity Target: 0
+Target Position - x: 3.922410, y: -0.797783, Target Yaw: -0.890575
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.8
+--Position ERROR (signed): 8488.58
+--Orientation ERROR: -1.13067
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.608] Selected control point: (x: 3.96988, y: -0.799792, yaw: -0.890574)
+Time diff: 12.1537
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: -0.00969036, Angular Velocity Target: 0
+Target Position - x: 3.969880, y: -0.799792, Target Yaw: -0.890574
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.8
+--Position ERROR (signed): 8488.63
+--Orientation ERROR: -1.13067
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.708] Selected control point: (x: 4.01734, y: -0.799695, yaw: -0.890572)
+Time diff: 12.2537
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.011768, Angular Velocity Target: 0
+Target Position - x: 4.017344, y: -0.799695, Target Yaw: -0.890572
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.8
+--Position ERROR (signed): 8488.68
+--Orientation ERROR: -1.13067
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.808] Selected control point: (x: 4.06486, y: -0.797433, yaw: -0.89057)
+Time diff: 12.3537
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0332906, Angular Velocity Target: 0
+Target Position - x: 4.064856, y: -0.797433, Target Yaw: -0.890570
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.9
+--Position ERROR (signed): 8488.72
+--Orientation ERROR: -1.13067
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-49.908] Selected control point: (x: 4.11239, y: -0.793074, yaw: -0.890568)
+Time diff: 12.4537
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0536777, Angular Velocity Target: 0
+Target Position - x: 4.112389, y: -0.793074, Target Yaw: -0.890568
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.9
+--Position ERROR (signed): 8488.77
+--Orientation ERROR: -1.13066
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.008] Selected control point: (x: 4.15997, y: -0.786729, yaw: -0.890566)
+Time diff: 12.5538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0729219, Angular Velocity Target: 0
+Target Position - x: 4.159972, y: -0.786729, Target Yaw: -0.890566
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19923.9
+--Position ERROR (signed): 8488.82
+--Orientation ERROR: -1.13066
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.108] Selected control point: (x: 4.20753, y: -0.778526, yaw: -0.890564)
+Time diff: 12.6538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0909912, Angular Velocity Target: 0
+Target Position - x: 4.207528, y: -0.778526, Target Yaw: -0.890564
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924
+--Position ERROR (signed): 8488.87
+--Orientation ERROR: -1.13066
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.208] Selected control point: (x: 4.25517, y: -0.768562, yaw: -0.890562)
+Time diff: 12.7539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.107927, Angular Velocity Target: 0
+Target Position - x: 4.255170, y: -0.768562, Target Yaw: -0.890562
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924
+--Position ERROR (signed): 8488.91
+--Orientation ERROR: -1.13066
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.308] Selected control point: (x: 4.30281, y: -0.756972, yaw: -0.890559)
+Time diff: 12.8539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.123695, Angular Velocity Target: 0
+Target Position - x: 4.302806, y: -0.756972, Target Yaw: -0.890559
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924
+--Position ERROR (signed): 8488.96
+--Orientation ERROR: -1.13065
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.408] Selected control point: (x: 4.35046, y: -0.743869, yaw: -0.890557)
+Time diff: 12.9538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.138305, Angular Velocity Target: 0
+Target Position - x: 4.350462, y: -0.743869, Target Yaw: -0.890557
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924
+--Position ERROR (signed): 8489.01
+--Orientation ERROR: -1.13065
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.508] Selected control point: (x: 4.39819, y: -0.729354, yaw: -0.890555)
+Time diff: 13.0538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.151754, Angular Velocity Target: 0
+Target Position - x: 4.398190, y: -0.729354, Target Yaw: -0.890555
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924
+--Position ERROR (signed): 8489.06
+--Orientation ERROR: -1.13065
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.608] Selected control point: (x: 4.44594, y: -0.713581, yaw: -0.890552)
+Time diff: 13.1538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.163529, Angular Velocity Target: 0
+Target Position - x: 4.445941, y: -0.713581, Target Yaw: -0.890552
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.11
+--Orientation ERROR: -1.13065
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.708] Selected control point: (x: 4.49377, y: -0.696717, yaw: -0.89055)
+Time diff: 13.2538
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.173403, Angular Velocity Target: 0
+Target Position - x: 4.493771, y: -0.696717, Target Yaw: -0.890550
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.16
+--Orientation ERROR: -1.13065
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.808] Selected control point: (x: 4.54168, y: -0.678947, yaw: -0.890548)
+Time diff: 13.3539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.181374, Angular Velocity Target: 0
+Target Position - x: 4.541684, y: -0.678947, Target Yaw: -0.890548
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.21
+--Orientation ERROR: -1.13064
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-50.908] Selected control point: (x: 4.58962, y: -0.660486, yaw: -0.890545)
+Time diff: 13.4539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.187433, Angular Velocity Target: 0
+Target Position - x: 4.589624, y: -0.660486, Target Yaw: -0.890545
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.27
+--Orientation ERROR: -1.13064
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.008] Selected control point: (x: 4.63762, y: -0.641516, yaw: -0.890543)
+Time diff: 13.5539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.191583, Angular Velocity Target: 0
+Target Position - x: 4.637616, y: -0.641516, Target Yaw: -0.890543
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.32
+--Orientation ERROR: -1.13064
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.108] Selected control point: (x: 4.68564, y: -0.622238, yaw: -0.89054)
+Time diff: 13.6539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.193824, Angular Velocity Target: 0
+Target Position - x: 4.685636, y: -0.622238, Target Yaw: -0.890540
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.37
+--Orientation ERROR: -1.13064
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.208] Selected control point: (x: 4.73376, y: -0.602812, yaw: -0.890538)
+Time diff: 13.7539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.194159, Angular Velocity Target: 0
+Target Position - x: 4.733758, y: -0.602812, Target Yaw: -0.890538
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.1
+--Position ERROR (signed): 8489.42
+--Orientation ERROR: -1.13063
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.308] Selected control point: (x: 4.78191, y: -0.583461, yaw: -0.890535)
+Time diff: 13.8539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.19271, Angular Velocity Target: 0
+Target Position - x: 4.781905, y: -0.583461, Target Yaw: -0.890535
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.2
+--Position ERROR (signed): 8489.47
+--Orientation ERROR: -1.13063
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.408] Selected control point: (x: 4.83012, y: -0.564311, yaw: -0.890533)
+Time diff: 13.9539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.190109, Angular Velocity Target: 0
+Target Position - x: 4.830123, y: -0.564311, Target Yaw: -0.890533
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.2
+--Position ERROR (signed): 8489.52
+--Orientation ERROR: -1.13063
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.509] Selected control point: (x: 4.87842, y: -0.545467, yaw: -0.89053)
+Time diff: 14.054
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.186445, Angular Velocity Target: 0
+Target Position - x: 4.878421, y: -0.545467, Target Yaw: -0.890530
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.2
+--Position ERROR (signed): 8489.57
+--Orientation ERROR: -1.13063
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.609] Selected control point: (x: 4.92677, y: -0.527048, yaw: -0.890528)
+Time diff: 14.154
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.181719, Angular Velocity Target: 0
+Target Position - x: 4.926766, y: -0.527048, Target Yaw: -0.890528
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.2
+--Position ERROR (signed): 8489.62
+--Orientation ERROR: -1.13062
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.709] Selected control point: (x: 4.97516, y: -0.509157, yaw: -0.890525)
+Time diff: 14.254
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.175933, Angular Velocity Target: 0
+Target Position - x: 4.975164, y: -0.509157, Target Yaw: -0.890525
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.2
+--Position ERROR (signed): 8489.68
+--Orientation ERROR: -1.13062
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.809] Selected control point: (x: 5.02364, y: -0.491891, yaw: -0.890523)
+Time diff: 14.354
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.169082, Angular Velocity Target: 0
+Target Position - x: 5.023643, y: -0.491891, Target Yaw: -0.890523
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.2
+--Position ERROR (signed): 8489.73
+--Orientation ERROR: -1.13062
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-51.909] Selected control point: (x: 5.07216, y: -0.475371, yaw: -0.89052)
+Time diff: 14.454
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.161172, Angular Velocity Target: 0
+Target Position - x: 5.072159, y: -0.475371, Target Yaw: -0.890520
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.3
+--Position ERROR (signed): 8489.78
+--Orientation ERROR: -1.13062
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.009] Selected control point: (x: 5.12073, y: -0.459698, yaw: -0.890518)
+Time diff: 14.554
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.152203, Angular Velocity Target: 0
+Target Position - x: 5.120728, y: -0.459698, Target Yaw: -0.890518
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.3
+--Position ERROR (signed): 8489.83
+--Orientation ERROR: -1.13061
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.109] Selected control point: (x: 5.16938, y: -0.444952, yaw: -0.890516)
+Time diff: 14.654
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.142709, Angular Velocity Target: 0
+Target Position - x: 5.169382, y: -0.444952, Target Yaw: -0.890516
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.3
+--Position ERROR (signed): 8489.88
+--Orientation ERROR: -1.13061
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.209] Selected control point: (x: 5.21812, y: -0.431133, yaw: -0.890513)
+Time diff: 14.754
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.13356, Angular Velocity Target: 0
+Target Position - x: 5.218115, y: -0.431133, Target Yaw: -0.890513
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.3
+--Position ERROR (signed): 8489.93
+--Orientation ERROR: -1.13061
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.308] Selected control point: (x: 5.26684, y: -0.41823, yaw: -0.890511)
+Time diff: 14.854
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.124785, Angular Velocity Target: 0
+Target Position - x: 5.266835, y: -0.418230, Target Yaw: -0.890511
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.3
+--Position ERROR (signed): 8489.98
+--Orientation ERROR: -1.13061
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.408] Selected control point: (x: 5.31565, y: -0.406177, yaw: -0.890509)
+Time diff: 14.9539
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.116362, Angular Velocity Target: 0
+Target Position - x: 5.315653, y: -0.406177, Target Yaw: -0.890509
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.4
+--Position ERROR (signed): 8490.03
+--Orientation ERROR: -1.1306
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.508] Selected control point: (x: 5.36454, y: -0.394945, yaw: -0.890506)
+Time diff: 15.054
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.108298, Angular Velocity Target: 0
+Target Position - x: 5.364540, y: -0.394945, Target Yaw: -0.890506
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.4
+--Position ERROR (signed): 8490.08
+--Orientation ERROR: -1.1306
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.609] Selected control point: (x: 5.41349, y: -0.384501, yaw: -0.890504)
+Time diff: 15.154
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.100593, Angular Velocity Target: 0
+Target Position - x: 5.413489, y: -0.384501, Target Yaw: -0.890504
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.4
+--Position ERROR (signed): 8490.13
+--Orientation ERROR: -1.1306
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.709] Selected control point: (x: 5.46252, y: -0.374803, yaw: -0.890502)
+Time diff: 15.2541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0932445, Angular Velocity Target: 0
+Target Position - x: 5.462524, y: -0.374803, Target Yaw: -0.890502
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.4
+--Position ERROR (signed): 8490.18
+--Orientation ERROR: -1.1306
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.809] Selected control point: (x: 5.51158, y: -0.36583, yaw: -0.8905)
+Time diff: 15.3541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0862715, Angular Velocity Target: 0
+Target Position - x: 5.511579, y: -0.365830, Target Yaw: -0.890500
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.5
+--Position ERROR (signed): 8490.23
+--Orientation ERROR: -1.1306
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-52.909] Selected control point: (x: 5.56065, y: -0.357529, yaw: -0.890498)
+Time diff: 15.454
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0799867, Angular Velocity Target: 0
+Target Position - x: 5.560648, y: -0.357529, Target Yaw: -0.890498
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.5
+--Position ERROR (signed): 8490.28
+--Orientation ERROR: -1.13059
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.009] Selected control point: (x: 5.60983, y: -0.349806, yaw: -0.890495)
+Time diff: 15.5541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0745259, Angular Velocity Target: 0
+Target Position - x: 5.609829, y: -0.349806, Target Yaw: -0.890495
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.5
+--Position ERROR (signed): 8490.33
+--Orientation ERROR: -1.13059
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.109] Selected control point: (x: 5.65904, y: -0.34259, yaw: -0.890493)
+Time diff: 15.6541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0698986, Angular Velocity Target: 0
+Target Position - x: 5.659044, y: -0.342590, Target Yaw: -0.890493
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.5
+--Position ERROR (signed): 8490.38
+--Orientation ERROR: -1.13059
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.209] Selected control point: (x: 5.70824, y: -0.335803, yaw: -0.890491)
+Time diff: 15.754
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0661072, Angular Velocity Target: 0
+Target Position - x: 5.708243, y: -0.335803, Target Yaw: -0.890491
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.6
+--Position ERROR (signed): 8490.43
+--Orientation ERROR: -1.13059
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.309] Selected control point: (x: 5.75754, y: -0.329346, yaw: -0.890489)
+Time diff: 15.854
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0631427, Angular Velocity Target: 0
+Target Position - x: 5.757539, y: -0.329346, Target Yaw: -0.890489
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.6
+--Position ERROR (signed): 8490.48
+--Orientation ERROR: -1.13058
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.409] Selected control point: (x: 5.80687, y: -0.323145, yaw: -0.890487)
+Time diff: 15.954
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0610097, Angular Velocity Target: 0
+Target Position - x: 5.806873, y: -0.323145, Target Yaw: -0.890487
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.6
+--Position ERROR (signed): 8490.53
+--Orientation ERROR: -1.13058
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.509] Selected control point: (x: 5.85625, y: -0.317115, yaw: -0.890485)
+Time diff: 16.054
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0597081, Angular Velocity Target: 0
+Target Position - x: 5.856249, y: -0.317115, Target Yaw: -0.890485
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.6
+--Position ERROR (signed): 8490.58
+--Orientation ERROR: -1.13058
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.609] Selected control point: (x: 5.90565, y: -0.311177, yaw: -0.890483)
+Time diff: 16.154
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0591732, Angular Velocity Target: 0
+Target Position - x: 5.905648, y: -0.311177, Target Yaw: -0.890483
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.7
+--Position ERROR (signed): 8490.63
+--Orientation ERROR: -1.13058
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.709] Selected control point: (x: 5.95509, y: -0.305267, yaw: -0.890481)
+Time diff: 16.2541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0590731, Angular Velocity Target: 0
+Target Position - x: 5.955092, y: -0.305267, Target Yaw: -0.890481
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.7
+--Position ERROR (signed): 8490.68
+--Orientation ERROR: -1.13058
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.809] Selected control point: (x: 6.00458, y: -0.299345, yaw: -0.890478)
+Time diff: 16.3541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0593615, Angular Velocity Target: 0
+Target Position - x: 6.004583, y: -0.299345, Target Yaw: -0.890478
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.7
+--Position ERROR (signed): 8490.73
+--Orientation ERROR: -1.13057
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-53.909] Selected control point: (x: 6.05405, y: -0.293382, yaw: -0.890476)
+Time diff: 16.4541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0600375, Angular Velocity Target: 0
+Target Position - x: 6.054048, y: -0.293382, Target Yaw: -0.890476
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.7
+--Position ERROR (signed): 8490.78
+--Orientation ERROR: -1.13057
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.009] Selected control point: (x: 6.10358, y: -0.287326, yaw: -0.890474)
+Time diff: 16.5541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0611023, Angular Velocity Target: 0
+Target Position - x: 6.103576, y: -0.287326, Target Yaw: -0.890474
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.8
+--Position ERROR (signed): 8490.82
+--Orientation ERROR: -1.13057
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.109] Selected control point: (x: 6.1531, y: -0.281146, yaw: -0.890472)
+Time diff: 16.6541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0625549, Angular Velocity Target: 0
+Target Position - x: 6.153100, y: -0.281146, Target Yaw: -0.890472
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.8
+--Position ERROR (signed): 8490.87
+--Orientation ERROR: -1.13057
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.209] Selected control point: (x: 6.20264, y: -0.274802, yaw: -0.89047)
+Time diff: 16.7541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0643955, Angular Velocity Target: 0
+Target Position - x: 6.202636, y: -0.274802, Target Yaw: -0.890470
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.8
+--Position ERROR (signed): 8490.92
+--Orientation ERROR: -1.13057
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.309] Selected control point: (x: 6.2522, y: -0.268252, yaw: -0.890468)
+Time diff: 16.8541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0666251, Angular Velocity Target: 0
+Target Position - x: 6.252197, y: -0.268252, Target Yaw: -0.890468
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.8
+--Position ERROR (signed): 8490.97
+--Orientation ERROR: -1.13056
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.409] Selected control point: (x: 6.30176, y: -0.261467, yaw: -0.890466)
+Time diff: 16.9541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0690253, Angular Velocity Target: 0
+Target Position - x: 6.301757, y: -0.261467, Target Yaw: -0.890466
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.9
+--Position ERROR (signed): 8491.02
+--Orientation ERROR: -1.13056
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.509] Selected control point: (x: 6.35131, y: -0.254451, yaw: -0.890464)
+Time diff: 17.0541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0712494, Angular Velocity Target: 0
+Target Position - x: 6.351310, y: -0.254451, Target Yaw: -0.890464
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.9
+--Position ERROR (signed): 8491.07
+--Orientation ERROR: -1.13056
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.609] Selected control point: (x: 6.40085, y: -0.247222, yaw: -0.890461)
+Time diff: 17.1542
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0732928, Angular Velocity Target: 0
+Target Position - x: 6.400853, y: -0.247222, Target Yaw: -0.890461
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.9
+--Position ERROR (signed): 8491.12
+--Orientation ERROR: -1.13056
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.709] Selected control point: (x: 6.45038, y: -0.239799, yaw: -0.890459)
+Time diff: 17.2541
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0751558, Angular Velocity Target: 0
+Target Position - x: 6.450381, y: -0.239799, Target Yaw: -0.890459
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19924.9
+--Position ERROR (signed): 8491.17
+--Orientation ERROR: -1.13055
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.809] Selected control point: (x: 6.49992, y: -0.232194, yaw: -0.890457)
+Time diff: 17.3542
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0768394, Angular Velocity Target: 0
+Target Position - x: 6.499919, y: -0.232194, Target Yaw: -0.890457
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19925
+--Position ERROR (signed): 8491.22
+--Orientation ERROR: -1.13055
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-54.909] Selected control point: (x: 6.54941, y: -0.224435, yaw: -0.890455)
+Time diff: 17.4542
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0783416, Angular Velocity Target: 0
+Target Position - x: 6.549407, y: -0.224435, Target Yaw: -0.890455
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19925
+--Position ERROR (signed): 8491.27
+--Orientation ERROR: -1.13055
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-55.009] Selected control point: (x: 6.59888, y: -0.216532, yaw: -0.890453)
+Time diff: 17.5542
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0796639, Angular Velocity Target: 0
+Target Position - x: 6.598884, y: -0.216532, Target Yaw: -0.890453
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19925
+--Position ERROR (signed): 8491.32
+--Orientation ERROR: -1.13055
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-24-55.109] Selected control point: (x: 6.64833, y: -0.208506, yaw: -0.89045)
+Time diff: 17.6542
+-- PID Output: Linear Velocity: 2, Angular Velocity: -1
+Linear Velocity Target: 0.0808034, Angular Velocity Target: 0
+Target Position - x: 6.648331, y: -0.208506, Target Yaw: -0.890450
+Current Position - x: -12527.437993, y: 15488.628241, Current Yaw: 0.240096
+--Distance to Target (abs): 19925
+--Position ERROR (signed): 8491.37
+--Orientation ERROR: -1.13055
+Current Linear Velocity: 181.668921
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------

@@ -155,7 +155,9 @@ install(TARGETS
   DESTINATION lib/${PROJECT_NAME}
 )
 
-
+install(DIRECTORY launch/
+  DESTINATION share/${PROJECT_NAME}/launch
+)
 
 # 编译测试时的配置
 if(BUILD_TESTING)

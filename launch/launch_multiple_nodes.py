@@ -7,8 +7,6 @@ import os
 
 def generate_launch_description():
     return LaunchDescription([
-        # 启动 planner 包中的 test_bspline 节点
-
         # 启动 planner 包中的 traj_server 节点
         Node(
             package='planner',
@@ -28,32 +26,9 @@ def generate_launch_description():
             parameters=[],
             remappings=[]
         ),
-        # # 因为5.3秒test_bspline才发消息
-        # # 延时5.3秒后启动 virtual_data_publisher 节点
-        # TimerAction(
-        #     period=5.3,  # 延迟时间，单位为秒
-        #     actions=[
-        #         Node(
-        #             package='virtual_data_publisher',
-        #             executable='virtual_data_publisher',
-        #             name='virtual_data_publisher_node',
-        #             output='screen',
-        #             parameters=[],
-        #             remappings=[]
-        #         )
-        #     ]
-        # ),
-        Node(
-            package='virtual_data_publisher',
-            executable='virtual_data_publisher',
-            name='traj_pid_node',
-            output='screen',
-            parameters=[],
-            remappings=[]
-        ),
-
-         TimerAction(
-            period=4,  # 延迟时间，单位为秒
+        
+        TimerAction(
+            period=0.0,  # 修改为浮点数
             actions=[
                 Node(
                         package='planner',
@@ -66,3 +41,4 @@ def generate_launch_description():
             ]
         ),
     ])
+

@@ -1,0 +1,1631 @@
+-------------------------
+[2025-03-17_20-27-33.619] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-33.719] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-33.819] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-33.919] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.019] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.119] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.219] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.319] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.419] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.519] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.619] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.719] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.819] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-34.919] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.019] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.119] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.219] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.319] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.419] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.519] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.619] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.719] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.819] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-35.919] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.019] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.119] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.219] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.319] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.419] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.519] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.619] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.719] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-36.819] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=-1.50534e-05, y=2.70439e-05, Linear Velocity: -0.000564843, Angular Velocity: 0
+Current yaw: 5.0193e-05 (roll: -0.0293443, pitch: 0.00223079)
+-------------------------
+[2025-03-17_20-27-36.919] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.00530136, y=0.0039326, Linear Velocity: -0.00177251, Angular Velocity: 0
+Current yaw: 4.56488e-06 (roll: -0.0291526, pitch: 0.00109506)
+Received Odometry - Position: x=0.00432304, y=0.000678249, Linear Velocity: 0.0366182, Angular Velocity: 0
+Current yaw: 0.00243728 (roll: -0.0283506, pitch: -0.00257793)
+-------------------------
+[2025-03-17_20-27-37.019] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.0167737, y=-0.00612631, Linear Velocity: 0.165872, Angular Velocity: 0
+Current yaw: 0.00742942 (roll: -0.0294623, pitch: -0.00829109)
+Received Odometry - Position: x=0.594804, y=0.00214044, Linear Velocity: 0.959179, Angular Velocity: 0
+Current yaw: 0.0426465 (roll: -0.0232779, pitch: 0.00181714)
+-------------------------
+[2025-03-17_20-27-37.120] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.655233, y=0.00661089, Linear Velocity: 0.65895, Angular Velocity: 0
+Current yaw: 0.055647 (roll: -0.024439, pitch: 0.00234738)
+Received Odometry - Position: x=0.696705, y=0.00188864, Linear Velocity: 0.503792, Angular Velocity: 0
+Current yaw: 0.0644174 (roll: -0.0247677, pitch: 0.00280137)
+Received Odometry - Position: x=0.725781, y=0.00157095, Linear Velocity: 0.403101, Angular Velocity: 0
+Current yaw: 0.0663764 (roll: -0.0236366, pitch: 0.00539586)
+Received Odometry - Position: x=0.763519, y=0.00975022, Linear Velocity: 0.385267, Angular Velocity: 0
+Current yaw: 0.0669569 (roll: -0.0261776, pitch: 0.00498886)
+-------------------------
+[2025-03-17_20-27-37.219] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.802803, y=0.0112396, Linear Velocity: 0.392297, Angular Velocity: 0
+Current yaw: 0.0672808 (roll: -0.0249353, pitch: 0.00441226)
+Received Odometry - Position: x=0.842006, y=0.0152621, Linear Velocity: 0.40018, Angular Velocity: 0
+Current yaw: 0.0694218 (roll: -0.0222279, pitch: 0.00339209)
+-------------------------
+[2025-03-17_20-27-37.319] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.880013, y=0.0157781, Linear Velocity: 0.39864, Angular Velocity: 0
+Current yaw: 0.0705202 (roll: -0.0237343, pitch: 0.00270006)
+-------------------------
+[2025-03-17_20-27-37.420] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.921174, y=0.0166515, Linear Velocity: 0.405223, Angular Velocity: 0
+Current yaw: 0.0723207 (roll: -0.0250678, pitch: 0.00138448)
+-------------------------
+[2025-03-17_20-27-37.520] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.962716, y=0.0170232, Linear Velocity: 0.408862, Angular Velocity: 0
+Current yaw: 0.0724718 (roll: -0.0274191, pitch: 0.000520654)
+-------------------------
+[2025-03-17_20-27-37.620] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.00523, y=0.0204743, Linear Velocity: 0.404363, Angular Velocity: 0
+Current yaw: 0.0742715 (roll: -0.0253306, pitch: -0.000148385)
+-------------------------
+[2025-03-17_20-27-37.720] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.04355, y=0.0237113, Linear Velocity: 0.402817, Angular Velocity: 0
+Current yaw: 0.0786107 (roll: -0.0238058, pitch: -0.00062027)
+-------------------------
+[2025-03-17_20-27-37.820] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.08382, y=0.0283943, Linear Velocity: 0.411258, Angular Velocity: 0
+Current yaw: 0.0812349 (roll: -0.0257344, pitch: -0.00247538)
+-------------------------
+[2025-03-17_20-27-37.920] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.12525, y=0.0346537, Linear Velocity: 0.411096, Angular Velocity: 0
+Current yaw: 0.0845277 (roll: -0.0252869, pitch: -0.00334599)
+-------------------------
+[2025-03-17_20-27-38.020] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.16662, y=0.0359087, Linear Velocity: 0.415342, Angular Velocity: 0
+Current yaw: 0.0868216 (roll: -0.0261928, pitch: -0.00541986)
+-------------------------
+[2025-03-17_20-27-38.120] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.20803, y=0.0379501, Linear Velocity: 0.41291, Angular Velocity: 0
+Current yaw: 0.0887723 (roll: -0.0262603, pitch: -0.0058896)
+-------------------------
+[2025-03-17_20-27-38.220] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.24782, y=0.0370393, Linear Velocity: 0.414888, Angular Velocity: 0
+Current yaw: 0.0904442 (roll: -0.0253065, pitch: -0.00604904)
+-------------------------
+[2025-03-17_20-27-38.320] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.28977, y=0.0423692, Linear Velocity: 0.435782, Angular Velocity: 0
+Current yaw: 0.0914318 (roll: -0.0257831, pitch: -0.00941657)
+-------------------------
+[2025-03-17_20-27-38.420] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.33511, y=0.0488811, Linear Velocity: 0.470523, Angular Velocity: 0
+Current yaw: 0.0939782 (roll: -0.0269418, pitch: -0.00985399)
+-------------------------
+[2025-03-17_20-27-38.520] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-38.620] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.37997, y=0.0529808, Linear Velocity: 0.486268, Angular Velocity: 0
+Current yaw: 0.095647 (roll: -0.0251972, pitch: -0.0111251)
+Received Odometry - Position: x=1.42659, y=0.056416, Linear Velocity: 0.508114, Angular Velocity: 0
+Current yaw: 0.0979627 (roll: -0.0253365, pitch: -0.0104179)
+-------------------------
+[2025-03-17_20-27-38.720] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-38.820] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-38.920] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.47742, y=0.0606544, Linear Velocity: 0.526175, Angular Velocity: 0
+Current yaw: 0.0986478 (roll: -0.024539, pitch: -0.00993515)
+-------------------------
+[2025-03-17_20-27-39.034] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-39.131] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-39.238] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-39.325] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.52908, y=0.0660934, Linear Velocity: 0.488526, Angular Velocity: 0
+Current yaw: 0.0991576 (roll: -0.0244985, pitch: -0.00906583)
+-------------------------
+[2025-03-17_20-27-39.697] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-40.152] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.5736, y=0.0749723, Linear Velocity: 0.438575, Angular Velocity: 0
+Current yaw: 0.0988409 (roll: -0.0273706, pitch: -0.0106435)
+-------------------------
+[2025-03-17_20-27-41.310] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-41.571] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.60958, y=0.0804011, Linear Velocity: 0.330534, Angular Velocity: 0
+Current yaw: 0.0998165 (roll: -0.0261496, pitch: -0.0148535)
+-------------------------
+[2025-03-17_20-27-44.298] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-48.653] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-48.723] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-48.822] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-48.922] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-49.022] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.64244, y=0.0886032, Linear Velocity: 0.308428, Angular Velocity: 0
+Current yaw: 0.101364 (roll: -0.0260732, pitch: -0.0147985)
+Received Odometry - Position: x=1.64398, y=0.0891219, Linear Velocity: 0.308877, Angular Velocity: 0
+Current yaw: 0.107912 (roll: -0.0247379, pitch: -0.0151298)
+-------------------------
+[2025-03-17_20-27-49.122] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.64448, y=0.089973, Linear Velocity: 0.311245, Angular Velocity: 0
+Current yaw: 0.102444 (roll: -0.0249682, pitch: -0.0138295)
+Received Odometry - Position: x=1.64507, y=0.0891102, Linear Velocity: 0.312089, Angular Velocity: 0
+Current yaw: 0.102281 (roll: -0.0261771, pitch: -0.0150982)
+Received Odometry - Position: x=1.64741, y=0.0876685, Linear Velocity: 0.321697, Angular Velocity: 0
+Current yaw: 0.103728 (roll: -0.0261685, pitch: -0.0150409)
+Received Odometry - Position: x=1.64948, y=0.0862141, Linear Velocity: 0.330895, Angular Velocity: 0
+Current yaw: 0.104285 (roll: -0.0259207, pitch: -0.0121594)
+-------------------------
+[2025-03-17_20-27-49.223] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.6507, y=0.0864659, Linear Velocity: 0.335424, Angular Velocity: 0
+Current yaw: 0.103847 (roll: -0.0259113, pitch: -0.0114294)
+Received Odometry - Position: x=1.65147, y=0.0867187, Linear Velocity: 0.337553, Angular Velocity: 0
+Current yaw: 0.103715 (roll: -0.0265798, pitch: -0.0103508)
+Received Odometry - Position: x=1.65263, y=0.0868485, Linear Velocity: 0.339881, Angular Velocity: 0
+Current yaw: 0.103741 (roll: -0.0266134, pitch: -0.0102999)
+Received Odometry - Position: x=1.65452, y=0.0871227, Linear Velocity: 0.345518, Angular Velocity: 0
+Current yaw: 0.102301 (roll: -0.026042, pitch: -0.00991551)
+-------------------------
+[2025-03-17_20-27-49.322] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-49.422] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-49.522] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1.94753, y=0.564004, Linear Velocity: 0.884922, Angular Velocity: 0
+Current yaw: 0.102271 (roll: 0.000131923, pitch: -0.0127941)
+Received Odometry - Position: x=3.00041, y=0.280042, Linear Velocity: 1.8489, Angular Velocity: 0
+Current yaw: 0.122952 (roll: 0.0219624, pitch: 0.0100782)
+Received Odometry - Position: x=29.3077, y=-22.8165, Linear Velocity: 1.75021, Angular Velocity: 0
+Current yaw: 0.290263 (roll: 0.269458, pitch: 0.0950476)
+Received Odometry - Position: x=57.7, y=-82.4471, Linear Velocity: 2.67945, Angular Velocity: 0
+Current yaw: 0.443749 (roll: 0.557325, pitch: 0.102409)
+-------------------------
+[2025-03-17_20-27-49.622] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=146.133, y=-236.229, Linear Velocity: -1.47363, Angular Velocity: 0
+Current yaw: 0.595525 (roll: 0.847885, pitch: 0.065139)
+Received Odometry - Position: x=350.399, y=-564.77, Linear Velocity: -15.6403, Angular Velocity: 0
+Current yaw: 0.732123 (roll: 1.13364, pitch: -0.01489)
+Received Odometry - Position: x=733.496, y=-1132.99, Linear Velocity: -43.3995, Angular Velocity: 0
+Current yaw: 0.843031 (roll: 1.41239, pitch: -0.131632)
+-------------------------
+[2025-03-17_20-27-49.722] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=746.273, y=-1144.04, Linear Velocity: -59.8136, Angular Velocity: 0
+Current yaw: 0.925649 (roll: 1.35455, pitch: -0.184693)
+-------------------------
+[2025-03-17_20-27-49.823] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=756.068, y=-1157.08, Linear Velocity: -94.6581, Angular Velocity: 0
+Current yaw: 1.13213 (roll: 1.18997, pitch: -0.244103)
+-------------------------
+[2025-03-17_20-27-49.922] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=766.581, y=-1169.35, Linear Velocity: -153.737, Angular Velocity: 0
+Current yaw: 1.70575 (roll: 0.703989, pitch: -0.128816)
+-------------------------
+[2025-03-17_20-27-50.022] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=781.668, y=-1189.17, Linear Velocity: -139.343, Angular Velocity: 0
+Current yaw: 2.26098 (roll: 0.273232, pitch: 0.292429)
+-------------------------
+[2025-03-17_20-27-50.122] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=788.236, y=-1202.4, Linear Velocity: -81.7109, Angular Velocity: 0
+Current yaw: 2.56748 (roll: 0.126771, pitch: 0.631677)
+Received Odometry - Position: x=802.084, y=-1215.14, Linear Velocity: -4.42365, Angular Velocity: 0
+Current yaw: 2.95381 (roll: 0.12105, pitch: 1.00111)
+-------------------------
+[2025-03-17_20-27-50.224] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=811.672, y=-1229.67, Linear Velocity: 81.946, Angular Velocity: 0
+Current yaw: -2.31693 (roll: 0.75726, pitch: 1.3384)
+Received Odometry - Position: x=820.669, y=-1242.34, Linear Velocity: 138.218, Angular Velocity: 0
+Current yaw: -0.653539 (roll: 2.02089, pitch: 1.12391)
+-------------------------
+[2025-03-17_20-27-50.322] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=831.87, y=-1257.85, Linear Velocity: 141.176, Angular Velocity: 0
+Current yaw: -0.170691 (roll: 2.06035, pitch: 0.682981)
+Received Odometry - Position: x=841.508, y=-1271.85, Linear Velocity: 85.9514, Angular Velocity: 0
+Current yaw: 0.204105 (roll: 1.8934, pitch: 0.279698)
+Received Odometry - Position: x=851.104, y=-1285.59, Linear Velocity: 7.42917, Angular Velocity: 0
+Current yaw: 0.562179 (roll: 1.64528, pitch: -0.00449781)
+-------------------------
+[2025-03-17_20-27-50.422] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=860.605, y=-1299.25, Linear Velocity: -73.8814, Angular Velocity: 0
+Current yaw: 0.976821 (roll: 1.31752, pitch: -0.160044)
+Received Odometry - Position: x=871.025, y=-1314.24, Linear Velocity: -136.436, Angular Velocity: 0
+Current yaw: 1.44358 (roll: 0.926579, pitch: -0.117484)
+-------------------------
+[2025-03-17_20-27-50.522] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=880.905, y=-1328.4, Linear Velocity: -153.135, Angular Velocity: 0
+Current yaw: 1.81371 (roll: 0.619086, pitch: 0.0956872)
+-------------------------
+[2025-03-17_20-27-50.622] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=890.884, y=-1342.63, Linear Velocity: -124.528, Angular Velocity: 0
+Current yaw: 2.10948 (roll: 0.390069, pitch: 0.423234)
+-------------------------
+[2025-03-17_20-27-50.722] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=901.362, y=-1357.06, Linear Velocity: -51.6799, Angular Velocity: 0
+Current yaw: 2.38723 (roll: 0.21465, pitch: 0.847238)
+-------------------------
+[2025-03-17_20-27-50.822] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=913.688, y=-1374.37, Linear Velocity: 36.5655, Angular Velocity: 0
+Current yaw: 2.7286 (roll: 0.18372, pitch: 1.28765)
+-------------------------
+[2025-03-17_20-27-50.922] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=921.151, y=-1385.06, Linear Velocity: 109.729, Angular Velocity: 0
+Current yaw: -0.83971 (roll: 2.56705, pitch: 1.40157)
+-------------------------
+[2025-03-17_20-27-51.022] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=933.332, y=-1400.78, Linear Velocity: 150.866, Angular Velocity: 0
+Current yaw: -0.377539 (roll: 2.66507, pitch: 0.95644)
+Received Odometry - Position: x=941.575, y=-1414.89, Linear Velocity: 143.013, Angular Velocity: 0
+Current yaw: -0.128914 (roll: 2.51452, pitch: 0.546102)
+-------------------------
+[2025-03-17_20-27-51.122] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=951.276, y=-1428.73, Linear Velocity: 90.0657, Angular Velocity: 0
+Current yaw: 0.143904 (roll: 2.28422, pitch: 0.168498)
+-------------------------
+[2025-03-17_20-27-51.222] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-51.322] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=961.02, y=-1442.72, Linear Velocity: 8.0669, Angular Velocity: 0
+Current yaw: 0.48753 (roll: 1.96058, pitch: -0.136112)
+Received Odometry - Position: x=970.636, y=-1456.55, Linear Velocity: -78.3989, Angular Velocity: 0
+Current yaw: 0.917524 (roll: 1.53711, pitch: -0.318146)
+-------------------------
+[2025-03-17_20-27-51.422] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-51.522] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=980.576, y=-1470.82, Linear Velocity: -147.183, Angular Velocity: 0
+Current yaw: 1.41746 (roll: 1.04773, pitch: -0.313349)
+-------------------------
+[2025-03-17_20-27-51.622] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=990.522, y=-1485.27, Linear Velocity: -172.392, Angular Velocity: 0
+Current yaw: 1.86304 (roll: 0.614013, pitch: -0.0911968)
+-------------------------
+[2025-03-17_20-27-51.723] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=999.421, y=-1500.27, Linear Velocity: -151.763, Angular Velocity: 0
+Current yaw: 2.12803 (roll: 0.348731, pitch: 0.198027)
+Received Odometry - Position: x=1007.15, y=-1514.71, Linear Velocity: -94.2104, Angular Velocity: 0
+Current yaw: 2.37045 (roll: 0.132774, pitch: 0.578685)
+-------------------------
+[2025-03-17_20-27-51.822] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1019.95, y=-1531.03, Linear Velocity: -35.7537, Angular Velocity: 0
+Current yaw: 2.53892 (roll: 0.00642224, pitch: 0.882182)
+-------------------------
+[2025-03-17_20-27-51.922] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1031.71, y=-1547.57, Linear Velocity: 21.3181, Angular Velocity: 0
+Current yaw: 2.7047 (roll: -0.0683257, pitch: 1.1626)
+-------------------------
+[2025-03-17_20-27-52.022] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1035.59, y=-1560.49, Linear Velocity: 93.2153, Angular Velocity: 0
+Current yaw: -2.26607 (roll: 0.954552, pitch: 1.51835)
+-------------------------
+[2025-03-17_20-27-52.122] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1043.57, y=-1574.48, Linear Velocity: 135.109, Angular Velocity: 0
+Current yaw: -0.402357 (roll: 2.55364, pitch: 1.21983)
+-------------------------
+[2025-03-17_20-27-52.222] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1052.73, y=-1588.01, Linear Velocity: 146.157, Angular Velocity: 0
+Current yaw: -0.179695 (roll: 2.47209, pitch: 0.833894)
+-------------------------
+[2025-03-17_20-27-52.322] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-52.423] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1061.83, y=-1602.39, Linear Velocity: 124.726, Angular Velocity: 0
+Current yaw: -0.00267093 (roll: 2.31924, pitch: 0.493749)
+Received Odometry - Position: x=1071.17, y=-1617.75, Linear Velocity: 83.7845, Angular Velocity: 0
+Current yaw: 0.178048 (roll: 2.15451, pitch: 0.228268)
+-------------------------
+[2025-03-17_20-27-52.523] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1082.82, y=-1633.32, Linear Velocity: 24.903, Angular Velocity: 0
+Current yaw: 0.414239 (roll: 1.94324, pitch: -0.0141293)
+-------------------------
+[2025-03-17_20-27-52.623] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1099.62, y=-1649.74, Linear Velocity: -42.6503, Angular Velocity: 0
+Current yaw: 0.719833 (roll: 1.6539, pitch: -0.202965)
+-------------------------
+[2025-03-17_20-27-52.723] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1114.63, y=-1664.18, Linear Velocity: -95.5545, Angular Velocity: 0
+Current yaw: 1.01417 (roll: 1.36213, pitch: -0.278881)
+-------------------------
+[2025-03-17_20-27-52.823] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-52.923] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1119.68, y=-1679.8, Linear Velocity: -148.965, Angular Velocity: 0
+Current yaw: 1.37815 (roll: 1.00491, pitch: -0.26379)
+Received Odometry - Position: x=1127.63, y=-1697.77, Linear Velocity: -175.267, Angular Velocity: 0
+Current yaw: 1.69442 (roll: 0.696275, pitch: -0.141703)
+-------------------------
+[2025-03-17_20-27-53.023] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1136.52, y=-1715.42, Linear Velocity: -170.688, Angular Velocity: 0
+Current yaw: 1.9691 (roll: 0.433549, pitch: 0.0759712)
+-------------------------
+[2025-03-17_20-27-53.123] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1146.26, y=-1730.45, Linear Velocity: -133.775, Angular Velocity: 0
+Current yaw: 2.18745 (roll: 0.227195, pitch: 0.346954)
+-------------------------
+[2025-03-17_20-27-53.223] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1156.15, y=-1745.13, Linear Velocity: -74.1514, Angular Velocity: 0
+Current yaw: 2.37179 (roll: 0.0625877, pitch: 0.65088)
+-------------------------
+[2025-03-17_20-27-53.323] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1166.12, y=-1760.16, Linear Velocity: -1.29895, Angular Velocity: 0
+Current yaw: 2.5404 (roll: -0.0642604, pitch: 0.980269)
+-------------------------
+[2025-03-17_20-27-53.423] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1176.12, y=-1775.28, Linear Velocity: 71.5967, Angular Velocity: 0
+Current yaw: 2.7457 (roll: -0.136556, pitch: 1.3238)
+-------------------------
+[2025-03-17_20-27-53.523] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1186.01, y=-1790.24, Linear Velocity: 129.421, Angular Velocity: 0
+Current yaw: -0.622592 (roll: 2.52076, pitch: 1.46558)
+-------------------------
+[2025-03-17_20-27-53.623] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1195.8, y=-1805.13, Linear Velocity: 162.041, Angular Velocity: 0
+Current yaw: -0.300883 (roll: 2.58269, pitch: 1.12319)
+-------------------------
+[2025-03-17_20-27-53.723] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1202.37, y=-1820.51, Linear Velocity: 163.268, Angular Velocity: 0
+Current yaw: -0.235607 (roll: 2.55572, pitch: 1.0612)
+-------------------------
+[2025-03-17_20-27-53.823] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1211.87, y=-1835.23, Linear Velocity: 156.704, Angular Velocity: 0
+Current yaw: -0.06868 (roll: 2.43818, pitch: 0.728839)
+-------------------------
+[2025-03-17_20-27-53.923] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1221.41, y=-1850.11, Linear Velocity: 62.9834, Angular Velocity: 0
+Current yaw: 0.288178 (roll: 2.12041, pitch: 0.119111)
+-------------------------
+[2025-03-17_20-27-54.023] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1229.63, y=-1864, Linear Velocity: -81.719, Angular Velocity: 0
+Current yaw: 0.857357 (roll: 1.57698, pitch: -0.313619)
+-------------------------
+[2025-03-17_20-27-54.123] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-54.223] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1242.05, y=-1879.04, Linear Velocity: -177.654, Angular Velocity: 0
+Current yaw: 1.59386 (roll: 0.865207, pitch: -0.317372)
+-------------------------
+[2025-03-17_20-27-54.323] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-54.423] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1248.51, y=-1890.59, Linear Velocity: -171.048, Angular Velocity: 0
+Current yaw: 2.07583 (roll: 0.398393, pitch: 0.0143389)
+-------------------------
+[2025-03-17_20-27-54.523] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1255.42, y=-1904.98, Linear Velocity: -84.0454, Angular Velocity: 0
+Current yaw: 2.42244 (roll: 0.0888068, pitch: 0.514019)
+Received Odometry - Position: x=1270.72, y=-1927.15, Linear Velocity: 109.835, Angular Velocity: 0
+Current yaw: 3.09041 (roll: 0.0342874, pitch: 1.42249)
+-------------------------
+[2025-03-17_20-27-54.623] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-54.723] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1279.97, y=-1941.32, Linear Velocity: 177.118, Angular Velocity: 0
+Current yaw: -0.324621 (roll: 2.47227, pitch: 1.08541)
+-------------------------
+[2025-03-17_20-27-54.823] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1289.69, y=-1955.43, Linear Velocity: 148.536, Angular Velocity: 0
+Current yaw: -0.00781307 (roll: 2.29852, pitch: 0.510359)
+-------------------------
+[2025-03-17_20-27-54.923] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1299.55, y=-1970.21, Linear Velocity: 16.2915, Angular Velocity: 0
+Current yaw: 0.441755 (roll: 1.91412, pitch: -0.0752995)
+Received Odometry - Position: x=1309.19, y=-1984.44, Linear Velocity: -81.8559, Angular Velocity: 0
+Current yaw: 0.859561 (roll: 1.51313, pitch: -0.293234)
+-------------------------
+[2025-03-17_20-27-55.023] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1320.46, y=-2001.2, Linear Velocity: -174.213, Angular Velocity: 0
+Current yaw: 1.5811 (roll: 0.820338, pitch: -0.258692)
+-------------------------
+[2025-03-17_20-27-55.123] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-55.223] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1331.4, y=-2011.13, Linear Velocity: -161.303, Angular Velocity: 0
+Current yaw: 2.03495 (roll: 0.394275, pitch: 0.0773521)
+-------------------------
+[2025-03-17_20-27-55.323] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1340.76, y=-2024.74, Linear Velocity: -75.6583, Angular Velocity: 0
+Current yaw: 2.3723 (roll: 0.114638, pitch: 0.548625)
+-------------------------
+[2025-03-17_20-27-55.423] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1357.68, y=-2049.23, Linear Velocity: 133.424, Angular Velocity: 0
+Current yaw: -2.54329 (roll: 0.692832, pitch: 1.48896)
+-------------------------
+[2025-03-17_20-27-55.523] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-55.623] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1365.96, y=-2066.67, Linear Velocity: 188.52, Angular Velocity: 0
+Current yaw: -0.345307 (roll: 2.46654, pitch: 1.02516)
+-------------------------
+[2025-03-17_20-27-55.723] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-55.823] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-55.923] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1377.27, y=-2082.37, Linear Velocity: 125.314, Angular Velocity: 0
+Current yaw: 0.0621161 (roll: 2.21643, pitch: 0.314523)
+Received Odometry - Position: x=1391.73, y=-2103.84, Linear Velocity: -102.212, Angular Velocity: 0
+Current yaw: 0.933309 (roll: 1.41594, pitch: -0.346438)
+-------------------------
+[2025-03-17_20-27-56.023] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1415.67, y=-2139.68, Linear Velocity: -61.9263, Angular Velocity: 0
+Current yaw: 2.4097 (roll: 0.0682432, pitch: 0.594113)
+-------------------------
+[2025-03-17_20-27-56.123] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1424.93, y=-2155.01, Linear Velocity: 142.047, Angular Velocity: 0
+Current yaw: -2.49575 (roll: 0.741671, pitch: 1.44007)
+-------------------------
+[2025-03-17_20-27-56.223] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1436.02, y=-2171.45, Linear Velocity: 198.665, Angular Velocity: 0
+Current yaw: -0.324119 (roll: 2.29799, pitch: 0.803167)
+-------------------------
+[2025-03-17_20-27-56.323] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1444.65, y=-2187.44, Linear Velocity: 123.746, Angular Velocity: 0
+Current yaw: 0.046515 (roll: 2.08338, pitch: 0.263693)
+-------------------------
+[2025-03-17_20-27-56.423] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1454.19, y=-2201.81, Linear Velocity: -37.4319, Angular Velocity: 0
+Current yaw: 0.616429 (roll: 1.60935, pitch: -0.220164)
+Received Odometry - Position: x=1467.04, y=-2221.25, Linear Velocity: -179.018, Angular Velocity: 0
+Current yaw: 1.63321 (roll: 0.694189, pitch: -0.20653)
+-------------------------
+[2025-03-17_20-27-56.523] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1477.17, y=-2238.97, Linear Velocity: -125.158, Angular Velocity: 0
+Current yaw: 2.18099 (roll: 0.230661, pitch: 0.293549)
+Received Odometry - Position: x=1487.31, y=-2254.17, Linear Velocity: 37.1983, Angular Velocity: 0
+Current yaw: 2.61562 (roll: -0.00544355, pitch: 0.984749)
+-------------------------
+[2025-03-17_20-27-56.623] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-56.723] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1497.86, y=-2268.87, Linear Velocity: 177.039, Angular Velocity: 0
+Current yaw: -0.785736 (roll: 2.34749, pitch: 1.39933)
+Received Odometry - Position: x=1507.74, y=-2283.58, Linear Velocity: 188.415, Angular Velocity: 0
+Current yaw: -0.163727 (roll: 2.42737, pitch: 0.698762)
+Received Odometry - Position: x=1517.55, y=-2298.28, Linear Velocity: 67.2083, Angular Velocity: 0
+Current yaw: 0.249915 (roll: 2.09245, pitch: 0.065701)
+-------------------------
+[2025-03-17_20-27-56.823] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1526.83, y=-2312.27, Linear Velocity: -90.7947, Angular Velocity: 0
+Current yaw: 0.837313 (roll: 1.53838, pitch: -0.326543)
+Received Odometry - Position: x=1536.46, y=-2326.78, Linear Velocity: -186.576, Angular Velocity: 0
+Current yaw: 1.60025 (roll: 0.804793, pitch: -0.28623)
+-------------------------
+[2025-03-17_20-27-56.924] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1546.18, y=-2341.3, Linear Velocity: -144.55, Angular Velocity: 0
+Current yaw: 2.16164 (roll: 0.283798, pitch: 0.181132)
+-------------------------
+[2025-03-17_20-27-57.024] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1555.24, y=-2357.56, Linear Velocity: -0.0135657, Angular Velocity: 0
+Current yaw: 2.52741 (roll: -0.0062105, pitch: 0.808681)
+-------------------------
+[2025-03-17_20-27-57.123] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-57.223] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1566.01, y=-2369.39, Linear Velocity: 157.501, Angular Velocity: 0
+Current yaw: -2.60099 (roll: 0.628233, pitch: 1.4967)
+-------------------------
+[2025-03-17_20-27-57.323] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1579.92, y=-2390.77, Linear Velocity: 203.817, Angular Velocity: 0
+Current yaw: -0.24179 (roll: 2.45461, pitch: 0.854795)
+-------------------------
+[2025-03-17_20-27-57.423] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1589.54, y=-2405.67, Linear Velocity: 99.4701, Angular Velocity: 0
+Current yaw: 0.148362 (roll: 2.15617, pitch: 0.17663)
+Received Odometry - Position: x=1599.1, y=-2420.57, Linear Velocity: -75.6805, Angular Velocity: 0
+Current yaw: 0.73271 (roll: 1.61315, pitch: -0.304172)
+-------------------------
+[2025-03-17_20-27-57.523] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1608.73, y=-2435.56, Linear Velocity: -188.95, Angular Velocity: 0
+Current yaw: 1.5236 (roll: 0.85282, pitch: -0.321483)
+-------------------------
+[2025-03-17_20-27-57.623] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1618.4, y=-2450.5, Linear Velocity: -154.422, Angular Velocity: 0
+Current yaw: 2.12155 (roll: 0.294481, pitch: 0.138286)
+-------------------------
+[2025-03-17_20-27-57.724] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1628.48, y=-2465.09, Linear Velocity: -130.367, Angular Velocity: 0
+Current yaw: 2.10666 (roll: 0.14881, pitch: 0.26155)
+-------------------------
+[2025-03-17_20-27-57.823] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-57.924] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-58.024] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1637.41, y=-2480.11, Linear Velocity: 26.3302, Angular Velocity: 0
+Current yaw: 2.38922 (roll: -0.157702, pitch: 0.927876)
+-------------------------
+[2025-03-17_20-27-58.124] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1647.82, y=-2489.15, Linear Velocity: 162.378, Angular Velocity: 0
+Current yaw: 1.09865 (roll: -1.88899, pitch: 1.54416)
+-------------------------
+[2025-03-17_20-27-58.224] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1651.49, y=-2498.05, Linear Velocity: 203.826, Angular Velocity: 0
+Current yaw: -0.18432 (roll: 2.74734, pitch: 1.03684)
+-------------------------
+[2025-03-17_20-27-58.324] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1661.26, y=-2511.98, Linear Velocity: 159.368, Angular Velocity: 0
+Current yaw: 0.0328654 (roll: 2.50862, pitch: 0.483452)
+-------------------------
+[2025-03-17_20-27-58.424] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1678.23, y=-2536.29, Linear Velocity: -58.3713, Angular Velocity: 0
+Current yaw: 0.675508 (roll: 1.8526, pitch: -0.280714)
+-------------------------
+[2025-03-17_20-27-58.524] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1687.96, y=-2549.26, Linear Velocity: -214.647, Angular Velocity: 0
+Current yaw: 1.98789 (roll: 0.576821, pitch: -0.341177)
+-------------------------
+[2025-03-17_20-27-58.624] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-58.726] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-59.120] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1695.51, y=-2562.57, Linear Velocity: -150.744, Angular Velocity: 0
+Current yaw: 2.28197 (roll: 0.1645, pitch: 0.108529)
+-------------------------
+[2025-03-17_20-27-59.132] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1707.99, y=-2580.39, Linear Velocity: 1.43144, Angular Velocity: 0
+Current yaw: 2.40768 (roll: -0.269209, pitch: 0.78078)
+Received Odometry - Position: x=1722.2, y=-2596.18, Linear Velocity: 98.2881, Angular Velocity: 0
+Current yaw: 2.1027 (roll: -0.86705, pitch: 1.2049)
+-------------------------
+[2025-03-17_20-27-59.224] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=1741.21, y=-2622.98, Linear Velocity: 161.098, Angular Velocity: 0
+Current yaw: 0.219498 (roll: 2.91271, pitch: 0.709442)
+-------------------------
+[2025-03-17_20-27-59.327] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-59.435] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-59.524] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-59.632] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-59.728] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-27-59.825] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-01.488] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-01.524] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-01.628] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-01.724] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-01.824] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-01.924] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.027] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.125] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.224] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.325] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.425] No B-spline trajectory received.
+-------------------------
+[2025-03-17_20-28-02.438] Received Bspline message - pos_pts size: 27, yaw_pts size: 65, order=3
+----- Control Points -----
+Point[0]: time = 0, pos = (4.32468e-05, -5.79732e-05, 0), vel = (2.61492e-05, -3.50535e-05, 0), yaw = 0, yaw_dot = 0
+Point[1]: time = 0.1, pos = (5.42634e-05, -6.63554e-05, 0), vel = (0.000277909, -0.000180972, 0), yaw = -0.00167307, yaw_dot = -0.050192
+Point[2]: time = 0.2, pos = (0.000115574, -0.000103844, 0), vel = (0.00103203, -0.000617178, 0), yaw = -0.0133845, yaw_dot = -0.200768
+Point[3]: time = 0.3, pos = (0.000277415, -0.000199467, 0), vel = (0.00228852, -0.00134367, 0), yaw = -0.0451726, yaw_dot = -0.451601
+Point[4]: time = 0.4, pos = (0.000590023, -0.000382254, 0), vel = (0.00404736, -0.00236045, 0), yaw = -0.102616, yaw_dot = -0.673436
+Point[5]: time = 0.5, pos = (0.00110363, -0.000681233, 0), vel = (0.00630857, -0.00366751, 0), yaw = -0.175095, yaw_dot = -0.752336
+Point[6]: time = 0.6, pos = (0.00186848, -0.00112543, 0), vel = (0.00907215, -0.00526486, 0), yaw = -0.248319, yaw_dot = -0.688531
+Point[7]: time = 0.7, pos = (0.00293481, -0.00174388, 0), vel = (0.0123381, -0.0071525, 0), yaw = -0.310219, yaw_dot = -0.54413
+Point[8]: time = 0.8, pos = (0.00435273, -0.00256547, 0), vel = (0.0160961, -0.00931758, 0), yaw = -0.356075, yaw_dot = -0.367633
+Point[9]: time = 0.9, pos = (0.00616552, -0.00361051, 0), vel = (0.0202126, -0.0115931, 0), yaw = -0.382678, yaw_dot = -0.159527
+Point[10]: time = 1, pos = (0.00840583, -0.00488607, 0), vel = (0.0246464, -0.0139278, 0), yaw = -0.389104, yaw_dot = 0.01897
+Point[11]: time = 1.1, pos = (0.0111054, -0.00639805, 0), vel = (0.0293976, -0.0163216, 0), yaw = -0.381287, yaw_dot = 0.125348
+Point[12]: time = 1.2, pos = (0.0142959, -0.00815236, 0), vel = (0.0344662, -0.0187746, 0), yaw = -0.366437, yaw_dot = 0.160041
+Point[13]: time = 1.3, pos = (0.0180092, -0.0101549, 0), vel = (0.0398521, -0.0212866, 0), yaw = -0.350521, yaw_dot = 0.154932
+Point[14]: time = 1.4, pos = (0.0222769, -0.0124117, 0), vel = (0.0455553, -0.0238577, 0), yaw = -0.336119, yaw_dot = 0.129766
+Point[15]: time = 1.5, pos = (0.0271308, -0.0149284, 0), vel = (0.0515759, -0.026488, 0), yaw = -0.325233, yaw_dot = 0.085133
+Point[16]: time = 1.6, pos = (0.0326022, -0.0177107, 0), vel = (0.0578912, -0.029156, 0), yaw = -0.318698, yaw_dot = 0.0497792
+Point[17]: time = 1.7, pos = (0.0387163, -0.0207585, 0), vel = (0.0644276, -0.0317923, 0), yaw = -0.314437, yaw_dot = 0.03962
+Point[18]: time = 1.8, pos = (0.0454949, -0.024068, 0), vel = (0.0711792, -0.0343916, 0), yaw = -0.309938, yaw_dot = 0.0540205
+Point[19]: time = 1.9, pos = (0.0529594, -0.0276356, 0), vel = (0.0781463, -0.0369537, 0), yaw = -0.303627, yaw_dot = 0.0707408
+Point[20]: time = 2, pos = (0.0611313, -0.0314575, 0), vel = (0.0853287, -0.0394789, 0), yaw = -0.29608, yaw_dot = 0.0787579
+Point[21]: time = 2.1, pos = (0.0700323, -0.0355301, 0), vel = (0.0927265, -0.0419669, 0), yaw = -0.288164, yaw_dot = 0.0783267
+Point[22]: time = 2.2, pos = (0.0796838, -0.0398496, 0), vel = (0.10034, -0.0444179, 0), yaw = -0.280449, yaw_dot = 0.0761929
+Point[23]: time = 2.3, pos = (0.0901074, -0.0444124, 0), vel = (0.108168, -0.0468319, 0), yaw = -0.272882, yaw_dot = 0.0753521
+Point[24]: time = 2.4, pos = (0.101323, -0.0492131, 0), vel = (0.116151, -0.0491582, 0), yaw = -0.265335, yaw_dot = 0.0757557
+Point[25]: time = 2.5, pos = (0.113341, -0.0542395, 0), vel = (0.124226, -0.0513461, 0), yaw = -0.257727, yaw_dot = 0.0763933
+Point[26]: time = 2.6, pos = (0.126171, -0.0594777, 0), vel = (0.132394, -0.0533957, 0), yaw = -0.250062, yaw_dot = 0.0768629
+Point[27]: time = 2.7, pos = (0.139822, -0.064914, 0), vel = (0.140655, -0.0553069, 0), yaw = -0.24236, yaw_dot = 0.0771679
+Point[28]: time = 2.8, pos = (0.154305, -0.0705345, 0), vel = (0.149008, -0.0570799, 0), yaw = -0.234632, yaw_dot = 0.0773663
+Point[29]: time = 2.9, pos = (0.169627, -0.0763254, 0), vel = (0.157454, -0.0587145, 0), yaw = -0.226889, yaw_dot = 0.0774791
+Point[30]: time = 3, pos = (0.185799, -0.0822728, 0), vel = (0.165993, -0.0602108, 0), yaw = -0.219139, yaw_dot = 0.0775058
+Point[31]: time = 3.1, pos = (0.202829, -0.0883629, 0), vel = (0.17462, -0.0615669, 0), yaw = -0.211391, yaw_dot = 0.0774413
+Point[32]: time = 3.2, pos = (0.220723, -0.0945806, 0), vel = (0.183271, -0.0627592, 0), yaw = -0.203654, yaw_dot = 0.0772838
+Point[33]: time = 3.3, pos = (0.239483, -0.100909, 0), vel = (0.191925, -0.0637805, 0), yaw = -0.195937, yaw_dot = 0.0770329
+Point[34]: time = 3.4, pos = (0.259109, -0.107331, 0), vel = (0.200584, -0.0646308, 0), yaw = -0.188251, yaw_dot = 0.0766824
+Point[35]: time = 3.5, pos = (0.2796, -0.113829, 0), vel = (0.209247, -0.0653099, 0), yaw = -0.180604, yaw_dot = 0.0762305
+Point[36]: time = 3.6, pos = (0.300958, -0.120387, 0), vel = (0.217915, -0.0658181, 0), yaw = -0.173008, yaw_dot = 0.0756761
+Point[37]: time = 3.7, pos = (0.323183, -0.126987, 0), vel = (0.226586, -0.0661551, 0), yaw = -0.165473, yaw_dot = 0.0750076
+Point[38]: time = 3.8, pos = (0.346276, -0.133613, 0), vel = (0.235262, -0.0663212, 0), yaw = -0.158011, yaw_dot = 0.0742219
+Point[39]: time = 3.9, pos = (0.370235, -0.140246, 0), vel = (0.243924, -0.0663171, 0), yaw = -0.150632, yaw_dot = 0.0733176
+Point[40]: time = 4, pos = (0.395058, -0.14687, 0), vel = (0.252517, -0.066146, 0), yaw = -0.143351, yaw_dot = 0.0722804
+Point[41]: time = 4.1, pos = (0.420736, -0.15347, 0), vel = (0.261036, -0.0658082, 0), yaw = -0.136181, yaw_dot = 0.0711073
+Point[42]: time = 4.2, pos = (0.447263, -0.160027, 0), vel = (0.269482, -0.0653037, 0), yaw = -0.129135, yaw_dot = 0.0697961
+Point[43]: time = 4.3, pos = (0.47463, -0.166525, 0), vel = (0.277853, -0.0646324, 0), yaw = -0.122227, yaw_dot = 0.0683318
+Point[44]: time = 4.4, pos = (0.502831, -0.172947, 0), vel = (0.286151, -0.0637943, 0), yaw = -0.115473, yaw_dot = 0.0667113
+Point[45]: time = 4.5, pos = (0.531858, -0.179278, 0), vel = (0.294376, -0.0627896, 0), yaw = -0.10889, yaw_dot = 0.0649319
+Point[46]: time = 4.6, pos = (0.561704, -0.1855, 0), vel = (0.302526, -0.061618, 0), yaw = -0.102493, yaw_dot = 0.0629768
+Point[47]: time = 4.7, pos = (0.59236, -0.191597, 0), vel = (0.310573, -0.0603063, 0), yaw = -0.0963005, yaw_dot = 0.0608429
+Point[48]: time = 4.8, pos = (0.623814, -0.197557, 0), vel = (0.318488, -0.0588809, 0), yaw = -0.0903304, yaw_dot = 0.0585273
+Point[49]: time = 4.9, pos = (0.656053, -0.203369, 0), vel = (0.326271, -0.0573419, 0), yaw = -0.0846016, yaw_dot = 0.0560139
+Point[50]: time = 5, pos = (0.689064, -0.209022, 0), vel = (0.333921, -0.0556892, 0), yaw = -0.0791343, yaw_dot = 0.0533002
+Point[51]: time = 5.1, pos = (0.722833, -0.214503, 0), vel = (0.341439, -0.0539228, 0), yaw = -0.0739483, yaw_dot = 0.0503822
+Point[52]: time = 5.2, pos = (0.757347, -0.219803, 0), vel = (0.348824, -0.0520428, 0), yaw = -0.0690653, yaw_dot = 0.0472401
+Point[53]: time = 5.3, pos = (0.792593, -0.224908, 0), vel = (0.356077, -0.0500492, 0), yaw = -0.0645079, yaw_dot = 0.0438713
+Point[54]: time = 5.4, pos = (0.828558, -0.229809, 0), vel = (0.363195, -0.0479473, 0), yaw = -0.0602988, yaw_dot = 0.0402682
+Point[55]: time = 5.5, pos = (0.865226, -0.234497, 0), vel = (0.370148, -0.0458074, 0), yaw = -0.0564632, yaw_dot = 0.0363982
+Point[56]: time = 5.6, pos = (0.902582, -0.23897, 0), vel = (0.376926, -0.0436511, 0), yaw = -0.0530282, yaw_dot = 0.0322573
+Point[57]: time = 5.7, pos = (0.940606, -0.243226, 0), vel = (0.383529, -0.0414785, 0), yaw = -0.050021, yaw_dot = 0.0278359
+Point[58]: time = 5.8, pos = (0.979281, -0.247265, 0), vel = (0.389958, -0.0392895, 0), yaw = -0.0474717, yaw_dot = 0.023096
+Point[59]: time = 5.9, pos = (1.01859, -0.251084, 0), vel = (0.396212, -0.0370841, 0), yaw = -0.0454125, yaw_dot = 0.0180337
+Point[60]: time = 6, pos = (1.05852, -0.254681, 0), vel = (0.402291, -0.0348624, 0), yaw = -0.0438758, yaw_dot = 0.0126453
+Point[61]: time = 6.1, pos = (1.09904, -0.258056, 0), vel = (0.408195, -0.0326243, 0), yaw = -0.0428948, yaw_dot = 0.0069174
+Point[62]: time = 6.2, pos = (1.14015, -0.261206, 0), vel = (0.413919, -0.0304021, 0), yaw = -0.0425036, yaw_dot = 0.000848771
+Point[63]: time = 6.3, pos = (1.18182, -0.26414, 0), vel = (0.419445, -0.0283006, 0), yaw = -0.0427363, yaw_dot = -0.00555769
+Point[64]: time = 6.4, pos = (1.22403, -0.266871, 0), vel = (0.424771, -0.0263279, 0), yaw = -0.0436261, yaw_dot = -0.012293
+Point[65]: time = 6.5, pos = (1.26677, -0.26941, 0), vel = (0.429897, -0.024484, 0), yaw = -0.0452059, yaw_dot = -0.0193566
+Point[66]: time = 6.6, pos = (1.31001, -0.271772, 0), vel = (0.434823, -0.0227689, 0), yaw = -0.047508, yaw_dot = -0.0267318
+Point[67]: time = 6.7, pos = (1.35373, -0.273968, 0), vel = (0.43955, -0.0211826, 0), yaw = -0.050561, yaw_dot = -0.0343721
+Point[68]: time = 6.8, pos = (1.39791, -0.276013, 0), vel = (0.444076, -0.0197251, 0), yaw = -0.0543912, yaw_dot = -0.0422747
+Point[69]: time = 6.9, pos = (1.44254, -0.277918, 0), vel = (0.448403, -0.0183963, 0), yaw = -0.0590236, yaw_dot = -0.0503937
+Point[70]: time = 7, pos = (1.48758, -0.279699, 0), vel = (0.452527, -0.0172882, 0), yaw = -0.0644731, yaw_dot = -0.0586138
+Point[71]: time = 7.1, pos = (1.53303, -0.281386, 0), vel = (0.456442, -0.0164926, 0), yaw = -0.0707495, yaw_dot = -0.0669292
+Point[72]: time = 7.2, pos = (1.57886, -0.283008, 0), vel = (0.46015, -0.0160095, 0), yaw = -0.0778601, yaw_dot = -0.0752593
+Point[73]: time = 7.3, pos = (1.62506, -0.284598, 0), vel = (0.46365, -0.0158388, 0), yaw = -0.0857956, yaw_dot = -0.0834218
+Point[74]: time = 7.4, pos = (1.67159, -0.286186, 0), vel = (0.466942, -0.0159806, 0), yaw = -0.0945386, yaw_dot = -0.09141
+Point[75]: time = 7.5, pos = (1.71844, -0.287804, 0), vel = (0.470026, -0.0164349, 0), yaw = -0.104069, yaw_dot = -0.099104
+Point[76]: time = 7.6, pos = (1.76559, -0.289484, 0), vel = (0.472903, -0.0172017, 0), yaw = -0.114341, yaw_dot = -0.106262
+Point[77]: time = 7.7, pos = (1.81301, -0.291255, 0), vel = (0.475573, -0.0182951, 0), yaw = -0.125303, yaw_dot = -0.112877
+Point[78]: time = 7.8, pos = (1.86069, -0.29316, 0), vel = (0.478041, -0.0198994, 0), yaw = -0.136894, yaw_dot = -0.118787
+Point[79]: time = 7.9, pos = (1.90861, -0.295254, 0), vel = (0.480311, -0.0220713, 0), yaw = -0.149027, yaw_dot = -0.123702
+Point[80]: time = 8, pos = (1.95675, -0.297594, 0), vel = (0.482381, -0.0248108, 0), yaw = -0.161601, yaw_dot = -0.127615
+Point[81]: time = 8.1, pos = (2.00508, -0.300235, 0), vel = (0.484252, -0.0281178, 0), yaw = -0.174512, yaw_dot = -0.130364
+Point[82]: time = 8.2, pos = (2.05359, -0.303236, 0), vel = (0.485923, -0.0319924, 0), yaw = -0.187626, yaw_dot = -0.131686
+Point[83]: time = 8.3, pos = (2.10226, -0.306653, 0), vel = (0.487396, -0.0364345, 0), yaw = -0.200801, yaw_dot = -0.131578
+Point[84]: time = 8.4, pos = (2.15107, -0.310542, 0), vel = (0.48867, -0.0414442, 0), yaw = -0.213891, yaw_dot = -0.129942
+Point[85]: time = 8.5, pos = (2.19999, -0.31496, 0), vel = (0.489751, -0.0470189, 0), yaw = -0.226734, yaw_dot = -0.126634
+Point[86]: time = 8.6, pos = (2.24901, -0.319964, 0), vel = (0.490665, -0.0531503, 0), yaw = -0.239162, yaw_dot = -0.121654
+Point[87]: time = 8.7, pos = (2.29812, -0.325609, 0), vel = (0.491412, -0.0598377, 0), yaw = -0.251008, yaw_dot = -0.114976
+Point[88]: time = 8.8, pos = (2.34729, -0.33195, 0), vel = (0.491993, -0.0670811, 0), yaw = -0.2621, yaw_dot = -0.106566
+Point[89]: time = 8.9, pos = (2.39651, -0.339044, 0), vel = (0.492408, -0.0748805, 0), yaw = -0.272264, yaw_dot = -0.0964247
+Point[90]: time = 9, pos = (2.44576, -0.346945, 0), vel = (0.492656, -0.0832359, 0), yaw = -0.281329, yaw_dot = -0.0846011
+Point[91]: time = 9.1, pos = (2.49503, -0.355709, 0), vel = (0.492739, -0.0921474, 0), yaw = -0.28913, yaw_dot = -0.0711528
+Point[92]: time = 9.2, pos = (2.54431, -0.365393, 0), vel = (0.492655, -0.101615, 0), yaw = -0.295505, yaw_dot = -0.0560797
+Point[93]: time = 9.3, pos = (2.59356, -0.37604, 0), vel = (0.492438, -0.111297, 0), yaw = -0.300296, yaw_dot = -0.0395019
+Point[94]: time = 9.4, pos = (2.64279, -0.387648, 0), vel = (0.492122, -0.120853, 0), yaw = -0.303359, yaw_dot = -0.0215394
+Point[95]: time = 9.5, pos = (2.69198, -0.400206, 0), vel = (0.491707, -0.130283, 0), yaw = -0.304557, yaw_dot = -0.00219242
+Point[96]: time = 9.6, pos = (2.74113, -0.4137, 0), vel = (0.491192, -0.139587, 0), yaw = -0.303758, yaw_dot = 0.0183506
+Point[97]: time = 9.7, pos = (2.79022, -0.428119, 0), vel = (0.490579, -0.148764, 0), yaw = -0.300853, yaw_dot = 0.0399234
+Point[98]: time = 9.8, pos = (2.83924, -0.443449, 0), vel = (0.489866, -0.157815, 0), yaw = -0.295739, yaw_dot = 0.0625248
+Point[99]: time = 9.9, pos = (2.88819, -0.459678, 0), vel = (0.489054, -0.16674, 0), yaw = -0.288325, yaw_dot = 0.0858252
+Point[100]: time = 10, pos = (2.93705, -0.476792, 0), vel = (0.488147, -0.175468, 0), yaw = -0.278559, yaw_dot = 0.109567
+Point[101]: time = 10.1, pos = (2.98582, -0.494732, 0), vel = (0.487218, -0.183089, 0), yaw = -0.266397, yaw_dot = 0.133745
+Point[102]: time = 10.2, pos = (3.03449, -0.513364, 0), vel = (0.486287, -0.189321, 0), yaw = -0.251817, yaw_dot = 0.157771
+Point[103]: time = 10.3, pos = (3.08307, -0.53255, 0), vel = (0.485355, -0.194165, 0), yaw = -0.234862, yaw_dot = 0.181233
+Point[104]: time = 10.4, pos = (3.13156, -0.55215, 0), vel = (0.484421, -0.197621, 0), yaw = -0.215589, yaw_dot = 0.204121
+Point[105]: time = 10.5, pos = (3.17996, -0.572027, 0), vel = (0.483486, -0.199688, 0), yaw = -0.194086, yaw_dot = 0.225623
+Point[106]: time = 10.6, pos = (3.22826, -0.592042, 0), vel = (0.482549, -0.200367, 0), yaw = -0.170527, yaw_dot = 0.245236
+Point[107]: time = 10.7, pos = (3.27647, -0.612055, 0), vel = (0.48161, -0.199658, 0), yaw = -0.145102, yaw_dot = 0.262944
+Point[108]: time = 10.8, pos = (3.32458, -0.631925, 0), vel = (0.480685, -0.19746, 0), yaw = -0.118031, yaw_dot = 0.277938
+Point[109]: time = 10.9, pos = (3.37261, -0.651486, 0), vel = (0.479823, -0.193449, 0), yaw = -0.0896197, yaw_dot = 0.289771
+Point[110]: time = 11, pos = (3.42055, -0.670553, 0), vel = (0.479026, -0.187598, 0), yaw = -0.0601826, yaw_dot = 0.298431
+Point[111]: time = 11.1, pos = (3.46841, -0.688944, 0), vel = (0.478296, -0.179909, 0), yaw = -0.0300553, yaw_dot = 0.303476
+Point[112]: time = 11.2, pos = (3.51621, -0.706474, 0), vel = (0.477632, -0.170382, 0), yaw = 0.000384741, yaw_dot = 0.304686
+Point[113]: time = 11.3, pos = (3.56394, -0.722959, 0), vel = (0.477035, -0.159015, 0), yaw = 0.0307542, yaw_dot = 0.302071
+Point[114]: time = 11.4, pos = (3.61162, -0.738216, 0), vel = (0.476503, -0.14581, 0), yaw = 0.0606793, yaw_dot = 0.295847
+Point[115]: time = 11.5, pos = (3.65925, -0.75206, 0), vel = (0.476038, -0.130766, 0), yaw = 0.0898067, yaw_dot = 0.286114
+Point[116]: time = 11.6, pos = (3.70683, -0.764325, 0), vel = (0.475644, -0.114412, 0), yaw = 0.117785, yaw_dot = 0.272908
+Point[117]: time = 11.7, pos = (3.75438, -0.774916, 0), vel = (0.475325, -0.097275, 0), yaw = 0.144301, yaw_dot = 0.257017
+Point[118]: time = 11.8, pos = (3.8019, -0.783754, 0), vel = (0.475083, -0.0793559, 0), yaw = 0.16911, yaw_dot = 0.238756
+Point[119]: time = 11.9, pos = (3.8494, -0.790761, 0), vel = (0.474916, -0.0606544, 0), yaw = 0.191974, yaw_dot = 0.218182
+Point[120]: time = 12, pos = (3.89688, -0.795859, 0), vel = (0.474826, -0.0411705, 0), yaw = 0.212704, yaw_dot = 0.196251
+Point[121]: time = 12.1, pos = (3.94436, -0.798969, 0), vel = (0.474811, -0.0209043, 0), yaw = 0.231191, yaw_dot = 0.173307
+Point[122]: time = 12.2, pos = (3.99185, -0.800014, 0), vel = (0.474872, 0.000144293, 0), yaw = 0.247333, yaw_dot = 0.149409
+Point[123]: time = 12.3, pos = (4.03934, -0.798916, 0), vel = (0.475007, 0.0218677, 0), yaw = 0.261071, yaw_dot = 0.125383
+Point[124]: time = 12.4, pos = (4.08685, -0.795669, 0), vel = (0.475193, 0.0428685, 0), yaw = 0.272414, yaw_dot = 0.101494
+Point[125]: time = 12.5, pos = (4.13438, -0.79038, 0), vel = (0.475422, 0.0627165, 0), yaw = 0.281375, yaw_dot = 0.0777915
+Point[126]: time = 12.6, pos = (4.18194, -0.783164, 0), vel = (0.475695, 0.0814118, 0), yaw = 0.288, yaw_dot = 0.0548729
+Point[127]: time = 12.7, pos = (4.22952, -0.774136, 0), vel = (0.476011, 0.0989544, 0), yaw = 0.292381, yaw_dot = 0.0329078
+Point[128]: time = 12.8, pos = (4.27714, -0.763412, 0), vel = (0.476371, 0.115344, 0), yaw = 0.294614, yaw_dot = 0.0119343
+Point[129]: time = 12.9, pos = (4.3248, -0.751106, 0), vel = (0.476774, 0.130581, 0), yaw = 0.294815, yaw_dot = -0.00767182
+Point[130]: time = 13, pos = (4.3725, -0.737334, 0), vel = (0.47722, 0.144666, 0), yaw = 0.293128, yaw_dot = -0.025815
+Point[131]: time = 13.1, pos = (4.42024, -0.722215, 0), vel = (0.477704, 0.15743, 0), yaw = 0.289701, yaw_dot = -0.0424652
+Point[132]: time = 13.2, pos = (4.46804, -0.705911, 0), vel = (0.478205, 0.168329, 0), yaw = 0.284694, yaw_dot = -0.0573693
+Point[133]: time = 13.3, pos = (4.51588, -0.688613, 0), vel = (0.478723, 0.17732, 0), yaw = 0.278287, yaw_dot = -0.07047
+Point[134]: time = 13.4, pos = (4.56378, -0.670511, 0), vel = (0.479256, 0.184405, 0), yaw = 0.270661, yaw_dot = -0.0817475
+Point[135]: time = 13.5, pos = (4.61173, -0.651795, 0), vel = (0.479805, 0.189582, 0), yaw = 0.262004, yaw_dot = -0.0910587
+Point[136]: time = 13.6, pos = (4.65974, -0.632658, 0), vel = (0.48037, 0.192853, 0), yaw = 0.252516, yaw_dot = -0.0983746
+Point[137]: time = 13.7, pos = (4.70781, -0.613288, 0), vel = (0.480951, 0.194216, 0), yaw = 0.242395, yaw_dot = -0.103702
+Point[138]: time = 13.8, pos = (4.75593, -0.593878, 0), vel = (0.481549, 0.193672, 0), yaw = 0.23184, yaw_dot = -0.107086
+Point[139]: time = 13.9, pos = (4.80412, -0.574603, 0), vel = (0.482154, 0.191643, 0), yaw = 0.221043, yaw_dot = -0.108533
+Point[140]: time = 14, pos = (4.85237, -0.555585, 0), vel = (0.48276, 0.188553, 0), yaw = 0.210197, yaw_dot = -0.108089
+Point[141]: time = 14.1, pos = (4.90067, -0.536928, 0), vel = (0.483367, 0.184401, 0), yaw = 0.199479, yaw_dot = -0.106011
+Point[142]: time = 14.2, pos = (4.94904, -0.51874, 0), vel = (0.483975, 0.179188, 0), yaw = 0.189048, yaw_dot = -0.10234
+Point[143]: time = 14.3, pos = (4.99747, -0.501126, 0), vel = (0.484583, 0.172912, 0), yaw = 0.179062, yaw_dot = -0.0971578
+Point[144]: time = 14.4, pos = (5.04596, -0.484193, 0), vel = (0.485192, 0.165575, 0), yaw = 0.169652, yaw_dot = -0.0908804
+Point[145]: time = 14.5, pos = (5.0945, -0.468047, 0), vel = (0.485801, 0.157176, 0), yaw = 0.160921, yaw_dot = -0.0835642
+Point[146]: time = 14.6, pos = (5.14312, -0.452792, 0), vel = (0.486411, 0.147794, 0), yaw = 0.152971, yaw_dot = -0.0753258
+Point[147]: time = 14.7, pos = (5.19179, -0.438483, 0), vel = (0.487014, 0.138456, 0), yaw = 0.145868, yaw_dot = -0.0666794
+Point[148]: time = 14.8, pos = (5.24052, -0.425089, 0), vel = (0.487609, 0.129479, 0), yaw = 0.139647, yaw_dot = -0.0576856
+Point[149]: time = 14.9, pos = (5.28931, -0.412575, 0), vel = (0.488195, 0.120861, 0), yaw = 0.13434, yaw_dot = -0.0484575
+Point[150]: time = 15, pos = (5.33816, -0.400905, 0), vel = (0.488772, 0.112604, 0), yaw = 0.129948, yaw_dot = -0.0394382
+Point[151]: time = 15.1, pos = (5.38706, -0.390042, 0), vel = (0.48934, 0.104707, 0), yaw = 0.126444, yaw_dot = -0.0306728
+Point[152]: time = 15.2, pos = (5.43602, -0.379951, 0), vel = (0.4899, 0.0971701, 0), yaw = 0.123801, yaw_dot = -0.0223161
+Point[153]: time = 15.3, pos = (5.48504, -0.370596, 0), vel = (0.490451, 0.0899932, 0), yaw = 0.121948, yaw_dot = -0.014911
+Point[154]: time = 15.4, pos = (5.53411, -0.361938, 0), vel = (0.490989, 0.0832812, 0), yaw = 0.120786, yaw_dot = -0.00850444
+Point[155]: time = 15.5, pos = (5.58324, -0.353912, 0), vel = (0.491502, 0.0773743, 0), yaw = 0.120231, yaw_dot = -0.0023277
+Point[156]: time = 15.6, pos = (5.63241, -0.346436, 0), vel = (0.49199, 0.0722986, 0), yaw = 0.120397, yaw_dot = 0.00602618
+Point[157]: time = 15.7, pos = (5.68164, -0.339425, 0), vel = (0.492451, 0.0680541, 0), yaw = 0.121515, yaw_dot = 0.0167315
+Point[158]: time = 15.8, pos = (5.7309, -0.332797, 0), vel = (0.492886, 0.0646409, 0), yaw = 0.123695, yaw_dot = 0.0244503
+Point[159]: time = 15.9, pos = (5.78021, -0.326469, 0), vel = (0.493295, 0.062059, 0), yaw = 0.125786, yaw_dot = 0.0142169
+Point[160]: time = 16, pos = (5.82956, -0.320358, 0), vel = (0.493678, 0.0603082, 0), yaw = 0.12591, yaw_dot = -0.014862
+Point[161]: time = 16.1, pos = (5.87895, -0.31438, 0), vel = (0.494035, 0.0593888, 0), yaw = 0.122713, yaw_dot = -0.0414196
+Point[162]: time = 16.2, pos = (5.92837, -0.30846, 0), vel = (0.494359, 0.059079, 0), yaw = 0.119564, yaw_dot = -0.0117758
+Point[163]: time = 16.3, pos = (5.97782, -0.302551, 0), vel = (0.494642, 0.0591573, 0), yaw = 0.122318, yaw_dot = 0.0766545
+Point[164]: time = 16.4, pos = (6.02729, -0.296615, 0), vel = (0.494885, 0.0596237, 0), yaw = 0.135532, yaw_dot = 0.172619
+Point[165]: time = 16.5, pos = (6.07679, -0.290613, 0), vel = (0.495087, 0.0604783, 0), yaw = 0.153133, yaw_dot = 0.16071
+Point[166]: time = 16.6, pos = (6.12631, -0.284507, 0), vel = (0.49525, 0.061721, 0), yaw = 0.163932, yaw_dot = 0.0365678
+Point[167]: time = 16.7, pos = (6.17584, -0.278256, 0), vel = (0.495371, 0.0633518, 0), yaw = 0.158463, yaw_dot = -0.134426
+Point[168]: time = 16.8, pos = (6.22538, -0.271823, 0), vel = (0.495453, 0.0653707, 0), yaw = 0.139984, yaw_dot = -0.220357
+Point[169]: time = 16.9, pos = (6.27493, -0.26517, 0), vel = (0.495493, 0.0677461, 0), yaw = 0.117353, yaw_dot = -0.21746
+Point[170]: time = 17, pos = (6.32448, -0.258277, 0), vel = (0.495487, 0.0700676, 0), yaw = 0.0990407, yaw_dot = -0.140474
+Point[171]: time = 17.1, pos = (6.37403, -0.251162, 0), vel = (0.495432, 0.0722087, 0), yaw = 0.0908251, yaw_dot = -0.0160184
+Point[172]: time = 17.2, pos = (6.42356, -0.243842, 0), vel = (0.495328, 0.0741695, 0), yaw = 0.0974012, yaw_dot = 0.155361
+Point[173]: time = 17.3, pos = (6.47309, -0.236334, 0), vel = (0.495175, 0.0759499, 0), yaw = 0.121809, yaw_dot = 0.316756
+Point[174]: time = 17.4, pos = (6.5226, -0.228658, 0), vel = (0.494973, 0.0775501, 0), yaw = 0.157321, yaw_dot = 0.376284
+Point[175]: time = 17.5, pos = (6.57208, -0.22083, 0), vel = (0.494722, 0.0789699, 0), yaw = 0.193629, yaw_dot = 0.332696
+Point[176]: time = 17.6, pos = (6.62154, -0.21287, 0), vel = (0.494422, 0.0802094, 0), yaw = 0.221431, yaw_dot = 0.219479
+Point[177]: time = 17.7, pos = (6.67097, -0.204795, 0), vel = (0.494089, 0.0812442, 0), yaw = 0.236823, yaw_dot = 0.0848581
+Point[178]: time = 17.8, pos = (6.72036, -0.19663, 0), vel = (0.493768, 0.0819953, 0), yaw = 0.237702, yaw_dot = -0.0707826
+Point[179]: time = 17.9, pos = (6.76972, -0.188405, 0), vel = (0.493464, 0.0824566, 0), yaw = 0.223534, yaw_dot = -0.197148
+Point[180]: time = 18, pos = (6.81905, -0.180149, 0), vel = (0.493177, 0.082628, 0), yaw = 0.201402, yaw_dot = -0.229831
+Point[181]: time = 18.1, pos = (6.86836, -0.171889, 0), vel = (0.492906, 0.0825096, 0), yaw = 0.180698, yaw_dot = -0.168591
+Point[182]: time = 18.2, pos = (6.91763, -0.163657, 0), vel = (0.492652, 0.0821014, 0), yaw = 0.16883, yaw_dot = -0.0749599
+Point[183]: time = 18.3, pos = (6.96689, -0.155479, 0), vel = (0.492415, 0.0814033, 0), yaw = 0.164457, yaw_dot = -0.01874
+--------------------------
+-------------------------
+[2025-03-17_20-28-02.564] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.87817
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.625] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.81674
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.725] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.7165
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.825] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.6166
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-02.925] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.51656
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.025] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.41668
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.126] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.31591
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.225] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.21641
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.325] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.11653
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.430] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -2.01131
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.531] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.91123
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.625] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.81635
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.725] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.71642
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.825] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.61656
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-03.925] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.51651
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.025] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.41654
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.125] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.31649
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.225] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.21649
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.325] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.11648
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.425] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -1.01648
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.525] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.916426
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.625] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.816425
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.725] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.716414
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.825] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.61637
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-04.925] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.51635
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.025] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.416366
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.126] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.316326
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.226] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.21631
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.326] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.116265
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.426] Selected control point: (x: 4.32468e-05, y: -5.79732e-05, yaw: 2.15683)
+Time diff: -0.016262
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -3.50535e-05, Angular Velocity Target: 0
+Target Position - x: 0.000043, y: -0.000058, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.526] Selected control point: (x: 5.03896e-05, y: -6.37877e-05, yaw: 2.15683)
+Time diff: 0.0838198
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.000137678, Angular Velocity Target: 0
+Target Position - x: 0.000050, y: -0.000064, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.626] Selected control point: (x: 0.00010012, y: -9.45768e-05, yaw: 2.15683)
+Time diff: 0.183779
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.000526696, Angular Velocity Target: 0
+Target Position - x: 0.000100, y: -0.000095, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.726] Selected control point: (x: 0.000242422, y: -0.000178904, yaw: 2.15683)
+Time diff: 0.283867
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.00120683, Angular Velocity Target: 0
+Target Position - x: 0.000242, y: -0.000179, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.826] Selected control point: (x: 0.000527262, y: -0.000345638, yaw: 2.15683)
+Time diff: 0.383855
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.00217664, Angular Velocity Target: 0
+Target Position - x: 0.000527, y: -0.000346, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-05.926] Selected control point: (x: 0.00100519, y: -0.00062399, yaw: 2.15683)
+Time diff: 0.483883
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.00343723, Angular Velocity Target: 0
+Target Position - x: 0.001005, y: -0.000624, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93734
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-06.026] Selected control point: (x: 0.00172743, y: -0.00104357, yaw: 2.15683)
+Time diff: 0.584032
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.00499032, Angular Velocity Target: 0
+Target Position - x: 0.001727, y: -0.001044, Target Yaw: 2.156833
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93733
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-06.126] Selected control point: (x: 0.00274324, y: -0.00163282, yaw: 2.15683)
+Time diff: 0.684117
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.00683329, Angular Velocity Target: 0
+Target Position - x: 0.002743, y: -0.001633, Target Yaw: 2.156832
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93733
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-06.226] Selected control point: (x: 0.00410056, y: -0.00241944, yaw: 2.15683)
+Time diff: 0.784021
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.00895944, Angular Velocity Target: 0
+Target Position - x: 0.004101, y: -0.002419, Target Yaw: 2.156832
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.31
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93733
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-06.326] Selected control point: (x: 0.00584785, y: -0.00342813, yaw: 2.15683)
+Time diff: 0.884014
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.0112254, Angular Velocity Target: 0
+Target Position - x: 0.005848, y: -0.003428, Target Yaw: 2.156832
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.3
+--Position ERROR (signed): -1128.31
+--Orientation ERROR: 1.93733
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-28-06.426] Selected control point: (x: 0.00801912, y: -0.00466725, yaw: 2.15683)
+Time diff: 0.984074
+-- PID Output: Linear Velocity: 2, Angular Velocity: 1
+Linear Velocity Target: -0.0135521, Angular Velocity Target: 0
+Target Position - x: 0.008019, y: -0.004667, Target Yaw: 2.156832
+Current Position - x: 1741.214664, y: -2622.981125, Current Yaw: 0.219498
+--Distance to Target (abs): 3148.3
+--Position ERROR (signed): -1128.3
+--Orientation ERROR: 1.93733
+Current Linear Velocity: 161.097557
+Current Angular Velocity: NA
+--Linear Velocity ERROR: 0
+--Angular Velocity ERROR: 0
+-------------------------
+-------------------------
+[2025-03-17_20-59-35.966] Trajectory finished (t_diff: 1890.52 > traj_duration: 18.4), stopping robot.
+-------------------------

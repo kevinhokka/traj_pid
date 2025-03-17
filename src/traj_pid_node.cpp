@@ -52,6 +52,12 @@ class PIDController {
         void print_parameters() const {
             std::cout << "PID Parameters - P: " << p_gain << ", I: " << i_gain << ", D: " << d_gain << std::endl;
         }
+
+        std::string get_parameters_str() const {
+            std::ostringstream oss;
+            oss << "P: " << p_gain << ", I: " << i_gain << ", D: " << d_gain;
+            return oss.str();
+        }
     
     private:
         double p_gain, i_gain , d_gain;
@@ -91,14 +97,25 @@ class TrajPidNode : public rclcpp::Node {
                 RCLCPP_ERROR(this->get_logger(), "无法打开日志文件: %s", log_filename.c_str());
                 throw std::runtime_error("无法打开日志文件");
             }
-    
+
+            log_file_ << "-------------------------" << std::endl;
+            log_file_ << "PID Controller Parameters:" << std::endl;
+            log_file_ << "Position PID: " << pid_control_.get_parameters_str() << std::endl;
+            log_file_ << "Orientation PID: " << pid_orientation_control_.get_parameters_str() << std::endl;
+            log_file_ << "Linear Velocity PID: " << pid_velocity_control_.get_parameters_str() << std::endl;
+            log_file_ << "Angular Velocity PID: " << pid_angular_velocity_control_.get_parameters_str() << std::endl;
+            log_file_ << "-------------------------" << std::endl;
+        
             RCLCPP_INFO(this->get_logger(), "Logging to file: %s", log_filename.c_str());
     
             // traj_subscription_ = this->create_subscription<geometry_msgs::msg::Twist>(
             //     "/traj", 10, std::bind(&TrajPidNode::traj_callback, this, std::placeholders::_1));
     
             odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
-                "/Odometry", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
+                "/fastlio2/lio_odom", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
+
+            imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
+                "/livox/imu", 10, std::bind(&TrajPidNode::imu_callback, this, std::placeholders::_1));
     
             bspline_subscription_ = this->create_subscription<planner::msg::Bspline>(
                 "/bspline", 10, std::bind(&TrajPidNode::bspline_callback, this, std::placeholders::_1));
@@ -148,6 +165,7 @@ class TrajPidNode : public rclcpp::Node {
         std::ofstream log_file_;  // 日志文件
         rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr traj_subscription_;  // Trajectory 订阅者
         rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscription_;  // Odometry 订阅者
+        rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr imu_subscription_;
         rclcpp::Subscription<planner::msg::Bspline>::SharedPtr bspline_subscription_;  // Bspline 订阅者
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_publisher_;  // 速度控制指令发布者
         rclcpp::TimerBase::SharedPtr control_timer_;  // 定时器
@@ -188,14 +206,15 @@ class TrajPidNode : public rclcpp::Node {
             odom_received_ = true;
     
             current_linear_velocity_ = msg->twist.twist.linear.x;
-            current_angular_velocity_ = msg->twist.twist.angular.z;
+            // current_angular_velocity_ = msg->twist.twist.angular.z;
             current_position_x_ = msg->pose.pose.position.x;
             current_position_y_ = msg->pose.pose.position.y;
     
             log_file_ << "Received Odometry - Position: x=" << current_position_x_
                         << ", y=" << current_position_y_
                         << ", Linear Velocity: " << current_linear_velocity_
-                        << ", Angular Velocity: " << current_angular_velocity_ << std::endl;
+                        // << ", Angular Velocity: " << current_angular_velocity_ 
+                        << std::endl;
     
             tf2::Quaternion quat;
             tf2::fromMsg(msg->pose.pose.orientation, quat);
@@ -203,6 +222,21 @@ class TrajPidNode : public rclcpp::Node {
             tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
             log_file_ << "Current yaw: " << current_yaw_ << " (roll: " << roll << ", pitch: " << pitch << ")" << std::endl;
         }
+
+        void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
+            // 从 IMU 消息获取角速度数据的 z 分量
+            current_angular_velocity_ = msg->angular_velocity.z;
+            
+            // 将 IMU 角速度写入日志文件
+            if (log_file_.is_open()) {
+                const auto &ang = msg->angular_velocity;  // Use the full vector here.
+                log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
+                          << msg->header.stamp.nanosec 
+                          << " Received IMU Angular Velocity - ["
+                          << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
+            }
+        }
+        
     
         void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
             std::string current_time = get_current_time_str();
@@ -372,6 +406,10 @@ class TrajPidNode : public rclcpp::Node {
             if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
             if (angular_cmd >  max_angular_speed)  angular_cmd =  max_angular_speed;
             if (angular_cmd < -max_angular_speed)  angular_cmd = -max_angular_speed;
+
+            double error_linear_vel = linear_cmd - current_linear_velocity_;
+            double error_angular_vel = angular_cmd - current_angular_velocity_;
+
         
             // 以下输出日志格式保持不变
             std::string position_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
@@ -405,8 +443,8 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "--Orientation ERROR: " << alpha << std::endl;
             log_file_ << "Current Linear Velocity: " << actual_linear_velocity_str << std::endl;
             log_file_ << "Current Angular Velocity: " << actual_angular_velocity_str << std::endl;
-            log_file_ << "--Linear Velocity ERROR: " << 0.0 << std::endl;
-            log_file_ << "--Angular Velocity ERROR: " << 0.0 << std::endl;
+            log_file_ << "--Linear Velocity ERROR: " << error_linear_vel << std::endl;
+            log_file_ << "--Angular Velocity ERROR: " << error_angular_vel << std::endl;
             log_file_ << "-------------------------" << std::endl;
         
             // 发布控制指令
@@ -415,9 +453,6 @@ class TrajPidNode : public rclcpp::Node {
             cmd_msg.angular.z = angular_cmd;
             cmd_publisher_->publish(cmd_msg);
         }
-        
-    
-    
 
 };
     
