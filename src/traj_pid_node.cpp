@@ -327,12 +327,16 @@ class TrajPidNode : public rclcpp::Node {
             auto now_tp = std::chrono::system_clock::now();
             double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ ).count();
             
-            t_diff = t_diff - 3;
+            double look_ahead_time_offset = 0.5;  // 前视偏移量，单位秒
+            double t_target = t_diff + look_ahead_time_offset;
+            if (t_target > traj_duration_) {
+                t_target = traj_duration_;
+            }
         
             // 保证 t_diff 非负
             // if(t_diff < 0)
             //     t_diff = 0;
-        
+            
             // 如果 t_diff 超过轨迹持续时间，则机器人停止（直至下一段 Bspline 消息到来）
             if (t_diff > traj_duration_) {
                 log_file_ << "-------------------------" << std::endl;
@@ -348,8 +352,8 @@ class TrajPidNode : public rclcpp::Node {
             }
             
             // 评估当前时刻的轨迹状态
-            Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_diff);
-            Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_diff);
+            Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_target);
+            Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_target);
             // double yaw = traj_[3].evaluateDeBoor(t_diff)(0);
             // double yaw_dot = traj_[4].evaluateDeBoor(t_diff)(0);
         
@@ -393,7 +397,7 @@ class TrajPidNode : public rclcpp::Node {
         
             // 添加可调权重参数（这里设置的初始值均为1.0，可根据需要调整或通过ROS参数加载）
             double weight_position = 1.0;    // 位置权重
-            double weight_orientation =1.0; // 朝向权重
+            double weight_orientation = 1.0; // 朝向权重
         
             // 组合 B-spline 前馈与 PID 反馈（注意：仅控制命令部分发生了变化）
             double linear_cmd = vel(0) + weight_position * pos_pid;
