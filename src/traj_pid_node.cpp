@@ -197,48 +197,7 @@ class TrajPidNode : public rclcpp::Node {
         //     log_file_ << "Received trajectory - Linear velocity: " << target_linear_velocity_
         //                 << ", Angular velocity: " << target_angular_velocity_ << std::endl;
         // }
-    
-        void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
-            if (msg == nullptr) {
-                odom_received_ = false;
-                return;
-            }
-            odom_received_ = true;
-        
-            // 原始传感器测量的位置（里程计数据）
-            double sensor_x = msg->pose.pose.position.x;
-            double sensor_y = msg->pose.pose.position.y;
-            
-            // 获取传感器测量的线速度（可以保持不变）
-            double sensor_linear_vel = msg->twist.twist.linear.x;
-            
-            // 从四元数中提取航向
-            tf2::Quaternion quat;
-            tf2::fromMsg(msg->pose.pose.orientation, quat);
-            double roll, pitch;
-            tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
-            
-            // 定义传感器相对于车辆运动学中心的偏移量（单位：米）
-            // 假设传感器在右后侧：例如后移0.5米，右侧偏移0.2米
-            double sensor_offset_x = -0.5;  // 负值表示传感器在车辆后部
-            double sensor_offset_y = -0.2;  // 负值表示传感器在车辆右侧（因为车辆坐标系中Y轴向左）
-        
-            // 使用转换公式计算车辆运动学中心的实际位置
-            current_position_x_ = sensor_x - (std::cos(current_yaw_) * sensor_offset_x - std::sin(current_yaw_) * sensor_offset_y);
-            current_position_y_ = sensor_y - (std::sin(current_yaw_) * sensor_offset_x + std::cos(current_yaw_) * sensor_offset_y);
-        
-            // 你可以将传感器的线速度直接赋值，如果需要对线速度进行补偿，则需要额外考虑角速度和偏移产生的附加速度
-            current_linear_velocity_ = sensor_linear_vel;
-        
-            // 记录日志时输出修正后的位置信息
-            log_file_ << "Received Odometry - Position: x=" << current_position_x_
-                      << ", y=" << current_position_y_
-                      << ", Linear Velocity: " << sensor_linear_vel
-                      << std::endl;
-            
-            log_file_ << "Current yaw: " << current_yaw_ << " (roll: " << roll << ", pitch: " << pitch << ")" << std::endl;
-        }
-        
+
 
         void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
             // 从 IMU 消息获取角速度数据的 z 分量
@@ -253,7 +212,49 @@ class TrajPidNode : public rclcpp::Node {
                           << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
             }
         }
+    
+        void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
+            if (msg == nullptr) {
+                odom_received_ = false;
+                return;
+            }
+            odom_received_ = true;
         
+            // 原始传感器测量的位置（里程计数据）
+            double sensor_x = msg->pose.pose.position.x;
+            double sensor_y = msg->pose.pose.position.y;
+            
+            // 获取传感器测量的线速度（来自 odom）
+            double sensor_linear_vel = msg->twist.twist.linear.x;
+            
+            // 从四元数中提取航向
+            tf2::Quaternion quat;
+            tf2::fromMsg(msg->pose.pose.orientation, quat);
+            double roll, pitch;
+            tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
+            
+            // 定义传感器相对于车辆运动学中心的偏移量（单位：米）
+            // 例如：传感器在车辆运动学中心的右后侧：后移0.5米，右侧偏移0.2米
+            double sensor_offset_x = -0.12;  // 负值表示后侧
+            double sensor_offset_y = -0.07;  // 负值表示右侧（车辆坐标系中Y轴正向左）
+        
+            // 使用转换公式计算车辆运动学中心的实际位置
+            current_position_x_ = sensor_x - (std::cos(current_yaw_) * sensor_offset_x - std::sin(current_yaw_) * sensor_offset_y);
+            current_position_y_ = sensor_y - (std::sin(current_yaw_) * sensor_offset_x + std::cos(current_yaw_) * sensor_offset_y);
+        
+            // 对 odom 读取的线速度进行补偿
+            // 公式： v_center = v_sensor + omega * d_y
+            // 注意：此处使用从 IMU 得到的 current_angular_velocity_ 作为 ω
+            current_linear_velocity_ = sensor_linear_vel + current_angular_velocity_ * sensor_offset_y;
+            
+            // 记录日志时输出修正后的位置信息与线速度
+            log_file_ << "Received Odometry - Position: x=" << current_position_x_
+                      << ", y=" << current_position_y_
+                      << ", Linear Velocity: " << current_linear_velocity_
+                      << std::endl;
+            
+            log_file_ << "Current yaw: " << current_yaw_ << " (roll: " << roll << ", pitch: " << pitch << ")" << std::endl;
+        }
     
         void bspline_callback(const planner::msg::Bspline::SharedPtr msg) {
             std::string current_time = get_current_time_str();
@@ -329,7 +330,7 @@ class TrajPidNode : public rclcpp::Node {
     
         // 控制循环：利用 B-spline 直接评估当前轨迹状态
         // 控制循环：利用 B-spline 直接评估当前轨迹状态，并结合位置和朝向的 PID 控制
-                // 控制循环：利用 B-spline 直接评估当前轨迹状态，并结合位置和朝向的 PID 控制
+        // 控制循环：利用 B-spline 直接评估当前轨迹状态，并结合位置和朝向的 PID 控制
         void control_loop() {
             double current_time_sec = this->now().seconds();
             std::string current_time = get_current_time_str();
@@ -344,26 +345,32 @@ class TrajPidNode : public rclcpp::Node {
             auto now_tp = std::chrono::system_clock::now();
             double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ ).count();
             
-            // double look_ahead_distance = 0.1;  
-            // double t_target = t_diff;  // 从当前时刻开始搜索
+            //  // ----------------------------
+            // // 距离前视：基于当前位置与轨迹点间距离选择目标点
+            // // ----------------------------
+            // double look_ahead_distance = 0.05;  // 前视距离（单位：米），可根据实际情况调节
+            // double t_target = t_diff;          // 从当前时刻开始搜索
             // Eigen::Vector3d pos_target = traj_[0].evaluateDeBoor(t_target);
             // double dist = std::sqrt(std::pow(pos_target(0) - current_position_x_, 2) +
             //                         std::pow(pos_target(1) - current_position_y_, 2));
+            // double dt_sample = 0.1;            // 采样时间间隔（秒），可调节以提高搜索精度
 
-            // // 设置采样时间间隔 dt_sample，可以选择更细的步长以提高精度
-            // double dt_sample = 0.1;  
+            // // 向后搜索，直到目标点与当前位置的距离达到预设前视距离
             // while (dist < look_ahead_distance && t_target < traj_duration_) {
             //     t_target += dt_sample;
             //     pos_target = traj_[0].evaluateDeBoor(t_target);
             //     dist = std::sqrt(std::pow(pos_target(0) - current_position_x_, 2) +
             //                     std::pow(pos_target(1) - current_position_y_, 2));
             // }
-
-            // // 如果遍历到轨迹末尾仍未达到前视觉距离，则选择最后一个点
+            // // 如果遍历到轨迹末尾仍未达到前视距离，则选择轨迹终点
             // if (t_target > traj_duration_) {
             //     t_target = traj_duration_;
             //     pos_target = traj_[0].evaluateDeBoor(t_target);
             // }
+
+            // ----------------------------
+            // 时间前视：基于当前位置与轨迹点间距离选择目标点
+            // ----------------------------
 
             double look_ahead_time_offset = 0.5;  // 前视偏移量，单位秒
             double t_target = t_diff + look_ahead_time_offset;
@@ -371,6 +378,7 @@ class TrajPidNode : public rclcpp::Node {
             if (t_target > traj_duration_) {
                 t_target = traj_duration_;
             }
+
             Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_target);
             Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_target);
             double yaw = traj_[3].evaluateDeBoor(t_target)(0);
@@ -380,19 +388,19 @@ class TrajPidNode : public rclcpp::Node {
             // if(t_diff < 0)
             //     t_diff = 0;
             
-            // 如果 t_diff 超过轨迹持续时间，则机器人停止（直至下一段 Bspline 消息到来）
-            if (t_diff > traj_duration_) {
-                log_file_ << "-------------------------" << std::endl;
-                log_file_ << "[" << get_current_time_str() << "] Trajectory finished (t_diff: " 
-                            << t_diff << " > traj_duration: " << traj_duration_ << "), stopping robot." << std::endl;
-                log_file_ << "-------------------------" << std::endl;
+            // // 如果 t_diff 超过轨迹持续时间，则机器人停止（直至下一段 Bspline 消息到来）
+            // if (t_diff > traj_duration_) {
+            //     log_file_ << "-------------------------" << std::endl;
+            //     log_file_ << "[" << get_current_time_str() << "] Trajectory finished (t_diff: " 
+            //                 << t_diff << " > traj_duration: " << traj_duration_ << "), stopping robot." << std::endl;
+            //     log_file_ << "-------------------------" << std::endl;
         
-                geometry_msgs::msg::Twist cmd_msg;
-                cmd_msg.linear.x  = 0.0;
-                cmd_msg.angular.z = 0.0;
-                cmd_publisher_->publish(cmd_msg);
-                return;
-            }
+            //     geometry_msgs::msg::Twist cmd_msg;
+            //     cmd_msg.linear.x  = 0.0;
+            //     cmd_msg.angular.z = 0.0;
+            //     cmd_publisher_->publish(cmd_msg);
+            //     return;
+            // }
             
         
             // 设置目标值（轨迹输出）
