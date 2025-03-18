@@ -69,7 +69,7 @@ class TrajPidNode : public rclcpp::Node {
         TrajPidNode()
         : Node("traj_pid_node"),
         pid_control_(0.01, 0.0010, 1.0422),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(30, 0.0024, 20),  // 初始化朝向 PID 控制器
+        pid_orientation_control_(3, 0.0024, 40),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
