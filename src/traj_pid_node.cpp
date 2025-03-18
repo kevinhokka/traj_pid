@@ -204,24 +204,41 @@ class TrajPidNode : public rclcpp::Node {
                 return;
             }
             odom_received_ = true;
-    
-            current_linear_velocity_ = msg->twist.twist.linear.x;
-            // current_angular_velocity_ = msg->twist.twist.angular.z;
-            current_position_x_ = msg->pose.pose.position.x;
-            current_position_y_ = msg->pose.pose.position.y;
-    
-            log_file_ << "Received Odometry - Position: x=" << current_position_x_
-                        << ", y=" << current_position_y_
-                        << ", Linear Velocity: " << current_linear_velocity_
-                        // << ", Angular Velocity: " << current_angular_velocity_ 
-                        << std::endl;
-    
+        
+            // 原始传感器测量的位置（里程计数据）
+            double sensor_x = msg->pose.pose.position.x;
+            double sensor_y = msg->pose.pose.position.y;
+            
+            // 获取传感器测量的线速度（可以保持不变）
+            double sensor_linear_vel = msg->twist.twist.linear.x;
+            
+            // 从四元数中提取航向
             tf2::Quaternion quat;
             tf2::fromMsg(msg->pose.pose.orientation, quat);
             double roll, pitch;
             tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
+            
+            // 定义传感器相对于车辆运动学中心的偏移量（单位：米）
+            // 假设传感器在右后侧：例如后移0.5米，右侧偏移0.2米
+            double sensor_offset_x = -0.5;  // 负值表示传感器在车辆后部
+            double sensor_offset_y = -0.2;  // 负值表示传感器在车辆右侧（因为车辆坐标系中Y轴向左）
+        
+            // 使用转换公式计算车辆运动学中心的实际位置
+            current_position_x_ = sensor_x - (std::cos(current_yaw_) * sensor_offset_x - std::sin(current_yaw_) * sensor_offset_y);
+            current_position_y_ = sensor_y - (std::sin(current_yaw_) * sensor_offset_x + std::cos(current_yaw_) * sensor_offset_y);
+        
+            // 你可以将传感器的线速度直接赋值，如果需要对线速度进行补偿，则需要额外考虑角速度和偏移产生的附加速度
+            current_linear_velocity_ = sensor_linear_vel;
+        
+            // 记录日志时输出修正后的位置信息
+            log_file_ << "Received Odometry - Position: x=" << current_position_x_
+                      << ", y=" << current_position_y_
+                      << ", Linear Velocity: " << sensor_linear_vel
+                      << std::endl;
+            
             log_file_ << "Current yaw: " << current_yaw_ << " (roll: " << roll << ", pitch: " << pitch << ")" << std::endl;
         }
+        
 
         void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
             // 从 IMU 消息获取角速度数据的 z 分量
@@ -327,11 +344,37 @@ class TrajPidNode : public rclcpp::Node {
             auto now_tp = std::chrono::system_clock::now();
             double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(now_tp - start_time_ ).count();
             
+            // double look_ahead_distance = 0.1;  
+            // double t_target = t_diff;  // 从当前时刻开始搜索
+            // Eigen::Vector3d pos_target = traj_[0].evaluateDeBoor(t_target);
+            // double dist = std::sqrt(std::pow(pos_target(0) - current_position_x_, 2) +
+            //                         std::pow(pos_target(1) - current_position_y_, 2));
+
+            // // 设置采样时间间隔 dt_sample，可以选择更细的步长以提高精度
+            // double dt_sample = 0.1;  
+            // while (dist < look_ahead_distance && t_target < traj_duration_) {
+            //     t_target += dt_sample;
+            //     pos_target = traj_[0].evaluateDeBoor(t_target);
+            //     dist = std::sqrt(std::pow(pos_target(0) - current_position_x_, 2) +
+            //                     std::pow(pos_target(1) - current_position_y_, 2));
+            // }
+
+            // // 如果遍历到轨迹末尾仍未达到前视觉距离，则选择最后一个点
+            // if (t_target > traj_duration_) {
+            //     t_target = traj_duration_;
+            //     pos_target = traj_[0].evaluateDeBoor(t_target);
+            // }
+
             double look_ahead_time_offset = 0.5;  // 前视偏移量，单位秒
             double t_target = t_diff + look_ahead_time_offset;
+
             if (t_target > traj_duration_) {
                 t_target = traj_duration_;
             }
+            Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_target);
+            Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_target);
+            double yaw = traj_[3].evaluateDeBoor(t_target)(0);
+            double yaw_dot = traj_[4].evaluateDeBoor(t_target)(0);
         
             // 保证 t_diff 非负
             // if(t_diff < 0)
@@ -351,18 +394,13 @@ class TrajPidNode : public rclcpp::Node {
                 return;
             }
             
-            // 评估当前时刻的轨迹状态
-            Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_target);
-            Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_target);
-            // double yaw = traj_[3].evaluateDeBoor(t_diff)(0);
-            // double yaw_dot = traj_[4].evaluateDeBoor(t_diff)(0);
         
             // 设置目标值（轨迹输出）
             target_x_ = pos(0);
             target_y_ = pos(1);
             // target_yaw_ = yaw;
             target_linear_velocity_ = vel(0);
-            target_linear_velocity_ = vel(1);
+            target_angular_velocity_ = vel(1);
             // target_angular_velocity_ = yaw_dot;
         
             // 计算位置误差
