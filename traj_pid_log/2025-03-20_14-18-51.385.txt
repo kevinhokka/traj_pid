@@ -538,3 +538,6 @@ Current yaw: 0.017082 (roll: 0, pitch: -0)
 [2025-03-20_14-18-52.668] No B-spline trajectory received.
 -------------------------
 1742451532.675065529 Received IMU Angular Velocity - [0, 0, -0.037473]
+-------------------------
+[2025-03-20_15-32-20.913] No B-spline trajectory received.
+-------------------------

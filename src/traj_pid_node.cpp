@@ -68,11 +68,11 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(0.01, 0, 1),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(5, 0, 0),  // 初始化朝向 PID 控制器
+        pid_control_(1, 0, 1),  // 初始化 PID 控制器（位置）
+        pid_orientation_control_(0.5, 0, 1),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
-        pid_angular_velocity_control_(0.5, 0, 0.05),  // 初始化角速度 PID 控制器
+        pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
 
 
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
@@ -109,15 +109,15 @@ class TrajPidNode : public rclcpp::Node {
             //     "/traj", 10, std::bind(&TrajPidNode::traj_callback, this, std::placeholders::_1));
     
             odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
-                "/fastlio2/lio_odom", 100, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
+                "/fastlio2/lio_odom", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
 
             imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
-                "/livox/imu", 100, std::bind(&TrajPidNode::imu_callback, this, std::placeholders::_1));
+                "/livox/imu", 10, std::bind(&TrajPidNode::imu_callback, this, std::placeholders::_1));
     
             bspline_subscription_ = this->create_subscription<planner::msg::Bspline>(
                 "/bspline", 10, std::bind(&TrajPidNode::bspline_callback, this, std::placeholders::_1));
     
-            cmd_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 100);
+            cmd_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
     
             RCLCPP_INFO(this->get_logger(), "PID 轨迹跟踪节点已启动");
     
@@ -128,7 +128,7 @@ class TrajPidNode : public rclcpp::Node {
             pid_angular_velocity_control_.print_parameters();
     
             control_timer_ = this->create_wall_timer(
-                std::chrono::milliseconds(10),  // 每10ms调用一次
+                std::chrono::milliseconds(100),  // 每100ms调用一次
                 std::bind(&TrajPidNode::control_loop, this));
         }
     
@@ -310,7 +310,7 @@ class TrajPidNode : public rclcpp::Node {
         
             // ----------------- 遍历轨迹并打印每个控制点的信息 -----------------
             log_file_ << "----- Control Points -----" << std::endl;
-            double dt = 0.01;  // 采样时间间隔，可根据需要调整
+            double dt = 0.1;  // 采样时间间隔，可根据需要调整
             int index = 0;
             for (double t = 0; t <= traj_duration_; t += dt, index++) {
                 Eigen::Vector3d p = traj_[0].evaluateDeBoor(t);
@@ -327,8 +327,8 @@ class TrajPidNode : public rclcpp::Node {
     
         // 控制循环：利用 B-spline 直接评估当前轨迹状态
 
-        double previous_linear_cmd_ = 0;
-        double previous_angular_cmd_ = 0;//1帧前线速度角速度命令
+        double previous_linear_cmd_ = 0.0;
+        double previous_angular_cmd_ = 0.0;//1帧前线速度角速度命令
 
         void control_loop() {
             double current_time_sec = this->now().seconds();
@@ -381,7 +381,7 @@ class TrajPidNode : public rclcpp::Node {
             Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_target);
             Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_diff);
             double yaw = traj_[3].evaluateDeBoor(t_target)(0);
-            double yaw_dot = traj_[4].evaluateDeBoor(t_diff)(0);
+            double yaw_dot = traj_[4].evaluateDeBoor(t_target)(0);
         
             // 保证 t_diff 非负
             // if(t_diff < 0)
@@ -396,7 +396,7 @@ class TrajPidNode : public rclcpp::Node {
         
                 geometry_msgs::msg::Twist cmd_msg;
                 cmd_msg.linear.x  = 0.0;
-                cmd_msg.angular.z = 0.0;
+                // cmd_msg.angular.z = 0.0;
                 cmd_publisher_->publish(cmd_msg);
                 return;
             }
@@ -424,6 +424,10 @@ class TrajPidNode : public rclcpp::Node {
             double alpha = angle_to_target - current_yaw_;
             while (alpha > M_PI)  alpha -= 2.0 * M_PI;
             while (alpha < -M_PI) alpha += 2.0 * M_PI;
+
+            double abs_alpha = std::fabs(alpha);
+
+
             // 前向误差（仅用于日志输出）
             double e_forward = distance * std::cos(alpha);
 
@@ -438,16 +442,8 @@ class TrajPidNode : public rclcpp::Node {
             double weight_orientation = 1; // 朝向权重
 
 
-            // 组合 B-spline 前馈与 PID 反馈（注意：仅控制命令部分发生了变化）
-
-            double x_fraction_vel = vel(0);
-            double y_fraction_vel = vel(1);
-
-            double linear_target_cmd = sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
-            double angular_target_cmd = 0 * yaw_dot + weight_orientation * orient_pid;
-
-            double error_linear_vel = linear_target_cmd - current_linear_velocity_;
-            double error_angular_vel = angular_target_cmd - current_angular_velocity_ ;
+            double error_linear_vel = current_linear_velocity_ - previous_linear_cmd_;
+            double error_angular_vel = current_angular_velocity_ - previous_angular_cmd_;
 
             double weight_lin_vel = 0;  
             double weight_ang_vel = 0; 
@@ -455,8 +451,21 @@ class TrajPidNode : public rclcpp::Node {
             double linear_vel_pid = pid_velocity_control_.compute(error_linear_vel,0);
             double angular_vel_pid = pid_angular_velocity_control_.compute(error_angular_vel,0);
 
-            double linear_cmd = linear_target_cmd + weight_lin_vel * linear_vel_pid;
-            double angular_cmd = angular_target_cmd + weight_ang_vel * angular_vel_pid;
+
+            double x_fraction_vel = vel(0);
+            double y_fraction_vel = vel(1);
+
+            double linear_cmd = sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
+            double angular_cmd = + weight_orientation * orient_pid;
+
+            // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
+            double k = 1.0;  
+            // 这个因子在alpha=0时为1, alpha越大越接近0
+            double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
+            // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0
+            if (speed_scale < 0.1) speed_scale = 0.1;
+
+            linear_cmd *= speed_scale;
         
             // 限幅处理
             const double max_linear_speed = 2.0;
@@ -467,8 +476,8 @@ class TrajPidNode : public rclcpp::Node {
             if (angular_cmd < -max_angular_speed)  angular_cmd = -max_angular_speed;
 
 
-            previous_linear_cmd_ = linear_target_cmd;
-            previous_angular_cmd_ = angular_target_cmd;
+            previous_linear_cmd_ = linear_cmd;
+            previous_angular_cmd_ = angular_cmd;
             
 
 
@@ -499,8 +508,8 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "Time diff: " <<  t_diff  << std::endl;       
             log_file_ << "-- PID Output: Linear Velocity: " << linear_cmd
                         << ", Angular Velocity: " << angular_cmd << std::endl;
-            log_file_ << "Linear Velocity Target: " << linear_target_cmd
-                        << ", Angular Velocity Target: " << angular_target_cmd << std::endl;
+            log_file_ << "Linear Velocity Target: " << linear_cmd
+                        << ", Angular Velocity Target: " << angular_cmd << std::endl;
             log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
             log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
             log_file_ << "--Distance to Target (abs): " << distance << std::endl;
