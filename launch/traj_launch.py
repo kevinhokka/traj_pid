@@ -88,5 +88,17 @@ def generate_launch_description():
                     )
                 ]
             )
+        ),
+
+        RegisterEventHandler(
+            event_handler=OnShutdown(
+                on_shutdown=[
+                    ExecuteProcess(
+                        cmd=['pkill', '-f', 'rviz2'],
+                        output='screen'
+                    )
+                ]
+            )
         )
-    ])
+    ]
+)

@@ -398,7 +398,43 @@ class TrajPidNode : public rclcpp::Node {
                 cmd_msg.linear.x  = 0.0;
                 // cmd_msg.angular.z = 0.0;
                 cmd_publisher_->publish(cmd_msg);
-                return;
+                return;// 在 control_loop() 开头部分后，对 t_diff 超过 traj_duration_ 的情况进行特殊处理
+                if (t_diff > traj_duration_) {
+                    // 获取B样条轨迹最后一个点的yaw
+                    double final_yaw = traj_[3].evaluateDeBoor(traj_duration_)(0);
+                    // 计算yaw误差，并归一化到[-pi, pi]
+                    double yaw_error = final_yaw - current_yaw_;
+                    while (yaw_error > M_PI)  yaw_error -= 2.0 * M_PI;
+                    while (yaw_error < -M_PI) yaw_error += 2.0 * M_PI;
+                    
+                    // 定义一个yaw误差阈值（例如0.05弧度）
+                    const double yaw_threshold = 0.05;
+                    
+                    if (std::fabs(yaw_error) > yaw_threshold) {
+                        // 如果误差较大，则使用yaw的PID控制进行校正
+                        double yaw_align_cmd = pid_orientation_control_.compute(yaw_error, 0);
+                        geometry_msgs::msg::Twist cmd_msg;
+                        cmd_msg.linear.x  = 0.0;  // 保持线速度为0
+                        cmd_msg.angular.z = yaw_align_cmd;
+                        cmd_publisher_->publish(cmd_msg);
+                        log_file_ << "[" << get_current_time_str() << "] Aligning yaw: final_yaw = " 
+                                  << final_yaw << ", current_yaw = " << current_yaw_ 
+                                  << ", yaw_error = " << yaw_error 
+                                  << ", yaw_align_cmd = " << yaw_align_cmd << std::endl;
+                    } else {
+                        // 当yaw对齐后，停止车辆并等待下一段Bspline消息
+                        geometry_msgs::msg::Twist cmd_msg;
+                        cmd_msg.linear.x  = 0.0;
+                        cmd_msg.angular.z = 0.0;
+                        cmd_publisher_->publish(cmd_msg);
+                        log_file_ << "[" << get_current_time_str() << "] Yaw aligned (error " 
+                                  << yaw_error << " < threshold), stopping robot." << std::endl;
+                        // 可选：重置轨迹接收标志，等待下一段Bspline消息
+                        receive_traj_ = false;
+                    }
+                    return;
+                }
+                
             }
             
         
@@ -459,7 +495,7 @@ class TrajPidNode : public rclcpp::Node {
             double angular_cmd = + weight_orientation * orient_pid;
 
             // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
-            double k = 1.0;  
+            double k = 0.5;  
             // 这个因子在alpha=0时为1, alpha越大越接近0
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
             // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0
