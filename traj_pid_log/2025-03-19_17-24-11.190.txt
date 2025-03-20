@@ -4152,3 +4152,6 @@ Current yaw: -0.488904 (roll: 0, pitch: 0)
 -------------------------
 [2025-03-19_17-24-40.401] Trajectory finished (t_diff: 23.8631 > traj_duration: 18.4), stopping robot.
 -------------------------
+-------------------------
+[2025-03-19_20-12-49.763] Trajectory finished (t_diff: 10113.2 > traj_duration: 18.4), stopping robot.
+-------------------------
