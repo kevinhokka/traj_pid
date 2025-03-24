@@ -1826,3 +1826,6 @@ Current Angular Velocity: 0.005032
 --Linear Velocity ERROR: -0.0152209
 --Angular Velocity ERROR: 0.814276
 -------------------------
+-------------------------
+[2025-03-20_19-16-57.685] Trajectory finished (t_diff: 5642.22 > traj_duration: 18.4), stopping robot.
+-------------------------

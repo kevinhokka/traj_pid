@@ -10614,3 +10614,6 @@ Current yaw: 0.5347 (roll: -0.00162002, pitch: 0.034134)
 1742464768.214036649 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00396711]
 1742464768.220996560 Received IMU Angular Velocity - [0.00284277, 0.0049331, 0.00290185]
 1742464768.224005725 Received IMU Angular Velocity - [0.00710383, -0.00145849, 0.00503238]
+-------------------------
+[2025-03-20_19-16-58.446] Trajectory finished (t_diff: 4679.36 > traj_duration: 18.4), stopping robot.
+-------------------------

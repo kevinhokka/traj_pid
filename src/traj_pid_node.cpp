@@ -69,10 +69,11 @@ class TrajPidNode : public rclcpp::Node {
         TrajPidNode()
         : Node("traj_pid_node"),
         pid_control_(1, 0, 1),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(0.5, 0, 1),  // 初始化朝向 PID 控制器
+        pid_orientation_control_(1, 0, 1),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
-        pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
+        // pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
+        pid_angular_velocity_control_(0.5, 0, 3),  // 初始化角速度 PID 控制器
 
 
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
@@ -491,11 +492,11 @@ class TrajPidNode : public rclcpp::Node {
             double x_fraction_vel = vel(0);
             double y_fraction_vel = vel(1);
 
-            double linear_cmd = sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
+            double linear_cmd = 0 * sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
             double angular_cmd = + weight_orientation * orient_pid;
 
             // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
-            double k = 0.5;  
+            double k = 1;  
             // 这个因子在alpha=0时为1, alpha越大越接近0
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
             // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0
@@ -504,7 +505,7 @@ class TrajPidNode : public rclcpp::Node {
             linear_cmd *= speed_scale;
         
             // 限幅处理
-            const double max_linear_speed = 2.0;
+            const double max_linear_speed = 1.0;
             const double max_angular_speed = 1;
             if (linear_cmd >  max_linear_speed)  linear_cmd =  max_linear_speed;
             if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
