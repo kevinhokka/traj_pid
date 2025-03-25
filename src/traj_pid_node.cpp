@@ -73,8 +73,6 @@ class TrajPidNode : public rclcpp::Node {
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
-        // pid_angular_velocity_control_(0.5, 0, 3),  // 初始化角速度 PID 控制器
-
 
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
           current_linear_velocity_(0.0), current_angular_velocity_(0.0),  // 初始化当前线速度和角速度
@@ -496,7 +494,7 @@ class TrajPidNode : public rclcpp::Node {
             double angular_cmd = + weight_orientation * orient_pid;
 
             // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
-            double k = 1;  
+            double k = 3;  
             // 这个因子在alpha=0时为1, alpha越大越接近0
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
             // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0

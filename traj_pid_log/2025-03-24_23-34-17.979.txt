@@ -1,0 +1,274 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 1, I: 0, D: 1
+Orientation PID: P: 1, I: 0, D: 1
+Linear Velocity PID: P: 1, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.098] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.198] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.298] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.398] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.498] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.598] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.698] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.798] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.898] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-18.998] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.098] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.199] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.298] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.398] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.498] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.598] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.698] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.798] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.898] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-19.999] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.099] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.199] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.299] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.399] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.499] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.599] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.699] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.799] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-03-24_23-34-20.899] No B-spline trajectory received.
+-------------------------
+1742830457.975180913 Received IMU Angular Velocity - [0.0145607, -0.00785008, 0.00716291]
+1742830457.978679043 Received IMU Angular Velocity - [0.00284277, -0.00571955, 0.00290185]
+1742830457.984757177 Received IMU Angular Velocity - [-0.00354881, -0.00252375, 0.00396711]
+1742830457.992159633 Received IMU Angular Velocity - [-0.00780987, 0.00386783, 0.00503238]
+1742830457.995820812 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00503238]
+1742830458.002898292 Received IMU Angular Velocity - [0.0156259, -0.00145849, 0.00716291]
+1742830458.005315887 Received IMU Angular Velocity - [0.0124302, -0.00465428, 0.00396711]
+1742830458.008741533 Received IMU Angular Velocity - [0.0124302, -0.00678481, 0.00396711]
+1742830458.016724756 Received IMU Angular Velocity - [0.00177751, -0.00465428, 0.00396711]
+-------------------------
+[2025-03-24_23-34-20.998] No B-spline trajectory received.
+-------------------------
+1742830458.019133230 Received IMU Angular Velocity - [-0.00461408, 0.000672041, 0.00503238]
+1742830458.024582532 Received IMU Angular Velocity - [0.00177751, 0.00280257, 0.00396711]
+1742830458.029046279 Received IMU Angular Velocity - [0.0113649, 0.000672041, 0.00609764]
+1742830458.035491567 Received IMU Angular Velocity - [0.0134954, -0.000393224, 0.00396711]
+1742830458.038858266 Received IMU Angular Velocity - [0.00816909, -0.00465428, 0.00183658]
+1742830458.050966786 Received IMU Angular Velocity - [0.0049733, -0.00465428, 0.00290185]
+1742830458.051095881 Received IMU Angular Velocity - [-0.00141829, -0.000393224, 0.00396711]
+1742830458.059454962 Received IMU Angular Velocity - [0.000712243, 0.00280257, 0.00716291]
+1742830458.059568824 Received IMU Angular Velocity - [0.00603857, 0.00386783, 0.00609764]
+1742830458.065652782 Received IMU Angular Velocity - [0.00923436, 0.0017373, 0.00290185]
+1742830458.080886165 Received IMU Angular Velocity - [0.00603857, -0.00252375, 0.00290185]
+1742830458.081621211 Received IMU Angular Velocity - [0.00816909, -0.00571955, 0.00609764]
+1742830458.081728672 Received IMU Angular Velocity - [0.00603857, -0.00678481, 0.00503238]
+1742830458.091301959 Received IMU Angular Velocity - [-0.00354881, -0.00252375, 0.00396711]
+1742830458.091467984 Received IMU Angular Velocity - [0.000712243, 0.0017373, 0.00609764]
+1742830458.094332098 Received IMU Angular Velocity - [0.000712243, 0.00280257, 0.00183658]
+1742830458.098637501 Received IMU Angular Velocity - [0.00390804, 0.0017373, 0.00396711]
+1742830458.104401218 Received IMU Angular Velocity - [0.00710383, -0.00252375, 0.00609764]
+1742830458.108555670 Received IMU Angular Velocity - [0.0102996, -0.00678481, 0.00503238]
+1742830458.114447553 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00396711]
+1742830458.118779838 Received IMU Angular Velocity - [-0.00248355, -0.00145849, 0.00609764]
+1742830458.125039805 Received IMU Angular Velocity - [-0.00141829, 0.00386783, 0.00396711]
+1742830458.128666421 Received IMU Angular Velocity - [0.00390804, 0.00280257, 0.00183658]
+1742830458.134233136 Received IMU Angular Velocity - [0.0102996, -0.000393224, 0.00609764]
+1742830458.138672786 Received IMU Angular Velocity - [0.00603857, -0.00358902, 0.00609764]
+1742830458.147959563 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00396711]
+1742830458.148610188 Received IMU Angular Velocity - [-0.000353022, -0.00358902, 0.00290185]
+1742830458.154396851 Received IMU Angular Velocity - [-0.00461408, 0.00386783, 0.00396711]
+1742830458.158660812 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00396711]
+1742830458.164517654 Received IMU Angular Velocity - [0.00923436, 0.0017373, 0.00396711]
+1742830458.168622951 Received IMU Angular Velocity - [0.0124302, -0.00252375, 0.00716291]
+1742830458.174406477 Received IMU Angular Velocity - [0.0134954, -0.00678481, 0.00609764]
+1742830458.178584322 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00503238]
+1742830458.184467117 Received IMU Angular Velocity - [0.00177751, -0.00252375, 0.00503238]
+1742830458.188509979 Received IMU Angular Velocity - [-0.0099404, 0.00280257, 0.00503238]
+1742830458.194467562 Received IMU Angular Velocity - [-0.00248355, 0.00386783, 0.00716291]
+1742830458.198609405 Received IMU Angular Velocity - [0.0113649, 0.0017373, 0.00396711]
+1742830458.204412036 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00290185]
+1742830458.208638459 Received IMU Angular Velocity - [0.0049733, -0.00358902, 0.00396711]
+1742830458.214406529 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00503238]
+1742830458.218671930 Received IMU Angular Velocity - [0.00284277, -0.00252375, 0.00503238]
+1742830458.224394301 Received IMU Angular Velocity - [-0.00141829, 0.00386783, 0.00503238]
+1742830458.228842176 Received IMU Angular Velocity - [0.00603857, 0.00280257, 0.00609764]
+1742830458.234559491 Received IMU Angular Velocity - [0.0113649, -0.00145849, 0.00396711]
+1742830458.239104778 Received IMU Angular Velocity - [0.0049733, -0.00465428, 0.00503238]
+1742830458.244513885 Received IMU Angular Velocity - [0.00390804, -0.00571955, 0.00609764]
+1742830458.248474983 Received IMU Angular Velocity - [0.0049733, -0.00571955, 0.00503238]
+1742830458.254470744 Received IMU Angular Velocity - [-0.000353022, 0.000672041, 0.00396711]
+1742830458.258522086 Received IMU Angular Velocity - [0.00284277, 0.00386783, 0.00290185]
+1742830458.264270635 Received IMU Angular Velocity - [0.00816909, 0.00280257, 0.00290185]
+1742830458.268647210 Received IMU Angular Velocity - [0.0102996, -0.00252375, 0.00503238]
+1742830458.274460498 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00609764]
+1742830458.278562690 Received IMU Angular Velocity - [0.0049733, -0.00678481, 0.00609764]
+1742830458.284385419 Received IMU Angular Velocity - [0.00177751, -0.00465428, 0.00503238]
+1742830458.288593537 Received IMU Angular Velocity - [-0.000353022, 0.0017373, 0.00396711]
+1742830458.294381320 Received IMU Angular Velocity - [-0.00567934, 0.0049331, 0.00396711]
+1742830458.298592798 Received IMU Angular Velocity - [0.00603857, 0.0017373, 0.00396711]
+1742830458.304414886 Received IMU Angular Velocity - [0.0156259, -0.00252375, 0.00609764]
+1742830458.308499574 Received IMU Angular Velocity - [0.0113649, -0.00678481, 0.00396711]
+1742830458.314493767 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00396711]
+1742830458.318515348 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00396711]
+1742830458.324439425 Received IMU Angular Velocity - [-0.00354881, 0.00386783, 0.00503238]
+1742830458.328784959 Received IMU Angular Velocity - [0.00603857, 0.00280257, 0.00609764]
+1742830458.334484385 Received IMU Angular Velocity - [0.00816909, 0.000672041, 0.00716291]
+1742830458.338599730 Received IMU Angular Velocity - [0.0145607, -0.00358902, 0.00396711]
+1742830458.350175199 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00396711]
+1742830458.350375562 Received IMU Angular Velocity - [0.00177751, -0.00465428, 0.00396711]
+1742830458.354459737 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00503238]
+1742830458.358603820 Received IMU Angular Velocity - [-0.00567934, 0.00386783, 0.00609764]
+1742830458.364515225 Received IMU Angular Velocity - [0.0145607, 0.0017373, 0.00609764]
+1742830458.368546150 Received IMU Angular Velocity - [0.0134954, -0.000393224, 0.00290185]
+1742830458.374520214 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00396711]
+1742830458.378513922 Received IMU Angular Velocity - [0.00603857, -0.00678481, 0.00503238]
+1742830458.384385517 Received IMU Angular Velocity - [-0.00248355, 0.000672041, 0.00609764]
+1742830458.388631205 Received IMU Angular Velocity - [-0.00248355, 0.000672041, 0.00609764]
+1742830458.394217281 Received IMU Angular Velocity - [0.00284277, 0.00386783, 0.00716291]
+1742830458.398621249 Received IMU Angular Velocity - [0.00177751, 0.0017373, 0.00290185]
+1742830458.404635891 Received IMU Angular Velocity - [0.0124302, -0.00465428, 0.00503238]
+1742830458.408787303 Received IMU Angular Velocity - [0.0124302, -0.00465428, 0.00503238]
+1742830458.414420869 Received IMU Angular Velocity - [0.0049733, -0.00358902, 0.00609764]
+1742830458.418578969 Received IMU Angular Velocity - [0.0049733, -0.00358902, 0.00609764]
+1742830458.424397505 Received IMU Angular Velocity - [-0.00141829, 0.00386783, 0.00503238]
+1742830458.428776768 Received IMU Angular Velocity - [-0.00141829, 0.00386783, 0.00503238]
+1742830458.434432736 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00503238]
+1742830458.438834112 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00503238]
+1742830458.444223314 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00290185]
+1742830458.448687253 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00290185]
+1742830458.454395128 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00396711]
+1742830458.458660913 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00396711]
+1742830458.464418134 Received IMU Angular Velocity - [0.0156259, -0.00145849, 0.00716291]
+1742830458.468707824 Received IMU Angular Velocity - [0.0156259, -0.00145849, 0.00716291]
+1742830458.474541657 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.00503238]
+1742830458.478620521 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.00503238]
+1742830458.484406575 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00396711]
+1742830458.489513075 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00396711]
+1742830458.498577281 Received IMU Angular Velocity - [0.00816909, 0.00280257, 0.00716291]
+1742830458.504401449 Received IMU Angular Velocity - [0.0166912, -0.00678481, 0.00290185]
+1742830458.514237054 Received IMU Angular Velocity - [-0.000353022, -0.00358902, 0.00503238]
+1742830458.524434277 Received IMU Angular Velocity - [-0.00567934, 0.00280257, 0.00503238]
+1742830458.528762145 Received IMU Angular Velocity - [0.00710383, 0.0017373, 0.00609764]
+1742830458.538678010 Received IMU Angular Velocity - [0.0049733, -0.00571955, 0.00290185]
+1742830458.548599763 Received IMU Angular Velocity - [0.000712243, -0.00252375, 0.00503238]
+1742830458.564235118 Received IMU Angular Velocity - [0.00284277, 0.000672041, 0.00183658]
+1742830458.568711282 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00396711]
+1742830458.578596041 Received IMU Angular Velocity - [-0.00141829, -0.00571955, 0.00609764]
+-------------------------
+[2025-03-24_23-34-21.099] No B-spline trajectory received.
+-------------------------
+1742830458.604417292 Received IMU Angular Velocity - [0.0156259, -0.00358902, 0.00609764]
+1742830458.615324535 Received IMU Angular Velocity - [0.00603857, -0.00571955, 0.00396711]
+1742830458.624436166 Received IMU Angular Velocity - [-0.00461408, 0.00280257, 0.00290185]
+1742830458.634416098 Received IMU Angular Velocity - [0.0145607, -0.00252375, 0.00503238]
+1742830458.644515204 Received IMU Angular Velocity - [0.00710383, -0.00465428, 0.00183658]
+1742830458.648596596 Received IMU Angular Velocity - [0.00177751, -0.00252375, 0.00396711]
+1742830458.658617874 Received IMU Angular Velocity - [0.00177751, 0.00280257, 0.00609764]
+1742830458.668526667 Received IMU Angular Velocity - [0.0145607, -0.00465428, 0.00290185]
+1742830458.679024257 Received IMU Angular Velocity - [0.00284277, -0.00571955, 0.00396711]
+1742830458.688617577 Received IMU Angular Velocity - [-0.00567934, 0.00280257, 0.00290185]
+1742830458.694310347 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00503238]
+1742830458.704403117 Received IMU Angular Velocity - [0.0145607, -0.00358902, 0.00396711]
+1742830458.714417866 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00716291]
+1742830458.724398374 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00503238]
+1742830458.734277341 Received IMU Angular Velocity - [0.00710383, 0.0017373, 0.00290185]
+1742830458.738700638 Received IMU Angular Velocity - [0.0124302, -0.00358902, 0.00503238]
+1742830458.748744253 Received IMU Angular Velocity - [0.00284277, -0.00358902, 0.00396711]
+1742830458.758616244 Received IMU Angular Velocity - [0.00177751, 0.00386783, 0.00396711]
+1742830458.768637650 Received IMU Angular Velocity - [0.0102996, -0.00145849, 0.00609764]
+1742830458.774424120 Received IMU Angular Velocity - [0.0124302, -0.00785008, 0.00503238]
+1742830458.784434102 Received IMU Angular Velocity - [-0.000353022, -0.00252375, 0.00503238]
+1742830458.788754322 Received IMU Angular Velocity - [-0.00248355, 0.0049331, 0.00396711]
+1742830458.798640553 Received IMU Angular Velocity - [0.00603857, 0.000672041, 0.00503238]
+1742830458.804402734 Received IMU Angular Velocity - [0.0188217, -0.00358902, 0.00290185]
+1742830458.814559859 Received IMU Angular Velocity - [0.00390804, -0.00571955, 0.00822817]
+1742830458.818665732 Received IMU Angular Velocity - [-0.00461408, -0.00145849, 0.00503238]
+1742830458.828731781 Received IMU Angular Velocity - [0.0049733, 0.0017373, 0.00609764]
+1742830458.834436839 Received IMU Angular Velocity - [0.0113649, 0.000672041, 0.00716291]
+1742830458.838630908 Received IMU Angular Velocity - [0.00710383, -0.00358902, 0.00396711]
+1742830458.848680700 Received IMU Angular Velocity - [-0.000353022, -0.00465428, 0.00396711]
+1742830458.854413888 Received IMU Angular Velocity - [-0.00141829, 0.000672041, 0.00609764]
+1742830458.864262133 Received IMU Angular Velocity - [0.00816909, 0.00280257, 0.00396711]
+1742830458.868618611 Received IMU Angular Velocity - [0.00390804, -0.00145849, 0.00503238]
+1742830458.878639217 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00503238]
+1742830458.888609644 Received IMU Angular Velocity - [-0.00141829, 0.0017373, 0.00503238]
+1742830458.898614569 Received IMU Angular Velocity - [0.00390804, 0.00280257, 0.00290185]
+1742830458.904448594 Received IMU Angular Velocity - [0.00923436, -0.000393224, 0.00503238]
+1742830458.914407053 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00503238]
+1742830458.924432651 Received IMU Angular Velocity - [-0.00141829, 0.0017373, 0.00396711]
+1742830458.928761480 Received IMU Angular Velocity - [-0.00461408, 0.00386783, 0.000771319]
+1742830458.938642975 Received IMU Angular Velocity - [0.0156259, -0.00571955, 0.00716291]
+1742830458.944498857 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00396711]
+1742830458.948625787 Received IMU Angular Velocity - [0.00284277, -0.00571955, 0.00290185]
+1742830458.958797729 Received IMU Angular Velocity - [0.000712243, 0.0017373, 0.00396711]
+1742830458.964428991 Received IMU Angular Velocity - [0.00923436, 0.00280257, 0.00503238]
+1742830458.974515745 Received IMU Angular Velocity - [0.0102996, -0.00465428, 0.00290185]
+1742830458.978652435 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00396711]
+1742830458.984645700 Received IMU Angular Velocity - [-0.00354881, -0.00358902, 0.00503238]
+1742830458.994295791 Received IMU Angular Velocity - [0.00390804, 0.00386783, 0.00396711]
+1742830459.004284492 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00396711]
+1742830459.008644362 Received IMU Angular Velocity - [0.00923436, -0.00571955, 0.00503238]
+1742830459.018646215 Received IMU Angular Velocity - [0.00390804, -0.00358902, 0.00503238]
+1742830459.024426413 Received IMU Angular Velocity - [-0.00354881, 0.00280257, 0.00609764]
+1742830459.028825037 Received IMU Angular Velocity - [-0.00141829, 0.00386783, 0.00183658]
+1742830459.038670754 Received IMU Angular Velocity - [0.0113649, -0.00252375, 0.00716291]
+1742830459.044477417 Received IMU Angular Velocity - [0.0166912, -0.00678481, 0.00716291]
+1742830459.054443141 Received IMU Angular Velocity - [-0.00354881, -0.00252375, 0.00503238]
+1742830459.058859717 Received IMU Angular Velocity - [-0.00141829, 0.000672041, 0.00503238]
+1742830459.064440641 Received IMU Angular Velocity - [0.00816909, 0.00280257, 0.00396711]
+1742830459.068712155 Received IMU Angular Velocity - [0.00923436, 0.000672041, 0.00609764]

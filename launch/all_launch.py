@@ -65,6 +65,16 @@ def generate_launch_description():
             parameters=[],
             remappings=[]
         ),
+        
+        Node(
+            package='planner',
+            executable='test_sdfmap',
+            name='test_sdfmap',
+            output='screen',
+            parameters=[],
+            remappings=[]
+        ),
+
 
         # 启动 traj_pid 包中的 traj_pid_node 节点
         Node(
