@@ -68,8 +68,8 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(1, 0, 1),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(1, 0, 1),  // 初始化朝向 PID 控制器
+        pid_control_(1, 0, 3),  // 初始化 PID 控制器（位置）
+        pid_orientation_control_(1, 0, 3),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
@@ -175,6 +175,7 @@ class TrajPidNode : public rclcpp::Node {
         // 状态变量
         bool bspline_received_ = false;
         bool odom_received_ = false;
+        bool imu_received_ = false;  // 新增：IMU消息接收状态
         double target_linear_velocity_;
         double target_angular_velocity_;
         double current_linear_velocity_;
@@ -196,12 +197,17 @@ class TrajPidNode : public rclcpp::Node {
 
 
         void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
+            if (!msg) {
+                imu_received_ = false;
+                return;
+            }
+            imu_received_ = true;
             // 从 IMU 消息获取角速度数据的 z 分量
             current_angular_velocity_ = msg->angular_velocity.z;
             
             // 将 IMU 角速度写入日志文件
             if (log_file_.is_open()) {
-                const auto &ang = msg->angular_velocity;  // Use the full vector here.
+                const auto &ang = msg->angular_velocity;  // 使用完整的角速度向量
                 log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
                           << msg->header.stamp.nanosec 
                           << " Received IMU Angular Velocity - ["
@@ -330,8 +336,19 @@ class TrajPidNode : public rclcpp::Node {
         double previous_angular_cmd_ = 0.0;//1帧前线速度角速度命令
 
         void control_loop() {
-            double current_time_sec = this->now().seconds();
+
             std::string current_time = get_current_time_str();
+
+            // if (!odom_received_ || !imu_received_) {
+            //    log_file_  <<  "未接收到 odometry 或 IMU 消息，车辆停止。" << std::endl;
+            //    geometry_msgs::msg::Twist cmd_msg;
+            //    cmd_msg.linear.x = 0.0;
+            //    cmd_msg.angular.z = 0.0;
+            //    cmd_publisher_->publish(cmd_msg);
+            //    return;
+            //}
+
+            double current_time_sec = this->now().seconds();
         
             if (!receive_traj_) {
                 log_file_ << "-------------------------" << std::endl;
@@ -555,7 +572,7 @@ class TrajPidNode : public rclcpp::Node {
             log_file_ << "--Linear Velocity ERROR: " << error_linear_vel << std::endl;
             log_file_ << "--Angular Velocity ERROR: " << error_angular_vel << std::endl;
             log_file_ << "-------------------------" << std::endl;
-        
+            
             // 发布控制指令
             geometry_msgs::msg::Twist cmd_msg;
             cmd_msg.linear.x  = linear_cmd;
