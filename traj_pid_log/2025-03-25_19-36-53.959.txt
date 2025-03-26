@@ -7575,3 +7575,6 @@ Current yaw: 0.174736 (roll: 0, pitch: -0)
 Received Odometry - Position: x=6.79204, y=-0.13907, Linear Velocity: 0.000649388
 Current yaw: 0.177904 (roll: 0, pitch: -0)
 1742902648.483683801 Received IMU Angular Velocity - [0, 0, 0.0401322]
+-------------------------
+[2025-03-25_21-43-18.240] Trajectory finished (t_diff: 7578.87 > traj_duration: 18.4), stopping robot.
+-------------------------

@@ -45,17 +45,16 @@ def generate_launch_description():
         #     remappings=[]
         # ),
 
-        # 启动 traj_pid 包中的 traj_pid_node 节点
-        Node(
-            package='traj_pid',
-            executable='traj_pid_node',
-            name='traj_pid_node',
-            output='screen',
-            parameters=[],
-            remappings=[]
-        ),
+        # # 启动 traj_pid 包中的 traj_pid_node 节点
+        # Node(
+        #     package='traj_pid',
+        #     executable='traj_pid_node',
+        #     name='traj_pid_node',
+        #     output='screen',
+        #     parameters=[],
+        #     remappings=[]
+        # ),
 
-        # 启动 traj_pid 包中的 traj_pid_node 节点
         Node(
             package='serial_twistctl',
             executable='serial_twistctl_node',
@@ -73,6 +72,21 @@ def generate_launch_description():
                     package='planner',
                     executable='test_bspline',
                     name='test_bspline_node',
+                    output='screen',
+                    parameters=[],
+                    remappings=[]
+                )
+            ]
+        ),
+
+        # 延时4秒后启动 planner 包中的 test_bspline 节点
+        TimerAction(
+            period=0.0,
+            actions=[
+                Node(
+                    package='traj_pid',
+                    executable='traj_pid_node',
+                    name='traj_pid_node',
                     output='screen',
                     parameters=[],
                     remappings=[]
