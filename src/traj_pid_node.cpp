@@ -68,7 +68,7 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(1, 0, 3),  // 初始化 PID 控制器（位置）
+        pid_control_(0.5, 0, 3),  // 初始化 PID 控制器（位置）
         pid_orientation_control_(1, 0, 3),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
@@ -388,6 +388,7 @@ class TrajPidNode : public rclcpp::Node {
             // ----------------------------
 
             double look_ahead_time_offset = 0.5;  // 前视偏移量，单位秒
+            // double look_ahead_time_offset = 0;
             double t_target = t_diff + look_ahead_time_offset;
 
             if (t_target > traj_duration_) {
@@ -465,14 +466,32 @@ class TrajPidNode : public rclcpp::Node {
             while (alpha < -M_PI) alpha += 2.0 * M_PI;
 
             double abs_alpha = std::fabs(alpha);
+            double alpha_threshold = M_PI/3;
 
-            const double distance_threshold = 0.2;  // 根据实际情况调整
-            if (distance < distance_threshold) {
-                target_yaw_ = yaw; // 使用轨迹自带的 yaw
-            } else {
-                // 计算目标方向
-                target_yaw_ = std::atan2(dy, dx);
-            }
+            //计算行驶距离
+
+            // 计算位置误差
+
+            Eigen::Vector3d ori_pos = traj_[0].evaluateDeBoor(0);
+            
+            double ori_x = pos(0);
+            double ori_y = pos(1);
+
+            double ori_dx = target_x_ - ori_x;
+            double ori_dy = target_y_ - ori_y;
+            double traj_distance = std::sqrt(ori_dx * ori_dx + ori_dy * ori_dy);
+
+
+            //轨迹刚开始的时候，避免yaw跳变
+
+            // const double distance_threshold = 0.2;  // 根据实际情况调整
+
+            // if (traj_distance < distance_threshold) {
+            //     target_yaw_ = yaw; // 使用轨迹自带的 yaw
+            // } else {
+            //     // 计算目标方向
+            //     target_yaw_ = std::atan2(dy, dx);
+            // }
 
 
             // 前向误差（仅用于日志输出）
@@ -503,19 +522,19 @@ class TrajPidNode : public rclcpp::Node {
             double y_fraction_vel = vel(1);
 
             double linear_cmd = 0 * sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
-            double angular_cmd = + weight_orientation * orient_pid;
+            double angular_cmd = weight_orientation * orient_pid;
 
-            if (std::fabs(alpha) > M_PI/3) {
+            if (std::fabs(alpha) > alpha_threshold) {
                 linear_cmd = 0.0;
-                double yaw_align_cmd = pid_orientation_control_.compute(alpha, 0);
-                angular_cmd = yaw_align_cmd;
-                RCLCPP_INFO(this->get_logger(), "Large heading error detected (|alpha| = %.2f rad), stopping linear movement, yaw PID output: %.2f", std::fabs(alpha), yaw_align_cmd);
+                // double yaw_align_cmd = pid_orientation_control_.compute(alpha, 0);
+                // angular_cmd = yaw_align_cmd;
+                // RCLCPP_INFO(this->get_logger(), "Large heading error detected (|alpha| = %.2f rad), stopping linear movement, yaw PID output: %.2f", std::fabs(alpha), yaw_align_cmd);
 
             }
 
 
             // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
-            double k = 3;  
+            double k = 1;  
             // 这个因子在alpha=0时为1, alpha越大越接近0
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
             // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0

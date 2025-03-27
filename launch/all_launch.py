@@ -66,7 +66,7 @@ def generate_launch_description():
             ]
         ),
 
-        # 延时启动 test_example_target.py（这里延时12秒，同样可根据需求调整）
+        #延时启动 test_example_target.py（这里延时12秒，同样可根据需求调整）
         TimerAction(
             period=2.0,
             actions=[
