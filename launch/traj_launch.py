@@ -66,7 +66,7 @@ def generate_launch_description():
 
         # 延时4秒后启动 planner 包中的 test_bspline 节点
         TimerAction(
-            period=0.0,
+            period=6.0,
             actions=[
                 Node(
                     package='planner',
@@ -81,7 +81,7 @@ def generate_launch_description():
 
         # 延时4秒后启动 planner 包中的 test_bspline 节点
         TimerAction(
-            period=0.0,
+            period=2.0,
             actions=[
                 Node(
                     package='traj_pid',

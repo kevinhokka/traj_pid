@@ -68,8 +68,8 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(0.5, 0, 3),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(1, 0, 3),  // 初始化朝向 PID 控制器
+        pid_control_(0.5, 0, 1),  // 初始化 PID 控制器（位置）
+        pid_orientation_control_(1, 0, 1),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
@@ -334,6 +334,7 @@ class TrajPidNode : public rclcpp::Node {
 
         double previous_linear_cmd_ = 0.0;
         double previous_angular_cmd_ = 0.0;//1帧前线速度角速度命令
+        double real_start_time_sec = this->now().seconds();
 
         void control_loop() {
 
@@ -466,7 +467,7 @@ class TrajPidNode : public rclcpp::Node {
             while (alpha < -M_PI) alpha += 2.0 * M_PI;
 
             double abs_alpha = std::fabs(alpha);
-            double alpha_threshold = M_PI/3;
+    
 
             //计算行驶距离
 
@@ -484,7 +485,7 @@ class TrajPidNode : public rclcpp::Node {
 
             //轨迹刚开始的时候，避免yaw跳变
 
-            // const double distance_threshold = 0.2;  // 根据实际情况调整
+            // const double distance_threshold = 0.3;  // 根据实际情况调整
 
             // if (traj_distance < distance_threshold) {
             //     target_yaw_ = yaw; // 使用轨迹自带的 yaw
@@ -492,6 +493,8 @@ class TrajPidNode : public rclcpp::Node {
             //     // 计算目标方向
             //     target_yaw_ = std::atan2(dy, dx);
             // }
+
+
 
 
             // 前向误差（仅用于日志输出）
@@ -524,6 +527,7 @@ class TrajPidNode : public rclcpp::Node {
             double linear_cmd = 0 * sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
             double angular_cmd = weight_orientation * orient_pid;
 
+            double alpha_threshold = M_PI/3;
             if (std::fabs(alpha) > alpha_threshold) {
                 linear_cmd = 0.0;
                 // double yaw_align_cmd = pid_orientation_control_.compute(alpha, 0);
@@ -534,16 +538,16 @@ class TrajPidNode : public rclcpp::Node {
 
 
             // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
-            double k = 1;  
+            double k = 2;  
             // 这个因子在alpha=0时为1, alpha越大越接近0
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
             // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0
-            if (speed_scale < 0.1) speed_scale = 0.1;
+            // if (speed_scale < 0.1) speed_scale = 0.1;
 
             linear_cmd *= speed_scale;
         
             // 限幅处理
-            const double max_linear_speed = 1.0;
+            const double max_linear_speed = 0.7;
             const double max_angular_speed = 1;
             if (linear_cmd >  max_linear_speed)  linear_cmd =  max_linear_speed;
             if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
