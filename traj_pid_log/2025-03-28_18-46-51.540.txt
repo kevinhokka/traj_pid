@@ -56077,3 +56077,4 @@ Current yaw: -0.0541665 (roll: -0.017603, pitch: 0.00647279)
 1743158903.729441990 Received IMU Angular Velocity - [0.00603857, -0.00678481, 0.00716291]
 1743158903.735130045 Received IMU Angular Velocity - [0.00816909, 0.0017373, 0.00396711]
 1743158903.738973091 Received IMU Angular Velocity - [0.00603857, 0.00599836, 0.00503238]
+[2025-03-28_20-11-17.306] Aligning yaw: final_yaw = 0.0610381, current_yaw = -0.0541665, yaw_error = 0.115205, yaw_align_cmd = 2.83141

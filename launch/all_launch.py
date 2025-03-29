@@ -58,7 +58,7 @@ def generate_launch_description():
 
         # 延时启动 all.launch.py（这里延时8秒，可以根据实际情况调整）
         TimerAction(
-            period=1.0,
+            period=4.0,
             actions=[
                 IncludeLaunchDescription(
                     PythonLaunchDescriptionSource(all_launch_file)
@@ -68,7 +68,7 @@ def generate_launch_description():
 
         #延时启动 test_example_target.py（这里延时12秒，同样可根据需求调整）
         TimerAction(
-            period=2.0,
+            period=20.0,
             actions=[
                 IncludeLaunchDescription(
                     PythonLaunchDescriptionSource(test_example_launch_file)
@@ -78,7 +78,7 @@ def generate_launch_description():
 
         # 先延时一定时间启动 traj_pid 节点（这里延时4秒）
         TimerAction(
-            period=4.0,
+            period=2.0,
             actions=[
                 Node(
                     package='traj_pid',

@@ -68,7 +68,7 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(0.5, 0, 1),  // 初始化 PID 控制器（位置）
+        pid_control_(1, 0, 1),  // 初始化 PID 控制器（位置）
         pid_orientation_control_(1, 0, 1),  // 初始化朝向 PID 控制器
 
         pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
@@ -473,28 +473,28 @@ class TrajPidNode : public rclcpp::Node {
 
             // 计算位置误差
 
-            Eigen::Vector3d ori_pos = traj_[0].evaluateDeBoor(0);
+            // Eigen::Vector3d ori_pos = traj_[0].evaluateDeBoor(0);
             
-            double ori_x = pos(0);
-            double ori_y = pos(1);
+            double ori_x = 0;
+            double ori_y = 0;
 
             double ori_dx = target_x_ - ori_x;
             double ori_dy = target_y_ - ori_y;
             double traj_distance = std::sqrt(ori_dx * ori_dx + ori_dy * ori_dy);
 
-
-            //轨迹刚开始的时候，避免yaw跳变
-
-            // const double distance_threshold = 0.3;  // 根据实际情况调整
-
-            // if (traj_distance < distance_threshold) {
-            //     target_yaw_ = yaw; // 使用轨迹自带的 yaw
-            // } else {
-            //     // 计算目标方向
-            //     target_yaw_ = std::atan2(dy, dx);
-            // }
+            
 
 
+            //轨迹较小的时候，避免yaw跳变
+
+            const double distance_threshold = 0.3;  // 根据实际情况调整
+
+            if (traj_distance < distance_threshold) {
+                target_yaw_ = yaw; // 使用轨迹自带的 yaw
+            } else {
+                // 计算目标方向
+                // target_yaw_ = std::atan2(dy, dx);
+            }
 
 
             // 前向误差（仅用于日志输出）
@@ -547,7 +547,7 @@ class TrajPidNode : public rclcpp::Node {
             linear_cmd *= speed_scale;
         
             // 限幅处理
-            const double max_linear_speed = 0.7;
+            const double max_linear_speed = 0.6;
             const double max_angular_speed = 1;
             if (linear_cmd >  max_linear_speed)  linear_cmd =  max_linear_speed;
             if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
