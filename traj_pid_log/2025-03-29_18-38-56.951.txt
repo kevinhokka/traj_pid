@@ -4954,3 +4954,4 @@ Current Angular Velocity: -0.156728
 1743244754.779657700 Received IMU Angular Velocity - [0, 0, -0.148935]
 1743244754.789649465 Received IMU Angular Velocity - [0, 0, -0.140321]
 1743244754.799651119 Received IMU Angular Velocity - [0, 0, -0.14053]
+[2025-03-29_21-57-37.247] Aligning yaw: final_yaw = 0.163833, current_yaw = 0.085015, yaw_error = 0.0788175, yaw_align_cmd = 0.183979

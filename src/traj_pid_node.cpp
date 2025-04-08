@@ -68,10 +68,10 @@ class TrajPidNode : public rclcpp::Node {
     public:
         TrajPidNode()
         : Node("traj_pid_node"),
-        pid_control_(1, 0, 1),  // 初始化 PID 控制器（位置）
-        pid_orientation_control_(1, 0, 1),  // 初始化朝向 PID 控制器
+        pid_position_control_(1, 0, 1),  
+        pid_orientation_control_(0.75, 0, 4),
 
-        pid_velocity_control_(1, 0, 1),  // 初始化线速度 PID 控制器
+        pid_velocity_control_(0.75, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
 
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),  // 初始化目标线速度和角速度
@@ -96,7 +96,7 @@ class TrajPidNode : public rclcpp::Node {
 
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "PID Controller Parameters:" << std::endl;
-            log_file_ << "Position PID: " << pid_control_.get_parameters_str() << std::endl;
+            log_file_ << "Position PID: " << pid_position_control_.get_parameters_str() << std::endl;
             log_file_ << "Orientation PID: " << pid_orientation_control_.get_parameters_str() << std::endl;
             log_file_ << "Linear Velocity PID: " << pid_velocity_control_.get_parameters_str() << std::endl;
             log_file_ << "Angular Velocity PID: " << pid_angular_velocity_control_.get_parameters_str() << std::endl;
@@ -121,7 +121,7 @@ class TrajPidNode : public rclcpp::Node {
             RCLCPP_INFO(this->get_logger(), "PID 轨迹跟踪节点已启动");
     
             // 输出PID控制器参数
-            pid_control_.print_parameters();
+            pid_position_control_.print_parameters();
             pid_orientation_control_.print_parameters();
             pid_velocity_control_.print_parameters();
             pid_angular_velocity_control_.print_parameters();
@@ -153,7 +153,7 @@ class TrajPidNode : public rclcpp::Node {
         }
     
         // 声明成员变量
-        PIDController pid_control_;  // PID 控制器（位置）
+        PIDController pid_position_control_;  // PID 控制器（位置）
         PIDController pid_orientation_control_;  // PID 控制器（朝向）
         PIDController pid_velocity_control_;  // PID 控制器（线速度）
         PIDController pid_angular_velocity_control_;  // PID 控制器（角速度）
@@ -202,12 +202,12 @@ class TrajPidNode : public rclcpp::Node {
                 return;
             }
             imu_received_ = true;
-            // 从 IMU 消息获取角速度数据的 z 分量
+            // Get the z component of angular velocity from the IMU message
             current_angular_velocity_ = msg->angular_velocity.z;
             
-            // 将 IMU 角速度写入日志文件
+            // Write the IMU angular velocity to the log file
             if (log_file_.is_open()) {
-                const auto &ang = msg->angular_velocity;  // 使用完整的角速度向量
+                const auto &ang = msg->angular_velocity;  // Use the full angular velocity vector
                 log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
                           << msg->header.stamp.nanosec 
                           << " Received IMU Angular Velocity - ["
@@ -222,34 +222,30 @@ class TrajPidNode : public rclcpp::Node {
             }
             odom_received_ = true;
         
-            // 原始传感器测量的位置（里程计数据）
+            // Raw sensor measurement position (odometry data)
             double sensor_x = msg->pose.pose.position.x;
             double sensor_y = msg->pose.pose.position.y;
             
-            // 获取传感器测量的线速度（来自 odom）
+            // Get sensor measured linear velocity (from odom)
             double sensor_linear_vel = msg->twist.twist.linear.x;
             
-            // 从四元数中提取航向
+            // Extract yaw from the quaternion
             tf2::Quaternion quat;
             tf2::fromMsg(msg->pose.pose.orientation, quat);
             double roll, pitch;
             tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
             
-            // 定义传感器相对于车辆运动学中心的偏移量（单位：米）
-            // 例如：传感器在车辆运动学中心的右后侧：后移0.5米，右侧偏移0.2米
-            double sensor_offset_x = -0.12;  // 负值表示后侧
-            double sensor_offset_y = -0.07;  // 负值表示右侧（车辆坐标系中Y轴正向左）
-        
-            // 使用转换公式计算车辆运动学中心的实际位置
+            double sensor_offset_x = -0.12;  // negative value indicates back
+            double sensor_offset_y = -0.07;  // negative value indicates right
+            
+            // Calculate the actual position of the vehicle kinematic center using the transformation formula
             current_position_x_ = sensor_x - (std::cos(current_yaw_) * sensor_offset_x - std::sin(current_yaw_) * sensor_offset_y);
             current_position_y_ = sensor_y - (std::sin(current_yaw_) * sensor_offset_x + std::cos(current_yaw_) * sensor_offset_y);
-        
-            // 对 odom 读取的线速度进行补偿
-            // 公式： v_center = v_sensor + omega * d_y
-            // 注意：此处使用从 IMU 得到的 current_angular_velocity_ 作为 ω
+            
+            // Compensate the linear velocity read from odom
             current_linear_velocity_ = sensor_linear_vel + current_angular_velocity_ * sensor_offset_y;
             
-            // 记录日志时输出修正后的位置信息与线速度
+            // Log the corrected position and linear velocity
             log_file_ << "Received Odometry - Position: x=" << current_position_x_
                       << ", y=" << current_position_y_
                       << ", Linear Velocity: " << current_linear_velocity_
@@ -487,7 +483,7 @@ class TrajPidNode : public rclcpp::Node {
 
             //轨迹较小的时候，避免yaw跳变
 
-            const double distance_threshold = 0.3;  // 根据实际情况调整
+            const double distance_threshold = 0.75;  // 根据实际情况调整
 
             if (traj_distance < distance_threshold) {
                 target_yaw_ = yaw; // 使用轨迹自带的 yaw
@@ -500,7 +496,7 @@ class TrajPidNode : public rclcpp::Node {
             // 前向误差（仅用于日志输出）
             double e_forward = distance * std::cos(alpha);
 
-            double pos_pid = pid_control_.compute(distance, 0);
+            double pos_pid = pid_position_control_.compute(distance, 0);
             double norm_target_yaw = std::atan2(std::sin(target_yaw_), std::cos(target_yaw_));
             double norm_current_yaw = std::atan2(std::sin(current_yaw_), std::cos(current_yaw_));
             double orient_pid = pid_orientation_control_.compute(alpha, 0);
@@ -527,7 +523,7 @@ class TrajPidNode : public rclcpp::Node {
             double linear_cmd = 0 * sqrt(x_fraction_vel * x_fraction_vel + y_fraction_vel * y_fraction_vel) + weight_position * pos_pid;
             double angular_cmd = weight_orientation * orient_pid;
 
-            double alpha_threshold = M_PI/3;
+            double alpha_threshold = M_PI/2;
             if (std::fabs(alpha) > alpha_threshold) {
                 linear_cmd = 0.0;
                 // double yaw_align_cmd = pid_orientation_control_.compute(alpha, 0);
@@ -537,12 +533,14 @@ class TrajPidNode : public rclcpp::Node {
             }
 
 
-            // 参数k可自行调节（比如1.0~5.0），k越大，转弯时速度衰减越猛烈
+            // Parameter k can be adjusted (e.g., between 1.0 and 5.0). The larger k is, the more drastic the speed reduction when turning.
+            
+            
+            
             double k = 2;  
-            // 这个因子在alpha=0时为1, alpha越大越接近0
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
-            // 再把它限制在[0.1, 1.0]之间，防止完全衰减到0
-            // if (speed_scale < 0.1) speed_scale = 0.1;
+        
+         
 
             linear_cmd *= speed_scale;
         

@@ -66,21 +66,6 @@ def generate_launch_description():
 
         # 延时4秒后启动 planner 包中的 test_bspline 节点
         TimerAction(
-            period=2.0,
-            actions=[
-                Node(
-                    package='planner',
-                    executable='test_bspline',
-                    name='test_bspline_node',
-                    output='screen',
-                    parameters=[],
-                    remappings=[]
-                )
-            ]
-        ),
-
-        # 延时4秒后启动 planner 包中的 test_bspline 节点
-        TimerAction(
             period=0.0,
             actions=[
                 Node(
@@ -93,6 +78,22 @@ def generate_launch_description():
                 )
             ]
         ),
+
+        # 延时4秒后启动 planner 包中的 test_bspline 节点
+        TimerAction(
+            period=4.0,
+            actions=[
+                Node(
+                    package='planner',
+                    executable='test_bspline',
+                    name='test_bspline_node',
+                    output='screen',
+                    parameters=[],
+                    remappings=[]
+                )
+            ]
+        ),
+
 
         RegisterEventHandler(
             event_handler=OnShutdown(
