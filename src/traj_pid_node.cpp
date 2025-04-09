@@ -69,7 +69,8 @@ class TrajPidNode : public rclcpp::Node {
         TrajPidNode()
         : Node("traj_pid_node"),
         pid_position_control_(1, 0, 1),  
-        pid_orientation_control_(0.75, 0, 4),
+        // pid_orientation_control_(0.75, 0, 4),
+        pid_orientation_control_(2.46, 0, 4),
 
         pid_velocity_control_(0.75, 0, 1),  // 初始化线速度 PID 控制器
         pid_angular_velocity_control_(1, 0, 0),  // 初始化角速度 PID 控制器
@@ -483,10 +484,11 @@ class TrajPidNode : public rclcpp::Node {
 
             //轨迹较小的时候，避免yaw跳变
 
-            const double distance_threshold = 0.75;  // 根据实际情况调整
+            const double distance_threshold = 0.3;  // 根据实际情况调整
 
             if (traj_distance < distance_threshold) {
                 target_yaw_ = yaw; // 使用轨迹自带的 yaw
+                alpha = 0;
             } else {
                 // 计算目标方向
                 // target_yaw_ = std::atan2(dy, dx);
