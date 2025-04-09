@@ -405,7 +405,8 @@ class TrajPidNode : public rclcpp::Node {
             // 如果 t_diff 超过轨迹持续时间，则机器人停止（直至下一段 Bspline 消息到来）
             if (t_diff > traj_duration_) {
                 // 获取B样条轨迹最后一个点的yaw
-                double final_yaw = traj_[3].evaluateDeBoor(traj_duration_)(0);
+                // double final_yaw = traj_[3].evaluateDeBoor(traj_duration_)(0);
+                double final_yaw = 0;
                 // 计算yaw误差，并归一化到[-pi, pi]
                 double yaw_error = final_yaw - current_yaw_;
                 while (yaw_error > M_PI)  yaw_error -= 2.0 * M_PI;

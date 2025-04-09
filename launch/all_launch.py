@@ -52,9 +52,9 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(fastlio_launch_file)
         ),
         
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(gnss_global_planner)
-        ),
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource(gnss_global_planner)
+        # ),
 
         # 启动 serial_twistctl 节点
         Node(
