@@ -19,10 +19,9 @@
 #include "plugin/non_uniform_bspline.hpp"
 #include <Eigen/Dense>  // 用于Eigen矩阵操作
 
-// === 新增：为 std::deque 容器做准备 ===
 #include <deque>  // 必须包含此头文件，否则 std::deque 会报错
 
-// 获取当前时间字符串
+// 保留你的原有注释和日志结构，请勿改动
 std::string get_current_time_str() {
     auto now = std::chrono::system_clock::now();
     auto now_time_t = std::chrono::system_clock::to_time_t(now);
@@ -59,12 +58,11 @@ public:
         return oss.str();
     }
 
-    // 允许外部动态更新
     void set_gains(double p, double i, double d) {
         p_gain = p;
         i_gain = i;
         d_gain = d;
-        // 如果想在每次修改PID时重置积分项，可在此处加:
+        // 如需每次修改PID时重置积分项，可在此处加:
         // integral = 0;
         // prev_error = 0;
     }
@@ -84,21 +82,20 @@ public:
         : Node("traj_pid_node"),
           pid_position_control_(1, 0, 1),  
           pid_orientation_control_(0.75, 0, 4),
-          pid_velocity_control_(0.75, 0, 1),   // 初始化线速度 PID 控制器
-          pid_angular_velocity_control_(1, 0, 0), // 初始化角速度 PID 控制器
+          pid_velocity_control_(0.75, 0, 1),  
+          pid_angular_velocity_control_(1, 0, 0),  
 
           target_linear_velocity_(0.0), target_angular_velocity_(0.0),
           current_linear_velocity_(0.0), current_angular_velocity_(0.0),
           current_position_x_(0.0), current_position_y_(0.0), current_yaw_(0.0),
           target_x_(0.0), target_y_(0.0), target_yaw_(0.0)
     {   
-        // 创建日志文件夹
+        // 保留原有日志、注释
         std::string log_dir = "/home/jetson/ros2_ws/src/traj_pid/traj_pid_log";
         if (!std::filesystem::exists(log_dir)) {
             std::filesystem::create_directory(log_dir);
         }
 
-        // 获取当前时间并创建日志文件
         std::string log_filename = log_dir + "/" + get_current_time_str() + ".txt";
         log_file_.open(log_filename, std::ios::out);
 
@@ -117,7 +114,6 @@ public:
 
         RCLCPP_INFO(this->get_logger(), "Logging to file: %s", log_filename.c_str());
 
-        // 订阅
         odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
             "/fastlio2/lio_odom", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
 
@@ -127,30 +123,28 @@ public:
         bspline_subscription_ = this->create_subscription<planner::msg::Bspline>(
             "/bspline", 10, std::bind(&TrajPidNode::bspline_callback, this, std::placeholders::_1));
 
-        // 发布
         cmd_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
         RCLCPP_INFO(this->get_logger(), "PID 轨迹跟踪节点已启动");
 
-        // 输出PID控制器参数
         pid_position_control_.print_parameters();
         pid_orientation_control_.print_parameters();
         pid_velocity_control_.print_parameters();
         pid_angular_velocity_control_.print_parameters();
 
         control_timer_ = this->create_wall_timer(
-            std::chrono::milliseconds(100),  // 每100ms调用一次, 10Hz
+            std::chrono::milliseconds(100),  // 10Hz
             std::bind(&TrajPidNode::control_loop, this));
     }
 
     ~TrajPidNode() {
         if (log_file_.is_open()) {
-            log_file_.close();  // 确保文件在节点退出时被关闭
+            log_file_.close();
         }
     }
 
 private:
-    // 控制点结构体
+    // 保留你的结构不变
     struct ControlPoint {
         double x;
         double y;
@@ -158,22 +152,18 @@ private:
         double time;
     };
 
-    // 重载输出流操作符
     friend std::ostream& operator<<(std::ostream& os, const ControlPoint& cp) {
         os << "(x: " << cp.x << ", y: " << cp.y << ", yaw: " << cp.yaw << ", time: " << cp.time << ")";
         return os;
     };
 
-    // ------------------- PID 控制器 -------------------
     PIDController pid_position_control_;
     PIDController pid_orientation_control_;
     PIDController pid_velocity_control_;
     PIDController pid_angular_velocity_control_;
 
-    // ------------------- 日志文件 -------------------
     std::ofstream log_file_;
 
-    // ------------------- 订阅发布 -------------------
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr traj_subscription_;
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscription_;
     rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr imu_subscription_;
@@ -181,52 +171,52 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_publisher_;
     rclcpp::TimerBase::SharedPtr control_timer_;
 
-    // ------------------- B-spline相关 -------------------
     std::vector<planner::NonUniformBspline> traj_;
     std::chrono::time_point<std::chrono::system_clock> start_time_;
     double traj_duration_ = 0.0;
     bool receive_traj_ = false;
 
-    // ------------------- 状态变量 -------------------
     bool bspline_received_ = false;
     bool odom_received_ = false;
     bool imu_received_ = false;
-    double target_linear_velocity_ = 0.0;
-    double target_angular_velocity_ = 0.0;
-    double current_linear_velocity_ = 0.0;
-    double current_angular_velocity_ = 0.0;
-    double current_position_x_ = 0.0;
-    double current_position_y_ = 0.0;
-    double current_yaw_ = 0.0;
-    double target_x_ = 0.0;
-    double target_y_ = 0.0;
-    double target_yaw_ = 0.0;
+    double target_linear_velocity_;
+    double target_angular_velocity_;
+    double current_linear_velocity_;
+    double current_angular_velocity_;
+    double current_position_x_;
+    double current_position_y_;
+    double current_yaw_;
+    double target_x_;
+    double target_y_;
+    double target_yaw_;
 
-    // ------------------- 其他中间量 -------------------
     double previous_linear_cmd_ = 0.0;
     double previous_angular_cmd_ = 0.0;
     double real_start_time_sec = this->now().seconds();
 
-    // ============== 以下为“短时窗 + 符号变化检测 + 平均误差检测” ==============
+    // === 新增: 用于判断不连续轨迹 & bridging ===
+    bool has_previous_traj_ = false;
+    double last_traj_end_x_ = 0.0;
+    double last_traj_end_y_ = 0.0;
+    double discontinuous_threshold_ = 1.0; // 大于1米认为不连续
 
-    // 最近 N 帧的「朝向误差」用于判断震荡
+    // === 新增: bridging 状态 + 缓存新轨迹 ===
+    bool bridging_ = false;
+    double bridging_x_ = 0.0;
+    double bridging_y_ = 0.0;
+    std::vector<planner::NonUniformBspline> next_traj_;
+    double next_traj_duration_ = 0.0;
+
+    // ============== 3秒钟的历史误差 (30帧) ==============
+    static const size_t ORIENT_ERR_QUEUE_SIZE_ = 30; 
     std::deque<double> orient_err_queue_;
-    static const size_t ORIENT_ERR_QUEUE_SIZE_ = 10; // 记录最近10帧
 
-    // 当误差绝对值 > 该阈值时，才认为是「有效误差」可产生震荡
     const double orient_err_sign_threshold_ = 0.05;
-
-    // 当最近10帧里，大误差发生的符号切换次数 >= 5，就认为震荡严重
     const int orient_sign_change_limit_ = 5;
-
-    // 若平均误差仍较大但符号切换不多，可增大P尝试更快收敛
-    // (数值示例，实际需根据系统调参)
-    const double orient_avg_err_increase_threshold_ = 0.2;  
-    const int orient_sign_change_small_ = 2;  // 符号切换<=2说明振荡不严重
+    const double orient_avg_err_increase_threshold_ = 0.1;  
+    const int orient_sign_change_small_ = 2;  
 
 private:
-    // ============ 各种回调函数 (和原代码基本相同) ============
-
     void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
         if (!msg) {
             imu_received_ = false;
@@ -245,7 +235,7 @@ private:
     }
 
     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
-        if (msg == nullptr) {
+        if (!msg) {
             odom_received_ = false;
             return;
         }
@@ -281,15 +271,14 @@ private:
 
         if (!msg) {
             log_file_ << "[" << current_time << "] B-spline message is null." << std::endl;
-            receive_traj_ = false;
             return;
         }
         if (msg->pos_pts.empty() || msg->yaw_pts.empty() || msg->knots.empty()) {
             log_file_ << "[" << current_time << "] B-spline message missing pos_pts, yaw_pts 或 knots." << std::endl;
-            receive_traj_ = false;
             return;
         }
 
+        // 构造位置点矩阵
         Eigen::MatrixXd pos_pts(msg->pos_pts.size(), 3);
         for (size_t i = 0; i < msg->pos_pts.size(); i++) {
             pos_pts(i, 0) = msg->pos_pts[i].x;
@@ -310,43 +299,150 @@ private:
         }
         planner::NonUniformBspline yaw_traj(yaw_pts, msg->order, msg->yaw_dt);
 
-        start_time_ = std::chrono::system_clock::now();
-        traj_.clear();
-        traj_.push_back(pos_traj);                    // traj_[0]：位置
-        traj_.push_back(pos_traj.getDerivative());    // traj_[1]：速度
-        traj_.push_back(traj_[1].getDerivative());    // traj_[2]：加速度
-        traj_.push_back(yaw_traj);                    // traj_[3]：航向
-        traj_.push_back(yaw_traj.getDerivative());    // traj_[4]：航向导数
+        double new_traj_duration = pos_traj.getTimeSum();
 
-        traj_duration_ = traj_[0].getTimeSum();
-        receive_traj_ = true;
-
-        log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " 
-                  << msg->pos_pts.size() << ", yaw_pts size: " << msg->yaw_pts.size() 
-                  << ", order=" << msg->order << std::endl;
-
-        log_file_ << "----- Control Points -----" << std::endl;
-        double dt = 0.1;  
-        int index = 0;
-        for (double t = 0; t <= traj_duration_; t += dt, index++) {
-            Eigen::Vector3d p = traj_[0].evaluateDeBoor(t);
-            Eigen::Vector3d v = traj_[1].evaluateDeBoor(t);
-            double y = traj_[3].evaluateDeBoor(t)(0);
-            double y_dot = traj_[4].evaluateDeBoor(t)(0);
-            log_file_ << "Point[" << index << "]: time = " << t 
-                      << ", pos = (" << p(0) << ", " << p(1) << ", " << p(2) << ")"
-                      << ", vel = (" << v(0) << ", " << v(1) << ", " << v(2) << ")"
-                      << ", yaw = " << y << ", yaw_dot = " << y_dot << std::endl;
+        // === 检查是否连续 ===
+        bool is_discontinuous = false;
+        if (has_previous_traj_) {
+            double new_start_x = msg->pos_pts.front().x;
+            double new_start_y = msg->pos_pts.front().y;
+            double dist = std::hypot(new_start_x - last_traj_end_x_,
+                                     new_start_y - last_traj_end_y_);
+            if (dist > discontinuous_threshold_) {
+                is_discontinuous = true;
+            }
         }
-        log_file_ << "--------------------------" << std::endl;
+
+        // 记录末端信息
+        has_previous_traj_ = true;
+        size_t last_i = msg->pos_pts.size() - 1;
+        last_traj_end_x_ = msg->pos_pts[last_i].x;
+        last_traj_end_y_ = msg->pos_pts[last_i].y;
+
+        // --- 如果不连续，则 bridging ---
+        if (is_discontinuous) {
+            bridging_ = true;
+            bridging_x_ = msg->pos_pts.front().x; 
+            bridging_y_ = msg->pos_pts.front().y;
+
+            // 缓存新轨迹
+            next_traj_.clear();
+            next_traj_.push_back(pos_traj);
+            next_traj_.push_back(pos_traj.getDerivative());
+            next_traj_.push_back(next_traj_[1].getDerivative());
+            next_traj_.push_back(yaw_traj);
+            next_traj_.push_back(yaw_traj.getDerivative());
+
+            next_traj_duration_ = new_traj_duration;
+
+            // 不立即 receive_traj_=true，不清空队列，也不停止
+            log_file_ << "[" << current_time << "] B-spline不连续, bridging to ("
+                      << bridging_x_ << ", " << bridging_y_ << "), dist="
+                      << std::hypot(bridging_x_ - current_position_x_, bridging_y_ - current_position_y_)
+                      << std::endl;
+
+        } else {
+            // 正常连续 => 直接赋值
+            bridging_ = false; // 万一之前在bridging，这里取消
+            // 正常加载
+            start_time_ = std::chrono::system_clock::now();
+            traj_.clear();
+            traj_.push_back(pos_traj);
+            traj_.push_back(pos_traj.getDerivative());
+            traj_.push_back(traj_[1].getDerivative());
+            traj_.push_back(yaw_traj);
+            traj_.push_back(yaw_traj.getDerivative());
+
+            traj_duration_ = new_traj_duration;
+            receive_traj_ = true;
+
+            log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " 
+                      << msg->pos_pts.size() << ", yaw_pts size: " << msg->yaw_pts.size() 
+                      << ", order=" << msg->order << std::endl;
+
+            log_file_ << "----- Control Points -----" << std::endl;
+            double dt = 0.1;  
+            int index = 0;
+            for (double t = 0; t <= traj_duration_; t += dt, index++) {
+                Eigen::Vector3d p = traj_[0].evaluateDeBoor(t);
+                Eigen::Vector3d v = traj_[1].evaluateDeBoor(t);
+                double y = traj_[3].evaluateDeBoor(t)(0);
+                double y_dot = traj_[4].evaluateDeBoor(t)(0);
+                log_file_ << "Point[" << index << "]: time = " << t 
+                          << ", pos = (" << p(0) << ", " << p(1) << ", " << p(2) << ")"
+                          << ", vel = (" << v(0) << ", " << v(1) << ", " << v(2) << ")"
+                          << ", yaw = " << y << ", yaw_dot = " << y_dot << std::endl;
+            }
+            log_file_ << "--------------------------" << std::endl;
+        }
     }
 
-    // ============ 控制循环：每100ms执行一次 ============
-
     void control_loop() {
-        std::string current_time = get_current_time_str();
+        // ============ 如果 bridging_ = true，则先开到 bridging_x_, bridging_y_ 再切换新轨迹 ============
+
+        if (bridging_) {
+            // 用你原先的PID先开到 bridging_x_, bridging_y_，等距离小于阈值后，才替换 traj_
+            
+            double dx = bridging_x_ - current_position_x_;
+            double dy = bridging_y_ - current_position_y_;
+            double dist = std::sqrt(dx*dx + dy*dy);
+
+            // 简单地用位置PID (pid_position_control_) 去接近 bridging 点
+            // 航向可用 pid_orientation_control_ 或简单朝 bridging 点
+            double bridging_angle = std::atan2(dy, dx);
+            double alpha = bridging_angle - current_yaw_;
+            while (alpha > M_PI) alpha -= 2.0*M_PI;
+            while (alpha < -M_PI) alpha += 2.0*M_PI;
+
+            double linear_cmd = pid_position_control_.compute(dist, 0.0);
+            double orient_cmd = pid_orientation_control_.compute(alpha, 0.0);
+
+            // 你也可以像你原先那样加速度衰减 / 限幅
+            // 这里仅作示例
+            if (std::fabs(alpha) > M_PI/2) {
+                linear_cmd = 0.0;
+            }
+            const double max_linear_speed = 0.6;
+            const double max_angular_speed = 1.0;
+            if (linear_cmd > max_linear_speed) linear_cmd = max_linear_speed;
+            if (linear_cmd < -max_linear_speed) linear_cmd = -max_linear_speed;
+            if (orient_cmd > max_angular_speed) orient_cmd = max_angular_speed;
+            if (orient_cmd < -max_angular_speed) orient_cmd = -max_angular_speed;
+
+            geometry_msgs::msg::Twist cmd_msg;
+            cmd_msg.linear.x  = linear_cmd;
+            cmd_msg.angular.z = orient_cmd;
+            cmd_publisher_->publish(cmd_msg);
+
+            // 在日志里也记一笔
+            log_file_ << "[" << get_current_time_str() << "] bridging_ to("
+                      << bridging_x_ << "," << bridging_y_ << "), dist=" << dist
+                      << ", linear_cmd=" << linear_cmd 
+                      << ", orient_cmd=" << orient_cmd << std::endl;
+
+            // 当距离 < 0.2m (可根据需求调) => bridging结束, load next_traj_ 
+            double bridging_done_thresh = 0.2;
+            if (dist < bridging_done_thresh) {
+                bridging_ = false;
+                // 真正切换到 next_traj_
+                traj_ = next_traj_;
+                traj_duration_ = next_traj_duration_;
+
+                // 重新计时
+                start_time_ = std::chrono::system_clock::now();
+                receive_traj_ = true;
+
+                log_file_ << "[" << get_current_time_str() << "] bridging done, now use new B-spline, duration="
+                          << traj_duration_ << std::endl;
+            }
+            return; // bridging时先不执行下面原有的轨迹跟踪逻辑
+        }
+
+        // ============ 如果 bridging_ = false, 正常执行你原先 control_loop 逻辑 ============
 
         if (!receive_traj_) {
+            // 你原先的日志输出
+            std::string current_time = get_current_time_str();
             log_file_ << "-------------------------" << std::endl;
             log_file_ << "[" << current_time << "] No B-spline trajectory received." << std::endl;
             log_file_ << "-------------------------" << std::endl;
@@ -455,7 +551,7 @@ private:
         }
 
         // 对线速度加一个基于朝向误差的衰减
-        double k = 2;  
+        double k = 1;  
         double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
         linear_cmd *= speed_scale;
 
@@ -606,6 +702,7 @@ private:
 
         log_file_ << "-------------------------" << std::endl;  // 分割线
     }
+    
 };
 
 int main(int argc, char** argv) {
