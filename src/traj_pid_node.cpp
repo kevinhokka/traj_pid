@@ -425,9 +425,10 @@ private:
         double ori_dx = target_x_ - ori_x;
         double ori_dy = target_y_ - ori_y;
         double traj_distance = std::sqrt(ori_dx * ori_dx + ori_dy * ori_dy);
-        const double distance_threshold = 0.75;
+        const double distance_threshold = 0.25;
         if (traj_distance < distance_threshold) {
             target_yaw_ = yaw;
+            alpha = 0;
         }
 
         // e_forward 仅日志
