@@ -562,7 +562,6 @@ class TrajPidNode : public rclcpp::Node {
 
 
 
-
         
             // 以下输出日志格式保持不变
             std::string position_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
