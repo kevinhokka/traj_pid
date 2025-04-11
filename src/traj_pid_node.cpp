@@ -537,14 +537,8 @@ class TrajPidNode : public rclcpp::Node {
 
 
             // Parameter k can be adjusted (e.g., between 1.0 and 5.0). The larger k is, the more drastic the speed reduction when turning.
-            
-            
-            
             double k = 2;  
             double speed_scale = std::exp(-k * abs_alpha * abs_alpha); 
-        
-         
-
             linear_cmd *= speed_scale;
         
             // 限幅处理
