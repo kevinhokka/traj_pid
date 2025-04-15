@@ -7,6 +7,12 @@ from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
+    
+    gnss_global_planner = os.path.join(
+        get_package_share_directory('gnss_global_path_planner'),
+        'launch',
+        'gnss_combined_launch.py'
+    )
     # 获取 livox_ros_driver2 包中的 launch 文件路径
     livox_launch_file = os.path.join(
         get_package_share_directory('livox_ros_driver2'),
@@ -45,13 +51,16 @@ def generate_launch_description():
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(fastlio_launch_file)
         ),
+        
+        # IncludeLaunchDescription(
+        #     PythonLaunchDescriptionSource(gnss_global_planner)
+        # ),
 
         # 启动 serial_twistctl 节点
         Node(
             package='serial_twistctl',
             executable='serial_twistctl_node',
             name='serial_twistctl_node',
-            output='screen',
             parameters=[],
             remappings=[]
         ),
@@ -67,11 +76,20 @@ def generate_launch_description():
         ),
 
         #延时启动 test_example_target.py（这里延时12秒，同样可根据需求调整）
+        #TimerAction(
+        #    period=20.0,
+        #    actions=[
+        #        IncludeLaunchDescription(
+        #            PythonLaunchDescriptionSource(test_example_launch_file)
+        #        )
+        #    ]
+        #),
+        
         TimerAction(
-            period=20.0,
+            period=10.0,
             actions=[
                 IncludeLaunchDescription(
-                    PythonLaunchDescriptionSource(test_example_launch_file)
+                    PythonLaunchDescriptionSource(gnss_global_planner)
                 )
             ]
         ),

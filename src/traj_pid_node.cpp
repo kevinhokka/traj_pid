@@ -414,7 +414,7 @@ private:
     double next_traj_duration_ = 0.0;
 
     // ============== 历史误差队列 ==============
-    static const size_t ORIENT_ERR_QUEUE_SIZE_ = 30; 
+    static const size_t ORIENT_ERR_QUEUE_SIZE_ = 100; 
     std::deque<double> orient_err_queue_;
 
     // ============== 以下是原本写死的阈值，改成成员变量，从文件读 ==============

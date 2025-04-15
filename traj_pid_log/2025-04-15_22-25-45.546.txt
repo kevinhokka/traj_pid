@@ -1,0 +1,624 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 1, I: 0, D: 1
+Orientation PID: P: 1.5, I: 0, D: 0
+Linear Velocity PID: P: 0.75, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+Thresholds & offsets: 
+ orient_err_sign_threshold=0.15
+ orient_sign_change_limit=2
+ orient_avg_err_increase_threshold=0.15
+ orient_sign_change_small=0
+ bridging_done_thresh=0.2
+ look_ahead_time_offset=0.5
+ k_for_speed_scale=1
+ alpha_threshold=1.5708
+ distance_threshold=0.25
+-------------------------
+-------------------------
+[2025-04-15_22-25-45.653] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-45.753] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-45.853] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-45.953] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-46.053] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-46.153] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-46.253] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119994, y=0.0699761, Linear Velocity: -0.000355575
+Current yaw: -5.23776e-06 (roll: -0.0120118, pitch: 0.00859547)
+Received Odometry - Position: x=0.1169, y=0.0697207, Linear Velocity: -0.00342822
+Current yaw: 0.00104332 (roll: -0.0134154, pitch: 0.00739993)
+Received Odometry - Position: x=0.11689, y=0.070429, Linear Velocity: -0.000985463
+Current yaw: 0.000494845 (roll: -0.012159, pitch: 0.00751526)
+-------------------------
+[2025-04-15_22-25-46.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.113812, y=0.0707678, Linear Velocity: -0.0191847
+Current yaw: 0.000241197 (roll: -0.0126042, pitch: 0.00757384)
+Received Odometry - Position: x=0.11473, y=0.0701313, Linear Velocity: -0.00733412
+Current yaw: 0.00165744 (roll: -0.0128729, pitch: 0.00782212)
+Received Odometry - Position: x=0.116738, y=0.0696069, Linear Velocity: 0.00109457
+Current yaw: -0.00125385 (roll: -0.0120148, pitch: 0.00789488)
+Received Odometry - Position: x=0.115645, y=0.0710251, Linear Velocity: -0.00232906
+Current yaw: 0.00125901 (roll: -0.0128839, pitch: 0.00765232)
+-------------------------
+[2025-04-15_22-25-46.453] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118652, y=0.0716221, Linear Velocity: 0.00700394
+Current yaw: 0.00174407 (roll: -0.0133665, pitch: 0.00651985)
+Received Odometry - Position: x=0.118913, y=0.071154, Linear Velocity: 0.00728381
+Current yaw: 0.000780747 (roll: -0.0129364, pitch: 0.00713184)
+Received Odometry - Position: x=0.119037, y=0.0709943, Linear Velocity: 0.00539545
+Current yaw: 0.00137153 (roll: -0.0129021, pitch: 0.00698284)
+Received Odometry - Position: x=0.118316, y=0.0703346, Linear Velocity: -0.000854429
+Current yaw: 0.00040115 (roll: -0.012335, pitch: 0.00606285)
+Received Odometry - Position: x=0.118233, y=0.0700407, Linear Velocity: -0.00103862
+Current yaw: 0.000880977 (roll: -0.0133987, pitch: 0.00692599)
+-------------------------
+[2025-04-15_22-25-46.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.12004, y=0.0703424, Linear Velocity: 0.00639658
+Current yaw: 0.00155798 (roll: -0.0133217, pitch: 0.00693089)
+Received Odometry - Position: x=0.119195, y=0.0689938, Linear Velocity: 0.00070648
+Current yaw: 0.000360629 (roll: -0.0123461, pitch: 0.00677904)
+Received Odometry - Position: x=0.121947, y=0.0696689, Linear Velocity: 0.002293
+Current yaw: 0.00140951 (roll: -0.0136226, pitch: 0.00631678)
+Received Odometry - Position: x=0.120274, y=0.0710658, Linear Velocity: -0.00835932
+Current yaw: 0.00115404 (roll: -0.01289, pitch: 0.00702031)
+Received Odometry - Position: x=0.120753, y=0.0688319, Linear Velocity: -0.00251458
+Current yaw: 0.000620036 (roll: -0.0131138, pitch: 0.00677112)
+-------------------------
+[2025-04-15_22-25-46.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120505, y=0.0688082, Linear Velocity: -0.00227019
+Current yaw: 0.00145935 (roll: -0.012298, pitch: 0.00724476)
+Received Odometry - Position: x=0.119286, y=0.0685324, Linear Velocity: -0.00457143
+Current yaw: 0.000985561 (roll: -0.0129089, pitch: 0.00788772)
+Received Odometry - Position: x=0.117449, y=0.0671219, Linear Velocity: -0.0135902
+Current yaw: 0.000934284 (roll: -0.0130212, pitch: 0.00698545)
+-------------------------
+[2025-04-15_22-25-46.753] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115451, y=0.0663172, Linear Velocity: -0.0171906
+Current yaw: 0.00100753 (roll: -0.0129188, pitch: 0.00719775)
+-------------------------
+[2025-04-15_22-25-46.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115565, y=0.0654785, Linear Velocity: -0.0135753
+Current yaw: 0.0010644 (roll: -0.013641, pitch: 0.00635224)
+-------------------------
+[2025-04-15_22-25-46.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115673, y=0.0661783, Linear Velocity: -0.0108564
+Current yaw: 0.0001888 (roll: -0.0135461, pitch: 0.00668315)
+-------------------------
+[2025-04-15_22-25-47.053] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115622, y=0.0658575, Linear Velocity: -0.00876572
+Current yaw: 0.00100986 (roll: -0.0138609, pitch: 0.00737419)
+-------------------------
+[2025-04-15_22-25-47.153] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11579, y=0.0653021, Linear Velocity: -0.00645087
+Current yaw: 0.000454854 (roll: -0.0134985, pitch: 0.00637309)
+-------------------------
+[2025-04-15_22-25-47.253] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115546, y=0.0661362, Linear Velocity: -0.00575413
+Current yaw: 0.00141915 (roll: -0.0137841, pitch: 0.0066112)
+-------------------------
+[2025-04-15_22-25-47.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119087, y=0.0661523, Linear Velocity: 0.00446773
+Current yaw: -6.12261e-06 (roll: -0.0140216, pitch: 0.00602431)
+-------------------------
+[2025-04-15_22-25-47.453] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-47.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119087, y=0.0681591, Linear Velocity: 0.00356763
+Current yaw: 0.00151828 (roll: -0.0138561, pitch: 0.00706765)
+Received Odometry - Position: x=0.119843, y=0.0686193, Linear Velocity: 0.0047201
+Current yaw: 0.00165418 (roll: -0.0133604, pitch: 0.00682108)
+-------------------------
+[2025-04-15_22-25-47.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.12078, y=0.0690019, Linear Velocity: 0.00544485
+Current yaw: 0.00125826 (roll: -0.0136106, pitch: 0.00612187)
+-------------------------
+[2025-04-15_22-25-47.753] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118985, y=0.0674832, Linear Velocity: -0.00145681
+Current yaw: 0.0010493 (roll: -0.0132139, pitch: 0.00622951)
+-------------------------
+[2025-04-15_22-25-47.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.121075, y=0.0672212, Linear Velocity: 0.0040855
+Current yaw: 0.00112561 (roll: -0.0138363, pitch: 0.00651164)
+-------------------------
+[2025-04-15_22-25-47.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119629, y=0.067046, Linear Velocity: -0.000257746
+Current yaw: 0.00130824 (roll: -0.0132464, pitch: 0.00682775)
+-------------------------
+[2025-04-15_22-25-48.053] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119153, y=0.0665475, Linear Velocity: -0.00187986
+Current yaw: 0.00117718 (roll: -0.0132206, pitch: 0.0063586)
+-------------------------
+[2025-04-15_22-25-48.153] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-48.253] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118316, y=0.0666412, Linear Velocity: -0.00435275
+Current yaw: 0.00138131 (roll: -0.0132781, pitch: 0.00656994)
+Received Odometry - Position: x=0.119168, y=0.0661117, Linear Velocity: -0.00135746
+Current yaw: 0.000954223 (roll: -0.0132858, pitch: 0.00652982)
+-------------------------
+[2025-04-15_22-25-48.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11946, y=0.0671008, Linear Velocity: -0.000862614
+Current yaw: 0.00192556 (roll: -0.0135348, pitch: 0.00693517)
+-------------------------
+[2025-04-15_22-25-48.453] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120084, y=0.0664784, Linear Velocity: 0.000634024
+Current yaw: 0.00147234 (roll: -0.0133888, pitch: 0.00707754)
+-------------------------
+[2025-04-15_22-25-48.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11859, y=0.0662775, Linear Velocity: -0.00370534
+Current yaw: 0.00117607 (roll: -0.0130583, pitch: 0.0063347)
+-------------------------
+[2025-04-15_22-25-48.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119722, y=0.066535, Linear Velocity: -0.000453236
+Current yaw: 0.0013015 (roll: -0.0137542, pitch: 0.00669497)
+-------------------------
+[2025-04-15_22-25-48.753] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119377, y=0.0662956, Linear Velocity: -0.00128555
+Current yaw: 0.0013707 (roll: -0.0136723, pitch: 0.00705199)
+-------------------------
+[2025-04-15_22-25-48.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120502, y=0.0675079, Linear Velocity: 0.00189942
+Current yaw: 0.00191621 (roll: -0.0136443, pitch: 0.00661629)
+-------------------------
+[2025-04-15_22-25-48.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119487, y=0.0679721, Linear Velocity: -0.000711089
+Current yaw: 0.00201159 (roll: -0.0136112, pitch: 0.00697421)
+-------------------------
+[2025-04-15_22-25-49.053] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118751, y=0.067385, Linear Velocity: -0.00285734
+Current yaw: 0.00128262 (roll: -0.0134437, pitch: 0.00681919)
+-------------------------
+[2025-04-15_22-25-49.153] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118738, y=0.0678389, Linear Velocity: -0.00190938
+Current yaw: 0.00170714 (roll: -0.0138324, pitch: 0.00686302)
+-------------------------
+[2025-04-15_22-25-49.253] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120283, y=0.0670781, Linear Velocity: 0.00224578
+Current yaw: 0.00120216 (roll: -0.0135847, pitch: 0.00702764)
+-------------------------
+[2025-04-15_22-25-49.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119317, y=0.0673387, Linear Velocity: -0.000537934
+Current yaw: 0.00178812 (roll: -0.0133595, pitch: 0.00704087)
+-------------------------
+[2025-04-15_22-25-49.453] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120834, y=0.0668379, Linear Velocity: 0.00340289
+Current yaw: 0.00103401 (roll: -0.0133345, pitch: 0.00703321)
+-------------------------
+[2025-04-15_22-25-49.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120607, y=0.0664496, Linear Velocity: 0.00270855
+Current yaw: 0.00127154 (roll: -0.0137501, pitch: 0.00740515)
+-------------------------
+[2025-04-15_22-25-49.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119187, y=0.0668159, Linear Velocity: -0.00125942
+Current yaw: 0.00144113 (roll: -0.0136053, pitch: 0.00692882)
+-------------------------
+[2025-04-15_22-25-49.753] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-49.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118357, y=0.0662913, Linear Velocity: -0.00347509
+Current yaw: 0.00125127 (roll: -0.0135629, pitch: 0.00683754)
+Received Odometry - Position: x=0.11795, y=0.0671303, Linear Velocity: -0.0035197
+Current yaw: 0.00185296 (roll: -0.0133494, pitch: 0.00683311)
+-------------------------
+[2025-04-15_22-25-49.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117299, y=0.0662886, Linear Velocity: -0.0044584
+Current yaw: 0.00148823 (roll: -0.0133567, pitch: 0.00693542)
+-------------------------
+[2025-04-15_22-25-50.053] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-50.153] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117737, y=0.066494, Linear Velocity: -0.00230038
+Current yaw: 0.00161033 (roll: -0.0134902, pitch: 0.00696975)
+Received Odometry - Position: x=0.116454, y=0.0661628, Linear Velocity: -0.00313801
+Current yaw: 0.00125435 (roll: -0.0135056, pitch: 0.00704908)
+-------------------------
+[2025-04-15_22-25-50.253] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-15_22-25-50.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117627, y=0.0659804, Linear Velocity: 0.000263421
+Current yaw: 0.00115236 (roll: -0.0131856, pitch: 0.00682943)
+Received Odometry - Position: x=0.116857, y=0.0661395, Linear Velocity: -0.00256691
+Current yaw: 0.00115418 (roll: -0.0133066, pitch: 0.00723284)
+-------------------------
+[2025-04-15_22-25-50.453] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117541, y=0.0670037, Linear Velocity: 0.000382999
+Current yaw: 0.00131517 (roll: -0.0134833, pitch: 0.00747687)
+-------------------------
+[2025-04-15_22-25-50.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11773, y=0.0668166, Linear Velocity: 0.00129379
+Current yaw: 0.000991192 (roll: -0.012945, pitch: 0.00762219)
+-------------------------
+[2025-04-15_22-25-50.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117982, y=0.0672224, Linear Velocity: 0.00213054
+Current yaw: 0.00176011 (roll: -0.0133064, pitch: 0.00704477)
+-------------------------
+[2025-04-15_22-25-50.753] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117348, y=0.0668851, Linear Velocity: 0.000469788
+Current yaw: 0.00122033 (roll: -0.0134386, pitch: 0.00744526)
+-------------------------
+[2025-04-15_22-25-50.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11721, y=0.0668987, Linear Velocity: 0.000358693
+Current yaw: 0.00143468 (roll: -0.0132918, pitch: 0.0071586)
+-------------------------
+[2025-04-15_22-25-50.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117986, y=0.0675272, Linear Velocity: 0.00191684
+Current yaw: 0.00139459 (roll: -0.012629, pitch: 0.00712027)
+-------------------------
+[2025-04-15_22-25-51.053] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118713, y=0.0672838, Linear Velocity: 0.00317335
+Current yaw: 0.000993977 (roll: -0.0133967, pitch: 0.00697323)
+-------------------------
+[2025-04-15_22-25-51.153] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119655, y=0.0673354, Linear Velocity: 0.00497719
+Current yaw: 0.00130975 (roll: -0.0132152, pitch: 0.00716034)
+-------------------------
+[2025-04-15_22-25-51.253] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.119927, y=0.0678264, Linear Velocity: 0.00493223
+Current yaw: 0.00189853 (roll: -0.0132327, pitch: 0.00747127)
+-------------------------
+[2025-04-15_22-25-51.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120309, y=0.0676931, Linear Velocity: 0.00530814
+Current yaw: 0.00169709 (roll: -0.0131846, pitch: 0.00727052)
+-------------------------
+[2025-04-15_22-25-51.453] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120376, y=0.0681697, Linear Velocity: 0.00451259
+Current yaw: 0.00163703 (roll: -0.0134853, pitch: 0.00689197)
+-------------------------
+[2025-04-15_22-25-51.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.120459, y=0.0686631, Linear Velocity: 0.00389545
+Current yaw: 0.00182133 (roll: -0.0134025, pitch: 0.00714042)
+-------------------------
+[2025-04-15_22-25-51.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117642, y=0.0686852, Linear Velocity: -0.0034098
+Current yaw: 0.00208441 (roll: -0.0133268, pitch: 0.00766326)
+-------------------------
+[2025-04-15_22-25-51.753] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117298, y=0.0691901, Linear Velocity: -0.00295775
+Current yaw: 0.0016841 (roll: -0.0128099, pitch: 0.00698116)
+-------------------------
+[2025-04-15_22-25-51.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117502, y=0.0683826, Linear Velocity: -0.00132724
+Current yaw: 0.00122761 (roll: -0.0132459, pitch: 0.00722844)
+-------------------------
+[2025-04-15_22-25-51.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116343, y=0.0682599, Linear Velocity: -0.00405817
+Current yaw: 0.00123033 (roll: -0.0135728, pitch: 0.00709471)
+-------------------------
+[2025-04-15_22-25-52.053] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115492, y=0.0693329, Linear Velocity: -0.004399
+Current yaw: 0.00147647 (roll: -0.0128557, pitch: 0.00745799)
+-------------------------
+[2025-04-15_22-25-52.153] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115479, y=0.06947, Linear Velocity: -0.00301164
+Current yaw: 0.00141675 (roll: -0.0134113, pitch: 0.00715046)
+-------------------------
+[2025-04-15_22-25-52.253] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115639, y=0.0693333, Linear Velocity: -0.00122458
+Current yaw: 0.00155833 (roll: -0.0131251, pitch: 0.00710235)
+-------------------------
+[2025-04-15_22-25-52.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116761, y=0.0693312, Linear Velocity: 0.00165326
+Current yaw: 0.00148152 (roll: -0.0135161, pitch: 0.00722135)
+-------------------------
+[2025-04-15_22-25-52.453] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11697, y=0.0691775, Linear Velocity: 0.00256351
+Current yaw: 0.00173174 (roll: -0.0130493, pitch: 0.00781347)
+-------------------------
+[2025-04-15_22-25-52.553] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116718, y=0.0682702, Linear Velocity: 0.00195984
+Current yaw: 0.00153165 (roll: -0.0129787, pitch: 0.00731518)
+-------------------------
+[2025-04-15_22-25-52.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116399, y=0.0678566, Linear Velocity: 4.55528e-05
+Current yaw: 0.00173965 (roll: -0.0135867, pitch: 0.0070797)
+-------------------------
+[2025-04-15_22-25-52.753] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116592, y=0.0689288, Linear Velocity: 0.000383499
+Current yaw: 0.00186777 (roll: -0.0136411, pitch: 0.00722665)
+-------------------------
+[2025-04-15_22-25-52.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116748, y=0.0688342, Linear Velocity: 0.00123627
+Current yaw: 0.00196907 (roll: -0.0133353, pitch: 0.00773851)
+-------------------------
+[2025-04-15_22-25-52.953] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115624, y=0.0693878, Linear Velocity: -0.000667994
+Current yaw: 0.0021744 (roll: -0.0128645, pitch: 0.00688921)
+-------------------------
+[2025-04-15_22-25-53.052] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116371, y=0.0694658, Linear Velocity: 0.00178339
+Current yaw: 0.00183999 (roll: -0.0133686, pitch: 0.00712895)
+-------------------------
+[2025-04-15_22-25-53.153] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115835, y=0.0692903, Linear Velocity: 0.000459779
+Current yaw: 0.00216659 (roll: -0.013576, pitch: 0.00741618)
+-------------------------
+[2025-04-15_22-25-53.252] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.114859, y=0.0697421, Linear Velocity: -0.00201124
+Current yaw: 0.00244694 (roll: -0.0132339, pitch: 0.00723628)
+-------------------------
+[2025-04-15_22-25-53.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.114658, y=0.0692583, Linear Velocity: -0.00131702
+Current yaw: 0.00173831 (roll: -0.0130107, pitch: 0.00728421)
+-------------------------
+[2025-04-15_22-25-53.452] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.114475, y=0.069129, Linear Velocity: -0.00132882
+Current yaw: 0.00158282 (roll: -0.013267, pitch: 0.00703419)
+-------------------------
+[2025-04-15_22-25-53.552] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.114806, y=0.0690356, Linear Velocity: -0.000108103
+Current yaw: 0.00208134 (roll: -0.013279, pitch: 0.00742325)
+-------------------------
+[2025-04-15_22-25-53.653] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116023, y=0.0679094, Linear Velocity: 0.00288426
+Current yaw: 0.00102535 (roll: -0.0131905, pitch: 0.00751311)
+-------------------------
+[2025-04-15_22-25-53.752] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.113778, y=0.0673427, Linear Velocity: -0.00232702
+Current yaw: 0.00150146 (roll: -0.0132251, pitch: 0.00800225)
+-------------------------
+[2025-04-15_22-25-53.853] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.114706, y=0.0673868, Linear Velocity: 0.00113055
+Current yaw: 0.00132653 (roll: -0.0132864, pitch: 0.00725421)
+-------------------------
+[2025-04-15_22-25-53.952] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115303, y=0.0685846, Linear Velocity: 0.0022002
+Current yaw: 0.00239452 (roll: -0.0133116, pitch: 0.00736385)
+-------------------------
+[2025-04-15_22-25-54.052] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115278, y=0.0688363, Linear Velocity: 0.00207632
+Current yaw: 0.0021163 (roll: -0.0130654, pitch: 0.00752026)
+-------------------------
+[2025-04-15_22-25-54.152] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115708, y=0.0684257, Linear Velocity: 0.00274954
+Current yaw: 0.00123469 (roll: -0.0131755, pitch: 0.00773329)
+-------------------------
+[2025-04-15_22-25-54.252] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116028, y=0.0691674, Linear Velocity: 0.00311242
+Current yaw: 0.00160662 (roll: -0.0128702, pitch: 0.00707648)
+-------------------------
+[2025-04-15_22-25-54.353] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116372, y=0.0693285, Linear Velocity: 0.00353469
+Current yaw: 0.0019487 (roll: -0.0131, pitch: 0.00775874)
+-------------------------
+[2025-04-15_22-25-54.452] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117894, y=0.0689675, Linear Velocity: 0.00668074
+Current yaw: 0.00168035 (roll: -0.0132932, pitch: 0.00769064)
+-------------------------
+[2025-04-15_22-25-54.552] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118417, y=0.0690382, Linear Velocity: 0.00676241
+Current yaw: 0.00203674 (roll: -0.0131543, pitch: 0.00765507)
+-------------------------
+[2025-04-15_22-25-54.652] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118942, y=0.0685666, Linear Velocity: 0.00686334
+Current yaw: 0.0015788 (roll: -0.0127819, pitch: 0.00710348)
+-------------------------
+[2025-04-15_22-25-54.752] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118305, y=0.0687868, Linear Velocity: 0.00413026
+Current yaw: 0.00174646 (roll: -0.0131384, pitch: 0.00754061)
+-------------------------
+[2025-04-15_22-25-54.852] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116815, y=0.0684494, Linear Velocity: 0.000356837
+Current yaw: 0.00159154 (roll: -0.0133721, pitch: 0.00741772)
+-------------------------
+[2025-04-15_22-25-54.952] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117358, y=0.0690202, Linear Velocity: 0.00223174
+Current yaw: 0.00241386 (roll: -0.013227, pitch: 0.00774768)
+-------------------------
+[2025-04-15_22-25-55.052] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116752, y=0.0696283, Linear Velocity: 0.000716833
+Current yaw: 0.00224019 (roll: -0.0129999, pitch: 0.00753298)
+-------------------------
+[2025-04-15_22-25-55.152] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116255, y=0.0697952, Linear Velocity: -0.000570926
+Current yaw: 0.0021125 (roll: -0.0130126, pitch: 0.00737752)
+-------------------------
+[2025-04-15_22-25-55.252] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117304, y=0.0694196, Linear Velocity: 0.00247621
+Current yaw: 0.00193557 (roll: -0.0130949, pitch: 0.00806474)
+-------------------------
+[2025-04-15_22-25-55.352] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117621, y=0.0681718, Linear Velocity: 0.00302491
+Current yaw: 0.00171036 (roll: -0.0133103, pitch: 0.0074036)
+-------------------------
+[2025-04-15_22-25-55.452] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.118034, y=0.0683964, Linear Velocity: 0.00350814
+Current yaw: 0.00173284 (roll: -0.0131415, pitch: 0.00722572)
+-------------------------
+[2025-04-15_22-25-55.552] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117157, y=0.0688845, Linear Velocity: 0.00122596
+Current yaw: 0.00236228 (roll: -0.0131025, pitch: 0.00750522)
+-------------------------
+[2025-04-15_22-25-55.652] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116628, y=0.0689111, Linear Velocity: -2.33752e-05
+Current yaw: 0.00237385 (roll: -0.0131797, pitch: 0.00768311)
+-------------------------
+[2025-04-15_22-25-55.752] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117317, y=0.0688512, Linear Velocity: 0.00179467
+Current yaw: 0.00232032 (roll: -0.0136187, pitch: 0.00734659)
+-------------------------
+[2025-04-15_22-25-55.852] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.117105, y=0.0687396, Linear Velocity: 0.000913442
+Current yaw: 0.0018152 (roll: -0.0132402, pitch: 0.00726078)
+-------------------------
+[2025-04-15_22-25-55.952] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116752, y=0.069806, Linear Velocity: -8.32394e-05
+Current yaw: 0.00202745 (roll: -0.0128047, pitch: 0.00739772)
+-------------------------
+[2025-04-15_22-25-56.052] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11631, y=0.0690684, Linear Velocity: -0.00131066
+Current yaw: 0.00158446 (roll: -0.0129472, pitch: 0.00730611)
+-------------------------
+[2025-04-15_22-25-56.152] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116, y=0.0685517, Linear Velocity: -0.00148545
+Current yaw: 0.00164224 (roll: -0.0133869, pitch: 0.00766268)
+-------------------------
+[2025-04-15_22-25-56.252] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116768, y=0.0685477, Linear Velocity: 0.00116948
+Current yaw: 0.00157118 (roll: -0.0134737, pitch: 0.00726436)
+-------------------------
+[2025-04-15_22-25-56.352] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115841, y=0.0683816, Linear Velocity: -0.000725919
+Current yaw: 0.00133657 (roll: -0.0128926, pitch: 0.00754132)
+-------------------------
+[2025-04-15_22-25-56.452] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115519, y=0.0694384, Linear Velocity: -0.000520648
+Current yaw: 0.00214173 (roll: -0.0130926, pitch: 0.00759633)
+-------------------------
+[2025-04-15_22-25-56.552] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115362, y=0.068769, Linear Velocity: -0.000608712
+Current yaw: 0.0015334 (roll: -0.0135718, pitch: 0.00768371)
+-------------------------
+[2025-04-15_22-25-56.652] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115788, y=0.0689958, Linear Velocity: 0.000501789
+Current yaw: 0.00231265 (roll: -0.0133042, pitch: 0.007265)
+-------------------------
+[2025-04-15_22-25-56.752] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116776, y=0.0691802, Linear Velocity: 0.00323794
+Current yaw: 0.00163354 (roll: -0.0129127, pitch: 0.00728327)
+-------------------------
+[2025-04-15_22-25-56.852] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.116286, y=0.0692881, Linear Velocity: 0.00129717
+Current yaw: 0.00172238 (roll: -0.0131074, pitch: 0.0076739)
+-------------------------
+[2025-04-15_22-25-56.952] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115723, y=0.0698735, Linear Velocity: -0.00029279
+Current yaw: 0.00237919 (roll: -0.0135315, pitch: 0.00762282)
+-------------------------
+[2025-04-15_22-25-57.052] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.11552, y=0.0700055, Linear Velocity: -0.000961828
+Current yaw: 0.00198481 (roll: -0.0126562, pitch: 0.00735493)
+-------------------------
+[2025-04-15_22-25-57.152] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115228, y=0.0696274, Linear Velocity: -0.00195225
+Current yaw: 0.00153649 (roll: -0.0131131, pitch: 0.00775193)
+-------------------------
+[2025-04-15_22-25-57.252] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.115108, y=0.0696073, Linear Velocity: -0.00204925
+Current yaw: 0.00194883 (roll: -0.0133998, pitch: 0.00736864)
+-------------------------
+[2025-04-15_22-25-57.356] No B-spline trajectory received.
+-------------------------
