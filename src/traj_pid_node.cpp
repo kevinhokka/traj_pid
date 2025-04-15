@@ -115,38 +115,42 @@ struct CommonThresholds {
 };
 
 // ------------------ 轨迹跟踪节点 ------------------
-class TrajPidNode : public rclcpp::Node {
+class TrajPidNode : public rclcpp::Node
+{
 public:
     TrajPidNode()
-        : Node("traj_pid_node"),
+      : Node("traj_pid_node"),
+        // 默认PID
+        pid_position_control_(1, 0, 1),
+        pid_orientation_control_(1.5, 0, 0),
+        pid_velocity_control_(0.75, 0, 1),
+        pid_angular_velocity_control_(1, 0, 0),
+        // 默认的阈值
+        orient_err_sign_threshold_(0.15),
+        orient_sign_change_limit_(2),
+        orient_avg_err_increase_threshold_(0.15),
+        orient_sign_change_small_(0),
+        bridging_done_thresh_(0.2),
+        look_ahead_time_offset_(0.5),
+        k_for_speed_scale_(1.0),
+        alpha_threshold_(M_PI/2),
+        distance_threshold_(0.25)
+    {
+        // 1) 尝试用固定路径读取配置文件
+        std::string config_file = "/home/jetson/ros2_ws/src/traj_pid/src/traj_pid_config.txt";
+        std::ifstream fin(config_file);
 
-          // 先写死默认的 PID 值
-          pid_position_control_(1, 0, 1),  
-          pid_orientation_control_(1.5, 0, 0),
-          pid_velocity_control_(0.75, 0, 1),  
-          pid_angular_velocity_control_(1, 0, 0),
-
-          // 默认的阈值
-          orient_err_sign_threshold_(0.15),
-          orient_sign_change_limit_(2),
-          orient_avg_err_increase_threshold_(0.15),
-          orient_sign_change_small_(0),
-          bridging_done_thresh_(0.2),
-          look_ahead_time_offset_(0.5),
-          k_for_speed_scale_(1.0),
-          alpha_threshold_(M_PI/2),
-          distance_threshold_(0.25),
-
-          target_linear_velocity_(0.0), target_angular_velocity_(0.0),
-          current_linear_velocity_(0.0), current_angular_velocity_(0.0),
-          current_position_x_(0.0), current_position_y_(0.0), current_yaw_(0.0),
-          target_x_(0.0), target_y_(0.0), target_yaw_(0.0)
-    {   
-        // 1) 读取配置文件
+        if (!fin.is_open()) {
+            RCLCPP_ERROR(this->get_logger(), "无法打开配置文件: %s", config_file.c_str());
+            throw std::runtime_error("无法打开配置文件");
+        }
+        
+        // 如果能够打开，就在下面调用你写的loadConfig函数
+        // 注意要把文件流fin传给你的读取逻辑或你可以先读取到一个字符串，再调用原本的逻辑
         PIDParams pos_pid, ori_pid, vel_pid, angvel_pid;
         CommonThresholds thr;
-        bool success = loadConfig("/home/jetson/ros2_ws/src/traj_pid/traj_pid/src/traj_pid_config.txt",
-            pos_pid, ori_pid, vel_pid, angvel_pid, thr);
+        bool success = loadConfig(config_file, pos_pid, ori_pid, vel_pid, angvel_pid, thr);
+
         if (!success) {
             RCLCPP_WARN(this->get_logger(), "无法从 traj_pid_config.txt 读取完整参数，将使用构造里的默认值");
         } else {
@@ -161,7 +165,6 @@ public:
             orient_sign_change_limit_          = thr.orient_sign_change_limit;
             orient_avg_err_increase_threshold_ = thr.orient_avg_err_increase_threshold;
             orient_sign_change_small_          = thr.orient_sign_change_small;
-
             bridging_done_thresh_              = thr.bridging_done_thresh;
             look_ahead_time_offset_            = thr.look_ahead_time_offset;
             k_for_speed_scale_                 = thr.k_for_speed_scale;

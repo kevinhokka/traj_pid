@@ -1,0 +1,57 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 1, I: 0, D: 1
+Orientation PID: P: 1.5, I: 0, D: 0
+Linear Velocity PID: P: 0.75, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+Thresholds & offsets: 
+ orient_err_sign_threshold=0.15
+ orient_sign_change_limit=2
+ orient_avg_err_increase_threshold=0.15
+ orient_sign_change_small=0
+ bridging_done_thresh=0.2
+ look_ahead_time_offset=0.5
+ k_for_speed_scale=1
+ alpha_threshold=1.5708
+ distance_threshold=0.25
+-------------------------
+-------------------------
+[2025-04-16_00-21-37.436] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-37.536] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-37.636] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-37.735] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-37.835] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-37.936] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.035] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.136] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.236] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.336] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.436] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.536] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-21-38.636] No B-spline trajectory received.
+-------------------------

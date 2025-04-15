@@ -1,0 +1,72 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 1, I: 0, D: 1
+Orientation PID: P: 2, I: 0, D: 2
+Linear Velocity PID: P: 0.75, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+Thresholds & offsets: 
+ orient_err_sign_threshold=0.1
+ orient_sign_change_limit=1
+ orient_avg_err_increase_threshold=0.3
+ orient_sign_change_small=2
+ bridging_done_thresh=0.2
+ look_ahead_time_offset=0.5
+ k_for_speed_scale=1
+ alpha_threshold=1.5708
+ distance_threshold=0.25
+-------------------------
+-------------------------
+[2025-04-16_00-31-52.566] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-52.665] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-52.765] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-52.866] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-52.965] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.065] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.165] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.265] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.365] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.465] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.565] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.665] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.766] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.865] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-53.965] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-54.065] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-54.165] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-16_00-31-54.265] No B-spline trajectory received.
+-------------------------
