@@ -50,7 +50,9 @@ public:
     }
 
     void print_parameters() const {
-        std::cout << "PID Parameters - P: " << p_gain << ", I: " << i_gain << ", D: " << d_gain << std::endl;
+        std::cout << "PID Parameters - P: " << p_gain
+                  << ", I: " << i_gain
+                  << ", D: " << d_gain << std::endl;
     }
 
     std::string get_parameters_str() const {
@@ -63,9 +65,9 @@ public:
         p_gain = p;
         i_gain = i;
         d_gain = d;
-        // 如果每次修改需要清理积分，可在此处清理:
-        // integral = 0;
-        // prev_error = 0;
+        // 如果需要重置积分，可在这里进行：
+        // integral = 0.0;
+        // prev_error = 0.0;
     }
 
     double getP() const { return p_gain; }
@@ -101,6 +103,11 @@ struct CommonThresholds {
     double alpha_threshold;
     double distance_threshold;
 
+    // 新增：三项可配置参数
+    int    orient_err_queue_size;  // 历史误差队列长度
+    double max_linear_speed;       // 最大线速度
+    double max_angular_speed;      // 最大角速度
+
     CommonThresholds()
         : orient_err_sign_threshold(0.05),
           orient_sign_change_limit(5),
@@ -110,7 +117,11 @@ struct CommonThresholds {
           look_ahead_time_offset(0.5),
           k_for_speed_scale(1.0),
           alpha_threshold(M_PI/2),
-          distance_threshold(0.25)
+          distance_threshold(0.25),
+          // 给新增三个参数设个默认值
+          orient_err_queue_size(100),
+          max_linear_speed(0.6),
+          max_angular_speed(1.0)
     {}
 };
 
@@ -120,12 +131,12 @@ class TrajPidNode : public rclcpp::Node
 public:
     TrajPidNode()
       : Node("traj_pid_node"),
-        // 默认PID
+        // 默认PID（若没从文件读到，使用这些）
         pid_position_control_(1, 0, 1),
         pid_orientation_control_(1.5, 0, 0),
         pid_velocity_control_(0.75, 0, 1),
         pid_angular_velocity_control_(1, 0, 0),
-        // 默认的阈值
+        // 默认阈值
         orient_err_sign_threshold_(0.15),
         orient_sign_change_limit_(2),
         orient_avg_err_increase_threshold_(0.15),
@@ -134,9 +145,13 @@ public:
         look_ahead_time_offset_(0.5),
         k_for_speed_scale_(1.0),
         alpha_threshold_(M_PI/2),
-        distance_threshold_(0.25)
+        distance_threshold_(0.25),
+        // 新增三项默认值
+        orient_err_queue_size_(100),
+        max_linear_speed_(0.6),
+        max_angular_speed_(1.0)
     {
-        // 1) 尝试用固定路径读取配置文件
+        // 固定路径读取配置文件
         std::string config_file = "/home/jetson/ros2_ws/src/traj_pid/src/traj_pid_config.txt";
         std::ifstream fin(config_file);
 
@@ -145,14 +160,13 @@ public:
             throw std::runtime_error("无法打开配置文件");
         }
         
-        // 如果能够打开，就在下面调用你写的loadConfig函数
-        // 注意要把文件流fin传给你的读取逻辑或你可以先读取到一个字符串，再调用原本的逻辑
         PIDParams pos_pid, ori_pid, vel_pid, angvel_pid;
         CommonThresholds thr;
         bool success = loadConfig(config_file, pos_pid, ori_pid, vel_pid, angvel_pid, thr);
 
         if (!success) {
-            RCLCPP_WARN(this->get_logger(), "无法从 traj_pid_config.txt 读取完整参数，将使用构造里的默认值");
+            RCLCPP_WARN(this->get_logger(),
+                        "无法从 traj_pid_config.txt 读取完整参数，将使用构造里的默认值");
         } else {
             // 覆盖PID
             pid_position_control_.set_gains(pos_pid.p, pos_pid.i, pos_pid.d);
@@ -170,19 +184,26 @@ public:
             k_for_speed_scale_                 = thr.k_for_speed_scale;
             alpha_threshold_                   = thr.alpha_threshold;
             distance_threshold_                = thr.distance_threshold;
+
+            // 新增：覆盖三项新参数
+            orient_err_queue_size_             = thr.orient_err_queue_size;
+            max_linear_speed_                  = thr.max_linear_speed;
+            max_angular_speed_                 = thr.max_angular_speed;
         }
 
-        // 保留你原有的日志和注释
+        // 日志文件目录
         std::string log_dir = "/home/jetson/ros2_ws/src/traj_pid/traj_pid_log";
         if (!std::filesystem::exists(log_dir)) {
             std::filesystem::create_directory(log_dir);
         }
 
+        // 打开日志文件
         std::string log_filename = log_dir + "/" + get_current_time_str() + ".txt";
         log_file_.open(log_filename, std::ios::out);
 
         if (!log_file_.is_open()) {
-            RCLCPP_ERROR(this->get_logger(), "无法打开日志文件: %s", log_filename.c_str());
+            RCLCPP_ERROR(this->get_logger(),
+                         "无法打开日志文件: %s", log_filename.c_str());
             throw std::runtime_error("无法打开日志文件");
         }
 
@@ -195,7 +216,7 @@ public:
         log_file_ << "Angular Velocity PID: " << pid_angular_velocity_control_.get_parameters_str() << std::endl;
         log_file_ << "-------------------------" << std::endl;
 
-        // 也记录一下阈值
+        // 记录阈值
         log_file_ << "Thresholds & offsets: \n";
         log_file_ << " orient_err_sign_threshold=" << orient_err_sign_threshold_ << "\n";
         log_file_ << " orient_sign_change_limit=" << orient_sign_change_limit_ << "\n";
@@ -206,31 +227,42 @@ public:
         log_file_ << " k_for_speed_scale=" << k_for_speed_scale_ << "\n";
         log_file_ << " alpha_threshold=" << alpha_threshold_ << "\n";
         log_file_ << " distance_threshold=" << distance_threshold_ << "\n";
+        // 新增：输出另外三项
+        log_file_ << " orient_err_queue_size=" << orient_err_queue_size_ << "\n";
+        log_file_ << " max_linear_speed=" << max_linear_speed_ << "\n";
+        log_file_ << " max_angular_speed=" << max_angular_speed_ << "\n";
         log_file_ << "-------------------------" << std::endl;
 
         RCLCPP_INFO(this->get_logger(), "Logging to file: %s", log_filename.c_str());
 
+        // 订阅
         odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
-            "/fastlio2/lio_odom", 10, std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
+            "/fastlio2/lio_odom", 10,
+            std::bind(&TrajPidNode::odom_callback, this, std::placeholders::_1));
 
         imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
-            "/livox/imu", 10, std::bind(&TrajPidNode::imu_callback, this, std::placeholders::_1));
+            "/livox/imu", 10,
+            std::bind(&TrajPidNode::imu_callback, this, std::placeholders::_1));
 
         bspline_subscription_ = this->create_subscription<planner::msg::Bspline>(
-            "/bspline", 10, std::bind(&TrajPidNode::bspline_callback, this, std::placeholders::_1));
+            "/bspline", 10,
+            std::bind(&TrajPidNode::bspline_callback, this, std::placeholders::_1));
 
+        // 发布
         cmd_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+
+        // 定时器
+        control_timer_ = this->create_wall_timer(
+            std::chrono::milliseconds(100),  // 10Hz
+            std::bind(&TrajPidNode::control_loop, this));
 
         RCLCPP_INFO(this->get_logger(), "PID 轨迹跟踪节点已启动");
 
+        // 控制台输出各PID
         pid_position_control_.print_parameters();
         pid_orientation_control_.print_parameters();
         pid_velocity_control_.print_parameters();
         pid_angular_velocity_control_.print_parameters();
-
-        control_timer_ = this->create_wall_timer(
-            std::chrono::milliseconds(100),  // 10Hz
-            std::bind(&TrajPidNode::control_loop, this));
     }
 
     ~TrajPidNode() {
@@ -327,16 +359,33 @@ private:
                     if(key=="D") angvel_pid.d = dval;
                     break;
                 case THRESHOLDS:
-                    if(key=="orient_err_sign_threshold") thr.orient_err_sign_threshold = dval;
-                    if(key=="orient_sign_change_limit")   thr.orient_sign_change_limit  = static_cast<int>(dval);
-                    if(key=="orient_avg_err_increase_threshold") thr.orient_avg_err_increase_threshold = dval;
-                    if(key=="orient_sign_change_small")   thr.orient_sign_change_small  = static_cast<int>(dval);
+                    if(key=="orient_err_sign_threshold")
+                        thr.orient_err_sign_threshold = dval;
+                    if(key=="orient_sign_change_limit")
+                        thr.orient_sign_change_limit  = static_cast<int>(dval);
+                    if(key=="orient_avg_err_increase_threshold")
+                        thr.orient_avg_err_increase_threshold = dval;
+                    if(key=="orient_sign_change_small")
+                        thr.orient_sign_change_small  = static_cast<int>(dval);
 
-                    if(key=="bridging_done_thresh")       thr.bridging_done_thresh = dval;
-                    if(key=="look_ahead_time_offset")     thr.look_ahead_time_offset = dval;
-                    if(key=="k_for_speed_scale")          thr.k_for_speed_scale = dval;
-                    if(key=="alpha_threshold")            thr.alpha_threshold = dval;
-                    if(key=="distance_threshold")         thr.distance_threshold = dval;
+                    if(key=="bridging_done_thresh")
+                        thr.bridging_done_thresh = dval;
+                    if(key=="look_ahead_time_offset")
+                        thr.look_ahead_time_offset = dval;
+                    if(key=="k_for_speed_scale")
+                        thr.k_for_speed_scale = dval;
+                    if(key=="alpha_threshold")
+                        thr.alpha_threshold = dval;
+                    if(key=="distance_threshold")
+                        thr.distance_threshold = dval;
+
+                    // 新增：读取三个可配置参数
+                    if(key=="orient_err_queue_size")
+                        thr.orient_err_queue_size = static_cast<int>(dval);
+                    if(key=="max_linear_speed")
+                        thr.max_linear_speed      = dval;
+                    if(key=="max_angular_speed")
+                        thr.max_angular_speed     = dval;
                     break;
                 default:
                     break;
@@ -359,7 +408,10 @@ private:
     };
 
     friend std::ostream& operator<<(std::ostream& os, const ControlPoint& cp) {
-        os << "(x: " << cp.x << ", y: " << cp.y << ", yaw: " << cp.yaw << ", time: " << cp.time << ")";
+        os << "(x: " << cp.x
+           << ", y: " << cp.y
+           << ", yaw: " << cp.yaw
+           << ", time: " << cp.time << ")";
         return os;
     };
 
@@ -417,7 +469,7 @@ private:
     double next_traj_duration_ = 0.0;
 
     // ============== 历史误差队列 ==============
-    static const size_t ORIENT_ERR_QUEUE_SIZE_ = 100; 
+    // 改用配置文件中的值来限制队列大小
     std::deque<double> orient_err_queue_;
 
     // ============== 以下是原本写死的阈值，改成成员变量，从文件读 ==============
@@ -430,7 +482,12 @@ private:
     double look_ahead_time_offset_;           
     double k_for_speed_scale_;                
     double alpha_threshold_;                  
-    double distance_threshold_;               
+    double distance_threshold_;
+
+    // 新增：三个可配置参数
+    int    orient_err_queue_size_;  // 历史误差队列长度
+    double max_linear_speed_;       // 最大线速度
+    double max_angular_speed_;      // 最大角速度
 
 private:
     // ------------------ 回调：IMU ------------------
@@ -441,14 +498,6 @@ private:
         }
         imu_received_ = true;
         current_angular_velocity_ = msg->angular_velocity.z;
-
-        // if (log_file_.is_open()) {
-        //     const auto &ang = msg->angular_velocity;
-        //     log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
-        //               << msg->header.stamp.nanosec 
-        //               << " Received IMU Angular Velocity - ["
-        //               << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
-        // }
     }
 
     // ------------------ 回调：里程计 ------------------
@@ -468,23 +517,27 @@ private:
         double roll, pitch;
         tf2::Matrix3x3(quat).getRPY(roll, pitch, current_yaw_);
 
+        // 传感器安装偏移
         double sensor_offset_x = -0.12; 
         double sensor_offset_y = -0.07; 
 
-        current_position_x_ = sensor_x - (std::cos(current_yaw_) * sensor_offset_x 
-                                   - std::sin(current_yaw_) * sensor_offset_y);
-        current_position_y_ = sensor_y - (std::sin(current_yaw_) * sensor_offset_x 
-                                   + std::cos(current_yaw_) * sensor_offset_y);
+        current_position_x_ = sensor_x
+            - (std::cos(current_yaw_) * sensor_offset_x
+            -  std::sin(current_yaw_) * sensor_offset_y);
 
+        current_position_y_ = sensor_y
+            - (std::sin(current_yaw_) * sensor_offset_x
+            +  std::cos(current_yaw_) * sensor_offset_y);
+
+        // 考虑本体旋转带来的线速度补偿
         current_linear_velocity_ = sensor_linear_vel + current_angular_velocity_ * sensor_offset_y;
 
         log_file_ << "Received Odometry - Position: x=" << current_position_x_
                   << ", y=" << current_position_y_
                   << ", Linear Velocity: " << current_linear_velocity_
                   << std::endl;
-
-        log_file_ << "Current yaw: " << current_yaw_ 
-                  << " (roll: " << roll << ", pitch: " << pitch << ")" 
+        log_file_ << "Current yaw: " << current_yaw_
+                  << " (roll: " << roll << ", pitch: " << pitch << ")"
                   << std::endl;
     }
 
@@ -560,15 +613,14 @@ private:
 
             // 不立即 receive_traj_=true，不清空队列，也不停止
             log_file_ << "[" << current_time << "] B-spline不连续, bridging to ("
-                      << bridging_x_ << ", " << bridging_y_ << "), dist="
-                      << std::hypot(bridging_x_ - current_position_x_, 
+                      << bridging_x_ << ", " << bridging_y_
+                      << "), dist="
+                      << std::hypot(bridging_x_ - current_position_x_,
                                     bridging_y_ - current_position_y_)
                       << std::endl;
-
         } else {
             // 正常连续 => 直接赋值
-            bridging_ = false; // 万一之前在bridging，这里取消
-            // 正常加载
+            bridging_ = false; // 万一之前在 bridging，这里取消
             start_time_ = std::chrono::system_clock::now();
             traj_.clear();
             traj_.push_back(pos_traj);
@@ -580,8 +632,10 @@ private:
             traj_duration_ = new_traj_duration;
             receive_traj_ = true;
 
-            log_file_ << "[" << current_time << "] Received Bspline message - pos_pts size: " 
-                      << msg->pos_pts.size() << ", yaw_pts size: " << msg->yaw_pts.size() 
+            log_file_ << "[" << current_time
+                      << "] Received Bspline message - pos_pts size: "
+                      << msg->pos_pts.size()
+                      << ", yaw_pts size: " << msg->yaw_pts.size()
                       << ", order=" << msg->order << std::endl;
 
             log_file_ << "----- Control Points -----" << std::endl;
@@ -609,10 +663,9 @@ private:
             double dy = bridging_y_ - current_position_y_;
             double dist = std::sqrt(dx*dx + dy*dy);
 
-            // 用位置PID
             double bridging_angle = std::atan2(dy, dx);
             double alpha = bridging_angle - current_yaw_;
-            while (alpha > M_PI) alpha -= 2.0*M_PI;
+            while (alpha > M_PI)  alpha -= 2.0*M_PI;
             while (alpha < -M_PI) alpha += 2.0*M_PI;
 
             double linear_cmd = pid_position_control_.compute(dist, 0.0);
@@ -623,13 +676,11 @@ private:
                 linear_cmd = 0.0;
             }
 
-            // 简单限幅
-            const double max_linear_speed = 0.6;
-            const double max_angular_speed = 1.0;
-            if (linear_cmd > max_linear_speed) linear_cmd = max_linear_speed;
-            if (linear_cmd < -max_linear_speed) linear_cmd = -max_linear_speed;
-            if (orient_cmd > max_angular_speed) orient_cmd = max_angular_speed;
-            if (orient_cmd < -max_angular_speed) orient_cmd = -max_angular_speed;
+            // 用配置文件中的限幅
+            if (linear_cmd >  max_linear_speed_)  linear_cmd =  max_linear_speed_;
+            if (linear_cmd < -max_linear_speed_)  linear_cmd = -max_linear_speed_;
+            if (orient_cmd >  max_angular_speed_) orient_cmd =  max_angular_speed_;
+            if (orient_cmd < -max_angular_speed_) orient_cmd = -max_angular_speed_;
 
             geometry_msgs::msg::Twist cmd_msg;
             cmd_msg.linear.x  = linear_cmd;
@@ -638,8 +689,10 @@ private:
 
             // 记录日志
             log_file_ << "-------------------------" << std::endl;
-            log_file_ << "[" << get_current_time_str() << "] bridging_ to("
-                      << bridging_x_ << "," << bridging_y_ << "), dist=" << dist
+            log_file_ << "[" << get_current_time_str()
+                      << "] bridging_ to("
+                      << bridging_x_ << "," << bridging_y_
+                      << "), dist=" << dist
                       << ", bridging_angle=" << bridging_angle
                       << std::endl;
             log_file_ << "-- PID Output: Linear Velocity: " << linear_cmd
@@ -647,7 +700,8 @@ private:
             log_file_ << "Linear Velocity Target: " << linear_cmd
                       << ", Angular Velocity Target: " << orient_cmd << std::endl;
             log_file_ << "Target Position - x: " << bridging_x_
-                      << ", y: " << bridging_y_ << ", yaw: " << bridging_angle << std::endl;
+                      << ", y: " << bridging_y_
+                      << ", yaw: " << bridging_angle << std::endl;
             log_file_ << "Current Position - x: " << current_position_x_
                       << ", y: " << current_position_y_
                       << ", Current Yaw: " << current_yaw_ << std::endl;
@@ -670,13 +724,14 @@ private:
                 start_time_ = std::chrono::system_clock::now();
                 receive_traj_ = true;
 
-                log_file_ << "[" << get_current_time_str() << "] bridging done, now use new B-spline, duration="
+                log_file_ << "[" << get_current_time_str()
+                          << "] bridging done, now use new B-spline, duration="
                           << traj_duration_ << std::endl;
             }
-            return; 
+            return;
         }
 
-        // 如果没有轨迹，就打印日志然后退出
+        // 没有轨迹就打印日志
         if (!receive_traj_) {
             std::string current_time = get_current_time_str();
             log_file_ << "-------------------------" << std::endl;
@@ -685,12 +740,12 @@ private:
             return;
         }
 
-        // 计算轨迹时间
+        // 计算当前执行的时间
         auto now_tp = std::chrono::system_clock::now();
         double t_diff = std::chrono::duration_cast<std::chrono::duration<double>>(
                             now_tp - start_time_).count();
 
-        // 如果超过持续时间，则做尾部对齐
+        // 如果超过持续时间，则进行尾部对齐
         if (t_diff > traj_duration_) {
             double final_yaw = traj_[3].evaluateDeBoor(traj_duration_)(0);
             double yaw_error = final_yaw - current_yaw_;
@@ -704,17 +759,20 @@ private:
                 cmd_msg.linear.x  = 0.0;
                 cmd_msg.angular.z = yaw_align_cmd;
                 cmd_publisher_->publish(cmd_msg);
-                log_file_ << "[" << get_current_time_str() << "] Aligning yaw: final_yaw = " 
-                          << final_yaw << ", current_yaw = " << current_yaw_ 
-                          << ", yaw_error = " << yaw_error 
+                log_file_ << "[" << get_current_time_str()
+                          << "] Aligning yaw: final_yaw = "
+                          << final_yaw << ", current_yaw = " << current_yaw_
+                          << ", yaw_error = " << yaw_error
                           << ", yaw_align_cmd = " << yaw_align_cmd << std::endl;
             } else {
                 geometry_msgs::msg::Twist cmd_msg;
                 cmd_msg.linear.x  = 0.0;
                 cmd_msg.angular.z = 0.0;
                 cmd_publisher_->publish(cmd_msg);
-                log_file_ << "[" << get_current_time_str() << "] Yaw aligned (error " 
-                          << yaw_error << " < threshold), stopping robot." << std::endl;
+                log_file_ << "[" << get_current_time_str()
+                          << "] Yaw aligned (error "
+                          << yaw_error << " < threshold), stopping robot."
+                          << std::endl;
                 receive_traj_ = false;
             }
             return;
@@ -729,7 +787,7 @@ private:
         // 从轨迹评估目标
         Eigen::Vector3d pos = traj_[0].evaluateDeBoor(t_target);
         Eigen::Vector3d vel = traj_[1].evaluateDeBoor(t_diff);
-        double yaw = traj_[3].evaluateDeBoor(t_target)(0);
+        double yaw     = traj_[3].evaluateDeBoor(t_target)(0);
         double yaw_dot = traj_[4].evaluateDeBoor(t_target)(0);
 
         target_x_ = pos(0);
@@ -751,9 +809,9 @@ private:
 
         double abs_alpha = std::fabs(alpha);
 
-        // 如果距离小于 distance_threshold_，直接用轨迹自带 yaw
+        // 如果距离过小，就直接用轨迹自带 yaw（示例逻辑）
         double ori_x = 0.0;  
-        double ori_y = 0.0;  
+        double ori_y = 0.0;
         double ori_dx = target_x_ - ori_x;
         double ori_dy = target_y_ - ori_y;
         double traj_distance = std::sqrt(ori_dx*ori_dx + ori_dy*ori_dy);
@@ -766,56 +824,56 @@ private:
         double e_forward = distance * std::cos(alpha);
 
         // 计算 PID
-        double pos_pid = pid_position_control_.compute(distance, 0.0);
-        double orient_pid = pid_orientation_control_.compute(alpha, 0.0);
+        double pos_pid     = pid_position_control_.compute(distance, 0.0);
+        double orient_pid  = pid_orientation_control_.compute(alpha, 0.0);
 
-        double error_linear_vel = current_linear_velocity_ - previous_linear_cmd_;
+        double error_linear_vel  = current_linear_velocity_  - previous_linear_cmd_;
         double error_angular_vel = current_angular_velocity_ - previous_angular_cmd_;
 
-        double linear_vel_pid = pid_velocity_control_.compute(error_linear_vel, 0);
+        double linear_vel_pid  = pid_velocity_control_.compute(error_linear_vel, 0);
         double angular_vel_pid = pid_angular_velocity_control_.compute(error_angular_vel, 0);
 
-        // 我们暂时直接用 pos_pid 当线速度
-        double linear_cmd = pos_pid;
+        // 暂时直接用 pos_pid 当线速度
+        double linear_cmd  = pos_pid;
         double angular_cmd = orient_pid;
 
-        // 若航向误差太大(> alpha_threshold_) => 原地转向
-        if (std::fabs(alpha) > alpha_threshold_) {
+        // 若航向误差过大(> alpha_threshold_) => 原地转向
+        if (abs_alpha > alpha_threshold_) {
             linear_cmd = 0.0;
         }
 
-        // 对线速度做一个基于航向误差的衰减
+        // 基于航向误差，对线速度做个衰减
         double speed_scale = std::exp(-k_for_speed_scale_ * abs_alpha * abs_alpha);
         linear_cmd *= speed_scale;
 
-        // 限幅
-        const double max_linear_speed = 0.6;
-        const double max_angular_speed = 1.0;
-        if (linear_cmd >  max_linear_speed)  linear_cmd =  max_linear_speed;
-        if (linear_cmd < -max_linear_speed)  linear_cmd = -max_linear_speed;
-        if (angular_cmd >  max_angular_speed)  angular_cmd =  max_angular_speed;
-        if (angular_cmd < -max_angular_speed)  angular_cmd = -max_angular_speed;
+        // 用配置文件中的最大速度限幅
+        if (linear_cmd >  max_linear_speed_)   linear_cmd =  max_linear_speed_;
+        if (linear_cmd < -max_linear_speed_)   linear_cmd = -max_linear_speed_;
+        if (angular_cmd > max_angular_speed_)  angular_cmd =  max_angular_speed_;
+        if (angular_cmd < -max_angular_speed_) angular_cmd = -max_angular_speed_;
 
-        previous_linear_cmd_ = linear_cmd;
+        previous_linear_cmd_  = linear_cmd;
         previous_angular_cmd_ = angular_cmd;
 
         // ---- 日志输出 (保持原样) ----
         std::string position_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
-            ? ("x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_))
+            ? ("x: " + std::to_string(current_position_x_)
+               + ", y: " + std::to_string(current_position_y_))
             : "NA";
         std::string yaw_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
             ? ("Current Yaw: " + std::to_string(current_yaw_))
             : "NA";
         std::string target_position_str = receive_traj_
-            ? ("Target Position - x: " + std::to_string(target_x_) + ", y: " + std::to_string(target_y_))
+            ? ("Target Position - x: " + std::to_string(target_x_)
+               + ", y: " + std::to_string(target_y_))
             : "NA";
         std::string target_yaw_str = receive_traj_
             ? ("Target Yaw: " + std::to_string(target_yaw_))
             : "NA";
-        std::string actual_linear_velocity_str = (current_linear_velocity_ != 0) 
-            ? std::to_string(current_linear_velocity_) : "NA";
-        std::string actual_angular_velocity_str = (current_angular_velocity_ != 0) 
-            ? std::to_string(current_angular_velocity_) : "NA";
+        std::string actual_linear_velocity_str  =
+            (current_linear_velocity_ != 0) ? std::to_string(current_linear_velocity_) : "NA";
+        std::string actual_angular_velocity_str =
+            (current_angular_velocity_ != 0) ? std::to_string(current_angular_velocity_) : "NA";
 
         log_file_ << "-------------------------" << std::endl;
         log_file_ << "[" << get_current_time_str() << "] Selected control point: "
@@ -827,7 +885,8 @@ private:
         log_file_ << "Linear Velocity Target: " << linear_cmd
                   << ", Angular Velocity Target: " << angular_cmd << std::endl;
         log_file_ << target_position_str << ", " << target_yaw_str << std::endl;
-        log_file_ << "Current Position - " << position_str << ", " << yaw_str << std::endl;
+        log_file_ << "Current Position - " << position_str
+                  << ", " << yaw_str << std::endl;
         log_file_ << "--Distance to Target (abs): " << distance << std::endl;
         log_file_ << "--Position ERROR (signed): " << e_forward << std::endl;
         log_file_ << "--Orientation ERROR: " << alpha << std::endl;
@@ -843,11 +902,14 @@ private:
         cmd_publisher_->publish(cmd_msg);
 
         // =================== 更复杂的航向PID自适应逻辑 ===================
+        // 推入队列
         orient_err_queue_.push_back(alpha);
-        if (orient_err_queue_.size() > ORIENT_ERR_QUEUE_SIZE_) {
-            orient_err_queue_.pop_front(); 
+        // 如果超过配置文件里设定的队列长度，就pop_front()
+        if (orient_err_queue_.size() > static_cast<size_t>(orient_err_queue_size_)) {
+            orient_err_queue_.pop_front();
         }
 
+        // 统计反转次数
         auto count_sign_changes = [this]() {
             int sign_changes = 0;
             int last_sign = 0;
@@ -865,6 +927,7 @@ private:
 
         int sc_count = count_sign_changes();
 
+        // 计算平均误差
         double sum_err = 0.0;
         for (auto &val : orient_err_queue_) {
             sum_err += std::fabs(val);
@@ -878,7 +941,7 @@ private:
         double currI = pid_orientation_control_.getI();
         double currD = pid_orientation_control_.getD();
 
-        // 1) 震荡 => 减P增D
+        // 1) 如果震荡 => 减P增D
         if (sc_count >= orient_sign_change_limit_) {
             double newP = currP - 0.05;
             if (newP < 0.0) newP = 0.0;
@@ -887,54 +950,64 @@ private:
 
             pid_orientation_control_.set_gains(newP, currI, newD);
 
-            log_file_ << "[" << get_current_time_str() << "] Orientation sign changes = "
+            log_file_ << "[" << get_current_time_str()
+                      << "] Orientation sign changes = "
                       << sc_count << ", reduce P from " << currP << " to " << newP
                       << ", increase D from " << currD << " to " << newD
                       << ", avg_err = " << avg_err << std::endl;
         }
         // 2) 平均误差大 => 增P
-        else if (avg_err > orient_avg_err_increase_threshold_ && sc_count <= orient_sign_change_small_) {
+        else if (avg_err > orient_avg_err_increase_threshold_
+                 && sc_count <= orient_sign_change_small_) {
             double newP = currP + 0.03;
             if (newP > 10.0) newP = 10.0;
 
             pid_orientation_control_.set_gains(newP, currI, currD);
 
-            log_file_ << "[" << get_current_time_str() << "] High avg orient error = "
-                      << avg_err << ", sign changes = " << sc_count
+            log_file_ << "[" << get_current_time_str()
+                      << "] High avg orient error = " << avg_err
+                      << ", sign changes = " << sc_count
                       << ", increase P from " << currP << " to " << newP
                       << " (D stays " << currD << "), I=" << currI << std::endl;
         }
-        // 3) 长时间同向 => 加 I
+        // 3) 长时间同向 => 加I
         else if (avg_err > 0.2 && sc_count == 0) {
             double newI = currI + 0.001; 
             if (newI > 0.5) newI = 0.5;
 
             pid_orientation_control_.set_gains(currP, newI, currD);
 
-            log_file_ << "[" << get_current_time_str() << "] Sustained same-direction error, increase I from "
+            log_file_ << "[" << get_current_time_str()
+                      << "] Sustained same-direction error, increase I from "
                       << currI << " to " << newI
                       << ", P=" << currP << ", D=" << currD << std::endl;
         }
-        // 4) 频繁反转且积分很大 => 减 I 并清理
-        else if (sc_count > 3 && std::fabs(pid_orientation_control_.getIntegral()) > 30.0) {
+        // 4) 频繁反转且积分很大 => 减I并清理
+        else if (sc_count > 3
+                 && std::fabs(pid_orientation_control_.getIntegral()) > 30.0) {
             double newI = currI - 0.002;
             if (newI < 0.0) newI = 0.0;
             pid_orientation_control_.setIntegral(0.0);
             pid_orientation_control_.set_gains(currP, newI, currD);
 
-            log_file_ << "[" << get_current_time_str() << "] Sign changes + large integral => reduce I from "
-                      << currI << " to " << newI << " and reset integral to 0."
+            log_file_ << "[" << get_current_time_str()
+                      << "] Sign changes + large integral => reduce I from "
+                      << currI << " to " << newI
+                      << " and reset integral to 0."
                       << ", P=" << currP << ", D=" << currD << std::endl;
         }
-        // 其他情况就先不动
+        // 其他情况不动
 
-        // 打印当前 orientation PID
+        // 最后打印当前 orientation PID
         {
             double pOri = pid_orientation_control_.getP();
             double iOri = pid_orientation_control_.getI();
             double dOri = pid_orientation_control_.getD();
-            log_file_ << "[" << get_current_time_str() << "] Current orientation PID: "
-                      << "P = " << pOri << ", I = " << iOri << ", D = " << dOri << std::endl;
+            log_file_ << "[" << get_current_time_str()
+                      << "] Current orientation PID: "
+                      << "P = " << pOri
+                      << ", I = " << iOri
+                      << ", D = " << dOri << std::endl;
         }
         log_file_ << "-------------------------" << std::endl;
     }

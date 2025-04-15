@@ -9,9 +9,9 @@ I=0.0
 D=2.0
 
 [pid_velocity_control]
-P=0.75
+P=2
 I=0.0
-D=1.0
+D=2
 
 [pid_angular_velocity_control]
 P=1.0
@@ -20,12 +20,16 @@ D=0.0
 
 [thresholds] 
 orient_err_sign_threshold=0.1
-orient_sign_change_limit=1
+orient_sign_change_limit=2
 orient_avg_err_increase_threshold=0.3
 orient_sign_change_small_=0
 
 bridging_done_thresh=0.2
-look_ahead_time_offset=0.5
-k_for_speed_scale=1.0
+look_ahead_time_offset=0
+k_for_speed_scale=4.0
 alpha_threshold=1.5708
 distance_threshold=0.25
+
+orient_err_queue_size     = 50
+max_linear_speed          = 1.0
+max_angular_speed         = 1.0
