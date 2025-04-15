@@ -122,15 +122,15 @@ public:
 
           // 先写死默认的 PID 值
           pid_position_control_(1, 0, 1),  
-          pid_orientation_control_(0.75, 0, 0),
+          pid_orientation_control_(1.5, 0, 0),
           pid_velocity_control_(0.75, 0, 1),  
           pid_angular_velocity_control_(1, 0, 0),
 
           // 默认的阈值
-          orient_err_sign_threshold_(0.05),
-          orient_sign_change_limit_(5),
-          orient_avg_err_increase_threshold_(0.1),
-          orient_sign_change_small_(2),
+          orient_err_sign_threshold_(0.15),
+          orient_sign_change_limit_(2),
+          orient_avg_err_increase_threshold_(0.15),
+          orient_sign_change_small_(0),
           bridging_done_thresh_(0.2),
           look_ahead_time_offset_(0.5),
           k_for_speed_scale_(1.0),
@@ -145,7 +145,8 @@ public:
         // 1) 读取配置文件
         PIDParams pos_pid, ori_pid, vel_pid, angvel_pid;
         CommonThresholds thr;
-        bool success = loadConfig("traj_pid_config.txt", pos_pid, ori_pid, vel_pid, angvel_pid, thr);
+        bool success = loadConfig("/home/jetson/ros2_ws/src/traj_pid/traj_pid/src/traj_pid_config.txt",
+            pos_pid, ori_pid, vel_pid, angvel_pid, thr);
         if (!success) {
             RCLCPP_WARN(this->get_logger(), "无法从 traj_pid_config.txt 读取完整参数，将使用构造里的默认值");
         } else {
@@ -438,13 +439,13 @@ private:
         imu_received_ = true;
         current_angular_velocity_ = msg->angular_velocity.z;
 
-        if (log_file_.is_open()) {
-            const auto &ang = msg->angular_velocity;
-            log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
-                      << msg->header.stamp.nanosec 
-                      << " Received IMU Angular Velocity - ["
-                      << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
-        }
+        // if (log_file_.is_open()) {
+        //     const auto &ang = msg->angular_velocity;
+        //     log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
+        //               << msg->header.stamp.nanosec 
+        //               << " Received IMU Angular Velocity - ["
+        //               << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
+        // }
     }
 
     // ------------------ 回调：里程计 ------------------
@@ -879,7 +880,7 @@ private:
             double newP = currP - 0.05;
             if (newP < 0.0) newP = 0.0;
             double newD = currD + 0.05;
-            if (newD > 3.0) newD = 3.0;
+            if (newD > 10.0) newD = 10.0;
 
             pid_orientation_control_.set_gains(newP, currI, newD);
 
@@ -891,7 +892,7 @@ private:
         // 2) 平均误差大 => 增P
         else if (avg_err > orient_avg_err_increase_threshold_ && sc_count <= orient_sign_change_small_) {
             double newP = currP + 0.03;
-            if (newP > 3.0) newP = 3.0;
+            if (newP > 10.0) newP = 10.0;
 
             pid_orientation_control_.set_gains(newP, currI, currD);
 

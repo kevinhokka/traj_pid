@@ -81,7 +81,7 @@ def generate_launch_description():
 
         # 延时4秒后启动 planner 包中的 test_bspline 节点
         TimerAction(
-            period=4.5,
+            period=3.0,
             actions=[
                 Node(
                     package='planner',

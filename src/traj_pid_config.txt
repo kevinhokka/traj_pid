@@ -19,13 +19,13 @@ I=0.0
 D=0.0
 
 [thresholds] 
-orient_err_sign_threshold=0.3
-orient_sign_change_limit=2
+orient_err_sign_threshold=0.1
+orient_sign_change_limit=1
 orient_avg_err_increase_threshold=0.3
-orient_sign_change_small=2
+orient_sign_change_small_=0
 
 bridging_done_thresh=0.2
 look_ahead_time_offset=0.5
 k_for_speed_scale=1.0
-alpha_threshold=1.5708  ; (即 PI/2，原先你写 M_PI/2)
+alpha_threshold=1.5708
 distance_threshold=0.25
