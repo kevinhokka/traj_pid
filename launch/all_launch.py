@@ -61,7 +61,6 @@ def generate_launch_description():
             package='serial_twistctl',
             executable='serial_twistctl_node',
             name='serial_twistctl_node',
-            output='screen',
             parameters=[],
             remappings=[]
         ),

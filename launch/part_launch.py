@@ -66,15 +66,15 @@ def generate_launch_description():
             ]
         ),
 
-        #延时启动 test_example_target.py（这里延时12秒，同样可根据需求调整）
-        TimerAction(
-            period=20.0,
-            actions=[
-                IncludeLaunchDescription(
-                    PythonLaunchDescriptionSource(test_example_launch_file)
-                )
-            ]
-        ),
+        # #延时启动 test_example_target.py（这里延时12秒，同样可根据需求调整）
+        # TimerAction(
+        #     period=10.0,
+        #     actions=[
+        #         IncludeLaunchDescription(
+        #             PythonLaunchDescriptionSource(test_example_launch_file)
+        #         )
+        #     ]
+        # ),
 
         # 先延时一定时间启动 traj_pid 节点（这里延时4秒）
         TimerAction(
