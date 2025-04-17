@@ -1,5 +1,5 @@
 [pid_position_control]
-P=1.0
+P=0.5
 I=0.0
 D=1.0
 
@@ -26,10 +26,10 @@ orient_sign_change_small_=0
 
 bridging_done_thresh=0.2
 look_ahead_time_offset=0
-k_for_speed_scale=4.0
+k_for_speed_scale=2.0
 alpha_threshold=1.5708
 distance_threshold=0.25
 
-orient_err_queue_size     = 50
+orient_err_queue_size     = 40
 max_linear_speed          = 1.0
 max_angular_speed         = 1.0
