@@ -1,10 +1,10 @@
 # ========== PID Parameters ==========
-pid_position_p=0.3
+pid_position_p=1.0
 pid_position_i=0.0
 pid_position_d=1.0
 
 pid_orientation_p=2.0
-pid_orientation_i=0.0
+pid_orientation_i=0.1
 pid_orientation_d=2.0
 
 pid_velocity_p=0.75
@@ -16,10 +16,10 @@ pid_angular_velocity_i=0.0
 pid_angular_velocity_d=0.0
 
 # ========== Other Control Parameters ==========
-k=4.0
-look_ahead_time_offset=0.8a
-alpha_threshold=1.5708   # 相当于 M_PI/2
-max_linear_speed=0.6
+k=2.0
+look_ahead_time_offset=0.5
+alpha_threshold=2.0
+max_linear_speed=1.0
 max_angular_speed=1.0
 
 # ========== Robot / Trajectory Related ==========

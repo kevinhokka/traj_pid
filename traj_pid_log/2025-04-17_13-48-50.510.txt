@@ -1,0 +1,1781 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 0.3, I: 0, D: 1
+Orientation PID: P: 2, I: 0, D: 2
+Linear Velocity PID: P: 0.75, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+-------------------------
+[2025-04-17_13-48-50.615] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-50.715] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-50.815] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-50.915] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.015] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.115] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.215] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.315] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.415] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.515] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.615] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.715] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.815] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-51.915] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-52.015] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-48-52.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.158217, y=0.0560372, Linear Velocity: 0.0870274
+Current yaw: -0.00207661 (roll: -0.0221147, pitch: -0.00534621)
+Received Odometry - Position: x=0.157907, y=0.0620734, Linear Velocity: 0.048502
+Current yaw: -0.0017256 (roll: -0.0204341, pitch: -0.00544991)
+Received Odometry - Position: x=0.159492, y=0.0643377, Linear Velocity: 0.0281974
+Current yaw: -0.00280846 (roll: -0.0209035, pitch: -0.0065052)
+Received Odometry - Position: x=0.152089, y=0.0619548, Linear Velocity: -0.00458486
+Current yaw: -0.00166169 (roll: -0.019998, pitch: -0.00366419)
+Received Odometry - Position: x=0.152295, y=0.0551247, Linear Velocity: -0.000421418
+Current yaw: -0.00244405 (roll: -0.0218131, pitch: -0.0056169)
+-------------------------
+[2025-04-17_13-48-52.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151704, y=0.045853, Linear Velocity: -0.00486554
+Current yaw: -0.00271176 (roll: -0.0228909, pitch: -0.00427755)
+-------------------------
+[2025-04-17_13-48-52.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14865, y=0.0400295, Linear Velocity: -0.0150207
+Current yaw: -0.00172754 (roll: -0.021385, pitch: -0.00536531)
+-------------------------
+[2025-04-17_13-48-52.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149172, y=0.0382033, Linear Velocity: -0.0121512
+Current yaw: -0.00222202 (roll: -0.0216211, pitch: -0.00638111)
+-------------------------
+[2025-04-17_13-48-52.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145811, y=0.040362, Linear Velocity: -0.0193977
+Current yaw: -0.000897732 (roll: -0.0203708, pitch: -0.00612991)
+-------------------------
+[2025-04-17_13-48-52.619] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.140299, y=0.0408134, Linear Velocity: -0.0332917
+Current yaw: -0.00172262 (roll: -0.0210369, pitch: -0.00575483)
+-------------------------
+[2025-04-17_13-48-52.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.135913, y=0.0421438, Linear Velocity: -0.040006
+Current yaw: -0.00182459 (roll: -0.0214624, pitch: -0.00585619)
+-------------------------
+[2025-04-17_13-48-52.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.134986, y=0.0447051, Linear Velocity: -0.034971
+Current yaw: -0.00146771 (roll: -0.0212401, pitch: -0.00578586)
+-------------------------
+[2025-04-17_13-48-52.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.138592, y=0.0480299, Linear Velocity: -0.0174454
+Current yaw: -0.00174482 (roll: -0.0210074, pitch: -0.00525835)
+-------------------------
+[2025-04-17_13-48-53.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.136619, y=0.0470118, Linear Velocity: -0.0200842
+Current yaw: -0.00152071 (roll: -0.0208285, pitch: -0.00598671)
+-------------------------
+[2025-04-17_13-48-53.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.1349, y=0.0499563, Linear Velocity: -0.0211658
+Current yaw: -0.00180989 (roll: -0.0211414, pitch: -0.00483868)
+-------------------------
+[2025-04-17_13-48-53.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.136404, y=0.0453287, Linear Velocity: -0.0112814
+Current yaw: -0.00129059 (roll: -0.0210016, pitch: -0.00454288)
+-------------------------
+[2025-04-17_13-48-53.315] No B-spline trajectory received.
+-------------------------
+1744868932.089589190 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00929343]
+1744868932.093846390 Received IMU Angular Velocity - [0.0102996, 0.0017373, 0.00396711]
+1744868932.099458100 Received IMU Angular Velocity - [0.0113649, -0.00571955, 0.00396711]
+1744868932.103910922 Received IMU Angular Velocity - [0.00923436, -0.0110459, 0.00609764]
+1744868932.109607819 Received IMU Angular Velocity - [0.00603857, -0.00785008, 0.00716291]
+1744868932.113800729 Received IMU Angular Velocity - [0.0049733, -0.000393224, 0.00929343]
+1744868932.119625342 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.00290185]
+1744868932.123675559 Received IMU Angular Velocity - [0.00177751, 0.00599836, 0.00290185]
+1744868932.129611216 Received IMU Angular Velocity - [0.0049733, 0.0017373, 0.00716291]
+1744868932.133674041 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00290185]
+Received Odometry - Position: x=0.13624, y=0.0440184, Linear Velocity: -0.00936212
+Current yaw: -0.00154257 (roll: -0.0205093, pitch: -0.00458318)
+-------------------------
+[2025-04-17_13-48-53.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.140755, y=0.0443679, Linear Velocity: 0.00631912
+Current yaw: -0.00138916 (roll: -0.0208426, pitch: -0.00408362)
+-------------------------
+[2025-04-17_13-48-53.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.141871, y=0.0463193, Linear Velocity: 0.00799366
+Current yaw: -0.00149472 (roll: -0.0211274, pitch: -0.00611259)
+-------------------------
+[2025-04-17_13-48-53.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.143426, y=0.0416278, Linear Velocity: 0.00963691
+Current yaw: -0.00155157 (roll: -0.0215425, pitch: -0.00451377)
+-------------------------
+[2025-04-17_13-48-53.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145457, y=0.0395409, Linear Velocity: 0.0126639
+Current yaw: -0.00169013 (roll: -0.0217643, pitch: -0.00530398)
+-------------------------
+[2025-04-17_13-48-53.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.146194, y=0.0404228, Linear Velocity: 0.0112665
+Current yaw: -0.000973944 (roll: -0.0209184, pitch: -0.00608707)
+-------------------------
+[2025-04-17_13-48-53.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148196, y=0.0424949, Linear Velocity: 0.0124759
+Current yaw: -0.00212071 (roll: -0.021021, pitch: -0.00509402)
+-------------------------
+[2025-04-17_13-48-54.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14525, y=0.0430582, Linear Velocity: 0.0010423
+Current yaw: -0.0007682 (roll: -0.0216082, pitch: -0.00648997)
+-------------------------
+[2025-04-17_13-48-54.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14552, y=0.0386033, Linear Velocity: -4.20641e-06
+Current yaw: -0.00147279 (roll: -0.020821, pitch: -0.00623131)
+-------------------------
+[2025-04-17_13-48-54.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147025, y=0.0417228, Linear Velocity: 0.00209026
+Current yaw: -0.00134393 (roll: -0.0209453, pitch: -0.00665096)
+-------------------------
+[2025-04-17_13-48-54.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150964, y=0.0406863, Linear Velocity: 0.0107891
+Current yaw: -0.00196469 (roll: -0.0212571, pitch: -0.00630241)
+1744868933.129604945 Received IMU Angular Velocity - [-0.00141829, 0.00599836, -0.000293946]
+1744868933.133821120 Received IMU Angular Velocity - [0.00816909, 0.000672041, 0.00716291]
+1744868933.139637220 Received IMU Angular Velocity - [0.0113649, -0.00465428, 0.00929343]
+1744868933.143956566 Received IMU Angular Velocity - [0.00923436, -0.0110459, 0.00716291]
+1744868933.149626710 Received IMU Angular Velocity - [0.00284277, -0.00571955, 0.00503238]
+1744868933.153854149 Received IMU Angular Velocity - [-0.000353022, 0.00280257, 0.00503238]
+1744868933.159645960 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00503238]
+1744868933.164098911 Received IMU Angular Velocity - [0.00177751, 0.0049331, 0.00396711]
+1744868933.170278512 Received IMU Angular Velocity - [0.0102996, -0.000393224, 0.00716291]
+1744868933.173847496 Received IMU Angular Velocity - [0.0134954, -0.00678481, 0.00503238]
+1744868933.179480071 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.00503238]
+1744868933.183859227 Received IMU Angular Velocity - [-0.00248355, -0.00145849, 0.00503238]
+1744868933.189618590 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00503238]
+1744868933.194051123 Received IMU Angular Velocity - [0.00710383, 0.00706363, 0.00716291]
+1744868933.199712531 Received IMU Angular Velocity - [0.00710383, 0.000672041, 0.00396711]
+-------------------------
+[2025-04-17_13-48-54.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153352, y=0.0426001, Linear Velocity: 0.013346
+Current yaw: -0.00158956 (roll: -0.0201643, pitch: -0.00656971)
+-------------------------
+[2025-04-17_13-48-54.515] No B-spline trajectory received.
+-------------------------
+1744868933.253932219 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00396711]
+Received Odometry - Position: x=0.152292, y=0.0413421, Linear Velocity: 0.00665675
+Current yaw: -0.00129812 (roll: -0.0204902, pitch: -0.00579577)
+1744868933.289731157 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00290185]
+1744868933.319689482 Received IMU Angular Velocity - [-0.000353022, 0.00599836, 0.00716291]
+1744868933.323956314 Received IMU Angular Velocity - [-0.000353022, 0.00599836, 0.00716291]
+-------------------------
+[2025-04-17_13-48-54.615] No B-spline trajectory received.
+-------------------------
+1744868933.350107758 Received IMU Angular Velocity - [-0.00461408, -0.00145849, 0.00183658]
+1744868933.363779804 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00822817]
+1744868933.369616962 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.000771319]
+1744868933.389603269 Received IMU Angular Velocity - [0.0049733, 0.00706363, 0.00609764]
+1744868933.394045499 Received IMU Angular Velocity - [0.0049733, 0.00386783, 0.00609764]
+1744868933.403758436 Received IMU Angular Velocity - [0.00390804, -0.00358902, 0.00396711]
+Received Odometry - Position: x=0.151946, y=0.0385175, Linear Velocity: 0.00308474
+Current yaw: -0.0014314 (roll: -0.021138, pitch: -0.00695344)
+1744868933.434020098 Received IMU Angular Velocity - [0.0113649, -0.00358902, 0.00183658]
+1744868933.439647873 Received IMU Angular Velocity - [0.0049733, -0.0099806, 0.00503238]
+-------------------------
+[2025-04-17_13-48-54.715] No B-spline trajectory received.
+-------------------------
+1744868933.443768620 Received IMU Angular Velocity - [0.00390804, -0.00891534, 0.00396711]
+1744868933.479951155 Received IMU Angular Velocity - [0.0049733, -0.00571955, 0.00609764]
+Received Odometry - Position: x=0.152793, y=0.0353379, Linear Velocity: -0.00073962
+Current yaw: -0.00159534 (roll: -0.02087, pitch: -0.00665789)
+1744868933.499664653 Received IMU Angular Velocity - [0.00603857, -0.00145849, 0.00503238]
+1744868933.503816922 Received IMU Angular Velocity - [0.0145607, -0.00678481, 0.00716291]
+1744868933.509717985 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00609764]
+1744868933.513717000 Received IMU Angular Velocity - [-0.00141829, -0.00465428, 0.00396711]
+1744868933.519630416 Received IMU Angular Velocity - [-0.00354881, 0.00386783, 0.00396711]
+1744868933.523919745 Received IMU Angular Velocity - [0.00177751, 0.00812889, 0.00929343]
+1744868933.529725125 Received IMU Angular Velocity - [0.00710383, 0.00599836, 0.00716291]
+1744868933.533852337 Received IMU Angular Velocity - [0.00816909, -0.00252375, 0.000771319]
+1744868933.539670678 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.00609764]
+1744868933.543786081 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00822817]
+1744868933.549628486 Received IMU Angular Velocity - [-0.000353022, -0.00252375, 0.00822817]
+1744868933.553918167 Received IMU Angular Velocity - [0.000712243, 0.00386783, 0.00290185]
+1744868933.559625080 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00183658]
+1744868933.563901545 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00290185]
+1744868933.569646923 Received IMU Angular Velocity - [0.00603857, -0.00252375, 0.00396711]
+1744868933.573722389 Received IMU Angular Velocity - [0.0102996, -0.00891534, 0.00609764]
+1744868933.579687038 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.00822817]
+1744868933.583885292 Received IMU Angular Velocity - [-0.000353022, 0.000672041, 0.00609764]
+-------------------------
+[2025-04-17_13-48-54.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154053, y=0.0356407, Linear Velocity: 0.00241765
+Current yaw: -0.00121595 (roll: -0.0211812, pitch: -0.00542012)
+1744868933.599664737 Received IMU Angular Velocity - [0.00923436, -0.000393224, 0.00929343]
+1744868933.603899953 Received IMU Angular Velocity - [0.0134954, -0.00785008, 0.00503238]
+1744868933.609661907 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00396711]
+1744868933.613760894 Received IMU Angular Velocity - [-0.00141829, -0.00465428, 0.00609764]
+1744868933.619636740 Received IMU Angular Velocity - [0.000712243, 0.00280257, 0.00716291]
+1744868933.623922069 Received IMU Angular Velocity - [-0.00248355, 0.00812889, 0.00503238]
+1744868933.629631254 Received IMU Angular Velocity - [0.00603857, 0.00599836, 0.000771319]
+-------------------------
+[2025-04-17_13-48-54.915] No B-spline trajectory received.
+-------------------------
+1744868933.669619710 Received IMU Angular Velocity - [0.00923436, -0.00145849, 0.00609764]
+Received Odometry - Position: x=0.153425, y=0.0361328, Linear Velocity: -0.000760749
+Current yaw: -0.00170415 (roll: -0.020939, pitch: -0.00527635)
+1744868933.689611298 Received IMU Angular Velocity - [-0.00354881, 0.00599836, 0.00396711]
+1744868933.719609400 Received IMU Angular Velocity - [-0.00141829, 0.000672041, 0.00396711]
+-------------------------
+[2025-04-17_13-48-55.015] No B-spline trajectory received.
+-------------------------
+1744868933.754001570 Received IMU Angular Velocity - [-0.00354881, 0.000672041, 0.00503238]
+1744868933.759644001 Received IMU Angular Velocity - [-0.00674461, 0.00706363, 0.00503238]
+1744868933.763721515 Received IMU Angular Velocity - [0.00603857, 0.00706363, 0.00609764]
+1744868933.769879867 Received IMU Angular Velocity - [0.0113649, 0.000672041, 0.00503238]
+1744868933.773876770 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00609764]
+1744868933.779510272 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00609764]
+1744868933.783857811 Received IMU Angular Velocity - [0.00177751, -0.00358902, 0.00716291]
+Received Odometry - Position: x=0.153824, y=0.0384757, Linear Velocity: 0.000110089
+Current yaw: -0.00121763 (roll: -0.0208205, pitch: -0.00592078)
+1744868933.799511716 Received IMU Angular Velocity - [0.00816909, 0.00280257, 0.00609764]
+1744868933.819737488 Received IMU Angular Velocity - [0.000712243, -0.000393224, 0.00609764]
+1744868933.824018721 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00929343]
+-------------------------
+[2025-04-17_13-48-55.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152061, y=0.0346698, Linear Velocity: -0.00529599
+Current yaw: -0.00162989 (roll: -0.0214591, pitch: -0.00546354)
+1744868933.929476557 Received IMU Angular Velocity - [0.00390804, 0.00812889, 0.00396711]
+1744868933.933788895 Received IMU Angular Velocity - [0.00390804, 0.00386783, 0.00396711]
+-------------------------
+[2025-04-17_13-48-55.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152678, y=0.0375766, Linear Velocity: -0.0028658
+Current yaw: -0.0015862 (roll: -0.0214605, pitch: -0.00623121)
+1744868933.969638363 Received IMU Angular Velocity - [0.0049733, 0.00386783, 0.00609764]
+1744868933.983927102 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00396711]
+1744868933.989622046 Received IMU Angular Velocity - [-0.00354881, 0.0017373, 0.00609764]
+1744868933.994011923 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00503238]
+1744868933.999712243 Received IMU Angular Velocity - [0.00710383, 0.0049331, 0.00503238]
+1744868934.013922579 Received IMU Angular Velocity - [0.0049733, -0.0099806, 0.00503238]
+-------------------------
+[2025-04-17_13-48-55.315] No B-spline trajectory received.
+-------------------------
+1744868934.039664537 Received IMU Angular Velocity - [0.0049733, -0.00252375, 0.00609764]
+Received Odometry - Position: x=0.151865, y=0.0367912, Linear Velocity: -0.00521159
+Current yaw: -0.00165077 (roll: -0.0206744, pitch: -0.00642695)
+-------------------------
+[2025-04-17_13-48-55.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148738, y=0.0386728, Linear Velocity: -0.0124403
+Current yaw: -0.00157644 (roll: -0.0213145, pitch: -0.00593765)
+1744868934.184001411 Received IMU Angular Velocity - [0.000712243, -0.00891534, 0.00396711]
+1744868934.189664290 Received IMU Angular Velocity - [0.000712243, -0.00252375, 0.00929343]
+1744868934.209623493 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00929343]
+-------------------------
+[2025-04-17_13-48-55.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149147, y=0.0406982, Linear Velocity: -0.00926031
+Current yaw: -0.00196823 (roll: -0.0207077, pitch: -0.0065964)
+-------------------------
+[2025-04-17_13-48-55.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148724, y=0.0411806, Linear Velocity: -0.00955858
+Current yaw: -0.00214368 (roll: -0.0208694, pitch: -0.00702028)
+1744868934.429477126 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00716291]
+-------------------------
+[2025-04-17_13-48-55.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145492, y=0.0432048, Linear Velocity: -0.0164232
+Current yaw: -0.00153936 (roll: -0.0215395, pitch: -0.00521314)
+-------------------------
+[2025-04-17_13-48-55.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145174, y=0.0436026, Linear Velocity: -0.013684
+Current yaw: -0.00172472 (roll: -0.0213234, pitch: -0.00522349)
+1744868934.633916574 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00396711]
+-------------------------
+[2025-04-17_13-48-55.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145032, y=0.0444338, Linear Velocity: -0.0109008
+Current yaw: -0.00182897 (roll: -0.0210163, pitch: -0.00508153)
+1744868934.683804307 Received IMU Angular Velocity - [0.0113649, -0.0099806, 0.00609764]
+1744868934.713889675 Received IMU Angular Velocity - [0.00603857, -0.0099806, 0.000771319]
+1744868934.719636685 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00716291]
+1744868934.723820442 Received IMU Angular Velocity - [0.000712243, 0.00386783, 0.00716291]
+1744868934.729580669 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00822817]
+1744868934.733882638 Received IMU Angular Velocity - [0.00816909, 0.00599836, 0.00503238]
+1744868934.739630448 Received IMU Angular Velocity - [0.00710383, -0.000393224, 0.00609764]
+1744868934.743804925 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00396711]
+1744868934.749672675 Received IMU Angular Velocity - [0.00390804, -0.0110459, 0.00396711]
+1744868934.753881169 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00716291]
+1744868934.759662549 Received IMU Angular Velocity - [0.00284277, 0.00280257, 0.00929343]
+1744868934.764035752 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00396711]
+1744868934.769888174 Received IMU Angular Velocity - [0.00284277, 0.00386783, 0.00290185]
+1744868934.773855924 Received IMU Angular Velocity - [0.0113649, -0.00145849, 0.00609764]
+1744868934.779628631 Received IMU Angular Velocity - [0.0124302, -0.00785008, 0.00716291]
+1744868934.783845797 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00716291]
+1744868934.789671306 Received IMU Angular Velocity - [0.00177751, -0.00358902, 0.00503238]
+1744868934.793933466 Received IMU Angular Velocity - [-0.000353022, 0.00280257, 0.00716291]
+1744868934.799696221 Received IMU Angular Velocity - [-0.00141829, 0.00706363, 0.00290185]
+1744868934.803776807 Received IMU Angular Velocity - [0.00603857, 0.00386783, 0.00503238]
+1744868934.809711599 Received IMU Angular Velocity - [0.0102996, -0.00358902, 0.00609764]
+1744868934.813870523 Received IMU Angular Velocity - [0.00390804, -0.00891534, 0.00396711]
+1744868934.819837221 Received IMU Angular Velocity - [0.00177751, -0.00785008, 0.00503238]
+1744868934.823784138 Received IMU Angular Velocity - [-0.000353022, 0.0017373, 0.00396711]
+1744868934.829647216 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00822817]
+1744868934.833869599 Received IMU Angular Velocity - [0.00816909, 0.00599836, 0.00822817]
+1744868934.839549407 Received IMU Angular Velocity - [0.00710383, 0.000672041, 0.00183658]
+-------------------------
+[2025-04-17_13-48-56.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.144761, y=0.0429961, Linear Velocity: -0.00914387
+Current yaw: -0.00295035 (roll: -0.0216095, pitch: -0.00559308)
+-------------------------
+[2025-04-17_13-48-56.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.143541, y=0.0453197, Linear Velocity: -0.00951626
+Current yaw: -0.00167987 (roll: -0.0210722, pitch: -0.00538997)
+1744868934.869683704 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.00822817]
+1744868934.873916007 Received IMU Angular Velocity - [0.00177751, 0.0017373, 0.00503238]
+1744868934.911094191 Received IMU Angular Velocity - [0.0113649, -0.00252375, 0.00503238]
+1744868934.914100756 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00183658]
+1744868934.919847510 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00822817]
+1744868934.923998083 Received IMU Angular Velocity - [-0.00141829, -0.00145849, 0.00929343]
+1744868934.929658754 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00716291]
+1744868934.933815534 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.000771319]
+1744868934.939730742 Received IMU Angular Velocity - [0.00603857, 0.0017373, 0.00290185]
+-------------------------
+[2025-04-17_13-48-56.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147189, y=0.0458761, Linear Velocity: 0.00121153
+Current yaw: -0.00169103 (roll: -0.0211282, pitch: -0.00634827)
+1744868934.973939641 Received IMU Angular Velocity - [0.00923436, 0.00280257, 0.00503238]
+1744868934.979651130 Received IMU Angular Velocity - [0.0134954, -0.00571955, 0.00929343]
+1744868934.984068239 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00290185]
+1744868935.009806196 Received IMU Angular Velocity - [0.0049733, -0.00145849, 0.00183658]
+1744868935.013785243 Received IMU Angular Velocity - [0.00177751, -0.00678481, 0.00503238]
+1744868935.023946962 Received IMU Angular Velocity - [-0.000353022, -0.00252375, 0.00503238]
+1744868935.039658276 Received IMU Angular Velocity - [0.00390804, 0.00280257, 0.00609764]
+-------------------------
+[2025-04-17_13-48-56.315] No B-spline trajectory received.
+-------------------------
+1744868935.059719817 Received IMU Angular Velocity - [-0.000353022, -0.00145849, 0.00716291]
+Received Odometry - Position: x=0.149587, y=0.0454187, Linear Velocity: 0.00591375
+Current yaw: -0.00134194 (roll: -0.0212124, pitch: -0.00651179)
+1744868935.079662282 Received IMU Angular Velocity - [0.00710383, -0.00571955, 0.00183658]
+-------------------------
+[2025-04-17_13-48-56.420] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150559, y=0.0459743, Linear Velocity: 0.00627667
+Current yaw: -0.00210894 (roll: -0.0212899, pitch: -0.00558397)
+-------------------------
+[2025-04-17_13-48-56.515] No B-spline trajectory received.
+-------------------------
+1744868935.253855904 Received IMU Angular Velocity - [0.00816909, -0.0110459, 0.00503238]
+Received Odometry - Position: x=0.151928, y=0.0453573, Linear Velocity: 0.00761434
+Current yaw: -0.00162061 (roll: -0.0207564, pitch: -0.00619822)
+1744868935.319774096 Received IMU Angular Velocity - [0.00284277, -0.00678481, 0.00290185]
+1744868935.324013567 Received IMU Angular Velocity - [0.00284277, -0.00678481, 0.00290185]
+1744868935.329716159 Received IMU Angular Velocity - [-0.00141829, 0.00812889, 0.00822817]
+1744868935.333957839 Received IMU Angular Velocity - [0.00284277, 0.0049331, 0.00503238]
+1744868935.339670543 Received IMU Angular Velocity - [0.0102996, -0.000393224, 0.00290185]
+-------------------------
+[2025-04-17_13-48-56.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148936, y=0.0433547, Linear Velocity: -0.00245338
+Current yaw: -0.00169194 (roll: -0.0210713, pitch: -0.0057042)
+1744868935.369442652 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00609764]
+1744868935.374026359 Received IMU Angular Velocity - [0.00816909, -0.000393224, 0.00183658]
+1744868935.379843451 Received IMU Angular Velocity - [0.0124302, -0.00785008, 0.00609764]
+1744868935.424101840 Received IMU Angular Velocity - [0.00177751, -0.00145849, 0.00609764]
+1744868935.429487366 Received IMU Angular Velocity - [-0.00354881, 0.00599836, 0.00183658]
+1744868935.433901531 Received IMU Angular Velocity - [0.0049733, 0.00812889, 0.00609764]
+1744868935.439518521 Received IMU Angular Velocity - [0.00710383, 0.00280257, 0.00822817]
+1744868935.443926509 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00396711]
+-------------------------
+[2025-04-17_13-48-56.715] No B-spline trajectory received.
+-------------------------
+1744868935.463809836 Received IMU Angular Velocity - [-0.00461408, 0.00706363, 0.00609764]
+1744868935.469654098 Received IMU Angular Velocity - [0.00284277, 0.00706363, 0.000771319]
+Received Odometry - Position: x=0.149185, y=0.043419, Linear Velocity: -0.00114766
+Current yaw: -0.000777281 (roll: -0.0205664, pitch: -0.00584627)
+1744868935.513919655 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00503238]
+1744868935.523928953 Received IMU Angular Velocity - [-0.00248355, -0.00252375, 0.00183658]
+1744868935.529646586 Received IMU Angular Velocity - [-0.00248355, 0.00706363, 0.00609764]
+-------------------------
+[2025-04-17_13-48-56.815] No B-spline trajectory received.
+-------------------------
+1744868935.563996289 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00609764]
+Received Odometry - Position: x=0.152644, y=0.0421103, Linear Velocity: 0.00712091
+Current yaw: -0.00198331 (roll: -0.0208906, pitch: -0.00597669)
+1744868935.639732925 Received IMU Angular Velocity - [0.00710383, 0.00386783, 0.00396711]
+1744868935.643877193 Received IMU Angular Velocity - [0.00710383, -0.00358902, 0.00503238]
+-------------------------
+[2025-04-17_13-48-56.915] No B-spline trajectory received.
+-------------------------
+1744868935.649677612 Received IMU Angular Velocity - [0.00710383, -0.0110459, 0.00396711]
+Received Odometry - Position: x=0.153896, y=0.0411688, Linear Velocity: 0.00884464
+Current yaw: -0.00140204 (roll: -0.0208985, pitch: -0.00474769)
+1744868935.683792875 Received IMU Angular Velocity - [0.0124302, -0.00891534, 0.00503238]
+1744868935.689648561 Received IMU Angular Velocity - [0.0049733, -0.00891534, 0.00290185]
+1744868935.719649125 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00503238]
+1744868935.739819022 Received IMU Angular Velocity - [0.00284277, 0.0049331, 0.00183658]
+-------------------------
+[2025-04-17_13-48-57.015] No B-spline trajectory received.
+-------------------------
+1744868935.743834613 Received IMU Angular Velocity - [0.00816909, -0.00252375, 0.00183658]
+1744868935.759661036 Received IMU Angular Velocity - [-0.000353022, -0.00465428, 0.00503238]
+Received Odometry - Position: x=0.152597, y=0.0411156, Linear Velocity: 0.00372834
+Current yaw: -0.00174705 (roll: -0.0206479, pitch: -0.00569167)
+-------------------------
+[2025-04-17_13-48-57.117] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.155402, y=0.0393721, Linear Velocity: 0.00929456
+Current yaw: -0.00213793 (roll: -0.0208287, pitch: -0.00639127)
+1744868935.913891680 Received IMU Angular Velocity - [0.00923436, -0.00252375, 0.000771319]
+1744868935.919785095 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.00822817]
+1744868935.923878513 Received IMU Angular Velocity - [0.00284277, -0.00785008, 0.00609764]
+1744868935.934163084 Received IMU Angular Velocity - [0.00284277, 0.00706363, 0.00609764]
+1744868935.939660101 Received IMU Angular Velocity - [0.00284277, 0.00706363, 0.00503238]
+-------------------------
+[2025-04-17_13-48-57.219] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152904, y=0.039109, Linear Velocity: 0.000758602
+Current yaw: -0.00130224 (roll: -0.0206736, pitch: -0.00624327)
+1744868935.963765395 Received IMU Angular Velocity - [-0.00461408, 0.000672041, 0.00396711]
+1744868936.009651871 Received IMU Angular Velocity - [0.0049733, 0.00706363, 0.00609764]
+-------------------------
+[2025-04-17_13-48-57.316] No B-spline trajectory received.
+-------------------------
+1744868936.053877682 Received IMU Angular Velocity - [0.0113649, -0.0099806, 0.00396711]
+Received Odometry - Position: x=0.152276, y=0.0400691, Linear Velocity: -0.00123501
+Current yaw: -0.00177965 (roll: -0.020849, pitch: -0.00551988)
+-------------------------
+[2025-04-17_13-48-57.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149824, y=0.0444523, Linear Velocity: -0.00665577
+Current yaw: -0.00100815 (roll: -0.0205357, pitch: -0.00571946)
+-------------------------
+[2025-04-17_13-48-57.515] No B-spline trajectory received.
+-------------------------
+1744868936.253883882 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00396711]
+1744868936.259688653 Received IMU Angular Velocity - [-0.00141829, -0.00252375, 0.00396711]
+Received Odometry - Position: x=0.149067, y=0.0443498, Linear Velocity: -0.00757508
+Current yaw: -0.00120509 (roll: -0.020706, pitch: -0.00626857)
+1744868936.289697569 Received IMU Angular Velocity - [0.00923436, -0.00891534, 0.00929343]
+1744868936.299663345 Received IMU Angular Velocity - [-0.00248355, 0.00599836, 0.00609764]
+-------------------------
+[2025-04-17_13-48-57.615] No B-spline trajectory received.
+-------------------------
+1744868936.344451671 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00716291]
+1744868936.363854117 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00929343]
+Received Odometry - Position: x=0.146893, y=0.0436143, Linear Velocity: -0.0108605
+Current yaw: -0.00194166 (roll: -0.0214302, pitch: -0.00604621)
+1744868936.379696251 Received IMU Angular Velocity - [0.0134954, -0.000393224, 0.00716291]
+1744868936.383875272 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00609764]
+1744868936.399801537 Received IMU Angular Velocity - [-0.00141829, 0.0049331, 0.0103587]
+1744868936.403871530 Received IMU Angular Velocity - [0.00177751, 0.00812889, 0.00609764]
+1744868936.423897966 Received IMU Angular Velocity - [0.00284277, -0.00785008, 0.00396711]
+-------------------------
+[2025-04-17_13-48-57.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149104, y=0.0412538, Linear Velocity: -0.00305906
+Current yaw: -0.00169409 (roll: -0.0214799, pitch: -0.00581841)
+1744868936.533948236 Received IMU Angular Velocity - [0.000712243, 0.0049331, 0.00929343]
+-------------------------
+[2025-04-17_13-48-57.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14953, y=0.0398409, Linear Velocity: -0.00182679
+Current yaw: -0.00196499 (roll: -0.0208478, pitch: -0.00644236)
+1744868936.614087450 Received IMU Angular Velocity - [0.00816909, 0.0017373, 0.00396711]
+-------------------------
+[2025-04-17_13-48-57.915] No B-spline trajectory received.
+-------------------------
+1744868936.649686666 Received IMU Angular Velocity - [0.00923436, -0.00465428, 0.00396711]
+Received Odometry - Position: x=0.148404, y=0.0381877, Linear Velocity: -0.00380865
+Current yaw: -0.00167915 (roll: -0.0208881, pitch: -0.00581223)
+-------------------------
+[2025-04-17_13-48-58.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148732, y=0.0354878, Linear Velocity: -0.00237497
+Current yaw: -0.00161543 (roll: -0.0213178, pitch: -0.00598472)
+1744868936.833841995 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00396711]
+-------------------------
+[2025-04-17_13-48-58.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147803, y=0.036427, Linear Velocity: -0.00326496
+Current yaw: -0.00207508 (roll: -0.0211412, pitch: -0.00671421)
+1744868936.919724763 Received IMU Angular Velocity - [0.0113649, -0.00252375, 0.00929343]
+1744868936.923961258 Received IMU Angular Velocity - [0.00923436, -0.00785008, 0.00609764]
+-------------------------
+[2025-04-17_13-48-58.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14432, y=0.0384094, Linear Velocity: -0.0117511
+Current yaw: -0.00196868 (roll: -0.0207511, pitch: -0.00640912)
+1744868937.003913905 Received IMU Angular Velocity - [-0.00354881, 0.0017373, 0.00396711]
+1744868937.012198184 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00716291]
+-------------------------
+[2025-04-17_13-48-58.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.143452, y=0.0386371, Linear Velocity: -0.0125197
+Current yaw: -0.0016268 (roll: -0.0202623, pitch: -0.00671011)
+1744868937.049528594 Received IMU Angular Velocity - [0.00710383, 0.00280257, 0.00183658]
+1744868937.059688264 Received IMU Angular Velocity - [0.00923436, -0.00891534, 0.00503238]
+1744868937.093871528 Received IMU Angular Velocity - [0.0049733, -0.0110459, 0.00396711]
+1744868937.100176732 Received IMU Angular Velocity - [0.000712243, -0.00678481, 0.000771319]
+1744868937.114335769 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00609764]
+1744868937.119694158 Received IMU Angular Velocity - [0.00923436, -0.00785008, 0.00716291]
+1744868937.129724544 Received IMU Angular Velocity - [0.00177751, -0.00358902, 0.00396711]
+-------------------------
+[2025-04-17_13-48-58.415] No B-spline trajectory received.
+-------------------------
+1744868937.149778499 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00609764]
+1744868937.153766954 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00609764]
+Received Odometry - Position: x=0.145326, y=0.0405157, Linear Velocity: -0.00503864
+Current yaw: -0.00156392 (roll: -0.0208379, pitch: -0.00529647)
+1744868937.163922272 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00822817]
+1744868937.169690306 Received IMU Angular Velocity - [-0.00248355, 0.00812889, 0.00396711]
+1744868937.189723109 Received IMU Angular Velocity - [0.00816909, -0.0110459, 0.00183658]
+1744868937.204048199 Received IMU Angular Velocity - [-0.000353022, 0.000672041, 0.00822817]
+-------------------------
+[2025-04-17_13-48-58.515] No B-spline trajectory received.
+-------------------------
+1744868937.244003497 Received IMU Angular Velocity - [0.00603857, 0.00386783, 0.00290185]
+Received Odometry - Position: x=0.144414, y=0.0410276, Linear Velocity: -0.00557044
+Current yaw: -0.00156806 (roll: -0.0208003, pitch: -0.00610844)
+1744868937.333930335 Received IMU Angular Velocity - [-0.00141829, 0.0017373, 0.00396711]
+1744868937.339725602 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.00183658]
+-------------------------
+[2025-04-17_13-48-58.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145999, y=0.0397133, Linear Velocity: -0.00152003
+Current yaw: -0.00187959 (roll: -0.0213499, pitch: -0.00663784)
+-------------------------
+[2025-04-17_13-48-58.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145514, y=0.0400402, Linear Velocity: -0.00234259
+Current yaw: -0.00191017 (roll: -0.021084, pitch: -0.00569483)
+-------------------------
+[2025-04-17_13-48-58.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147129, y=0.0408019, Linear Velocity: 0.00273208
+Current yaw: -0.00160984 (roll: -0.0210212, pitch: -0.00530743)
+1744868937.579672085 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00290185]
+1744868937.584004295 Received IMU Angular Velocity - [0.00816909, 0.0017373, 0.00503238]
+1744868937.629732332 Received IMU Angular Velocity - [0.00710383, -0.0110459, 0.00290185]
+1744868937.633927417 Received IMU Angular Velocity - [-0.00141829, -0.00358902, 0.00290185]
+-------------------------
+[2025-04-17_13-48-58.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145936, y=0.0404946, Linear Velocity: -0.000647453
+Current yaw: -0.00181089 (roll: -0.0208702, pitch: -0.00578958)
+-------------------------
+[2025-04-17_13-48-59.015] No B-spline trajectory received.
+-------------------------
+1744868937.764009015 Received IMU Angular Velocity - [0.0102996, -0.00785008, 0.00609764]
+Received Odometry - Position: x=0.145759, y=0.0385439, Linear Velocity: -0.000306645
+Current yaw: -0.00216169 (roll: -0.0208419, pitch: -0.00498767)
+1744868937.813798245 Received IMU Angular Velocity - [0.0049733, 0.00706363, 0.00822817]
+1744868937.819677035 Received IMU Angular Velocity - [0.00603857, 0.00280257, 0.00183658]
+1744868937.829812288 Received IMU Angular Velocity - [0.00923436, -0.0099806, 0.00716291]
+1744868937.833983565 Received IMU Angular Velocity - [0.00177751, -0.00785008, 0.00609764]
+-------------------------
+[2025-04-17_13-48-59.115] No B-spline trajectory received.
+-------------------------
+1744868937.849749472 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00503238]
+1744868937.853808072 Received IMU Angular Velocity - [0.00390804, -0.000393224, 0.00290185]
+Received Odometry - Position: x=0.144097, y=0.0399938, Linear Velocity: -0.00406776
+Current yaw: -0.00185778 (roll: -0.0206204, pitch: -0.00515716)
+1744868937.889731267 Received IMU Angular Velocity - [0.0134954, -0.00358902, 0.00609764]
+1744868937.893929104 Received IMU Angular Velocity - [0.0113649, -0.0099806, 0.00183658]
+1744868937.899723667 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00503238]
+1744868937.904020548 Received IMU Angular Velocity - [-0.00141829, -0.00145849, 0.00503238]
+1744868937.909730468 Received IMU Angular Velocity - [-0.00141829, 0.0049331, 0.00609764]
+1744868937.913895825 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00716291]
+1744868937.919850201 Received IMU Angular Velocity - [0.00816909, 0.00280257, 0.00503238]
+1744868937.923820479 Received IMU Angular Velocity - [0.00816909, -0.00465428, 0.00290185]
+1744868937.929661636 Received IMU Angular Velocity - [0.00710383, -0.0110459, 0.00396711]
+1744868937.934050872 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00503238]
+1744868937.939833786 Received IMU Angular Velocity - [0.00177751, -0.000393224, 0.00929343]
+1744868937.943873570 Received IMU Angular Velocity - [0.00284277, 0.0049331, 0.00609764]
+1744868937.949725192 Received IMU Angular Velocity - [0.00390804, 0.0049331, 0.00396711]
+1744868937.953961462 Received IMU Angular Velocity - [0.00816909, 0.000672041, 0.00609764]
+1744868937.959687223 Received IMU Angular Velocity - [0.0102996, -0.00571955, 0.00716291]
+1744868937.963903749 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.00503238]
+1744868937.969729930 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00183658]
+1744868937.973961336 Received IMU Angular Velocity - [-0.00248355, 0.00386783, 0.00609764]
+1744868937.980569143 Received IMU Angular Velocity - [-0.00354881, 0.00919416, 0.00716291]
+1744868937.983791555 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00716291]
+1744868937.989692138 Received IMU Angular Velocity - [0.0113649, -0.00252375, 0.00183658]
+1744868937.994063613 Received IMU Angular Velocity - [0.0102996, -0.00891534, 0.00183658]
+1744868937.999817439 Received IMU Angular Velocity - [0.00177751, -0.0099806, 0.00609764]
+1744868938.003922281 Received IMU Angular Velocity - [-0.00354881, -0.00252375, 0.00396711]
+1744868938.009710860 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00609764]
+1744868938.013892249 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00609764]
+1744868938.019531607 Received IMU Angular Velocity - [-0.000353022, 0.0049331, 0.00183658]
+1744868938.023900074 Received IMU Angular Velocity - [0.00710383, -0.00358902, 0.00183658]
+1744868938.029745678 Received IMU Angular Velocity - [0.0102996, -0.0099806, 0.00716291]
+1744868938.033939708 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.0103587]
+1744868938.039772576 Received IMU Angular Velocity - [0.000712243, -0.00145849, 0.00716291]
+1744868938.043852745 Received IMU Angular Velocity - [-0.000353022, 0.00599836, 0.00290185]
+1744868938.049726735 Received IMU Angular Velocity - [0.0049733, 0.0017373, 0.00609764]
+1744868938.054035680 Received IMU Angular Velocity - [0.0049733, 0.0017373, 0.00609764]
+1744868938.070115549 Received IMU Angular Velocity - [0.0113649, -0.00571955, 0.00609764]
+1744868938.070178431 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00503238]
+1744868938.070205216 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00503238]
+1744868938.074004096 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00503238]
+1744868938.079731649 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00822817]
+1744868938.083873772 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00822817]
+1744868938.089669360 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.000771319]
+1744868938.094161319 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.000771319]
+-------------------------
+[2025-04-17_13-48-59.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.144054, y=0.0404779, Linear Velocity: -0.00354038
+Current yaw: -0.00250178 (roll: -0.0207697, pitch: -0.00562425)
+-------------------------
+[2025-04-17_13-48-59.318] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145711, y=0.0409901, Linear Velocity: 0.00152303
+Current yaw: -0.00202169 (roll: -0.0212902, pitch: -0.00523634)
+1744868938.114072133 Received IMU Angular Velocity - [0.000712243, 0.00812889, 0.00609764]
+1744868938.119843527 Received IMU Angular Velocity - [0.00603857, -0.00145849, 0.00396711]
+1744868938.123884559 Received IMU Angular Velocity - [0.00603857, -0.00145849, 0.00396711]
+-------------------------
+[2025-04-17_13-48-59.415] No B-spline trajectory received.
+-------------------------
+1744868938.139667746 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00609764]
+1744868938.153867552 Received IMU Angular Velocity - [0.00603857, 0.0049331, 0.00396711]
+Received Odometry - Position: x=0.148403, y=0.0420697, Linear Velocity: 0.00771599
+Current yaw: -0.00220958 (roll: -0.0212151, pitch: -0.00535955)
+1744868938.189739128 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00290185]
+-------------------------
+[2025-04-17_13-48-59.518] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150339, y=0.0412206, Linear Velocity: 0.0111308
+Current yaw: -0.00159177 (roll: -0.0204822, pitch: -0.00585896)
+-------------------------
+[2025-04-17_13-48-59.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150921, y=0.0400449, Linear Velocity: 0.00973082
+Current yaw: -0.0021959 (roll: -0.0210193, pitch: -0.00529268)
+-------------------------
+[2025-04-17_13-48-59.720] No B-spline trajectory received.
+-------------------------
+1744868938.469679494 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00609764]
+Received Odometry - Position: x=0.151508, y=0.0404948, Linear Velocity: 0.00905139
+Current yaw: -0.00161796 (roll: -0.0216883, pitch: -0.00653337)
+1744868938.474054234 Received IMU Angular Velocity - [0.00177751, 0.00386783, 0.00822817]
+1744868938.483890053 Received IMU Angular Velocity - [0.00177751, 0.00280257, 0.00183658]
+1744868938.489794572 Received IMU Angular Velocity - [0.0102996, -0.00145849, 0.00822817]
+1744868938.499724378 Received IMU Angular Velocity - [0.0049733, -0.0110459, 0.00609764]
+1744868938.519744636 Received IMU Angular Velocity - [0.00390804, 0.00386783, 0.00290185]
+1744868938.523759811 Received IMU Angular Velocity - [0.0049733, -0.00252375, 0.00290185]
+1744868938.529793582 Received IMU Angular Velocity - [0.00923436, -0.00891534, 0.00503238]
+-------------------------
+[2025-04-17_13-48-59.815] No B-spline trajectory received.
+-------------------------
+1744868938.569722222 Received IMU Angular Velocity - [0.00390804, -0.00571955, 0.00929343]
+Received Odometry - Position: x=0.152671, y=0.0409766, Linear Velocity: 0.00866801
+Current yaw: -0.00210299 (roll: -0.0207135, pitch: -0.0059761)
+1744868938.613936670 Received IMU Angular Velocity - [0.00177751, 0.00919416, 0.00503238]
+-------------------------
+[2025-04-17_13-48-59.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153151, y=0.038835, Linear Velocity: 0.00589938
+Current yaw: -0.00210752 (roll: -0.0212886, pitch: -0.00478288)
+-------------------------
+[2025-04-17_13-49-00.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151892, y=0.0373382, Linear Velocity: 0.00169232
+Current yaw: -0.00165913 (roll: -0.0207077, pitch: -0.00643994)
+1744868938.829866146 Received IMU Angular Velocity - [0.0134954, -0.00571955, 0.00609764]
+1744868938.833912650 Received IMU Angular Velocity - [0.0124302, -0.0110459, 0.00929343]
+-------------------------
+[2025-04-17_13-49-00.115] No B-spline trajectory received.
+-------------------------
+1744868938.854001263 Received IMU Angular Velocity - [0.00177751, 0.00599836, 0.00609764]
+1744868938.859704399 Received IMU Angular Velocity - [0.00816909, 0.0017373, 0.00290185]
+Received Odometry - Position: x=0.151969, y=0.0369492, Linear Velocity: 0.001292
+Current yaw: -0.0014888 (roll: -0.0208743, pitch: -0.00590392)
+1744868938.889676639 Received IMU Angular Velocity - [0.00390804, 0.00280257, 0.00503238]
+1744868938.929713539 Received IMU Angular Velocity - [0.00923436, -0.00571955, 0.00503238]
+-------------------------
+[2025-04-17_13-49-00.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152817, y=0.036243, Linear Velocity: 0.00225961
+Current yaw: -0.00241323 (roll: -0.0217192, pitch: -0.00652781)
+-------------------------
+[2025-04-17_13-49-00.315] No B-spline trajectory received.
+-------------------------
+1744868939.047521919 Received IMU Angular Velocity - [-0.00141829, -0.00145849, 0.00396711]
+1744868939.049731529 Received IMU Angular Velocity - [0.00390804, 0.00706363, 0.0103587]
+1744868939.059721081 Received IMU Angular Velocity - [0.0102996, -0.00358902, 0.00183658]
+1744868939.064298515 Received IMU Angular Velocity - [0.0102996, -0.00358902, 0.00183658]
+Received Odometry - Position: x=0.152264, y=0.038115, Linear Velocity: 0.000617618
+Current yaw: -0.00233015 (roll: -0.0207262, pitch: -0.00521071)
+1744868939.104679809 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00822817]
+1744868939.109716843 Received IMU Angular Velocity - [-0.00354881, 0.00386783, 0.00290185]
+-------------------------
+[2025-04-17_13-49-00.415] No B-spline trajectory received.
+-------------------------
+1744868939.159687611 Received IMU Angular Velocity - [0.00390804, -0.00358902, 0.00396711]
+Received Odometry - Position: x=0.14969, y=0.040587, Linear Velocity: -0.00559173
+Current yaw: -0.00209298 (roll: -0.020416, pitch: -0.00622238)
+1744868939.169873490 Received IMU Angular Velocity - [0.00390804, -0.00678481, 0.00396711]
+1744868939.173788502 Received IMU Angular Velocity - [0.00390804, -0.00678481, 0.00396711]
+-------------------------
+[2025-04-17_13-49-00.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150751, y=0.0415176, Linear Velocity: -0.00213761
+Current yaw: -0.0018005 (roll: -0.0208845, pitch: -0.00620928)
+-------------------------
+[2025-04-17_13-49-00.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148294, y=0.0410457, Linear Velocity: -0.00753531
+Current yaw: -0.00163711 (roll: -0.0212725, pitch: -0.00624256)
+1744868939.409751701 Received IMU Angular Velocity - [-0.00461408, -0.000393224, 0.00396711]
+1744868939.421424158 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00503238]
+-------------------------
+[2025-04-17_13-49-00.715] No B-spline trajectory received.
+-------------------------
+1744868939.443915282 Received IMU Angular Velocity - [-0.00567934, 0.0017373, 0.00503238]
+1744868939.449701845 Received IMU Angular Velocity - [-0.00461408, 0.00706363, 0.00290185]
+Received Odometry - Position: x=0.149022, y=0.0405564, Linear Velocity: -0.00423101
+Current yaw: -0.00208592 (roll: -0.0205549, pitch: -0.00547397)
+1744868939.473944388 Received IMU Angular Velocity - [0.00177751, -0.00465428, 0.00716291]
+-------------------------
+[2025-04-17_13-49-00.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149695, y=0.0430029, Linear Velocity: -0.00221458
+Current yaw: -0.00241258 (roll: -0.0208598, pitch: -0.00600548)
+1744868939.584019194 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00822817]
+1744868939.599783949 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00396711]
+1744868939.629714459 Received IMU Angular Velocity - [0.00816909, -0.00252375, 0.00822817]
+1744868939.633940873 Received IMU Angular Velocity - [0.0102996, -0.00891534, 0.00396711]
+1744868939.639703339 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00396711]
+1744868939.644164865 Received IMU Angular Velocity - [-0.00141829, -0.00145849, 0.00609764]
+-------------------------
+[2025-04-17_13-49-00.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.15127, y=0.0438744, Linear Velocity: 0.00171304
+Current yaw: -0.00272912 (roll: -0.0206805, pitch: -0.00562809)
+1744868939.703899354 Received IMU Angular Velocity - [0.00816909, -0.0099806, 0.00822817]
+1744868939.713982957 Received IMU Angular Velocity - [0.00390804, 0.00386783, 0.00822817]
+-------------------------
+[2025-04-17_13-49-01.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152768, y=0.04202, Linear Velocity: 0.00409001
+Current yaw: -0.00184401 (roll: -0.0205587, pitch: -0.00598112)
+1744868939.803949567 Received IMU Angular Velocity - [0.0102996, -0.00891534, 0.00609764]
+1744868939.839752947 Received IMU Angular Velocity - [0.0049733, -0.0099806, 0.000771319]
+-------------------------
+[2025-04-17_13-49-01.115] No B-spline trajectory received.
+-------------------------
+1744868939.843844957 Received IMU Angular Velocity - [0.000712243, -0.00465428, 0.00503238]
+1744868939.849700578 Received IMU Angular Velocity - [0.000712243, 0.00386783, 0.0103587]
+1744868939.854094805 Received IMU Angular Velocity - [0.00603857, 0.00706363, 0.00822817]
+Received Odometry - Position: x=0.15304, y=0.039894, Linear Velocity: 0.00377985
+Current yaw: -0.00212517 (roll: -0.0212157, pitch: -0.00503483)
+1744868939.929712645 Received IMU Angular Velocity - [0.00603857, 0.00280257, 0.00396711]
+1744868939.933911922 Received IMU Angular Velocity - [0.00710383, -0.00571955, 0.000771319]
+1744868939.939694580 Received IMU Angular Velocity - [0.00816909, -0.0099806, 0.00716291]
+1744868939.943948099 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.0103587]
+1744868939.949702725 Received IMU Angular Velocity - [-0.000353022, 0.0017373, 0.00716291]
+-------------------------
+[2025-04-17_13-49-01.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151102, y=0.0411219, Linear Velocity: -0.00220559
+Current yaw: -0.00258517 (roll: -0.0208796, pitch: -0.00633985)
+1744868940.019737944 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00396711]
+1744868940.023862434 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00396711]
+1744868940.033939253 Received IMU Angular Velocity - [0.00923436, -0.00571955, 0.00503238]
+-------------------------
+[2025-04-17_13-49-01.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149845, y=0.0409922, Linear Velocity: -0.00521332
+Current yaw: -0.00175838 (roll: -0.0211245, pitch: -0.00611948)
+1744868940.094113339 Received IMU Angular Velocity - [0.00390804, 0.00386783, 0.00503238]
+-------------------------
+[2025-04-17_13-49-01.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149685, y=0.0407118, Linear Velocity: -0.00512271
+Current yaw: -0.0022639 (roll: -0.0212161, pitch: -0.00601244)
+1744868940.209824331 Received IMU Angular Velocity - [-0.00141829, -0.00358902, 0.00396711]
+-------------------------
+[2025-04-17_13-49-01.515] No B-spline trajectory received.
+-------------------------
+1744868940.243951622 Received IMU Angular Velocity - [0.00177751, -0.00358902, 0.00396711]
+1744868940.249749321 Received IMU Angular Velocity - [-0.000353022, 0.0049331, 0.00609764]
+1744868940.253948054 Received IMU Angular Velocity - [0.00177751, 0.00812889, 0.00716291]
+1744868940.259785722 Received IMU Angular Velocity - [0.00603857, 0.00599836, 0.00822817]
+1744868940.263798817 Received IMU Angular Velocity - [0.00923436, -0.00252375, 0.00290185]
+1744868940.269716072 Received IMU Angular Velocity - [0.0102996, -0.00891534, 0.00503238]
+1744868940.274154557 Received IMU Angular Velocity - [0.000712243, -0.00785008, 0.00503238]
+1744868940.279864605 Received IMU Angular Velocity - [-0.00461408, -0.00145849, 0.00290185]
+1744868940.284021353 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00396711]
+1744868940.289792107 Received IMU Angular Velocity - [0.0049733, 0.00706363, 0.0103587]
+1744868940.294046521 Received IMU Angular Velocity - [0.00603857, -0.000393224, 0.00396711]
+1744868940.299713848 Received IMU Angular Velocity - [0.00923436, -0.00571955, 0.000771319]
+1744868940.303887588 Received IMU Angular Velocity - [0.0102996, -0.0099806, 0.00716291]
+1744868940.309831724 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00716291]
+Received Odometry - Position: x=0.150662, y=0.0395, Linear Velocity: -0.00226489
+Current yaw: -0.0020389 (roll: -0.020783, pitch: -0.00586895)
+-------------------------
+[2025-04-17_13-49-01.615] No B-spline trajectory received.
+-------------------------
+1744868940.349750281 Received IMU Angular Velocity - [-0.00567934, 0.00386783, 0.00503238]
+1744868940.354044698 Received IMU Angular Velocity - [-0.00141829, 0.00812889, 0.00290185]
+Received Odometry - Position: x=0.149679, y=0.0420308, Linear Velocity: -0.00350127
+Current yaw: -0.00243589 (roll: -0.0206974, pitch: -0.0054553)
+1744868940.399829564 Received IMU Angular Velocity - [0.00816909, -0.00358902, 0.00929343]
+-------------------------
+[2025-04-17_13-49-01.719] No B-spline trajectory received.
+-------------------------
+1744868940.449773962 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00183658]
+Received Odometry - Position: x=0.150949, y=0.0404987, Linear Velocity: 6.7368e-05
+Current yaw: -0.00202252 (roll: -0.0204718, pitch: -0.00627856)
+-------------------------
+[2025-04-17_13-49-01.821] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-17_13-49-01.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151496, y=0.0422166, Linear Velocity: 0.000245125
+Current yaw: -0.00171924 (roll: -0.0206928, pitch: -0.00642889)
+Received Odometry - Position: x=0.151845, y=0.0421708, Linear Velocity: 0.00403943
+Current yaw: -0.00145284 (roll: -0.0200617, pitch: -0.00606321)
+1744868940.689774347 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.00396711]
+1744868940.699589621 Received IMU Angular Velocity - [0.0102996, 0.000672041, 0.00716291]
+-------------------------
+[2025-04-17_13-49-02.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150082, y=0.0386474, Linear Velocity: -0.00494695
+Current yaw: -0.00196443 (roll: -0.020757, pitch: -0.00476776)
+-------------------------
+[2025-04-17_13-49-02.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.15023, y=0.0395224, Linear Velocity: -0.00262794
+Current yaw: -0.00247933 (roll: -0.0206726, pitch: -0.00603257)
+-------------------------
+[2025-04-17_13-49-02.215] No B-spline trajectory received.
+-------------------------
+1744868940.973890583 Received IMU Angular Velocity - [0.0145607, -0.00785008, 0.00609764]
+1744868940.979791293 Received IMU Angular Velocity - [-0.00141829, -0.00571955, 0.00609764]
+1744868940.983979178 Received IMU Angular Velocity - [-0.00141829, -0.00571955, 0.00609764]
+1744868940.989748268 Received IMU Angular Velocity - [-0.000353022, 0.00599836, 0.00716291]
+1744868940.994103550 Received IMU Angular Velocity - [-0.000353022, 0.00599836, 0.00716291]
+Received Odometry - Position: x=0.150608, y=0.0387035, Linear Velocity: -0.0016182
+Current yaw: -0.0019616 (roll: -0.0210194, pitch: -0.00588406)
+1744868941.003985002 Received IMU Angular Velocity - [0.00710383, -0.00145849, 0.00183658]
+1744868941.009738027 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00716291]
+1744868941.013918871 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00716291]
+1744868941.019762844 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.000771319]
+1744868941.023941096 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.000771319]
+1744868941.029761835 Received IMU Angular Velocity - [0.00603857, 0.000672041, 0.00822817]
+1744868941.034089309 Received IMU Angular Velocity - [0.00603857, 0.000672041, 0.00822817]
+1744868941.039900128 Received IMU Angular Velocity - [0.00923436, -0.0110459, 0.00290185]
+1744868941.043909318 Received IMU Angular Velocity - [0.00923436, -0.0110459, 0.00290185]
+1744868941.049598149 Received IMU Angular Velocity - [-0.00567934, 0.0017373, 0.00716291]
+1744868941.054267970 Received IMU Angular Velocity - [-0.00567934, 0.0017373, 0.00716291]
+1744868941.059596117 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00503238]
+1744868941.064053867 Received IMU Angular Velocity - [0.00923436, 0.0017373, 0.00716291]
+1744868941.069710697 Received IMU Angular Velocity - [0.00923436, -0.00571955, 0.00396711]
+1744868941.073998617 Received IMU Angular Velocity - [0.00603857, -0.0110459, 0.00183658]
+1744868941.079754330 Received IMU Angular Velocity - [0.000712243, -0.00571955, 0.00609764]
+1744868941.084000552 Received IMU Angular Velocity - [-0.000353022, 0.00280257, 0.00716291]
+1744868941.089729865 Received IMU Angular Velocity - [0.00177751, 0.00812889, 0.00609764]
+1744868941.094091099 Received IMU Angular Velocity - [0.00816909, 0.00599836, 0.00396711]
+1744868941.099731961 Received IMU Angular Velocity - [0.00923436, -0.00145849, 0.00716291]
+-------------------------
+[2025-04-17_13-49-02.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153439, y=0.0393712, Linear Velocity: 0.00572244
+Current yaw: -0.00183902 (roll: -0.020842, pitch: -0.00646569)
+-------------------------
+[2025-04-17_13-49-02.420] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154258, y=0.0389166, Linear Velocity: 0.00553479
+Current yaw: -0.00193197 (roll: -0.0213851, pitch: -0.0055105)
+1744868941.174174844 Received IMU Angular Velocity - [0.00923436, -0.0099806, 0.00822817]
+1744868941.179633235 Received IMU Angular Velocity - [0.000712243, -0.00785008, 0.00716291]
+1744868941.183909859 Received IMU Angular Velocity - [-0.00354881, 0.0017373, 0.00290185]
+1744868941.189716518 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00609764]
+1744868941.204022918 Received IMU Angular Velocity - [0.00816909, -0.00571955, 0.00290185]
+1744868941.209757639 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00609764]
+1744868941.214177595 Received IMU Angular Velocity - [0.00390804, -0.00358902, 0.00929343]
+1744868941.226330195 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00290185]
+1744868941.234206268 Received IMU Angular Velocity - [0.00923436, -0.00358902, 0.00822817]
+1744868941.239962173 Received IMU Angular Velocity - [0.0102996, -0.0099806, 0.000771319]
+1744868941.243945987 Received IMU Angular Velocity - [0.00603857, -0.00891534, 0.00396711]
+-------------------------
+[2025-04-17_13-49-02.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152539, y=0.0389083, Linear Velocity: 0.000351412
+Current yaw: -0.00264654 (roll: -0.0212079, pitch: -0.00566595)
+1744868941.289734276 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00716291]
+-------------------------
+[2025-04-17_13-49-02.615] No B-spline trajectory received.
+-------------------------
+1744868941.354010994 Received IMU Angular Velocity - [0.00177751, 0.00386783, 0.00609764]
+Received Odometry - Position: x=0.152047, y=0.040677, Linear Velocity: -0.00257394
+Current yaw: -0.00159007 (roll: -0.0205432, pitch: -0.00700661)
+1744868941.429764962 Received IMU Angular Velocity - [0.00710383, 0.0049331, 0.00396711]
+1744868941.434075922 Received IMU Angular Velocity - [0.00923436, -0.00145849, 0.00716291]
+-------------------------
+[2025-04-17_13-49-02.715] No B-spline trajectory received.
+-------------------------
+1744868941.454007632 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00822817]
+1744868941.459824595 Received IMU Angular Velocity - [-0.00248355, 0.00919416, 0.00396711]
+1744868941.469809154 Received IMU Angular Velocity - [0.0102996, 0.000672041, 0.00503238]
+1744868941.506127174 Received IMU Angular Velocity - [0.0145607, -0.00252375, 0.00929343]
+1744868941.523820472 Received IMU Angular Velocity - [-0.000353022, 0.0049331, 0.00609764]
+1744868941.529745983 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00716291]
+-------------------------
+[2025-04-17_13-49-02.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152868, y=0.0405938, Linear Velocity: -0.000910084
+Current yaw: -0.00254106 (roll: -0.0207494, pitch: -0.0059302)
+1744868941.564045598 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00716291]
+1744868941.569771102 Received IMU Angular Velocity - [0.00816909, 0.000672041, 0.00396711]
+1744868941.573821222 Received IMU Angular Velocity - [0.0102996, -0.00785008, 0.00503238]
+1744868941.579795663 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.00609764]
+1744868941.583903481 Received IMU Angular Velocity - [0.00177751, -0.00465428, 0.00609764]
+1744868941.589793727 Received IMU Angular Velocity - [-0.00141829, 0.0017373, 0.00503238]
+1744868941.594162705 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00396711]
+1744868941.599594632 Received IMU Angular Velocity - [0.00603857, 0.0049331, 0.0103587]
+1744868941.603924633 Received IMU Angular Velocity - [0.0124302, -0.00145849, 0.00716291]
+1744868941.609714332 Received IMU Angular Velocity - [0.0049733, -0.00678481, -0.00135921]
+1744868941.614027372 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00396711]
+1744868941.619552614 Received IMU Angular Velocity - [0.00177751, -0.00145849, 0.00716291]
+1744868941.623863031 Received IMU Angular Velocity - [0.000712243, 0.0049331, 0.00822817]
+1744868941.629758013 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00396711]
+1744868941.633979722 Received IMU Angular Velocity - [0.00816909, 0.0017373, 0.00290185]
+1744868941.640604073 Received IMU Angular Velocity - [0.0113649, -0.00678481, 0.00609764]
+1744868941.643893207 Received IMU Angular Velocity - [0.00603857, -0.0110459, 0.00396711]
+1744868941.651249166 Received IMU Angular Velocity - [0.00390804, -0.00678481, 0.00609764]
+1744868941.653999978 Received IMU Angular Velocity - [0.000712243, 0.0017373, 0.00716291]
+1744868941.659845903 Received IMU Angular Velocity - [-0.00248355, 0.00599836, 0.00503238]
+Received Odometry - Position: x=0.151987, y=0.0412706, Linear Velocity: -0.00112634
+Current yaw: -0.00111642 (roll: -0.02059, pitch: -0.00659797)
+-------------------------
+[2025-04-17_13-49-02.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.15492, y=0.0404352, Linear Velocity: 0.00762916
+Current yaw: -0.00162651 (roll: -0.0206531, pitch: -0.00594287)
+1744868941.694206992 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00822817]
+1744868941.699804844 Received IMU Angular Velocity - [0.00177751, 0.00599836, 0.00609764]
+1744868941.723919190 Received IMU Angular Velocity - [-0.000353022, 0.0049331, 0.00396711]
+1744868941.729640598 Received IMU Angular Velocity - [0.00603857, 0.00706363, 0.00396711]
+-------------------------
+[2025-04-17_13-49-03.016] No B-spline trajectory received.
+-------------------------
+1744868941.769828571 Received IMU Angular Velocity - [0.00816909, 0.00386783, 0.00822817]
+Received Odometry - Position: x=0.152535, y=0.0379474, Linear Velocity: -0.00268506
+Current yaw: -0.00169475 (roll: -0.0210537, pitch: -0.00621124)
+-------------------------
+[2025-04-17_13-49-03.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153444, y=0.0371729, Linear Velocity: -7.23546e-05
+Current yaw: -0.00197325 (roll: -0.0206924, pitch: -0.00542652)
+-------------------------
+[2025-04-17_13-49-03.215] No B-spline trajectory received.
+-------------------------
+1744868941.969735411 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00290185]
+1744868941.979721955 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00183658]
+Received Odometry - Position: x=0.154742, y=0.0367001, Linear Velocity: 0.00360974
+Current yaw: -0.00203619 (roll: -0.0207325, pitch: -0.00616906)
+-------------------------
+[2025-04-17_13-49-03.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154971, y=0.038415, Linear Velocity: 0.00236073
+Current yaw: -0.00181844 (roll: -0.0209554, pitch: -0.00559576)
+-------------------------
+[2025-04-17_13-49-03.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153819, y=0.0374995, Linear Velocity: -0.00163263
+Current yaw: -0.00232853 (roll: -0.0208565, pitch: -0.00556613)
+-------------------------
+[2025-04-17_13-49-03.515] No B-spline trajectory received.
+-------------------------
+1744868942.259658867 Received IMU Angular Velocity - [-0.00141829, 0.00706363, 0.00822817]
+1744868942.264233004 Received IMU Angular Velocity - [-0.000353022, 0.00812889, 0.00503238]
+Received Odometry - Position: x=0.153507, y=0.0375698, Linear Velocity: -0.00258446
+Current yaw: -0.00187342 (roll: -0.0208121, pitch: -0.0063696)
+1744868942.283875903 Received IMU Angular Velocity - [0.00603857, -0.00678481, 0.00822817]
+1744868942.289748388 Received IMU Angular Velocity - [-0.00674461, 0.000672041, 0.00609764]
+1744868942.294572934 Received IMU Angular Velocity - [-0.00567934, 0.00599836, 0.000771319]
+1744868942.299759828 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00609764]
+1744868942.304001826 Received IMU Angular Velocity - [0.00603857, 0.0017373, 0.00716291]
+1744868942.310294581 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00503238]
+1744868942.314044627 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00290185]
+1744868942.319725714 Received IMU Angular Velocity - [0.000712243, -0.00571955, 0.00716291]
+1744868942.323996417 Received IMU Angular Velocity - [-0.00248355, 0.0017373, 0.00716291]
+1744868942.329766691 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00716291]
+1744868942.333991536 Received IMU Angular Velocity - [0.0102996, 0.00280257, 0.00503238]
+1744868942.340428808 Received IMU Angular Velocity - [0.00923436, -0.00358902, 0.00609764]
+1744868942.344056962 Received IMU Angular Velocity - [0.00923436, -0.00891534, 0.00503238]
+1744868942.349799651 Received IMU Angular Velocity - [0.0049733, -0.0099806, 0.00503238]
+-------------------------
+[2025-04-17_13-49-03.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154017, y=0.0366532, Linear Velocity: -0.000612993
+Current yaw: -0.00246443 (roll: -0.0204284, pitch: -0.00570118)
+-------------------------
+[2025-04-17_13-49-03.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153715, y=0.0371245, Linear Velocity: -0.000952233
+Current yaw: -0.00197156 (roll: -0.0211921, pitch: -0.00524454)
+1744868942.503782736 Received IMU Angular Velocity - [0.0113649, 0.00386783, 0.00503238]
+1744868942.509755417 Received IMU Angular Velocity - [0.0102996, -0.00252375, 0.00716291]
+1744868942.514064105 Received IMU Angular Velocity - [0.00603857, -0.0099806, 0.000771319]
+1744868942.519842923 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00609764]
+1744868942.523929268 Received IMU Angular Velocity - [0.00284277, -0.00145849, 0.00929343]
+1744868942.529751896 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00716291]
+1744868942.534109802 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.000771319]
+1744868942.540353723 Received IMU Angular Velocity - [0.0049733, -0.00145849, 0.00503238]
+1744868942.544046263 Received IMU Angular Velocity - [0.00816909, -0.00678481, 0.00929343]
+1744868942.549766647 Received IMU Angular Velocity - [0.0113649, -0.0110459, 0.00716291]
+1744868942.554166859 Received IMU Angular Velocity - [-0.000353022, -0.00465428, 0.00609764]
+1744868942.559826025 Received IMU Angular Velocity - [-0.00141829, 0.0049331, 0.00503238]
+1744868942.574051142 Received IMU Angular Velocity - [-0.00354881, 0.00812889, 0.00396711]
+1744868942.574226700 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00396711]
+-------------------------
+[2025-04-17_13-49-03.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152906, y=0.0367974, Linear Velocity: -0.00277709
+Current yaw: -0.0023344 (roll: -0.0215508, pitch: -0.0055015)
+-------------------------
+[2025-04-17_13-49-03.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149146, y=0.0394696, Linear Velocity: -0.0118631
+Current yaw: -0.00198787 (roll: -0.0210009, pitch: -0.00661808)
+-------------------------
+[2025-04-17_13-49-04.015] No B-spline trajectory received.
+-------------------------
+1744868942.749616296 Received IMU Angular Velocity - [0.0102996, -0.00891534, 0.00503238]
+Received Odometry - Position: x=0.147426, y=0.0410349, Linear Velocity: -0.0143713
+Current yaw: -0.00183487 (roll: -0.0208365, pitch: -0.00512311)
+1744868942.829784329 Received IMU Angular Velocity - [-0.000353022, 0.00280257, 0.00503238]
+1744868942.834026647 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00503238]
+-------------------------
+[2025-04-17_13-49-04.115] No B-spline trajectory received.
+-------------------------
+1744868942.844067016 Received IMU Angular Velocity - [0.0134954, -0.00358902, 0.00822817]
+Received Odometry - Position: x=0.147377, y=0.0408504, Linear Velocity: -0.0117437
+Current yaw: -0.00126009 (roll: -0.0202216, pitch: -0.00647209)
+-------------------------
+[2025-04-17_13-49-04.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145826, y=0.0404925, Linear Velocity: -0.0133398
+Current yaw: -0.00217789 (roll: -0.0209572, pitch: -0.00508984)
+1744868942.974015696 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00290185]
+1744868942.993993582 Received IMU Angular Velocity - [-0.00674461, 0.00386783, 0.00290185]
+1744868942.999759183 Received IMU Angular Velocity - [0.000712243, 0.00812889, 0.00503238]
+1744868943.003846200 Received IMU Angular Velocity - [0.000712243, 0.00812889, 0.00503238]
+1744868943.009736190 Received IMU Angular Velocity - [0.0113649, -0.00465428, 0.00396711]
+1744868943.014057455 Received IMU Angular Velocity - [0.00816909, -0.0099806, 0.00290185]
+1744868943.019753326 Received IMU Angular Velocity - [0.00284277, -0.00785008, 0.00396711]
+1744868943.023915993 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00503238]
+1744868943.029767325 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00609764]
+1744868943.034121999 Received IMU Angular Velocity - [0.00710383, 0.00599836, 0.00503238]
+1744868943.039840591 Received IMU Angular Velocity - [0.00923436, -0.000393224, 0.00396711]
+1744868943.043894039 Received IMU Angular Velocity - [0.00603857, -0.00678481, 0.00822817]
+1744868943.049574645 Received IMU Angular Velocity - [0.00603857, -0.0099806, 0.0103587]
+1744868943.053955240 Received IMU Angular Velocity - [0.00284277, -0.00358902, 0.00716291]
+1744868943.059764651 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00716291]
+1744868943.064014905 Received IMU Angular Velocity - [-0.00248355, 0.00706363, 0.00396711]
+1744868943.069665079 Received IMU Angular Velocity - [-0.00248355, 0.00386783, 0.00183658]
+1744868943.073984231 Received IMU Angular Velocity - [0.0113649, -0.00145849, 0.00503238]
+1744868943.079785994 Received IMU Angular Velocity - [0.0124302, -0.00678481, 0.00822817]
+1744868943.084129691 Received IMU Angular Velocity - [0.00816909, -0.0121111, 0.00503238]
+1744868943.089763928 Received IMU Angular Velocity - [-0.000353022, -0.00465428, 0.00183658]
+1744868943.094129259 Received IMU Angular Velocity - [-0.00248355, 0.00386783, 0.00290185]
+1744868943.099845258 Received IMU Angular Velocity - [0.00710383, 0.00812889, 0.00716291]
+1744868943.103830864 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00716291]
+1744868943.109788631 Received IMU Angular Velocity - [0.0102996, -0.00145849, 0.00503238]
+1744868943.114104360 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00609764]
+1744868943.122745098 Received IMU Angular Velocity - [0.00603857, -0.00891534, 0.00716291]
+1744868943.124166169 Received IMU Angular Velocity - [-0.000353022, -0.00145849, 0.00503238]
+1744868943.131063489 Received IMU Angular Velocity - [0.000712243, 0.0049331, 0.00609764]
+1744868943.133957570 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00716291]
+1744868943.139751236 Received IMU Angular Velocity - [0.00177751, 0.000672041, 0.00396711]
+1744868943.144075477 Received IMU Angular Velocity - [0.00816909, -0.00465428, 0.00716291]
+1744868943.149760787 Received IMU Angular Velocity - [0.0102996, -0.00785008, 0.00503238]
+1744868943.153833916 Received IMU Angular Velocity - [0.00284277, -0.00571955, 0.00396711]
+1744868943.159755362 Received IMU Angular Velocity - [-0.00248355, 0.00280257, 0.00396711]
+1744868943.163996081 Received IMU Angular Velocity - [-0.00567934, 0.00706363, 0.00183658]
+1744868943.169813460 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00503238]
+1744868943.173881660 Received IMU Angular Velocity - [0.0124302, -0.000393224, 0.00716291]
+1744868943.179860804 Received IMU Angular Velocity - [0.0113649, -0.00891534, 0.00396711]
+1744868943.184009615 Received IMU Angular Velocity - [0.00816909, -0.0110459, 0.00290185]
+1744868943.189867732 Received IMU Angular Velocity - [-0.00141829, -0.00571955, 0.00396711]
+1744868943.194075905 Received IMU Angular Velocity - [-0.00141829, 0.00280257, 0.00929343]
+1744868943.199790720 Received IMU Angular Velocity - [0.00390804, 0.00599836, 0.00716291]
+1744868943.204316312 Received IMU Angular Velocity - [0.00177751, 0.00599836, 0.00183658]
+1744868943.209819281 Received IMU Angular Velocity - [0.00816909, 0.0017373, 0.00503238]
+1744868943.213909210 Received IMU Angular Velocity - [0.00390804, -0.00891534, 0.00503238]
+-------------------------
+[2025-04-17_13-49-04.315] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14778, y=0.040444, Linear Velocity: -0.00527776
+Current yaw: -0.00165012 (roll: -0.0210874, pitch: -0.00598166)
+-------------------------
+[2025-04-17_13-49-04.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14999, y=0.0395005, Linear Velocity: 0.00118031
+Current yaw: -0.00173301 (roll: -0.0213884, pitch: -0.00571494)
+1744868943.224009196 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00503238]
+1744868943.229787502 Received IMU Angular Velocity - [0.000712243, 0.00386783, 0.00822817]
+-------------------------
+[2025-04-17_13-49-04.515] No B-spline trajectory received.
+-------------------------
+1744868943.239753020 Received IMU Angular Velocity - [0.0049733, 0.00280257, 0.00183658]
+1744868943.244025739 Received IMU Angular Velocity - [0.0113649, -0.00465428, 0.00929343]
+1744868943.249771116 Received IMU Angular Velocity - [0.0113649, -0.00785008, 0.00503238]
+1744868943.253985657 Received IMU Angular Velocity - [0.00177751, -0.00678481, 0.00503238]
+1744868943.259774939 Received IMU Angular Velocity - [-0.00354881, 0.000672041, 0.00396711]
+1744868943.264039434 Received IMU Angular Velocity - [-0.00248355, 0.00919416, 0.00503238]
+1744868943.269797451 Received IMU Angular Velocity - [0.00284277, 0.00706363, 0.00822817]
+1744868943.274113212 Received IMU Angular Velocity - [0.00816909, 0.000672041, 0.00396711]
+Received Odometry - Position: x=0.150788, y=0.0379787, Linear Velocity: 0.00170698
+Current yaw: -0.00191773 (roll: -0.0205645, pitch: -0.00725993)
+1744868943.329804582 Received IMU Angular Velocity - [-0.00141829, 0.00280257, 0.00609764]
+-------------------------
+[2025-04-17_13-49-04.617] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149039, y=0.0385808, Linear Velocity: -0.0037612
+Current yaw: -0.00187365 (roll: -0.020902, pitch: -0.006091)
+1744868943.384012927 Received IMU Angular Velocity - [0.0124302, -0.0110459, 0.00822817]
+1744868943.389750368 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00503238]
+1744868943.394266839 Received IMU Angular Velocity - [0.00284277, 0.000672041, 0.00716291]
+-------------------------
+[2025-04-17_13-49-04.715] No B-spline trajectory received.
+-------------------------
+1744868943.469759898 Received IMU Angular Velocity - [0.00390804, 0.00706363, 0.00716291]
+-------------------------
+[2025-04-17_13-49-04.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147189, y=0.039796, Linear Velocity: -0.00758509
+Current yaw: -0.00230156 (roll: -0.0212156, pitch: -0.00515133)
+1744868943.563944399 Received IMU Angular Velocity - [-0.00567934, 0.0049331, 0.00929343]
+Received Odometry - Position: x=0.147255, y=0.0404843, Linear Velocity: 0.00178797
+Current yaw: -0.00221386 (roll: -0.0208654, pitch: -0.00614868)
+-------------------------
+[2025-04-17_13-49-04.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148731, y=0.0391641, Linear Velocity: 0.00506741
+Current yaw: -0.00237533 (roll: -0.0209747, pitch: -0.00561944)
+-------------------------
+[2025-04-17_13-49-05.015] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148581, y=0.0373105, Linear Velocity: 0.00258341
+Current yaw: -0.00166961 (roll: -0.0211063, pitch: -0.00566869)
+-------------------------
+[2025-04-17_13-49-05.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.15374, y=0.0347943, Linear Velocity: 0.0159624
+Current yaw: -0.00217801 (roll: -0.0208871, pitch: -0.00662616)
+-------------------------
+[2025-04-17_13-49-05.219] No B-spline trajectory received.
+-------------------------
+1744868943.979796130 Received IMU Angular Velocity - [0.0124302, -0.00465428, 0.00503238]
+1744868943.984030288 Received IMU Angular Velocity - [0.0102996, -0.0110459, 0.00396711]
+1744868943.989756496 Received IMU Angular Velocity - [0.0049733, -0.0099806, 0.00503238]
+1744868943.994194725 Received IMU Angular Velocity - [-0.00141829, -0.000393224, 0.00609764]
+Received Odometry - Position: x=0.151999, y=0.0360493, Linear Velocity: 0.0069683
+Current yaw: -0.00162976 (roll: -0.0213152, pitch: -0.00418536)
+1744868944.029755276 Received IMU Angular Velocity - [-0.00141829, 0.000672041, 0.00822817]
+-------------------------
+[2025-04-17_13-49-05.315] No B-spline trajectory received.
+-------------------------
+1744868944.039758875 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00290185]
+1744868944.044006345 Received IMU Angular Velocity - [0.00603857, 0.0017373, 0.00609764]
+1744868944.049797835 Received IMU Angular Velocity - [0.00816909, -0.00571955, 0.00396711]
+1744868944.054084507 Received IMU Angular Velocity - [0.00390804, -0.00891534, 0.00290185]
+1744868944.060018529 Received IMU Angular Velocity - [0.00284277, -0.00465428, 0.00609764]
+1744868944.084160426 Received IMU Angular Velocity - [0.00816909, -0.0099806, 0.00396711]
+1744868944.089794887 Received IMU Angular Velocity - [0.0049733, -0.00891534, 0.00396711]
+Received Odometry - Position: x=0.1524, y=0.0367997, Linear Velocity: 0.00740195
+Current yaw: -0.00173955 (roll: -0.0207503, pitch: -0.00580947)
+1744868944.094020884 Received IMU Angular Velocity - [-0.000353022, -0.00145849, 0.00716291]
+1744868944.124135365 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00716291]
+-------------------------
+[2025-04-17_13-49-05.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.15198, y=0.0360357, Linear Velocity: 0.00421051
+Current yaw: -0.00228711 (roll: -0.0208204, pitch: -0.00557942)
+-------------------------
+[2025-04-17_13-49-05.515] No B-spline trajectory received.
+-------------------------
+1744868944.274064642 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00503238]
+1744868944.279772353 Received IMU Angular Velocity - [0.00923436, -0.000393224, 0.00396711]
+1744868944.283990255 Received IMU Angular Velocity - [0.0102996, -0.00785008, 0.00503238]
+1744868944.289773392 Received IMU Angular Velocity - [0.00710383, -0.0110459, 0.00609764]
+Received Odometry - Position: x=0.155119, y=0.0359497, Linear Velocity: 0.0106327
+Current yaw: -0.00161309 (roll: -0.0213251, pitch: -0.00646066)
+1744868944.319649145 Received IMU Angular Velocity - [0.0113649, -0.00678481, 0.00716291]
+1744868944.324029996 Received IMU Angular Velocity - [0.00603857, -0.0099806, 0.00716291]
+1744868944.329792685 Received IMU Angular Velocity - [0.000712243, -0.00465428, 0.00290185]
+1744868944.334082428 Received IMU Angular Velocity - [-0.00141829, 0.00280257, 0.00503238]
+1744868944.339810748 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00822817]
+1744868944.344021129 Received IMU Angular Velocity - [0.00603857, 0.0049331, 0.00716291]
+1744868944.349804715 Received IMU Angular Velocity - [0.0124302, -0.00145849, 0.00396711]
+1744868944.354182494 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00396711]
+1744868944.359819386 Received IMU Angular Velocity - [0.00390804, -0.00891534, 0.00716291]
+1744868944.363842369 Received IMU Angular Velocity - [-0.00354881, -0.000393224, 0.00396711]
+1744868944.369784328 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00503238]
+-------------------------
+[2025-04-17_13-49-05.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154537, y=0.0364735, Linear Velocity: 0.00669986
+Current yaw: -0.00164278 (roll: -0.0214479, pitch: -0.00604829)
+-------------------------
+[2025-04-17_13-49-05.718] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152185, y=0.0373581, Linear Velocity: -0.000570771
+Current yaw: -0.00201479 (roll: -0.02097, pitch: -0.00559963)
+1744868944.519770791 Received IMU Angular Velocity - [0.0102996, -0.00358902, 0.00396711]
+1744868944.524035350 Received IMU Angular Velocity - [0.0113649, -0.0099806, 0.00716291]
+-------------------------
+[2025-04-17_13-49-05.821] No B-spline trajectory received.
+-------------------------
+1744868944.544015603 Received IMU Angular Velocity - [0.00284277, 0.00706363, 0.00822817]
+Received Odometry - Position: x=0.15236, y=0.0383329, Linear Velocity: -0.000774816
+Current yaw: -0.00240986 (roll: -0.0208865, pitch: -0.00626233)
+1744868944.609789134 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00396711]
+1744868944.613944922 Received IMU Angular Velocity - [0.00816909, 0.00386783, 0.00503238]
+1744868944.639800828 Received IMU Angular Velocity - [-0.00248355, 0.0049331, 0.00396711]
+-------------------------
+[2025-04-17_13-49-05.915] No B-spline trajectory received.
+-------------------------
+1744868944.644136525 Received IMU Angular Velocity - [0.00710383, 0.00706363, 0.00396711]
+Received Odometry - Position: x=0.153716, y=0.0387672, Linear Velocity: 0.00205338
+Current yaw: -0.00133632 (roll: -0.0211841, pitch: -0.00617225)
+1744868944.663987494 Received IMU Angular Velocity - [0.000712243, -0.00465428, 0.00609764]
+1744868944.714032242 Received IMU Angular Velocity - [0.00710383, 0.0049331, 0.00716291]
+-------------------------
+[2025-04-17_13-49-06.015] No B-spline trajectory received.
+-------------------------
+1744868944.754054318 Received IMU Angular Velocity - [0.00710383, -0.00465428, 0.000771319]
+Received Odometry - Position: x=0.156915, y=0.0403765, Linear Velocity: 0.00815317
+Current yaw: -0.00206676 (roll: -0.0209623, pitch: -0.0063171)
+-------------------------
+[2025-04-17_13-49-06.115] No B-spline trajectory received.
+-------------------------
+1744868944.843992146 Received IMU Angular Velocity - [-0.00141829, 0.00812889, 0.00183658]
+Received Odometry - Position: x=0.155956, y=0.0399888, Linear Velocity: 0.0030115
+Current yaw: -0.00208178 (roll: -0.0206944, pitch: -0.00632958)
+-------------------------
+[2025-04-17_13-49-06.215] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154766, y=0.0407864, Linear Velocity: -0.000560337
+Current yaw: -0.00189824 (roll: -0.0203784, pitch: -0.00615831)
+1744868945.029806465 Received IMU Angular Velocity - [0.00284277, -0.00678481, 0.00290185]
+-------------------------
+[2025-04-17_13-49-06.315] No B-spline trajectory received.
+-------------------------
+1744868945.049878593 Received IMU Angular Velocity - [0.0124302, 0.0017373, 0.00609764]
+1744868945.053975050 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00609764]
+1744868945.059760139 Received IMU Angular Velocity - [0.0049733, -0.00891534, 0.00503238]
+Received Odometry - Position: x=0.151741, y=0.0397241, Linear Velocity: -0.00797702
+Current yaw: -0.00134563 (roll: -0.0206266, pitch: -0.00621862)
+1744868945.124031698 Received IMU Angular Velocity - [0.0113649, -0.00891534, 0.00396711]
+1744868945.129581068 Received IMU Angular Velocity - [0.00284277, -0.00785008, 0.00503238]
+-------------------------
+[2025-04-17_13-49-06.415] No B-spline trajectory received.
+-------------------------
+1744868945.144098258 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00609764]
+1744868945.149898644 Received IMU Angular Velocity - [0.00710383, 0.00280257, 0.00822817]
+Received Odometry - Position: x=0.14924, y=0.0386604, Linear Velocity: -0.0124352
+Current yaw: -0.00117239 (roll: -0.0208126, pitch: -0.00563787)
+1744868945.179778332 Received IMU Angular Velocity - [0.00816909, 0.00386783, 0.00609764]
+1744868945.184104492 Received IMU Angular Velocity - [0.0049733, -0.00358902, 0.00716291]
+1744868945.189781770 Received IMU Angular Velocity - [0.00923436, -0.0099806, 0.00609764]
+1744868945.209676388 Received IMU Angular Velocity - [-0.00248355, 0.00812889, 0.00183658]
+-------------------------
+[2025-04-17_13-49-06.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147241, y=0.0375381, Linear Velocity: -0.014247
+Current yaw: -0.00139055 (roll: -0.0207278, pitch: -0.00648041)
+1744868945.319789641 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00929343]
+-------------------------
+[2025-04-17_13-49-06.615] No B-spline trajectory received.
+-------------------------
+1744868945.354546388 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00503238]
+1744868945.359775715 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00290185]
+1744868945.364081107 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00609764]
+1744868945.369788114 Received IMU Angular Velocity - [0.000712243, -0.00145849, 0.00929343]
+Received Odometry - Position: x=0.144697, y=0.0362087, Linear Velocity: -0.0173305
+Current yaw: -0.00184966 (roll: -0.0208283, pitch: -0.00555461)
+1744868945.404091950 Received IMU Angular Velocity - [-0.000353022, 0.00386783, 0.00503238]
+1744868945.419646967 Received IMU Angular Velocity - [0.0113649, 0.000672041, 0.00290185]
+1744868945.434160796 Received IMU Angular Velocity - [-0.000353022, -0.00465428, 0.00396711]
+1744868945.439804185 Received IMU Angular Velocity - [0.000712243, 0.00280257, 0.00822817]
+1744868945.444092329 Received IMU Angular Velocity - [-0.000353022, 0.00812889, 0.00609764]
+-------------------------
+[2025-04-17_13-49-06.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.142555, y=0.0363532, Linear Velocity: -0.0184161
+Current yaw: -0.00122797 (roll: -0.0210174, pitch: -0.00572291)
+-------------------------
+[2025-04-17_13-49-06.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.144464, y=0.0351174, Linear Velocity: -0.00994901
+Current yaw: -0.00119917 (roll: -0.0209518, pitch: -0.00552909)
+-------------------------
+[2025-04-17_13-49-06.915] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.143419, y=0.0360445, Linear Velocity: -0.00904563
+Current yaw: -0.00157698 (roll: -0.0207894, pitch: -0.00558644)
+1744868945.679703637 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00396711]
+1744868945.683985861 Received IMU Angular Velocity - [0.00923436, 0.0049331, 0.00503238]
+1744868945.689852713 Received IMU Angular Velocity - [0.0102996, -0.00252375, 0.00290185]
+1744868945.694277309 Received IMU Angular Velocity - [0.0049733, -0.00891534, 0.00183658]
+1744868945.723996511 Received IMU Angular Velocity - [0.0102996, -0.00358902, 0.00609764]
+1744868945.729648957 Received IMU Angular Velocity - [0.00603857, -0.00891534, 0.00716291]
+1744868945.734020943 Received IMU Angular Velocity - [0.00284277, -0.00891534, 0.00503238]
+-------------------------
+[2025-04-17_13-49-07.020] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145766, y=0.0371958, Linear Velocity: 0.000380839
+Current yaw: -0.00130796 (roll: -0.0208329, pitch: -0.00531752)
+-------------------------
+[2025-04-17_13-49-07.115] No B-spline trajectory received.
+-------------------------
+1744868945.824116086 Received IMU Angular Velocity - [0.0113649, -0.00252375, 0.00716291]
+1744868945.854073280 Received IMU Angular Velocity - [0.00390804, 0.0049331, 0.00290185]
+1744868945.874000603 Received IMU Angular Velocity - [0.000712243, -0.00145849, 0.00716291]
+Received Odometry - Position: x=0.148165, y=0.0361706, Linear Velocity: 0.00640728
+Current yaw: -0.00131747 (roll: -0.0206987, pitch: -0.00596293)
+-------------------------
+[2025-04-17_13-49-07.215] No B-spline trajectory received.
+-------------------------
+1744868945.943904094 Received IMU Angular Velocity - [0.00390804, 0.00812889, 0.00503238]
+Received Odometry - Position: x=0.150422, y=0.0373196, Linear Velocity: 0.00968433
+Current yaw: -0.00159389 (roll: -0.0207472, pitch: -0.00533414)
+1744868945.994082638 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00290185]
+1744868945.999661384 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00609764]
+1744868946.023998006 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00503238]
+1744868946.029781944 Received IMU Angular Velocity - [0.00816909, -0.0099806, 0.00290185]
+1744868946.034096328 Received IMU Angular Velocity - [0.00390804, -0.00571955, 0.00503238]
+-------------------------
+[2025-04-17_13-49-07.315] No B-spline trajectory received.
+-------------------------
+1744868946.064135988 Received IMU Angular Velocity - [0.0049733, -0.0099806, 0.00396711]
+1744868946.069926262 Received IMU Angular Velocity - [0.000712243, -0.00358902, 0.00290185]
+1744868946.073955325 Received IMU Angular Velocity - [0.00177751, 0.00280257, 0.00716291]
+1744868946.079779455 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.00396711]
+Received Odometry - Position: x=0.154298, y=0.0382525, Linear Velocity: 0.0195922
+Current yaw: -0.0013655 (roll: -0.0209698, pitch: -0.00507622)
+1744868946.139782326 Received IMU Angular Velocity - [-0.00248355, 0.0017373, 0.00716291]
+-------------------------
+[2025-04-17_13-49-07.415] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154101, y=0.0380889, Linear Velocity: 0.0116601
+Current yaw: -0.0014907 (roll: -0.0207132, pitch: -0.0057496)
+1744868946.204141246 Received IMU Angular Velocity - [0.00177751, -0.00145849, 0.00609764]
+-------------------------
+[2025-04-17_13-49-07.515] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153717, y=0.0369109, Linear Velocity: 0.00861635
+Current yaw: -0.00152722 (roll: -0.0211091, pitch: -0.00647764)
+-------------------------
+[2025-04-17_13-49-07.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151973, y=0.037112, Linear Velocity: 0.00140429
+Current yaw: -0.00157785 (roll: -0.0208481, pitch: -0.00624106)
+-------------------------
+[2025-04-17_13-49-07.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.152315, y=0.037843, Linear Velocity: 0.00160039
+Current yaw: -0.0014665 (roll: -0.0210118, pitch: -0.00655431)
+-------------------------
+[2025-04-17_13-49-07.815] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.153463, y=0.0364927, Linear Velocity: 0.0032757
+Current yaw: -0.00133898 (roll: -0.0210227, pitch: -0.00557938)
+1744868946.599638502 Received IMU Angular Velocity - [0.00603857, -0.00891534, 0.00822817]
+-------------------------
+[2025-04-17_13-49-07.915] No B-spline trajectory received.
+-------------------------
+1744868946.644120437 Received IMU Angular Velocity - [-0.00674461, 0.00386783, 0.00183658]
+1744868946.649857077 Received IMU Angular Velocity - [-0.000353022, 0.00812889, 0.00716291]
+1744868946.653903932 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00609764]
+1744868946.659851491 Received IMU Angular Velocity - [0.00390804, 0.000672041, 0.000771319]
+1744868946.663981229 Received IMU Angular Velocity - [0.00816909, -0.00571955, 0.000771319]
+1744868946.669829105 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00822817]
+Received Odometry - Position: x=0.149123, y=0.0367034, Linear Velocity: -0.00693594
+Current yaw: -0.00167849 (roll: -0.0208391, pitch: -0.00572295)
+1744868946.703944741 Received IMU Angular Velocity - [0.00710383, -0.00785008, 0.00822817]
+1744868946.709835402 Received IMU Angular Velocity - [-0.00248355, 0.0049331, 0.00290185]
+1744868946.714058615 Received IMU Angular Velocity - [-0.00248355, 0.0049331, 0.00290185]
+1744868946.735728428 Received IMU Angular Velocity - [0.00923436, -0.0110459, 0.00290185]
+1744868946.739654287 Received IMU Angular Velocity - [0.000712243, -0.000393224, 0.00822817]
+-------------------------
+[2025-04-17_13-49-08.015] No B-spline trajectory received.
+-------------------------
+1744868946.754077522 Received IMU Angular Velocity - [0.00603857, 0.00706363, 0.00290185]
+1744868946.763963516 Received IMU Angular Velocity - [0.00923436, -0.00465428, 0.00822817]
+Received Odometry - Position: x=0.147264, y=0.0387178, Linear Velocity: -0.0101156
+Current yaw: -0.00182302 (roll: -0.0212374, pitch: -0.00595337)
+1744868946.783970169 Received IMU Angular Velocity - [0.000712243, 0.00706363, 0.00396711]
+-------------------------
+[2025-04-17_13-49-08.115] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148737, y=0.0395945, Linear Velocity: -0.00394985
+Current yaw: -0.00153829 (roll: -0.0202731, pitch: -0.00563727)
+-------------------------
+[2025-04-17_13-49-08.215] No B-spline trajectory received.
+-------------------------
+1744868946.939815316 Received IMU Angular Velocity - [0.00284277, -0.00358902, 0.00716291]
+Received Odometry - Position: x=0.147903, y=0.0391093, Linear Velocity: -0.00551671
+Current yaw: -0.00231961 (roll: -0.0207434, pitch: -0.00544211)
+1744868947.004065784 Received IMU Angular Velocity - [0.0049733, -0.00571955, 0.00716291]
+-------------------------
+[2025-04-17_13-49-08.316] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.146086, y=0.038739, Linear Velocity: -0.00863437
+Current yaw: -0.00147181 (roll: -0.0206343, pitch: -0.0061901)
+1744868947.104009443 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00290185]
+1744868947.109843238 Received IMU Angular Velocity - [-0.00248355, 0.000672041, 0.00716291]
+1744868947.124023744 Received IMU Angular Velocity - [0.00923436, -0.000393224, 0.00290185]
+1744868947.129984487 Received IMU Angular Velocity - [0.00923436, -0.00891534, 0.00609764]
+1744868947.133981933 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.00716291]
+-------------------------
+[2025-04-17_13-49-08.415] No B-spline trajectory received.
+-------------------------
+1744868947.154029130 Received IMU Angular Velocity - [0.00284277, 0.00599836, 0.00396711]
+1744868947.159835564 Received IMU Angular Velocity - [0.00603857, -0.000393224, 0.00290185]
+1744868947.164046169 Received IMU Angular Velocity - [0.0102996, -0.00678481, 0.0103587]
+1744868947.169814554 Received IMU Angular Velocity - [0.00710383, -0.0110459, 0.00503238]
+1744868947.174164779 Received IMU Angular Velocity - [0.000712243, -0.00571955, 0.00290185]
+1744868947.181003376 Received IMU Angular Velocity - [-0.00141829, 0.00280257, 0.00503238]
+1744868947.183939410 Received IMU Angular Velocity - [-0.00141829, 0.00812889, 0.0103587]
+1744868947.189787061 Received IMU Angular Velocity - [0.00603857, 0.00386783, 0.00822817]
+1744868947.194213257 Received IMU Angular Velocity - [0.00816909, -0.00145849, 0.00609764]
+Received Odometry - Position: x=0.14386, y=0.0385269, Linear Velocity: -0.0115044
+Current yaw: -0.00168201 (roll: -0.0212002, pitch: -0.00522212)
+1744868947.204142965 Received IMU Angular Velocity - [0.0102996, -0.00785008, 0.0103587]
+1744868947.219806432 Received IMU Angular Velocity - [0.00710383, 0.00706363, 0.00716291]
+1744868947.224040237 Received IMU Angular Velocity - [0.00284277, -0.000393224, 0.00609764]
+-------------------------
+[2025-04-17_13-49-08.516] No B-spline trajectory received.
+-------------------------
+1744868947.254046136 Received IMU Angular Velocity - [0.00603857, 0.00706363, 0.00290185]
+Received Odometry - Position: x=0.145624, y=0.0393589, Linear Velocity: -0.0044919
+Current yaw: -0.0020419 (roll: -0.020705, pitch: -0.00558406)
+-------------------------
+[2025-04-17_13-49-08.615] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.14498, y=0.040118, Linear Velocity: -0.00503159
+Current yaw: -0.00188997 (roll: -0.020859, pitch: -0.00633818)
+1744868947.419606355 Received IMU Angular Velocity - [-0.00141829, 0.00599836, -0.00242447]
+-------------------------
+[2025-04-17_13-49-08.715] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145961, y=0.039898, Linear Velocity: -0.000603947
+Current yaw: -0.00189243 (roll: -0.0212636, pitch: -0.00448901)
+1744868947.483995354 Received IMU Angular Velocity - [-0.00248355, 0.0049331, 0.00716291]
+-------------------------
+[2025-04-17_13-49-08.816] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147294, y=0.0371749, Linear Velocity: 0.00140075
+Current yaw: -0.00217488 (roll: -0.0211793, pitch: -0.00547933)
+1744868947.584020872 Received IMU Angular Velocity - [-0.00354881, 0.00280257, 0.00290185]
+-------------------------
+[2025-04-17_13-49-08.916] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.146632, y=0.0379244, Linear Velocity: -3.98204e-05
+Current yaw: -0.00151187 (roll: -0.020823, pitch: -0.00559472)
+1744868947.674164684 Received IMU Angular Velocity - [0.00923436, -0.0099806, 0.00716291]
+1744868947.679827977 Received IMU Angular Velocity - [-0.000353022, 0.00280257, 0.00396711]
+1744868947.683960755 Received IMU Angular Velocity - [-0.000353022, 0.00280257, 0.00396711]
+1744868947.689837623 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00609764]
+1744868947.694229962 Received IMU Angular Velocity - [0.0049733, 0.0049331, 0.00609764]
+1744868947.699994859 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.000771319]
+-------------------------
+[2025-04-17_13-49-09.016] No B-spline trajectory received.
+-------------------------
+1744868947.749934703 Received IMU Angular Velocity - [-0.00461408, 0.00919416, 0.000771319]
+1744868947.754015415 Received IMU Angular Velocity - [-0.00461408, 0.00919416, 0.000771319]
+1744868947.789804387 Received IMU Angular Velocity - [0.00284277, 0.00706363, 0.00609764]
+Received Odometry - Position: x=0.148459, y=0.0378698, Linear Velocity: 0.00394557
+Current yaw: -0.00200943 (roll: -0.0213715, pitch: -0.00600838)
+-------------------------
+[2025-04-17_13-49-09.116] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148204, y=0.0380264, Linear Velocity: 6.85768e-05
+Current yaw: -0.0015874 (roll: -0.0206355, pitch: -0.00629749)
+-------------------------
+[2025-04-17_13-49-09.216] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150687, y=0.0369002, Linear Velocity: 0.0062594
+Current yaw: -0.00137644 (roll: -0.0209346, pitch: -0.00569049)
+1744868948.034086307 Received IMU Angular Velocity - [0.0124302, -0.00678481, 0.00609764]
+-------------------------
+[2025-04-17_13-49-09.315] No B-spline trajectory received.
+-------------------------
+1744868948.044109874 Received IMU Angular Velocity - [-0.00248355, -0.00145849, 0.00290185]
+Received Odometry - Position: x=0.152519, y=0.0373104, Linear Velocity: 0.00943152
+Current yaw: -0.00178451 (roll: -0.0211481, pitch: -0.00612408)
+1744868948.064542876 Received IMU Angular Velocity - [0.0102996, -0.00358902, 0.00290185]
+-------------------------
+[2025-04-17_13-49-09.416] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.154134, y=0.0392037, Linear Velocity: 0.0111291
+Current yaw: -0.00186766 (roll: -0.0208166, pitch: -0.00565081)
+1744868948.229682533 Received IMU Angular Velocity - [0.00710383, 0.000672041, 0.00396711]
+1744868948.234039286 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00396711]
+-------------------------
+[2025-04-17_13-49-09.516] No B-spline trajectory received.
+-------------------------
+1744868948.269850530 Received IMU Angular Velocity - [0.00816909, -0.00785008, 0.00503238]
+Received Odometry - Position: x=0.152723, y=0.0403439, Linear Velocity: 0.00581175
+Current yaw: -0.00141419 (roll: -0.0207347, pitch: -0.00525734)
+1744868948.284000506 Received IMU Angular Velocity - [-0.00461408, 0.00280257, 0.00290185]
+1744868948.289808828 Received IMU Angular Velocity - [-0.00141829, 0.00706363, 0.000771319]
+-------------------------
+[2025-04-17_13-49-09.616] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151982, y=0.03968, Linear Velocity: 0.00295731
+Current yaw: -0.00157542 (roll: -0.0205699, pitch: -0.00589165)
+1744868948.399849877 Received IMU Angular Velocity - [0.00923436, 0.0017373, 0.00503238]
+1744868948.424038557 Received IMU Angular Velocity - [0.0049733, 0.00706363, 0.00822817]
+-------------------------
+[2025-04-17_13-49-09.716] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151806, y=0.0391877, Linear Velocity: 0.00279678
+Current yaw: -0.00181887 (roll: -0.0209387, pitch: -0.00536184)
+1744868948.484050352 Received IMU Angular Velocity - [-0.00141829, -0.000393224, 0.00716291]
+1744868948.534201370 Received IMU Angular Velocity - [0.00390804, -0.00145849, -0.000293946]
+-------------------------
+[2025-04-17_13-49-09.816] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150191, y=0.0424212, Linear Velocity: -0.000704019
+Current yaw: -0.00146554 (roll: -0.0201898, pitch: -0.00613775)
+-------------------------
+[2025-04-17_13-49-09.916] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.151616, y=0.0419983, Linear Velocity: 0.00285844
+Current yaw: -0.00197943 (roll: -0.0207735, pitch: -0.00412555)
+1744868948.699825043 Received IMU Angular Velocity - [0.00923436, -0.00252375, 0.00396711]
+1744868948.729705464 Received IMU Angular Velocity - [0.00710383, 0.000672041, 0.000771319]
+-------------------------
+[2025-04-17_13-49-10.020] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.150909, y=0.0405586, Linear Velocity: 0.00115491
+Current yaw: -0.00192369 (roll: -0.021033, pitch: -0.00560677)
+-------------------------
+[2025-04-17_13-49-10.116] No B-spline trajectory received.
+-------------------------
+1744868948.844046465 Received IMU Angular Velocity - [0.00390804, -0.00571955, 0.00503238]
+Received Odometry - Position: x=0.148423, y=0.0404871, Linear Velocity: -0.00574096
+Current yaw: -0.00204743 (roll: -0.0209597, pitch: -0.00568327)
+1744868948.863980378 Received IMU Angular Velocity - [0.0124302, 0.000672041, 0.00609764]
+1744868948.869839934 Received IMU Angular Velocity - [0.00710383, -0.00678481, 0.00290185]
+1744868948.909839189 Received IMU Angular Velocity - [0.00710383, -0.0110459, 0.00822817]
+-------------------------
+[2025-04-17_13-49-10.216] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147198, y=0.0408024, Linear Velocity: -0.00727182
+Current yaw: -0.00167775 (roll: -0.0206845, pitch: -0.00533612)
+-------------------------
+[2025-04-17_13-49-10.316] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.146758, y=0.0396297, Linear Velocity: -0.00712912
+Current yaw: -0.00178087 (roll: -0.0208517, pitch: -0.00622611)
+1744868949.069907251 Received IMU Angular Velocity - [0.00923436, -0.00252375, 0.00609764]
+-------------------------
+[2025-04-17_13-49-10.416] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147347, y=0.0402415, Linear Velocity: -0.00494619
+Current yaw: -0.0014953 (roll: -0.0210844, pitch: -0.00575564)
+1744868949.189884628 Received IMU Angular Velocity - [-0.00141829, 0.00706363, 0.00396711]
+-------------------------
+[2025-04-17_13-49-10.516] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.148506, y=0.0389893, Linear Velocity: -0.000908308
+Current yaw: -0.00158925 (roll: -0.0204873, pitch: -0.00585059)
+1744868949.314114756 Received IMU Angular Velocity - [0.00603857, -0.00891534, 0.00503238]
+1744868949.324078736 Received IMU Angular Velocity - [-0.00248355, 0.00599836, 0.00716291]
+1744868949.329829104 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00929343]
+-------------------------
+[2025-04-17_13-49-10.616] No B-spline trajectory received.
+-------------------------
+1744868949.344002697 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00716291]
+1744868949.349853004 Received IMU Angular Velocity - [0.00284277, -0.00571955, 0.00929343]
+1744868949.354185788 Received IMU Angular Velocity - [-0.00354881, 0.0017373, 0.00609764]
+Received Odometry - Position: x=0.14829, y=0.0393863, Linear Velocity: -0.00171961
+Current yaw: -0.0018743 (roll: -0.0207784, pitch: -0.00574934)
+1744868949.379849684 Received IMU Angular Velocity - [0.00923436, -0.0099806, 0.00609764]
+-------------------------
+[2025-04-17_13-49-10.719] No B-spline trajectory received.
+-------------------------
+1744868949.529859136 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00716291]
+Received Odometry - Position: x=0.147306, y=0.0399568, Linear Velocity: -0.00391503
+Current yaw: -0.00157946 (roll: -0.020751, pitch: -0.00559556)
+-------------------------
+[2025-04-17_13-49-10.816] No B-spline trajectory received.
+-------------------------
+1744868949.550136260 Received IMU Angular Velocity - [0.00710383, -0.00891534, 0.00822817]
+1744868949.554263662 Received IMU Angular Velocity - [-0.000353022, -0.00145849, 0.00609764]
+Received Odometry - Position: x=0.14682, y=0.0383101, Linear Velocity: -0.00338731
+Current yaw: -0.00228595 (roll: -0.0212439, pitch: -0.00547575)
+1744868949.589978133 Received IMU Angular Velocity - [0.000712243, 0.0049331, 0.00609764]
+-------------------------
+[2025-04-17_13-49-10.916] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.149648, y=0.0374441, Linear Velocity: 0.00585239
+Current yaw: -0.00146417 (roll: -0.0207451, pitch: -0.00601468)
+1744868949.679922285 Received IMU Angular Velocity - [0.00284277, -0.0099806, 0.00609764]
+1744868949.704055378 Received IMU Angular Velocity - [0.00603857, 0.00386783, 0.00290185]
+1744868949.709754640 Received IMU Angular Velocity - [0.0124302, -0.0099806, 0.00822817]
+1744868949.713903450 Received IMU Angular Velocity - [0.0124302, -0.0099806, 0.00822817]
+1744868949.719889922 Received IMU Angular Velocity - [-0.00141829, -0.00252375, 0.00290185]
+1744868949.724039149 Received IMU Angular Velocity - [0.000712243, 0.00599836, 0.00503238]
+1744868949.729888112 Received IMU Angular Velocity - [-0.000353022, 0.00706363, 0.00396711]
+1744868949.734100636 Received IMU Angular Velocity - [0.00390804, 0.00280257, 0.00716291]
+1744868949.739852892 Received IMU Angular Velocity - [0.00710383, -0.00571955, 0.00290185]
+1744868949.744078889 Received IMU Angular Velocity - [0.00603857, -0.00891534, 0.00290185]
+1744868949.749846729 Received IMU Angular Velocity - [0.00177751, -0.00571955, 0.00716291]
+1744868949.754613640 Received IMU Angular Velocity - [-0.00567934, 0.00280257, 0.00396711]
+1744868949.759854455 Received IMU Angular Velocity - [-0.000353022, 0.00919416, 0.00503238]
+-------------------------
+[2025-04-17_13-49-11.016] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.147745, y=0.0365326, Linear Velocity: -0.00199056
+Current yaw: -0.00131628 (roll: -0.0213623, pitch: -0.00635504)
+1744868949.774023984 Received IMU Angular Velocity - [0.00710383, -0.0099806, 0.00290185]
+1744868949.814239693 Received IMU Angular Velocity - [0.00603857, -0.0099806, 0.00396711]
+-------------------------
+[2025-04-17_13-49-11.116] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145844, y=0.0376216, Linear Velocity: -0.00686975
+Current yaw: -0.00123078 (roll: -0.0206716, pitch: -0.00630956)
+1744868949.924060316 Received IMU Angular Velocity - [-0.00248355, 0.0017373, 0.00396711]
+1744868949.929944896 Received IMU Angular Velocity - [-0.00248355, 0.00919416, 0.00396711]
+1744868949.934089163 Received IMU Angular Velocity - [0.00390804, 0.0049331, 0.00609764]
+1744868949.940144757 Received IMU Angular Velocity - [0.00710383, -0.00252375, 0.00396711]
+1744868949.943970420 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00290185]
+1744868949.949887577 Received IMU Angular Velocity - [0.00390804, -0.00785008, 0.00290185]
+1744868949.954094278 Received IMU Angular Velocity - [-0.00248355, -0.000393224, 0.00609764]
+1744868949.959850886 Received IMU Angular Velocity - [-0.00248355, 0.00706363, 0.00609764]
+1744868949.964017521 Received IMU Angular Velocity - [0.0049733, 0.00599836, 0.00183658]
+1744868949.969913013 Received IMU Angular Velocity - [0.00710383, 0.000672041, 0.00290185]
+1744868949.974070208 Received IMU Angular Velocity - [0.0113649, -0.00678481, 0.00609764]
+1744868949.980733310 Received IMU Angular Velocity - [0.00816909, -0.0110459, 0.00822817]
+1744868949.984095438 Received IMU Angular Velocity - [0.00390804, -0.00571955, 0.00503238]
+1744868949.989845422 Received IMU Angular Velocity - [-0.000353022, 0.0017373, 0.00716291]
+1744868949.994370405 Received IMU Angular Velocity - [-0.00248355, 0.00706363, 0.00716291]
+1744868949.999736664 Received IMU Angular Velocity - [0.00177751, 0.00706363, 0.00290185]
+-------------------------
+[2025-04-17_13-49-11.216] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.143744, y=0.0378793, Linear Velocity: -0.0109078
+Current yaw: -0.00144309 (roll: -0.0207021, pitch: -0.00535066)
+1744868950.039875858 Received IMU Angular Velocity - [0.0113649, -0.00145849, 0.00503238]
+1744868950.044151904 Received IMU Angular Velocity - [0.00923436, -0.00785008, 0.00609764]
+-------------------------
+[2025-04-17_13-49-11.316] No B-spline trajectory received.
+-------------------------
+1744868950.049719994 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.00822817]
+1744868950.054115276 Received IMU Angular Velocity - [-0.00248355, -0.00252375, 0.00396711]
+1744868950.059841291 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00822817]
+1744868950.064203997 Received IMU Angular Velocity - [0.00390804, 0.00706363, 0.00609764]
+1744868950.069903035 Received IMU Angular Velocity - [0.0049733, 0.0017373, 0.00396711]
+1744868950.074097862 Received IMU Angular Velocity - [0.00923436, -0.00678481, 0.00183658]
+1744868950.079843846 Received IMU Angular Velocity - [0.0145607, -0.0110459, 0.00609764]
+1744868950.084186327 Received IMU Angular Velocity - [0.000712243, -0.00785008, 0.00822817]
+1744868950.089827635 Received IMU Angular Velocity - [0.000712243, -0.000393224, 0.00503238]
+1744868950.094096545 Received IMU Angular Velocity - [-0.00141829, 0.00599836, 0.00183658]
+1744868950.099894178 Received IMU Angular Velocity - [0.00284277, 0.00919416, 0.00503238]
+1744868950.104835143 Received IMU Angular Velocity - [0.0102996, 0.00280257, 0.00716291]
+1744868950.109870543 Received IMU Angular Velocity - [0.0102996, -0.00465428, 0.00609764]
+1744868950.114176382 Received IMU Angular Velocity - [0.00923436, -0.0110459, 0.00396711]
+1744868950.119881500 Received IMU Angular Velocity - [0.00177751, -0.00678481, 0.00609764]
+1744868950.124266126 Received IMU Angular Velocity - [-0.00461408, 0.000672041, 0.00716291]
+1744868950.129853865 Received IMU Angular Velocity - [-0.00461408, 0.00706363, 0.00290185]
+1744868950.133946065 Received IMU Angular Velocity - [0.00816909, 0.00812889, 0.00716291]
+1744868950.139863446 Received IMU Angular Velocity - [0.0124302, 0.000672041, 0.00503238]
+1744868950.144131268 Received IMU Angular Velocity - [0.00923436, -0.00785008, 0.00396711]
+1744868950.149830658 Received IMU Angular Velocity - [0.0049733, -0.00785008, 0.00396711]
+1744868950.154053455 Received IMU Angular Velocity - [0.00284277, -0.00252375, 0.00609764]
+1744868950.159725804 Received IMU Angular Velocity - [0.00177751, 0.00386783, 0.00929343]
+1744868950.164175552 Received IMU Angular Velocity - [0.000712243, 0.00706363, -0.000293946]
+1744868950.169711481 Received IMU Angular Velocity - [0.0049733, 0.00386783, 0.000771319]
+Received Odometry - Position: x=0.14479, y=0.0388772, Linear Velocity: -0.00622201
+Current yaw: -0.00177576 (roll: -0.0210501, pitch: -0.00587646)
+-------------------------
+[2025-04-17_13-49-11.416] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.145114, y=0.0399794, Linear Velocity: -0.004382
+Current yaw: -0.00152138 (roll: -0.0208504, pitch: -0.00615224)
+1744868950.189840248 Received IMU Angular Velocity - [-0.000353022, -0.000393224, 0.00396711]
+1744868950.194221514 Received IMU Angular Velocity - [-0.00780987, 0.00706363, 0.00290185]
+-------------------------
+[2025-04-17_13-49-11.516] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.144398, y=0.0396455, Linear Velocity: -0.00577087
+Current yaw: -0.00114572 (roll: -0.0206981, pitch: -0.00577965)
+1744868950.289891166 Received IMU Angular Velocity - [-0.000353022, -0.00252375, 0.00716291]
+1744868950.294326738 Received IMU Angular Velocity - [-0.00567934, 0.0049331, 0.00822817]
+1744868950.299742982 Received IMU Angular Velocity - [0.00284277, 0.00812889, 0.00716291]
+1744868950.304109304 Received IMU Angular Velocity - [0.00603857, 0.00386783, 0.000771319]
+1744868950.310105664 Received IMU Angular Velocity - [0.0102996, -0.00145849, 0.00716291]
+1744868950.313921055 Received IMU Angular Velocity - [0.0102996, -0.00785008, 0.00822817]
+1744868950.319966024 Received IMU Angular Velocity - [0.00816909, -0.00891534, 0.00503238]
+-------------------------
+[2025-04-17_13-49-11.616] No B-spline trajectory received.
+-------------------------
+1744868950.355543082 Received IMU Angular Velocity - [0.00284277, -0.00785008, 0.00396711]
+1744868950.359855130 Received IMU Angular Velocity - [0.00177751, 0.0017373, 0.00396711]
+1744868950.369857511 Received IMU Angular Velocity - [0.00603857, 0.0049331, 0.00503238]
+Received Odometry - Position: x=0.144556, y=0.0413221, Linear Velocity: -0.00456656
+Current yaw: -0.00136169 (roll: -0.0199658, pitch: -0.00476529)
