@@ -116,6 +116,16 @@ public:
 
         RCLCPP_INFO(this->get_logger(), "Logging to file: %s", log_filename.c_str());
 
+        cboard_odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
+            "/odom_CBoard", 10,
+            std::bind(&TrajPidNode::cboard_odom_callback, this, std::placeholders::_1));
+        
+        // 外部imu订阅
+        external_imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
+            "/imu/data_raw", 10,
+            std::bind(&TrajPidNode::external_imu_callback, this, std::placeholders::_1));
+        
+
         // odometry 订阅
         odom_subscription_ = this->create_subscription<nav_msgs::msg::Odometry>(
             "/fastlio2/lio_odom", 10, 
@@ -272,6 +282,23 @@ private:
     double param_dt_;
     // =============================================
 
+    // ===== CBoard 里程计相关 =====
+    rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr cboard_odom_subscription_;
+    double roll_CBoard_{0.0};
+    double pitch_CBoard_{0.0};
+    double current_yaw_CBoard_{0.0};
+
+    // ===== 外部 IMU 相关 =====
+    rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr external_imu_subscription_;
+    bool   external_imu_initialized_{false};
+    double init_roll_IMU_{0.0};
+    double init_pitch_IMU_{0.0};
+    double init_yaw_IMU_{0.0};
+    double roll_IMU_{0.0};
+    double pitch_IMU_{0.0};
+    double yaw_IMU_{0.0};
+
+
     // 声明成员变量
     PIDController pid_position_control_;         // PID 控制器（位置）
     PIDController pid_orientation_control_;      // PID 控制器（朝向）
@@ -307,7 +334,7 @@ private:
     double target_y_;
     double target_yaw_;
 
-    // IMU 回调函数
+    // MID360 IMU 回调函数
     void imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg) {
         if (!msg) {
             imu_received_ = false;
@@ -326,6 +353,85 @@ private:
                       << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
         }
     }
+
+    // 记录第一次姿态以做零点
+    bool   cboard_odom_initialized_{false};
+    double init_roll_CBoard_{0.0};
+    double init_pitch_CBoard_{0.0};
+    double init_yaw_CBoard_{0.0};
+
+    // CBoard 里程计回调
+    void cboard_odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+    {
+        if (!msg) return;
+
+        tf2::Quaternion q;
+        tf2::fromMsg(msg->pose.pose.orientation, q);
+        tf2::Matrix3x3 m(q);
+
+        double raw_roll, raw_pitch, raw_yaw;
+        m.getRPY(raw_roll, raw_pitch, raw_yaw);
+
+        // 第一次收到消息时，记录为零点
+        if (!cboard_odom_initialized_) {
+            init_roll_CBoard_  = raw_roll;
+            init_pitch_CBoard_ = raw_pitch;
+            init_yaw_CBoard_   = raw_yaw;
+            cboard_odom_initialized_ = true;
+        }
+
+        // 计算相对姿态
+        roll_CBoard_  = raw_roll  - init_roll_CBoard_;
+        pitch_CBoard_ = raw_pitch - init_pitch_CBoard_;
+        current_yaw_CBoard_ = raw_yaw - init_yaw_CBoard_;
+
+        // 将 yaw 归一化到 [-pi, pi]
+        while (current_yaw_CBoard_ >  M_PI) current_yaw_CBoard_ -= 2.0 * M_PI;
+        while (current_yaw_CBoard_ < -M_PI) current_yaw_CBoard_ += 2.0 * M_PI;
+
+        if (log_file_.is_open()) {
+            log_file_ << "[CBoard Odom] roll_rel="  << roll_CBoard_
+                    << ", pitch_rel="            << pitch_CBoard_
+                    << ", yaw_rel="              << current_yaw_CBoard_ << std::endl;
+        }
+    }
+
+    // 外部 IMU 回调
+    void external_imu_callback(const sensor_msgs::msg::Imu::SharedPtr msg)
+    {
+        if (!msg) return;
+
+        tf2::Quaternion q;
+        tf2::fromMsg(msg->orientation, q);
+        tf2::Matrix3x3 m(q);
+
+        double raw_roll, raw_pitch, raw_yaw;
+        m.getRPY(raw_roll, raw_pitch, raw_yaw);
+
+        // 首次收到时设为零点
+        if (!external_imu_initialized_) {
+            init_roll_IMU_  = raw_roll;
+            init_pitch_IMU_ = raw_pitch;
+            init_yaw_IMU_   = raw_yaw;
+            external_imu_initialized_ = true;
+        }
+
+        // 计算相对姿态
+        roll_IMU_  = raw_roll  - init_roll_IMU_;
+        pitch_IMU_ = raw_pitch - init_pitch_IMU_;
+        yaw_IMU_   = raw_yaw   - init_yaw_IMU_;
+
+        // 归一化 yaw 至 [-π, π]
+        while (yaw_IMU_ >  M_PI) yaw_IMU_ -= 2.0 * M_PI;
+        while (yaw_IMU_ < -M_PI) yaw_IMU_ += 2.0 * M_PI;
+
+        if (log_file_.is_open()) {
+            log_file_ << "[Ext IMU] roll_rel="  << roll_IMU_
+                    << ", pitch_rel="        << pitch_IMU_
+                    << ", yaw_rel="          << yaw_IMU_ << std::endl;
+        }
+    }
+
 
     // ODOM 回调函数
     void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg) {
@@ -473,6 +579,9 @@ private:
             // 这里为了演示直接 yaw 对齐后停止
             double final_yaw = 0.0; // 也可: traj_[3].evaluateDeBoor(traj_duration_)(0)
             double yaw_error = final_yaw - current_yaw_;
+            // double yaw_error = final_yaw - current_yaw_CBoard_;
+            // double yaw_error = final_yaw - yaw_IMU_;
+
             while (yaw_error > M_PI)  yaw_error -= 2.0 * M_PI;
             while (yaw_error < -M_PI) yaw_error += 2.0 * M_PI;
 
@@ -484,7 +593,7 @@ private:
                 cmd_msg.angular.z = yaw_align_cmd;
                 cmd_publisher_->publish(cmd_msg);
                 log_file_ << "[" << get_current_time_str() << "] Aligning yaw: final_yaw = " 
-                          << final_yaw << ", current_yaw = " << current_yaw_ 
+                          << final_yaw << ", yaw_IMU_ = " << yaw_IMU_ 
                           << ", yaw_error = " << yaw_error 
                           << ", yaw_align_cmd = " << yaw_align_cmd << std::endl;
             } else {
@@ -525,6 +634,9 @@ private:
         target_yaw_ = angle_to_target;
 
         double alpha = angle_to_target - current_yaw_;
+        // double alpha = angle_to_target - current_yaw_CBoard_;
+        // double alpha = angle_to_target - yaw_IMU_;
+
         while (alpha > M_PI)  alpha -= 2.0 * M_PI;
         while (alpha < -M_PI) alpha += 2.0 * M_PI;
         double abs_alpha = std::fabs(alpha);
@@ -601,6 +713,9 @@ private:
         std::string yaw_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
             ? ("Current Yaw: " + std::to_string(current_yaw_))
             : "NA";
+        // std::string yaw_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
+        //     ? ("Current Yaw: " + std::to_string(yaw_IMU_))
+        //     : "NA";
         std::string target_position_str = receive_traj_
             ? ("Target Position - x: " + std::to_string(target_x_) + ", y: " + std::to_string(target_y_))
             : "NA";

@@ -24,6 +24,12 @@ def generate_launch_description():
         'lio_launch.py'
     )
 
+    external_imu_launch_file = os.path.join(
+        get_package_share_directory('wit_ros2_imu'),
+        'launch',
+        'rviz_and_imu.launch.py'
+    )
+
     return LaunchDescription([
         # 包含 livox_ros_driver2 的 launch 文件
         IncludeLaunchDescription(
@@ -33,6 +39,10 @@ def generate_launch_description():
         # 包含 fastlio2 的 launch 文件
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(fastlio_launch_file)
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(external_imu_launch_file)
         ),
 
         # # 启动 planner 包中的 traj_server 节点
@@ -59,6 +69,15 @@ def generate_launch_description():
             package='serial_twistctl',
             executable='serial_twistctl_node',
             name='serial_twistctl_node',
+            output='screen',
+            parameters=[],
+            remappings=[]
+        ),
+
+        Node(
+            package='serial_reader',
+            executable='serial_reader_node',
+            name='serial_reader_node',
             output='screen',
             parameters=[],
             remappings=[]

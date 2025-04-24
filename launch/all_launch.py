@@ -65,6 +65,15 @@ def generate_launch_description():
             remappings=[]
         ),
 
+        Node(
+            package='serial_reader',
+            executable='serial_reader_node',
+            name='serial_reader_node',
+            output='screen',
+            parameters=[],
+            remappings=[]
+        ),
+
         # 延时启动 all.launch.py（这里延时8秒，可以根据实际情况调整）
         TimerAction(
             period=4.0,
