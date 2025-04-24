@@ -14,6 +14,12 @@ def generate_launch_description():
         'msg_MID360_launch.py'
     )
 
+    example_target = os.path.join(
+        get_package_share_directory('planner'),
+        'launch',
+        'test_example_target.launch.py'
+    )
+
     # 获取 fastlio2 包中的 launch 文件路径
     fastlio_launch_file = os.path.join(
         get_package_share_directory('fastlio2'),
@@ -87,6 +93,15 @@ def generate_launch_description():
                     output='screen',
                     parameters=[],
                     remappings=[]
+                )
+            ]
+        ),
+
+        TimerAction(
+            period=12.0,
+            actions=[
+                IncludeLaunchDescription(
+                    PythonLaunchDescriptionSource(example_target)
                 )
             ]
         )

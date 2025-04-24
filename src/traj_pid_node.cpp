@@ -520,7 +520,7 @@ private:
         double dx = target_x_ - current_position_x_;
         double dy = target_y_ - current_position_y_;
         double distance = std::sqrt(dx * dx + dy * dy);
-
+        
         double angle_to_target = std::atan2(dy, dx);
         target_yaw_ = angle_to_target;
 
@@ -561,14 +561,29 @@ private:
         // 角速度
         double angular_cmd = orient_pid;
 
-        // 当航向误差过大时，线速度置 0，仅用角速度对齐
-        if (std::fabs(alpha) > param_alpha_threshold_) {
-            linear_cmd = 0.0;
-        }
+        // // 当航向误差过大时，线速度置 0，仅用角速度对齐
+        // if (std::fabs(alpha) > param_alpha_threshold_) {
+        //     linear_cmd = 0.0;
+        // }
 
         // 根据转角衰减线速度
         double speed_scale = std::exp(-param_k_ * abs_alpha * abs_alpha);
         linear_cmd *= speed_scale;
+
+        // static bool aligning = false;                    // 只在本函数记一次状态
+
+        // // 触发对齐：|alpha| 大于外层阈值时进入
+        // if (!aligning && std::fabs(alpha) > param_alpha_threshold_) {
+        //     aligning = true;
+        // }
+
+        // // 对齐执行：对齐中始终用低速 0.1
+        // if (aligning) {
+        //     linear_cmd = 0.1;                            // 低速缓行
+        //     if (std::fabs(alpha) < 0.05) {               // 误差≤0.05 rad 认为对齐完成
+        //         aligning = false;                        // 退出对齐
+        //     }
+        // }
 
         // 限幅
         if (linear_cmd > param_max_linear_speed_)  linear_cmd = param_max_linear_speed_;
