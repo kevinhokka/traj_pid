@@ -1,0 +1,1017 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 0.3, I: 0, D: 1
+Orientation PID: P: 2, I: 0, D: 1
+Linear Velocity PID: P: 0.75, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+[CBoard Odom] roll_rel=0, pitch_rel=0, yaw_rel=0
+[Ext IMU] roll_rel=0, pitch_rel=0, yaw_rel=0
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=6.2795e-05, pitch_rel=-0.000110346, yaw_rel=-0.000173223
+[Ext IMU] roll_rel=6.2795e-05, pitch_rel=-0.000110346, yaw_rel=-0.000173223
+[CBoard Odom] roll_rel=6.53739e-05, pitch_rel=-0.000132916, yaw_rel=-0.000101296
+[Ext IMU] roll_rel=6.53739e-05, pitch_rel=-0.000132916, yaw_rel=-0.000101296
+-------------------------
+[2025-04-25_20-00-50.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-1.03522e-05, pitch_rel=-8.3806e-05, yaw_rel=0.000140432
+[Ext IMU] roll_rel=-1.03522e-05, pitch_rel=-8.3806e-05, yaw_rel=0.000140432
+-------------------------
+[2025-04-25_20-00-50.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=8.36299e-05, pitch_rel=-7.88819e-05, yaw_rel=0.000547299
+[Ext IMU] roll_rel=8.36299e-05, pitch_rel=-7.88819e-05, yaw_rel=0.000547299
+[CBoard Odom] roll_rel=0.000100772, pitch_rel=-7.39258e-05, yaw_rel=0.000880177
+[Ext IMU] roll_rel=0.000100772, pitch_rel=-7.39258e-05, yaw_rel=0.000880177
+-------------------------
+[2025-04-25_20-00-50.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000123749, pitch_rel=-5.13414e-05, yaw_rel=0.000739392
+[Ext IMU] roll_rel=0.000123749, pitch_rel=-5.13414e-05, yaw_rel=0.000739392
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000162369, pitch_rel=-2.86367e-05, yaw_rel=0.000744877
+[Ext IMU] roll_rel=0.000162369, pitch_rel=-2.86367e-05, yaw_rel=0.000744877
+-------------------------
+[2025-04-25_20-00-50.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000194956, pitch_rel=-3.83878e-06, yaw_rel=0.000754887
+[Ext IMU] roll_rel=0.000194956, pitch_rel=-3.83878e-06, yaw_rel=0.000754887
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000146322, pitch_rel=1.8484e-05, yaw_rel=0.000857448
+[Ext IMU] roll_rel=0.000146322, pitch_rel=1.8484e-05, yaw_rel=0.000857448
+-------------------------
+[2025-04-25_20-00-51.078] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000198391, pitch_rel=9.86173e-06, yaw_rel=0.000866055
+[Ext IMU] roll_rel=0.000198391, pitch_rel=9.86173e-06, yaw_rel=0.000866055
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000184065, pitch_rel=7.97629e-06, yaw_rel=0.000880627
+[Ext IMU] roll_rel=0.000184065, pitch_rel=7.97629e-06, yaw_rel=0.000880627
+[CBoard Odom] roll_rel=0.000203898, pitch_rel=-6.67678e-05, yaw_rel=0.000952322
+[Ext IMU] roll_rel=0.000203898, pitch_rel=-6.67678e-05, yaw_rel=0.000952322
+-------------------------
+[2025-04-25_20-00-51.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000225353, pitch_rel=-7.52455e-05, yaw_rel=0.000995818
+[Ext IMU] roll_rel=0.000225353, pitch_rel=-7.52455e-05, yaw_rel=0.000995818
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000217494, pitch_rel=-0.000101119, yaw_rel=0.00103535
+[Ext IMU] roll_rel=0.000217494, pitch_rel=-0.000101119, yaw_rel=0.00103535
+[CBoard Odom] roll_rel=0.000234391, pitch_rel=-0.000131714, yaw_rel=0.00129463
+[Ext IMU] roll_rel=0.000234391, pitch_rel=-0.000131714, yaw_rel=0.00129463
+-------------------------
+[2025-04-25_20-00-51.278] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000254345, pitch_rel=-0.000119292, yaw_rel=0.00114804
+[Ext IMU] roll_rel=0.000254345, pitch_rel=-0.000119292, yaw_rel=0.00114804
+[CBoard Odom] roll_rel=0.00025057, pitch_rel=-0.00010794, yaw_rel=0.00112993
+[Ext IMU] roll_rel=0.00025057, pitch_rel=-0.00010794, yaw_rel=0.00112993
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000259959, pitch_rel=-0.00013477, yaw_rel=0.00116884
+[Ext IMU] roll_rel=0.000259959, pitch_rel=-0.00013477, yaw_rel=0.00116884
+[CBoard Odom] roll_rel=0.000208659, pitch_rel=-0.000169907, yaw_rel=0.00100957
+[Ext IMU] roll_rel=0.000208659, pitch_rel=-0.000169907, yaw_rel=0.00100957
+-------------------------
+[2025-04-25_20-00-51.378] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00018306, pitch_rel=-0.000195318, yaw_rel=0.000862893
+[Ext IMU] roll_rel=0.00018306, pitch_rel=-0.000195318, yaw_rel=0.000862893
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-51.478] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000199761, pitch_rel=-0.000186821, yaw_rel=0.000543804
+[Ext IMU] roll_rel=0.000199761, pitch_rel=-0.000186821, yaw_rel=0.000543804
+[CBoard Odom] roll_rel=0.000182759, pitch_rel=-7.99394e-05, yaw_rel=0.000652131
+[Ext IMU] roll_rel=0.000182759, pitch_rel=-7.99394e-05, yaw_rel=0.000652131
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000227596, pitch_rel=-8.47664e-05, yaw_rel=0.000715309
+[Ext IMU] roll_rel=0.000227596, pitch_rel=-8.47664e-05, yaw_rel=0.000715309
+-------------------------
+[2025-04-25_20-00-51.578] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000218392, pitch_rel=-6.75048e-05, yaw_rel=0.000724294
+[Ext IMU] roll_rel=0.000218392, pitch_rel=-6.75048e-05, yaw_rel=0.000724294
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000218007, pitch_rel=-0.000145073, yaw_rel=0.000825012
+[Ext IMU] roll_rel=0.000218007, pitch_rel=-0.000145073, yaw_rel=0.000825012
+[CBoard Odom] roll_rel=0.000218847, pitch_rel=-6.34394e-05, yaw_rel=0.000602218
+[Ext IMU] roll_rel=0.000218847, pitch_rel=-6.34394e-05, yaw_rel=0.000602218
+-------------------------
+[2025-04-25_20-00-51.678] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000202363, pitch_rel=-0.000109618, yaw_rel=0.000474596
+[Ext IMU] roll_rel=0.000202363, pitch_rel=-0.000109618, yaw_rel=0.000474596
+[CBoard Odom] roll_rel=0.000224828, pitch_rel=-6.48013e-05, yaw_rel=8.53171e-05
+[Ext IMU] roll_rel=0.000224828, pitch_rel=-6.48013e-05, yaw_rel=8.53171e-05
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000220052, pitch_rel=-1.95982e-05, yaw_rel=0.00014329
+[Ext IMU] roll_rel=0.000220052, pitch_rel=-1.95982e-05, yaw_rel=0.00014329
+-------------------------
+[2025-04-25_20-00-51.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000271839, pitch_rel=-0.000108648, yaw_rel=0.000118822
+[Ext IMU] roll_rel=0.000271839, pitch_rel=-0.000108648, yaw_rel=0.000118822
+-------------------------
+[2025-04-25_20-00-51.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000340587, pitch_rel=-0.000167033, yaw_rel=0.000215673
+[Ext IMU] roll_rel=0.000340587, pitch_rel=-0.000167033, yaw_rel=0.000215673
+[CBoard Odom] roll_rel=0.000366802, pitch_rel=-0.000153081, yaw_rel=-3.94041e-05
+[Ext IMU] roll_rel=0.000366802, pitch_rel=-0.000153081, yaw_rel=-3.94041e-05
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00036262, pitch_rel=-0.000129323, yaw_rel=-0.000108463
+[Ext IMU] roll_rel=0.00036262, pitch_rel=-0.000129323, yaw_rel=-0.000108463
+-------------------------
+[2025-04-25_20-00-51.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000347667, pitch_rel=-0.000112553, yaw_rel=-0.000241547
+[Ext IMU] roll_rel=0.000347667, pitch_rel=-0.000112553, yaw_rel=-0.000241547
+[CBoard Odom] roll_rel=0.00033105, pitch_rel=1.47911e-05, yaw_rel=-0.000565474
+[Ext IMU] roll_rel=0.00033105, pitch_rel=1.47911e-05, yaw_rel=-0.000565474
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000357541, pitch_rel=-3.54461e-05, yaw_rel=-0.000538639
+[Ext IMU] roll_rel=0.000357541, pitch_rel=-3.54461e-05, yaw_rel=-0.000538639
+-------------------------
+[2025-04-25_20-00-52.078] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000355923, pitch_rel=8.78925e-05, yaw_rel=-0.000659517
+[Ext IMU] roll_rel=0.000355923, pitch_rel=8.78925e-05, yaw_rel=-0.000659517
+[CBoard Odom] roll_rel=0.000330331, pitch_rel=0.00010083, yaw_rel=-0.000735648
+[Ext IMU] roll_rel=0.000330331, pitch_rel=0.00010083, yaw_rel=-0.000735648
+[CBoard Odom] roll_rel=0.000272273, pitch_rel=0.000137424, yaw_rel=-0.00089161
+[Ext IMU] roll_rel=0.000272273, pitch_rel=0.000137424, yaw_rel=-0.00089161
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000247726, pitch_rel=0.000132627, yaw_rel=-0.00106627
+[Ext IMU] roll_rel=0.000247726, pitch_rel=0.000132627, yaw_rel=-0.00106627
+-------------------------
+[2025-04-25_20-00-52.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000235248, pitch_rel=0.000107598, yaw_rel=-0.00123034
+[Ext IMU] roll_rel=0.000235248, pitch_rel=0.000107598, yaw_rel=-0.00123034
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.0002865, pitch_rel=5.63787e-05, yaw_rel=-0.00129674
+[Ext IMU] roll_rel=0.0002865, pitch_rel=5.63787e-05, yaw_rel=-0.00129674
+[CBoard Odom] roll_rel=0.00030755, pitch_rel=8.29334e-05, yaw_rel=-0.00136335
+[Ext IMU] roll_rel=0.00030755, pitch_rel=8.29334e-05, yaw_rel=-0.00136335
+[CBoard Odom] roll_rel=0.000357127, pitch_rel=4.86892e-05, yaw_rel=-0.00129687
+[Ext IMU] roll_rel=0.000357127, pitch_rel=4.86892e-05, yaw_rel=-0.00129687
+-------------------------
+[2025-04-25_20-00-52.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000306683, pitch_rel=0.000135817, yaw_rel=-0.000969087
+[Ext IMU] roll_rel=0.000306683, pitch_rel=0.000135817, yaw_rel=-0.000969087
+-------------------------
+[2025-04-25_20-00-52.378] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000302059, pitch_rel=0.000136503, yaw_rel=-0.00102742
+[Ext IMU] roll_rel=0.000302059, pitch_rel=0.000136503, yaw_rel=-0.00102742
+[CBoard Odom] roll_rel=0.00034578, pitch_rel=7.23976e-05, yaw_rel=-0.000925895
+[Ext IMU] roll_rel=0.00034578, pitch_rel=7.23976e-05, yaw_rel=-0.000925895
+-------------------------
+[2025-04-25_20-00-52.478] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-52.578] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000364878, pitch_rel=0.000103291, yaw_rel=-0.00121014
+[Ext IMU] roll_rel=0.000364878, pitch_rel=0.000103291, yaw_rel=-0.00121014
+[CBoard Odom] roll_rel=0.000347273, pitch_rel=0.000161504, yaw_rel=-0.00122976
+[Ext IMU] roll_rel=0.000347273, pitch_rel=0.000161504, yaw_rel=-0.00122976
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000293748, pitch_rel=0.000168162, yaw_rel=-0.00122433
+[Ext IMU] roll_rel=0.000293748, pitch_rel=0.000168162, yaw_rel=-0.00122433
+-------------------------
+[2025-04-25_20-00-52.678] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000328902, pitch_rel=0.00018027, yaw_rel=-0.00127307
+[Ext IMU] roll_rel=0.000328902, pitch_rel=0.00018027, yaw_rel=-0.00127307
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000362189, pitch_rel=0.000128918, yaw_rel=-0.00129355
+[Ext IMU] roll_rel=0.000362189, pitch_rel=0.000128918, yaw_rel=-0.00129355
+[CBoard Odom] roll_rel=0.000371141, pitch_rel=0.000159524, yaw_rel=-0.00134706
+[Ext IMU] roll_rel=0.000371141, pitch_rel=0.000159524, yaw_rel=-0.00134706
+-------------------------
+[2025-04-25_20-00-52.778] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000351996, pitch_rel=0.000183754, yaw_rel=-0.00138305
+[Ext IMU] roll_rel=0.000351996, pitch_rel=0.000183754, yaw_rel=-0.00138305
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000334099, pitch_rel=0.000209124, yaw_rel=-0.00119564
+[Ext IMU] roll_rel=0.000334099, pitch_rel=0.000209124, yaw_rel=-0.00119564
+[CBoard Odom] roll_rel=0.000338159, pitch_rel=0.000284841, yaw_rel=-0.00118679
+[Ext IMU] roll_rel=0.000338159, pitch_rel=0.000284841, yaw_rel=-0.00118679
+-------------------------
+[2025-04-25_20-00-52.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000278418, pitch_rel=0.000213155, yaw_rel=-0.00121148
+[Ext IMU] roll_rel=0.000278418, pitch_rel=0.000213155, yaw_rel=-0.00121148
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-52.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000228813, pitch_rel=0.000304937, yaw_rel=-0.00117137
+[Ext IMU] roll_rel=0.000228813, pitch_rel=0.000304937, yaw_rel=-0.00117137
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000181477, pitch_rel=0.000322943, yaw_rel=-0.00133357
+[Ext IMU] roll_rel=0.000181477, pitch_rel=0.000322943, yaw_rel=-0.00133357
+-------------------------
+[2025-04-25_20-00-53.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000129125, pitch_rel=0.000385852, yaw_rel=-0.00142498
+[Ext IMU] roll_rel=0.000129125, pitch_rel=0.000385852, yaw_rel=-0.00142498
+-------------------------
+[2025-04-25_20-00-53.178] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=2.74662e-05, pitch_rel=0.000416402, yaw_rel=-0.00187061
+[Ext IMU] roll_rel=2.74662e-05, pitch_rel=0.000416402, yaw_rel=-0.00187061
+-------------------------
+[2025-04-25_20-00-53.278] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=2.50756e-05, pitch_rel=0.000439205, yaw_rel=-0.0019541
+[Ext IMU] roll_rel=2.50756e-05, pitch_rel=0.000439205, yaw_rel=-0.0019541
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-53.378] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-5.51132e-05, pitch_rel=0.00038643, yaw_rel=-0.00183867
+[Ext IMU] roll_rel=-5.51132e-05, pitch_rel=0.00038643, yaw_rel=-0.00183867
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-6.31369e-05, pitch_rel=0.000421621, yaw_rel=-0.00199989
+[Ext IMU] roll_rel=-6.31369e-05, pitch_rel=0.000421621, yaw_rel=-0.00199989
+[CBoard Odom] roll_rel=-6.12613e-05, pitch_rel=0.000453083, yaw_rel=-0.00213449
+[Ext IMU] roll_rel=-6.12613e-05, pitch_rel=0.000453083, yaw_rel=-0.00213449
+-------------------------
+[2025-04-25_20-00-53.478] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=2.94962e-05, pitch_rel=0.000506613, yaw_rel=-0.00243379
+[Ext IMU] roll_rel=2.94962e-05, pitch_rel=0.000506613, yaw_rel=-0.00243379
+[CBoard Odom] roll_rel=6.62813e-05, pitch_rel=0.00048187, yaw_rel=-0.00227563
+[Ext IMU] roll_rel=6.62813e-05, pitch_rel=0.00048187, yaw_rel=-0.00227563
+[CBoard Odom] roll_rel=5.70778e-05, pitch_rel=0.000457566, yaw_rel=-0.00232008
+[Ext IMU] roll_rel=5.70778e-05, pitch_rel=0.000457566, yaw_rel=-0.00232008
+-------------------------
+[2025-04-25_20-00-53.578] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=4.28262e-05, pitch_rel=0.000481467, yaw_rel=-0.00238491
+[Ext IMU] roll_rel=4.28262e-05, pitch_rel=0.000481467, yaw_rel=-0.00238491
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=6.87747e-05, pitch_rel=0.000581683, yaw_rel=-0.00240556
+[Ext IMU] roll_rel=6.87747e-05, pitch_rel=0.000581683, yaw_rel=-0.00240556
+[CBoard Odom] roll_rel=2.26356e-05, pitch_rel=0.000584691, yaw_rel=-0.00239191
+[Ext IMU] roll_rel=2.26356e-05, pitch_rel=0.000584691, yaw_rel=-0.00239191
+-------------------------
+[2025-04-25_20-00-53.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-1.83146e-05, pitch_rel=0.000487952, yaw_rel=-0.0022069
+[Ext IMU] roll_rel=-1.83146e-05, pitch_rel=0.000487952, yaw_rel=-0.0022069
+[CBoard Odom] roll_rel=-4.84827e-06, pitch_rel=0.000466375, yaw_rel=-0.00226042
+[Ext IMU] roll_rel=-4.84827e-06, pitch_rel=0.000466375, yaw_rel=-0.00226042
+-------------------------
+[2025-04-25_20-00-53.778] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=7.00236e-06, pitch_rel=0.00042656, yaw_rel=-0.00219747
+[Ext IMU] roll_rel=7.00236e-06, pitch_rel=0.00042656, yaw_rel=-0.00219747
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=8.11817e-05, pitch_rel=0.000429402, yaw_rel=-0.00199963
+[Ext IMU] roll_rel=8.11817e-05, pitch_rel=0.000429402, yaw_rel=-0.00199963
+[CBoard Odom] roll_rel=0.000118868, pitch_rel=0.000476831, yaw_rel=-0.00202043
+[Ext IMU] roll_rel=0.000118868, pitch_rel=0.000476831, yaw_rel=-0.00202043
+-------------------------
+[2025-04-25_20-00-53.878] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-53.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000103961, pitch_rel=0.000614379, yaw_rel=-0.00139187
+[Ext IMU] roll_rel=0.000103961, pitch_rel=0.000614379, yaw_rel=-0.00139187
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000113747, pitch_rel=0.000600817, yaw_rel=-0.00130267
+[Ext IMU] roll_rel=0.000113747, pitch_rel=0.000600817, yaw_rel=-0.00130267
+[CBoard Odom] roll_rel=9.66834e-05, pitch_rel=0.000592007, yaw_rel=-0.0011773
+[Ext IMU] roll_rel=9.66834e-05, pitch_rel=0.000592007, yaw_rel=-0.0011773
+-------------------------
+[2025-04-25_20-00-54.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=1.08873e-05, pitch_rel=0.00052286, yaw_rel=-0.00119306
+[Ext IMU] roll_rel=1.08873e-05, pitch_rel=0.00052286, yaw_rel=-0.00119306
+-------------------------
+[2025-04-25_20-00-54.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=5.0693e-06, pitch_rel=0.000444969, yaw_rel=-0.00124472
+[Ext IMU] roll_rel=5.0693e-06, pitch_rel=0.000444969, yaw_rel=-0.00124472
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-1.91762e-05, pitch_rel=0.000450204, yaw_rel=-0.00142197
+[Ext IMU] roll_rel=-1.91762e-05, pitch_rel=0.000450204, yaw_rel=-0.00142197
+-------------------------
+[2025-04-25_20-00-54.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=3.90245e-05, pitch_rel=0.000446071, yaw_rel=-0.00138774
+[Ext IMU] roll_rel=3.90245e-05, pitch_rel=0.000446071, yaw_rel=-0.00138774
+[CBoard Odom] roll_rel=7.01995e-05, pitch_rel=0.000391932, yaw_rel=-0.0012842
+[Ext IMU] roll_rel=7.01995e-05, pitch_rel=0.000391932, yaw_rel=-0.0012842
+-------------------------
+[2025-04-25_20-00-54.378] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=8.87839e-05, pitch_rel=0.000440921, yaw_rel=-0.00128059
+[Ext IMU] roll_rel=8.87839e-05, pitch_rel=0.000440921, yaw_rel=-0.00128059
+[CBoard Odom] roll_rel=0.000103249, pitch_rel=0.000350016, yaw_rel=-0.00134851
+[Ext IMU] roll_rel=0.000103249, pitch_rel=0.000350016, yaw_rel=-0.00134851
+[CBoard Odom] roll_rel=9.15022e-05, pitch_rel=0.000347792, yaw_rel=-0.00116902
+[Ext IMU] roll_rel=9.15022e-05, pitch_rel=0.000347792, yaw_rel=-0.00116902
+-------------------------
+[2025-04-25_20-00-54.478] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00010292, pitch_rel=0.000349175, yaw_rel=-0.00110513
+[Ext IMU] roll_rel=0.00010292, pitch_rel=0.000349175, yaw_rel=-0.00110513
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000107496, pitch_rel=0.000364533, yaw_rel=-0.00106487
+[Ext IMU] roll_rel=0.000107496, pitch_rel=0.000364533, yaw_rel=-0.00106487
+-------------------------
+[2025-04-25_20-00-54.578] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000166307, pitch_rel=0.000447836, yaw_rel=-0.0009871
+[Ext IMU] roll_rel=0.000166307, pitch_rel=0.000447836, yaw_rel=-0.0009871
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000213591, pitch_rel=0.000433589, yaw_rel=-0.00114068
+[Ext IMU] roll_rel=0.000213591, pitch_rel=0.000433589, yaw_rel=-0.00114068
+-------------------------
+[2025-04-25_20-00-54.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000178102, pitch_rel=0.000337941, yaw_rel=-0.00132036
+[Ext IMU] roll_rel=0.000178102, pitch_rel=0.000337941, yaw_rel=-0.00132036
+-------------------------
+[2025-04-25_20-00-54.778] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000148525, pitch_rel=0.000297482, yaw_rel=-0.00124673
+[Ext IMU] roll_rel=0.000148525, pitch_rel=0.000297482, yaw_rel=-0.00124673
+[CBoard Odom] roll_rel=0.000160589, pitch_rel=0.000270762, yaw_rel=-0.00119787
+[Ext IMU] roll_rel=0.000160589, pitch_rel=0.000270762, yaw_rel=-0.00119787
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00024085, pitch_rel=0.000123932, yaw_rel=-0.00102792
+[Ext IMU] roll_rel=0.00024085, pitch_rel=0.000123932, yaw_rel=-0.00102792
+-------------------------
+[2025-04-25_20-00-54.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000257806, pitch_rel=0.000164584, yaw_rel=-0.00111133
+[Ext IMU] roll_rel=0.000257806, pitch_rel=0.000164584, yaw_rel=-0.00111133
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000263733, pitch_rel=0.000178521, yaw_rel=-0.00113235
+[Ext IMU] roll_rel=0.000263733, pitch_rel=0.000178521, yaw_rel=-0.00113235
+-------------------------
+[2025-04-25_20-00-54.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000269124, pitch_rel=0.000204655, yaw_rel=-0.0011959
+[Ext IMU] roll_rel=0.000269124, pitch_rel=0.000204655, yaw_rel=-0.0011959
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000290282, pitch_rel=0.000154097, yaw_rel=-0.00118335
+[Ext IMU] roll_rel=0.000290282, pitch_rel=0.000154097, yaw_rel=-0.00118335
+-------------------------
+[2025-04-25_20-00-55.078] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000284721, pitch_rel=7.64537e-05, yaw_rel=-0.00117659
+[Ext IMU] roll_rel=0.000284721, pitch_rel=7.64537e-05, yaw_rel=-0.00117659
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000372731, pitch_rel=8.39638e-05, yaw_rel=-0.00106137
+[Ext IMU] roll_rel=0.000372731, pitch_rel=8.39638e-05, yaw_rel=-0.00106137
+-------------------------
+[2025-04-25_20-00-55.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000387492, pitch_rel=0.000108629, yaw_rel=-0.000867345
+[Ext IMU] roll_rel=0.000387492, pitch_rel=0.000108629, yaw_rel=-0.000867345
+[CBoard Odom] roll_rel=0.000464002, pitch_rel=0.000105056, yaw_rel=-0.000899031
+[Ext IMU] roll_rel=0.000464002, pitch_rel=0.000105056, yaw_rel=-0.000899031
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-55.278] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000366625, pitch_rel=9.18595e-05, yaw_rel=-0.000722093
+[Ext IMU] roll_rel=0.000366625, pitch_rel=9.18595e-05, yaw_rel=-0.000722093
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000351697, pitch_rel=0.000102144, yaw_rel=-0.000818461
+[Ext IMU] roll_rel=0.000351697, pitch_rel=0.000102144, yaw_rel=-0.000818461
+[CBoard Odom] roll_rel=0.000394112, pitch_rel=8.79844e-05, yaw_rel=-0.000866682
+[Ext IMU] roll_rel=0.000394112, pitch_rel=8.79844e-05, yaw_rel=-0.000866682
+-------------------------
+[2025-04-25_20-00-55.378] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-55.478] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000338588, pitch_rel=-6.61092e-05, yaw_rel=-0.000264388
+[Ext IMU] roll_rel=0.000338588, pitch_rel=-6.61092e-05, yaw_rel=-0.000264388
+-------------------------
+[2025-04-25_20-00-55.578] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000385219, pitch_rel=-5.53355e-05, yaw_rel=-0.000528317
+[Ext IMU] roll_rel=0.000385219, pitch_rel=-5.53355e-05, yaw_rel=-0.000528317
+[CBoard Odom] roll_rel=0.000366898, pitch_rel=-7.52089e-05, yaw_rel=-0.000494406
+[Ext IMU] roll_rel=0.000366898, pitch_rel=-7.52089e-05, yaw_rel=-0.000494406
+-------------------------
+[2025-04-25_20-00-55.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-55.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000294718, pitch_rel=-0.000188111, yaw_rel=-0.000589802
+[Ext IMU] roll_rel=0.000294718, pitch_rel=-0.000188111, yaw_rel=-0.000589802
+[CBoard Odom] roll_rel=0.000338495, pitch_rel=-0.000216383, yaw_rel=-0.000772095
+[Ext IMU] roll_rel=0.000338495, pitch_rel=-0.000216383, yaw_rel=-0.000772095
+[CBoard Odom] roll_rel=0.000343855, pitch_rel=-0.000171198, yaw_rel=-0.000725538
+[Ext IMU] roll_rel=0.000343855, pitch_rel=-0.000171198, yaw_rel=-0.000725538
+-------------------------
+[2025-04-25_20-00-55.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000328062, pitch_rel=-0.000107261, yaw_rel=-0.000871588
+[Ext IMU] roll_rel=0.000328062, pitch_rel=-0.000107261, yaw_rel=-0.000871588
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000352702, pitch_rel=-0.000108461, yaw_rel=-0.000886408
+[Ext IMU] roll_rel=0.000352702, pitch_rel=-0.000108461, yaw_rel=-0.000886408
+-------------------------
+[2025-04-25_20-00-55.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000347162, pitch_rel=-8.95404e-05, yaw_rel=-0.00100398
+[Ext IMU] roll_rel=0.000347162, pitch_rel=-8.95404e-05, yaw_rel=-0.00100398
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000325052, pitch_rel=-0.000139914, yaw_rel=-0.000892279
+[Ext IMU] roll_rel=0.000325052, pitch_rel=-0.000139914, yaw_rel=-0.000892279
+[CBoard Odom] roll_rel=0.000384468, pitch_rel=-0.000229028, yaw_rel=-0.000939696
+[Ext IMU] roll_rel=0.000384468, pitch_rel=-0.000229028, yaw_rel=-0.000939696
+-------------------------
+[2025-04-25_20-00-56.078] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000426973, pitch_rel=-0.000147273, yaw_rel=-0.000673918
+[Ext IMU] roll_rel=0.000426973, pitch_rel=-0.000147273, yaw_rel=-0.000673918
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000437011, pitch_rel=-0.000153866, yaw_rel=-0.00071267
+[Ext IMU] roll_rel=0.000437011, pitch_rel=-0.000153866, yaw_rel=-0.00071267
+[CBoard Odom] roll_rel=0.00044494, pitch_rel=-0.000214476, yaw_rel=-0.000766995
+[Ext IMU] roll_rel=0.00044494, pitch_rel=-0.000214476, yaw_rel=-0.000766995
+-------------------------
+[2025-04-25_20-00-56.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000423342, pitch_rel=-0.000205984, yaw_rel=-0.000948583
+[Ext IMU] roll_rel=0.000423342, pitch_rel=-0.000205984, yaw_rel=-0.000948583
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000408826, pitch_rel=-0.000195002, yaw_rel=-0.00114304
+[Ext IMU] roll_rel=0.000408826, pitch_rel=-0.000195002, yaw_rel=-0.00114304
+[CBoard Odom] roll_rel=0.000407776, pitch_rel=-0.000244257, yaw_rel=-0.00131225
+[Ext IMU] roll_rel=0.000407776, pitch_rel=-0.000244257, yaw_rel=-0.00131225
+-------------------------
+[2025-04-25_20-00-56.278] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000423547, pitch_rel=-0.000189398, yaw_rel=-0.00112755
+[Ext IMU] roll_rel=0.000423547, pitch_rel=-0.000189398, yaw_rel=-0.00112755
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000411971, pitch_rel=-0.000223522, yaw_rel=-0.000920359
+[Ext IMU] roll_rel=0.000411971, pitch_rel=-0.000223522, yaw_rel=-0.000920359
+[CBoard Odom] roll_rel=0.000410911, pitch_rel=-0.000269772, yaw_rel=-0.000961393
+[Ext IMU] roll_rel=0.000410911, pitch_rel=-0.000269772, yaw_rel=-0.000961393
+-------------------------
+[2025-04-25_20-00-56.378] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000468788, pitch_rel=-0.000248878, yaw_rel=-0.000695706
+[Ext IMU] roll_rel=0.000468788, pitch_rel=-0.000248878, yaw_rel=-0.000695706
+[CBoard Odom] roll_rel=0.000468009, pitch_rel=-0.000269025, yaw_rel=-0.000757392
+[Ext IMU] roll_rel=0.000468009, pitch_rel=-0.000269025, yaw_rel=-0.000757392
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000510189, pitch_rel=-0.000286361, yaw_rel=-0.000993463
+[Ext IMU] roll_rel=0.000510189, pitch_rel=-0.000286361, yaw_rel=-0.000993463
+[CBoard Odom] roll_rel=0.000495655, pitch_rel=-0.000246702, yaw_rel=-0.00106198
+[Ext IMU] roll_rel=0.000495655, pitch_rel=-0.000246702, yaw_rel=-0.00106198
+-------------------------
+[2025-04-25_20-00-56.478] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000455139, pitch_rel=-0.000242663, yaw_rel=-0.00126896
+[Ext IMU] roll_rel=0.000455139, pitch_rel=-0.000242663, yaw_rel=-0.00126896
+[CBoard Odom] roll_rel=0.000513594, pitch_rel=-0.000178797, yaw_rel=-0.00135254
+[Ext IMU] roll_rel=0.000513594, pitch_rel=-0.000178797, yaw_rel=-0.00135254
+-------------------------
+[2025-04-25_20-00-56.578] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000520907, pitch_rel=-0.000371894, yaw_rel=-0.00140584
+[Ext IMU] roll_rel=0.000520907, pitch_rel=-0.000371894, yaw_rel=-0.00140584
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000534331, pitch_rel=-0.000380793, yaw_rel=-0.00138503
+[Ext IMU] roll_rel=0.000534331, pitch_rel=-0.000380793, yaw_rel=-0.00138503
+-------------------------
+[2025-04-25_20-00-56.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000544836, pitch_rel=-0.000421957, yaw_rel=-0.00153706
+[Ext IMU] roll_rel=0.000544836, pitch_rel=-0.000421957, yaw_rel=-0.00153706
+[CBoard Odom] roll_rel=0.000598723, pitch_rel=-0.000505927, yaw_rel=-0.00111469
+[Ext IMU] roll_rel=0.000598723, pitch_rel=-0.000505927, yaw_rel=-0.00111469
+-------------------------
+[2025-04-25_20-00-56.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000582291, pitch_rel=-0.000565282, yaw_rel=-0.000952057
+[Ext IMU] roll_rel=0.000582291, pitch_rel=-0.000565282, yaw_rel=-0.000952057
+[CBoard Odom] roll_rel=0.000589583, pitch_rel=-0.000498598, yaw_rel=-0.000766936
+[Ext IMU] roll_rel=0.000589583, pitch_rel=-0.000498598, yaw_rel=-0.000766936
+-------------------------
+[2025-04-25_20-00-56.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000593604, pitch_rel=-0.000477548, yaw_rel=-0.000730904
+[Ext IMU] roll_rel=0.000593604, pitch_rel=-0.000477548, yaw_rel=-0.000730904
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000679014, pitch_rel=-0.000424802, yaw_rel=-0.000818015
+[Ext IMU] roll_rel=0.000679014, pitch_rel=-0.000424802, yaw_rel=-0.000818015
+[CBoard Odom] roll_rel=0.000700703, pitch_rel=-0.000407428, yaw_rel=-0.000717072
+[Ext IMU] roll_rel=0.000700703, pitch_rel=-0.000407428, yaw_rel=-0.000717072
+-------------------------
+[2025-04-25_20-00-56.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000697906, pitch_rel=-0.000394877, yaw_rel=-0.000719546
+[Ext IMU] roll_rel=0.000697906, pitch_rel=-0.000394877, yaw_rel=-0.000719546
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000694813, pitch_rel=-0.000337664, yaw_rel=-0.000747856
+[Ext IMU] roll_rel=0.000694813, pitch_rel=-0.000337664, yaw_rel=-0.000747856
+-------------------------
+[2025-04-25_20-00-57.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-57.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000618068, pitch_rel=-0.000157029, yaw_rel=-0.00121729
+[Ext IMU] roll_rel=0.000618068, pitch_rel=-0.000157029, yaw_rel=-0.00121729
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000601412, pitch_rel=-0.000107045, yaw_rel=-0.00138239
+[Ext IMU] roll_rel=0.000601412, pitch_rel=-0.000107045, yaw_rel=-0.00138239
+[CBoard Odom] roll_rel=0.000614687, pitch_rel=-9.38066e-05, yaw_rel=-0.00126421
+[Ext IMU] roll_rel=0.000614687, pitch_rel=-9.38066e-05, yaw_rel=-0.00126421
+-------------------------
+[2025-04-25_20-00-57.278] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00062489, pitch_rel=-8.40557e-05, yaw_rel=-0.00133383
+[Ext IMU] roll_rel=0.00062489, pitch_rel=-8.40557e-05, yaw_rel=-0.00133383
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000623642, pitch_rel=-7.92516e-05, yaw_rel=-0.00129808
+[Ext IMU] roll_rel=0.000623642, pitch_rel=-7.92516e-05, yaw_rel=-0.00129808
+-------------------------
+[2025-04-25_20-00-57.378] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000589336, pitch_rel=-4.56101e-05, yaw_rel=-0.00105021
+[Ext IMU] roll_rel=0.000589336, pitch_rel=-4.56101e-05, yaw_rel=-0.00105021
+-------------------------
+[2025-04-25_20-00-57.478] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00052124, pitch_rel=-1.92905e-05, yaw_rel=-0.00070383
+[Ext IMU] roll_rel=0.00052124, pitch_rel=-1.92905e-05, yaw_rel=-0.00070383
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000480307, pitch_rel=-1.28862e-05, yaw_rel=-0.000685804
+[Ext IMU] roll_rel=0.000480307, pitch_rel=-1.28862e-05, yaw_rel=-0.000685804
+-------------------------
+[2025-04-25_20-00-57.578] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000307022, pitch_rel=3.30338e-05, yaw_rel=-0.000681187
+[Ext IMU] roll_rel=0.000307022, pitch_rel=3.30338e-05, yaw_rel=-0.000681187
+[CBoard Odom] roll_rel=0.000296807, pitch_rel=0.000103734, yaw_rel=-0.000713455
+[Ext IMU] roll_rel=0.000296807, pitch_rel=0.000103734, yaw_rel=-0.000713455
+-------------------------
+[2025-04-25_20-00-57.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00033275, pitch_rel=0.000200436, yaw_rel=-0.000855574
+[Ext IMU] roll_rel=0.00033275, pitch_rel=0.000200436, yaw_rel=-0.000855574
+-------------------------
+[2025-04-25_20-00-57.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-57.878] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000353589, pitch_rel=0.000226818, yaw_rel=-0.00098342
+[Ext IMU] roll_rel=0.000353589, pitch_rel=0.000226818, yaw_rel=-0.00098342
+-------------------------
+[2025-04-25_20-00-57.978] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000393074, pitch_rel=0.000186521, yaw_rel=-0.00102219
+[Ext IMU] roll_rel=0.000393074, pitch_rel=0.000186521, yaw_rel=-0.00102219
+-------------------------
+[2025-04-25_20-00-58.078] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00033345, pitch_rel=0.000253279, yaw_rel=-0.00120024
+[Ext IMU] roll_rel=0.00033345, pitch_rel=0.000253279, yaw_rel=-0.00120024
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00028368, pitch_rel=0.000274071, yaw_rel=-0.00103209
+[Ext IMU] roll_rel=0.00028368, pitch_rel=0.000274071, yaw_rel=-0.00103209
+-------------------------
+[2025-04-25_20-00-58.178] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000307735, pitch_rel=0.000268582, yaw_rel=-0.000844846
+[Ext IMU] roll_rel=0.000307735, pitch_rel=0.000268582, yaw_rel=-0.000844846
+[CBoard Odom] roll_rel=0.000304833, pitch_rel=0.000329388, yaw_rel=-0.000977131
+[Ext IMU] roll_rel=0.000304833, pitch_rel=0.000329388, yaw_rel=-0.000977131
+-------------------------
+[2025-04-25_20-00-58.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000308384, pitch_rel=0.000382074, yaw_rel=-0.00102723
+[Ext IMU] roll_rel=0.000308384, pitch_rel=0.000382074, yaw_rel=-0.00102723
+[CBoard Odom] roll_rel=0.000278183, pitch_rel=0.000440365, yaw_rel=-0.000912598
+[Ext IMU] roll_rel=0.000278183, pitch_rel=0.000440365, yaw_rel=-0.000912598
+-------------------------
+[2025-04-25_20-00-58.378] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000274082, pitch_rel=0.000451643, yaw_rel=-0.00113441
+[Ext IMU] roll_rel=0.000274082, pitch_rel=0.000451643, yaw_rel=-0.00113441
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-58.478] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000262016, pitch_rel=0.000573652, yaw_rel=-0.000634344
+[Ext IMU] roll_rel=0.000262016, pitch_rel=0.000573652, yaw_rel=-0.000634344
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000247477, pitch_rel=0.00053954, yaw_rel=-0.00071455
+[Ext IMU] roll_rel=0.000247477, pitch_rel=0.00053954, yaw_rel=-0.00071455
+[CBoard Odom] roll_rel=0.000221868, pitch_rel=0.000683956, yaw_rel=-0.000677711
+[Ext IMU] roll_rel=0.000221868, pitch_rel=0.000683956, yaw_rel=-0.000677711
+-------------------------
+[2025-04-25_20-00-58.578] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000236677, pitch_rel=0.000673707, yaw_rel=-0.000720995
+[Ext IMU] roll_rel=0.000236677, pitch_rel=0.000673707, yaw_rel=-0.000720995
+-------------------------
+[2025-04-25_20-00-58.678] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000223394, pitch_rel=0.000673145, yaw_rel=-0.000766403
+[Ext IMU] roll_rel=0.000223394, pitch_rel=0.000673145, yaw_rel=-0.000766403
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000245732, pitch_rel=0.000669162, yaw_rel=-0.000795296
+[Ext IMU] roll_rel=0.000245732, pitch_rel=0.000669162, yaw_rel=-0.000795296
+-------------------------
+[2025-04-25_20-00-58.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000252194, pitch_rel=0.000741547, yaw_rel=-0.000817808
+[Ext IMU] roll_rel=0.000252194, pitch_rel=0.000741547, yaw_rel=-0.000817808
+-------------------------
+[2025-04-25_20-00-58.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000215096, pitch_rel=0.00067192, yaw_rel=-0.000548527
+[Ext IMU] roll_rel=0.000215096, pitch_rel=0.00067192, yaw_rel=-0.000548527
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000191622, pitch_rel=0.000603548, yaw_rel=-0.000331928
+[Ext IMU] roll_rel=0.000191622, pitch_rel=0.000603548, yaw_rel=-0.000331928
+-------------------------
+[2025-04-25_20-00-58.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000165079, pitch_rel=0.000627685, yaw_rel=-0.00013004
+[Ext IMU] roll_rel=0.000165079, pitch_rel=0.000627685, yaw_rel=-0.00013004
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000190974, pitch_rel=0.000595759, yaw_rel=-3.02828e-05
+[Ext IMU] roll_rel=0.000190974, pitch_rel=0.000595759, yaw_rel=-3.02828e-05
+-------------------------
+[2025-04-25_20-00-59.078] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000216223, pitch_rel=0.000608222, yaw_rel=-8.32216e-05
+[Ext IMU] roll_rel=0.000216223, pitch_rel=0.000608222, yaw_rel=-8.32216e-05
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-59.178] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00034136, pitch_rel=0.000652713, yaw_rel=-4.17981e-05
+[Ext IMU] roll_rel=0.00034136, pitch_rel=0.000652713, yaw_rel=-4.17981e-05
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-59.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-00-59.378] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000274227, pitch_rel=0.000777807, yaw_rel=-0.000323389
+[Ext IMU] roll_rel=0.000274227, pitch_rel=0.000777807, yaw_rel=-0.000323389
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000161886, pitch_rel=0.000781234, yaw_rel=-0.000274272
+[Ext IMU] roll_rel=0.000161886, pitch_rel=0.000781234, yaw_rel=-0.000274272
+[CBoard Odom] roll_rel=0.000180303, pitch_rel=0.000829805, yaw_rel=-0.000183803
+[Ext IMU] roll_rel=0.000180303, pitch_rel=0.000829805, yaw_rel=-0.000183803
+-------------------------
+[2025-04-25_20-00-59.478] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000211174, pitch_rel=0.000852707, yaw_rel=-0.000296268
+[Ext IMU] roll_rel=0.000211174, pitch_rel=0.000852707, yaw_rel=-0.000296268
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000191183, pitch_rel=0.000831051, yaw_rel=-0.000388911
+[Ext IMU] roll_rel=0.000191183, pitch_rel=0.000831051, yaw_rel=-0.000388911
+-------------------------
+[2025-04-25_20-00-59.578] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000195821, pitch_rel=0.000811917, yaw_rel=-0.000742473
+[Ext IMU] roll_rel=0.000195821, pitch_rel=0.000811917, yaw_rel=-0.000742473
+[CBoard Odom] roll_rel=0.000193609, pitch_rel=0.000703707, yaw_rel=-0.00102703
+[Ext IMU] roll_rel=0.000193609, pitch_rel=0.000703707, yaw_rel=-0.00102703
+-------------------------
+[2025-04-25_20-00-59.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000237697, pitch_rel=0.00066639, yaw_rel=-0.00125075
+[Ext IMU] roll_rel=0.000237697, pitch_rel=0.00066639, yaw_rel=-0.00125075
+[CBoard Odom] roll_rel=0.000207431, pitch_rel=0.000814431, yaw_rel=-0.00114127
+[Ext IMU] roll_rel=0.000207431, pitch_rel=0.000814431, yaw_rel=-0.00114127
+[CBoard Odom] roll_rel=0.000193864, pitch_rel=0.000762271, yaw_rel=-0.00123909
+[Ext IMU] roll_rel=0.000193864, pitch_rel=0.000762271, yaw_rel=-0.00123909
+-------------------------
+[2025-04-25_20-00-59.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00024388, pitch_rel=0.000774194, yaw_rel=-0.00147022
+[Ext IMU] roll_rel=0.00024388, pitch_rel=0.000774194, yaw_rel=-0.00147022
+-------------------------
+[2025-04-25_20-00-59.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000195965, pitch_rel=0.000775108, yaw_rel=-0.00150065
+[Ext IMU] roll_rel=0.000195965, pitch_rel=0.000775108, yaw_rel=-0.00150065
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000109221, pitch_rel=0.000714374, yaw_rel=-0.00151622
+[Ext IMU] roll_rel=0.000109221, pitch_rel=0.000714374, yaw_rel=-0.00151622
+[CBoard Odom] roll_rel=3.38288e-05, pitch_rel=0.000760603, yaw_rel=-0.00127303
+[Ext IMU] roll_rel=3.38288e-05, pitch_rel=0.000760603, yaw_rel=-0.00127303
+[CBoard Odom] roll_rel=-1.90961e-05, pitch_rel=0.000822485, yaw_rel=-0.00118076
+[Ext IMU] roll_rel=-1.90961e-05, pitch_rel=0.000822485, yaw_rel=-0.00118076
+-------------------------
+[2025-04-25_20-00-59.978] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-5.21979e-05, pitch_rel=0.000806662, yaw_rel=-0.00121619
+[Ext IMU] roll_rel=-5.21979e-05, pitch_rel=0.000806662, yaw_rel=-0.00121619
+-------------------------
+[2025-04-25_20-01-00.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-7.2729e-05, pitch_rel=0.000877728, yaw_rel=-0.00145888
+[Ext IMU] roll_rel=-7.2729e-05, pitch_rel=0.000877728, yaw_rel=-0.00145888
+-------------------------
+[2025-04-25_20-01-00.178] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-0.000133194, pitch_rel=0.000727602, yaw_rel=-0.00127631
+[Ext IMU] roll_rel=-0.000133194, pitch_rel=0.000727602, yaw_rel=-0.00127631
+[CBoard Odom] roll_rel=-0.000116042, pitch_rel=0.000691512, yaw_rel=-0.00136427
+[Ext IMU] roll_rel=-0.000116042, pitch_rel=0.000691512, yaw_rel=-0.00136427
+-------------------------
+[2025-04-25_20-01-00.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-4.75932e-05, pitch_rel=0.000687845, yaw_rel=-0.00157076
+[Ext IMU] roll_rel=-4.75932e-05, pitch_rel=0.000687845, yaw_rel=-0.00157076
+-------------------------
+[2025-04-25_20-01-00.378] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-6.19551e-05, pitch_rel=0.00049327, yaw_rel=-0.0016721
+[Ext IMU] roll_rel=-6.19551e-05, pitch_rel=0.00049327, yaw_rel=-0.0016721
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-2.74967e-05, pitch_rel=0.000520489, yaw_rel=-0.00169924
+[Ext IMU] roll_rel=-2.74967e-05, pitch_rel=0.000520489, yaw_rel=-0.00169924
+-------------------------
+[2025-04-25_20-01-00.478] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-3.32077e-05, pitch_rel=0.000497949, yaw_rel=-0.00208395
+[Ext IMU] roll_rel=-3.32077e-05, pitch_rel=0.000497949, yaw_rel=-0.00208395
+-------------------------
+[2025-04-25_20-01-00.578] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=7.39868e-05, pitch_rel=0.000600526, yaw_rel=-0.00212059
+[Ext IMU] roll_rel=7.39868e-05, pitch_rel=0.000600526, yaw_rel=-0.00212059
+-------------------------
+[2025-04-25_20-01-00.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=5.35597e-05, pitch_rel=0.000629375, yaw_rel=-0.00204399
+[Ext IMU] roll_rel=5.35597e-05, pitch_rel=0.000629375, yaw_rel=-0.00204399
+[CBoard Odom] roll_rel=0.000102553, pitch_rel=0.00054873, yaw_rel=-0.00159705
+[Ext IMU] roll_rel=0.000102553, pitch_rel=0.00054873, yaw_rel=-0.00159705
+-------------------------
+[2025-04-25_20-01-00.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000131305, pitch_rel=0.000417756, yaw_rel=-0.00157801
+[Ext IMU] roll_rel=0.000131305, pitch_rel=0.000417756, yaw_rel=-0.00157801
+[CBoard Odom] roll_rel=0.000102572, pitch_rel=0.000394567, yaw_rel=-0.00157649
+[Ext IMU] roll_rel=0.000102572, pitch_rel=0.000394567, yaw_rel=-0.00157649
+[CBoard Odom] roll_rel=0.000126785, pitch_rel=0.000405775, yaw_rel=-0.00164226
+[Ext IMU] roll_rel=0.000126785, pitch_rel=0.000405775, yaw_rel=-0.00164226
+[CBoard Odom] roll_rel=5.56909e-05, pitch_rel=0.000435232, yaw_rel=-0.00159759
+[Ext IMU] roll_rel=5.56909e-05, pitch_rel=0.000435232, yaw_rel=-0.00159759
+-------------------------
+[2025-04-25_20-01-00.878] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=4.43479e-05, pitch_rel=0.000436942, yaw_rel=-0.00153613
+[Ext IMU] roll_rel=4.43479e-05, pitch_rel=0.000436942, yaw_rel=-0.00153613
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=4.68474e-05, pitch_rel=0.000366235, yaw_rel=-0.00154496
+[Ext IMU] roll_rel=4.68474e-05, pitch_rel=0.000366235, yaw_rel=-0.00154496
+-------------------------
+[2025-04-25_20-01-00.978] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=5.749e-05, pitch_rel=0.000357371, yaw_rel=-0.00167625
+[Ext IMU] roll_rel=5.749e-05, pitch_rel=0.000357371, yaw_rel=-0.00167625
+[CBoard Odom] roll_rel=8.92714e-05, pitch_rel=0.000278248, yaw_rel=-0.00160204
+[Ext IMU] roll_rel=8.92714e-05, pitch_rel=0.000278248, yaw_rel=-0.00160204
+-------------------------
+[2025-04-25_20-01-01.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00014294, pitch_rel=0.000246024, yaw_rel=-0.00153963
+[Ext IMU] roll_rel=0.00014294, pitch_rel=0.000246024, yaw_rel=-0.00153963
+-------------------------
+[2025-04-25_20-01-01.178] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000134574, pitch_rel=0.000286526, yaw_rel=-0.00134361
+[Ext IMU] roll_rel=0.000134574, pitch_rel=0.000286526, yaw_rel=-0.00134361
+-------------------------
+[2025-04-25_20-01-01.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.045319, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=1.09478e-05, pitch_rel=0.000176568, yaw_rel=-0.00151898
+[Ext IMU] roll_rel=1.09478e-05, pitch_rel=0.000176568, yaw_rel=-0.00151898
+[CBoard Odom] roll_rel=0.000101265, pitch_rel=0.000132584, yaw_rel=-0.00151464
+[Ext IMU] roll_rel=0.000101265, pitch_rel=0.000132584, yaw_rel=-0.00151464
+-------------------------
+[2025-04-25_20-01-01.378] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=4.54868e-05, pitch_rel=3.71594e-05, yaw_rel=-0.001748
+[Ext IMU] roll_rel=4.54868e-05, pitch_rel=3.71594e-05, yaw_rel=-0.001748
+[CBoard Odom] roll_rel=7.00319e-05, pitch_rel=3.91806e-05, yaw_rel=-0.0018496
+[Ext IMU] roll_rel=7.00319e-05, pitch_rel=3.91806e-05, yaw_rel=-0.0018496
+-------------------------
+[2025-04-25_20-01-01.478] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=6.58199e-05, pitch_rel=6.93027e-05, yaw_rel=-0.0018829
+[Ext IMU] roll_rel=6.58199e-05, pitch_rel=6.93027e-05, yaw_rel=-0.0018829
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=8.07094e-05, pitch_rel=8.16819e-05, yaw_rel=-0.00191692
+[Ext IMU] roll_rel=8.07094e-05, pitch_rel=8.16819e-05, yaw_rel=-0.00191692
+[CBoard Odom] roll_rel=0.000134798, pitch_rel=7.28707e-05, yaw_rel=-0.00215737
+[Ext IMU] roll_rel=0.000134798, pitch_rel=7.28707e-05, yaw_rel=-0.00215737
+-------------------------
+[2025-04-25_20-01-01.578] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000128248, pitch_rel=-2.74852e-06, yaw_rel=-0.00225458
+[Ext IMU] roll_rel=0.000128248, pitch_rel=-2.74852e-06, yaw_rel=-0.00225458
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=9.68611e-05, pitch_rel=4.79036e-05, yaw_rel=-0.0023282
+[Ext IMU] roll_rel=9.68611e-05, pitch_rel=4.79036e-05, yaw_rel=-0.0023282
+[CBoard Odom] roll_rel=2.87017e-05, pitch_rel=5.91163e-05, yaw_rel=-0.00262266
+[Ext IMU] roll_rel=2.87017e-05, pitch_rel=5.91163e-05, yaw_rel=-0.00262266
+-------------------------
+[2025-04-25_20-01-01.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-9.95021e-07, pitch_rel=9.22312e-05, yaw_rel=-0.0024605
+[Ext IMU] roll_rel=-9.95021e-07, pitch_rel=9.22312e-05, yaw_rel=-0.0024605
+[CBoard Odom] roll_rel=-2.18233e-05, pitch_rel=7.25094e-05, yaw_rel=-0.00244622
+[Ext IMU] roll_rel=-2.18233e-05, pitch_rel=7.25094e-05, yaw_rel=-0.00244622
+-------------------------
+[2025-04-25_20-01-01.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-3.16981e-05, pitch_rel=0.000102027, yaw_rel=-0.00255068
+[Ext IMU] roll_rel=-3.16981e-05, pitch_rel=0.000102027, yaw_rel=-0.00255068
+-------------------------
+[2025-04-25_20-01-01.878] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-5.12467e-05, pitch_rel=5.19144e-05, yaw_rel=-0.00271395
+[Ext IMU] roll_rel=-5.12467e-05, pitch_rel=5.19144e-05, yaw_rel=-0.00271395
+[CBoard Odom] roll_rel=-3.58792e-06, pitch_rel=-1.01979e-05, yaw_rel=-0.00275178
+[Ext IMU] roll_rel=-3.58792e-06, pitch_rel=-1.01979e-05, yaw_rel=-0.00275178
+[CBoard Odom] roll_rel=-9.48366e-06, pitch_rel=-6.58158e-05, yaw_rel=-0.00278013
+[Ext IMU] roll_rel=-9.48366e-06, pitch_rel=-6.58158e-05, yaw_rel=-0.00278013
+[CBoard Odom] roll_rel=-3.53295e-05, pitch_rel=-3.08875e-05, yaw_rel=-0.00275328
+[Ext IMU] roll_rel=-3.53295e-05, pitch_rel=-3.08875e-05, yaw_rel=-0.00275328
+-------------------------
+[2025-04-25_20-01-01.978] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-8.18529e-05, pitch_rel=-0.000115172, yaw_rel=-0.00272034
+[Ext IMU] roll_rel=-8.18529e-05, pitch_rel=-0.000115172, yaw_rel=-0.00272034
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-2.81831e-05, pitch_rel=-0.000115244, yaw_rel=-0.00262721
+[Ext IMU] roll_rel=-2.81831e-05, pitch_rel=-0.000115244, yaw_rel=-0.00262721
+[CBoard Odom] roll_rel=-6.02466e-05, pitch_rel=-0.000158697, yaw_rel=-0.00269889
+[Ext IMU] roll_rel=-6.02466e-05, pitch_rel=-0.000158697, yaw_rel=-0.00269889
+[CBoard Odom] roll_rel=-1.19671e-05, pitch_rel=-0.000200814, yaw_rel=-0.00273785
+[Ext IMU] roll_rel=-1.19671e-05, pitch_rel=-0.000200814, yaw_rel=-0.00273785
+[CBoard Odom] roll_rel=-2.62365e-05, pitch_rel=-0.000215578, yaw_rel=-0.00272232
+[Ext IMU] roll_rel=-2.62365e-05, pitch_rel=-0.000215578, yaw_rel=-0.00272232
+-------------------------
+[2025-04-25_20-01-02.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-0.000121182, pitch_rel=-0.000241542, yaw_rel=-0.00288344
+[Ext IMU] roll_rel=-0.000121182, pitch_rel=-0.000241542, yaw_rel=-0.00288344
+-------------------------
+[2025-04-25_20-01-02.178] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=-0.00010082, pitch_rel=-0.000280591, yaw_rel=-0.00253443
+[Ext IMU] roll_rel=-0.00010082, pitch_rel=-0.000280591, yaw_rel=-0.00253443
+-------------------------
+[2025-04-25_20-01-02.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=1.10641e-05, pitch_rel=-0.000227025, yaw_rel=-0.00237891
+[Ext IMU] roll_rel=1.10641e-05, pitch_rel=-0.000227025, yaw_rel=-0.00237891
+[CBoard Odom] roll_rel=4.34221e-05, pitch_rel=-0.000138599, yaw_rel=-0.00200284
+[Ext IMU] roll_rel=4.34221e-05, pitch_rel=-0.000138599, yaw_rel=-0.00200284
+-------------------------
+[2025-04-25_20-01-02.378] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000129531, pitch_rel=-0.000110763, yaw_rel=-0.00198243
+[Ext IMU] roll_rel=0.000129531, pitch_rel=-0.000110763, yaw_rel=-0.00198243
+[CBoard Odom] roll_rel=0.000164571, pitch_rel=-0.000125088, yaw_rel=-0.00165186
+[Ext IMU] roll_rel=0.000164571, pitch_rel=-0.000125088, yaw_rel=-0.00165186
+-------------------------
+[2025-04-25_20-01-02.478] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-01-02.578] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0390353, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000153666, pitch_rel=-6.84168e-05, yaw_rel=-0.00142387
+[Ext IMU] roll_rel=0.000153666, pitch_rel=-6.84168e-05, yaw_rel=-0.00142387
+-------------------------
+[2025-04-25_20-01-02.678] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000204053, pitch_rel=-9.21075e-05, yaw_rel=-0.00124312
+[Ext IMU] roll_rel=0.000204053, pitch_rel=-9.21075e-05, yaw_rel=-0.00124312
+[CBoard Odom] roll_rel=0.000244127, pitch_rel=-0.000144414, yaw_rel=-0.00138621
+[Ext IMU] roll_rel=0.000244127, pitch_rel=-0.000144414, yaw_rel=-0.00138621
+-------------------------
+[2025-04-25_20-01-02.778] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000290064, pitch_rel=-0.00018981, yaw_rel=-0.00121463
+[Ext IMU] roll_rel=0.000290064, pitch_rel=-0.00018981, yaw_rel=-0.00121463
+-------------------------
+[2025-04-25_20-01-02.878] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-01-02.978] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+-------------------------
+[2025-04-25_20-01-03.078] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000304417, pitch_rel=3.80924e-05, yaw_rel=-0.00189109
+[Ext IMU] roll_rel=0.000304417, pitch_rel=3.80924e-05, yaw_rel=-0.00189109
+[CBoard Odom] roll_rel=0.000279133, pitch_rel=5.49905e-05, yaw_rel=-0.0022249
+[Ext IMU] roll_rel=0.000279133, pitch_rel=5.49905e-05, yaw_rel=-0.0022249
+-------------------------
+[2025-04-25_20-01-03.178] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.000271698, pitch_rel=0.000116031, yaw_rel=-0.00198249
+[Ext IMU] roll_rel=0.000271698, pitch_rel=0.000116031, yaw_rel=-0.00198249
+-------------------------
+[2025-04-25_20-01-03.278] No B-spline trajectory received.
+-------------------------
+[Ext IMU] roll_rel=-0.0454149, pitch_rel=0.0391311, yaw_rel=0.295008
+[CBoard Odom] roll_rel=0.00030831, pitch_rel=0.000200726, yaw_rel=-0.00209084
+[Ext IMU] roll_rel=0.00030831, pitch_rel=0.000200726, yaw_rel=-0.00209084
+-------------------------
+[2025-04-25_20-01-03.379] No B-spline trajectory received.
+-------------------------

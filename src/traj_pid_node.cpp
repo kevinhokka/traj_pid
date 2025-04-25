@@ -347,10 +347,10 @@ private:
         // Write the IMU angular velocity to the log file
         if (log_file_.is_open()) {
             const auto &ang = msg->angular_velocity;  // Use the full angular velocity vector
-            log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
-                      << msg->header.stamp.nanosec 
-                      << " Received IMU Angular Velocity - ["
-                      << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
+            // log_file_ << msg->header.stamp.sec << "." << std::setw(9) << std::setfill('0')
+            //           << msg->header.stamp.nanosec 
+            //           << " Received IMU Angular Velocity - ["
+            //           << ang.x << ", " << ang.y << ", " << ang.z << "]" << std::endl;
         }
     }
 
@@ -578,8 +578,8 @@ private:
         if (t_diff > traj_duration_) {
             // 这里为了演示直接 yaw 对齐后停止
             double final_yaw = 0.0; // 也可: traj_[3].evaluateDeBoor(traj_duration_)(0)
-            double yaw_error = final_yaw - current_yaw_;
-            // double yaw_error = final_yaw - current_yaw_CBoard_;
+            // double yaw_error = final_yaw - current_yaw_;
+            double yaw_error = final_yaw - current_yaw_CBoard_;
             // double yaw_error = final_yaw - yaw_IMU_;
 
             while (yaw_error > M_PI)  yaw_error -= 2.0 * M_PI;
@@ -633,8 +633,8 @@ private:
         double angle_to_target = std::atan2(dy, dx);
         target_yaw_ = angle_to_target;
 
-        double alpha = angle_to_target - current_yaw_;
-        // double alpha = angle_to_target - current_yaw_CBoard_;
+        // double alpha = angle_to_target - current_yaw_;
+        double alpha = angle_to_target - current_yaw_CBoard_;
         // double alpha = angle_to_target - yaw_IMU_;
 
         while (alpha > M_PI)  alpha -= 2.0 * M_PI;
@@ -710,8 +710,12 @@ private:
         std::string position_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
             ? ("x: " + std::to_string(current_position_x_) + ", y: " + std::to_string(current_position_y_))
             : "NA";
+        // std::string yaw_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
+        //     ? ("Current Yaw: " + std::to_string(current_yaw_))
+        //     : "NA";
+
         std::string yaw_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
-            ? ("Current Yaw: " + std::to_string(current_yaw_))
+            ? ("Current Yaw: " + std::to_string(current_yaw_CBoard_))
             : "NA";
         // std::string yaw_str = (current_linear_velocity_ != 0 || current_angular_velocity_ != 0)
         //     ? ("Current Yaw: " + std::to_string(yaw_IMU_))

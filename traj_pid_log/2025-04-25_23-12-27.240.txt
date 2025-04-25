@@ -1,0 +1,806 @@
+-------------------------
+PID Controller Parameters:
+Position PID: P: 0.3, I: 0, D: 1
+Orientation PID: P: 2, I: 0, D: 1
+Linear Velocity PID: P: 0.75, I: 0, D: 1
+Angular Velocity PID: P: 1, I: 0, D: 0
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.348] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.447] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.547] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.647] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.747] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.847] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-27.947] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.047] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.147] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.247] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.347] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.447] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.547] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.647] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.747] No B-spline trajectory received.
+-------------------------
+-------------------------
+[2025-04-25_23-12-28.847] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0, pitch_rel=0, yaw_rel=0
+[Ext IMU] roll_rel=0, pitch_rel=0, yaw_rel=0
+[CBoard Odom] roll_rel=-6.04269e-05, pitch_rel=-4.2138e-05, yaw_rel=3.89761e-05
+[Ext IMU] roll_rel=-6.04269e-05, pitch_rel=-4.2138e-05, yaw_rel=3.89761e-05
+[CBoard Odom] roll_rel=-5.18158e-05, pitch_rel=-7.56374e-05, yaw_rel=-5.56753e-05
+[Ext IMU] roll_rel=-5.18158e-05, pitch_rel=-7.56374e-05, yaw_rel=-5.56753e-05
+[CBoard Odom] roll_rel=-5.63217e-05, pitch_rel=-3.75667e-05, yaw_rel=-7.08965e-05
+[Ext IMU] roll_rel=-5.63217e-05, pitch_rel=-3.75667e-05, yaw_rel=-7.08965e-05
+Received Odometry - Position: x=0.124389, y=0.0748287, Linear Velocity: -0.00931657
+Current yaw: -0.0033116 (roll: -0.0199145, pitch: -0.00316582)
+Received Odometry - Position: x=0.125988, y=0.0764639, Linear Velocity: 0.000800668
+Current yaw: -0.00407808 (roll: -0.018676, pitch: -0.00514772)
+Received Odometry - Position: x=0.126199, y=0.0773117, Linear Velocity: 3.15701e-05
+Current yaw: -0.00476516 (roll: -0.019225, pitch: -0.00359356)
+Received Odometry - Position: x=0.127667, y=0.0777385, Linear Velocity: 0.00420647
+Current yaw: -0.00232475 (roll: -0.0192153, pitch: -0.00479405)
+Received Odometry - Position: x=0.125698, y=0.0749782, Linear Velocity: -0.0187197
+Current yaw: -0.00368696 (roll: -0.0197254, pitch: -0.00291898)
+Received Odometry - Position: x=0.125161, y=0.0737468, Linear Velocity: 0.0341576
+Current yaw: -0.00293093 (roll: -0.0192538, pitch: -0.00289679)
+Received Odometry - Position: x=0.128195, y=0.0738835, Linear Velocity: 0.0468653
+Current yaw: -0.00381963 (roll: -0.02071, pitch: -0.00352294)
+Received Odometry - Position: x=0.126575, y=0.0733803, Linear Velocity: -0.00323728
+Current yaw: -0.00378759 (roll: -0.0202102, pitch: -0.00245981)
+Received Odometry - Position: x=0.126095, y=0.0720073, Linear Velocity: -0.00673711
+Current yaw: -0.00327731 (roll: -0.0200476, pitch: -0.0048935)
+[CBoard Odom] roll_rel=-0.000124915, pitch_rel=-1.19002e-05, yaw_rel=-3.78591e-05
+[Ext IMU] roll_rel=-0.000124915, pitch_rel=-1.19002e-05, yaw_rel=-3.78591e-05
+Received Odometry - Position: x=0.125596, y=0.0732147, Linear Velocity: -0.00932707
+Current yaw: -0.00140044 (roll: -0.0193212, pitch: -0.00330699)
+-------------------------
+[2025-04-25_23-12-28.947] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-9.71403e-05, pitch_rel=-9.01868e-05, yaw_rel=-0.000164463
+[Ext IMU] roll_rel=-9.71403e-05, pitch_rel=-9.01868e-05, yaw_rel=-0.000164463
+Received Odometry - Position: x=0.126222, y=0.0748329, Linear Velocity: -0.00386913
+Current yaw: -0.00307231 (roll: -0.0197031, pitch: -0.00480152)
+Received Odometry - Position: x=0.126093, y=0.0748514, Linear Velocity: -0.00532665
+Current yaw: -0.00413242 (roll: -0.0195522, pitch: -0.00327806)
+Received Odometry - Position: x=0.126028, y=0.0772883, Linear Velocity: -0.00370737
+Current yaw: -0.00409485 (roll: -0.0188063, pitch: -0.00424357)
+Received Odometry - Position: x=0.12578, y=0.0767393, Linear Velocity: -0.00787059
+Current yaw: -0.00345578 (roll: -0.0193293, pitch: -0.00333791)
+-------------------------
+[2025-04-25_23-12-29.047] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.126473, y=0.0753402, Linear Velocity: -0.0034735
+Current yaw: -0.00285064 (roll: -0.0209207, pitch: -0.00503083)
+Received Odometry - Position: x=0.126691, y=0.0753013, Linear Velocity: -0.00417415
+Current yaw: -0.00280298 (roll: -0.0187379, pitch: -0.00375)
+Received Odometry - Position: x=0.127385, y=0.0758494, Linear Velocity: -8.15506e-05
+Current yaw: -0.00463482 (roll: -0.0200052, pitch: -0.00377852)
+Received Odometry - Position: x=0.127187, y=0.0754232, Linear Velocity: -0.00251788
+Current yaw: -0.0038891 (roll: -0.0194429, pitch: -0.00388709)
+Received Odometry - Position: x=0.12751, y=0.0765384, Linear Velocity: -0.000452173
+Current yaw: -0.00462955 (roll: -0.0217843, pitch: -0.00440213)
+Received Odometry - Position: x=0.127261, y=0.0766518, Linear Velocity: -0.00368122
+Current yaw: -0.00359665 (roll: -0.0193068, pitch: -0.00420736)
+[CBoard Odom] roll_rel=-3.34585e-05, pitch_rel=-1.16633e-07, yaw_rel=-0.00011735
+[Ext IMU] roll_rel=-3.34585e-05, pitch_rel=-1.16633e-07, yaw_rel=-0.00011735
+-------------------------
+[2025-04-25_23-12-29.147] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127239, y=0.0754917, Linear Velocity: -0.00232408
+Current yaw: -0.00341645 (roll: -0.0210173, pitch: -0.00411957)
+Received Odometry - Position: x=0.127344, y=0.0754848, Linear Velocity: -0.00358719
+Current yaw: -0.00327358 (roll: -0.019163, pitch: -0.00405551)
+[CBoard Odom] roll_rel=-2.77128e-05, pitch_rel=-4.62099e-05, yaw_rel=-9.40907e-05
+[Ext IMU] roll_rel=-2.77128e-05, pitch_rel=-4.62099e-05, yaw_rel=-9.40907e-05
+Received Odometry - Position: x=0.127529, y=0.0757242, Linear Velocity: -0.00196619
+Current yaw: -0.00437363 (roll: -0.019884, pitch: -0.00379392)
+Received Odometry - Position: x=0.127793, y=0.0754812, Linear Velocity: -0.00261103
+Current yaw: -0.00446917 (roll: -0.0191535, pitch: -0.00418801)
+Received Odometry - Position: x=0.127509, y=0.0754499, Linear Velocity: -0.00223702
+Current yaw: -0.00399024 (roll: -0.0194258, pitch: -0.00300747)
+-------------------------
+[2025-04-25_23-12-29.247] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127919, y=0.0756059, Linear Velocity: -0.00259069
+Current yaw: -0.00391828 (roll: -0.0188252, pitch: -0.00405524)
+[CBoard Odom] roll_rel=-7.27271e-05, pitch_rel=-0.000102117, yaw_rel=-0.000159356
+[Ext IMU] roll_rel=-7.27271e-05, pitch_rel=-0.000102117, yaw_rel=-0.000159356
+[CBoard Odom] roll_rel=-6.3615e-05, pitch_rel=-0.000152597, yaw_rel=-7.93573e-05
+[Ext IMU] roll_rel=-6.3615e-05, pitch_rel=-0.000152597, yaw_rel=-7.93573e-05
+Received Odometry - Position: x=0.127993, y=0.0760968, Linear Velocity: -0.000498104
+Current yaw: -0.00410824 (roll: -0.019799, pitch: -0.00316113)
+[CBoard Odom] roll_rel=-7.50555e-05, pitch_rel=-0.000191462, yaw_rel=-7.00529e-05
+[Ext IMU] roll_rel=-7.50555e-05, pitch_rel=-0.000191462, yaw_rel=-7.00529e-05
+-------------------------
+[2025-04-25_23-12-29.347] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128425, y=0.0748327, Linear Velocity: -0.000688537
+Current yaw: -0.00394578 (roll: -0.0198649, pitch: -0.00405904)
+Received Odometry - Position: x=0.127306, y=0.0731757, Linear Velocity: -0.00314728
+Current yaw: -0.00311886 (roll: -0.0192502, pitch: -0.00232623)
+-------------------------
+[2025-04-25_23-12-29.447] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127685, y=0.0731156, Linear Velocity: -0.00326729
+Current yaw: -0.00341631 (roll: -0.0192664, pitch: -0.00421207)
+Received Odometry - Position: x=0.126997, y=0.0735961, Linear Velocity: -0.00408875
+Current yaw: -0.00327026 (roll: -0.0189819, pitch: -0.00272919)
+-------------------------
+[2025-04-25_23-12-29.547] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-4.08579e-05, pitch_rel=-7.65273e-05, yaw_rel=-2.97387e-06
+[Ext IMU] roll_rel=-4.08579e-05, pitch_rel=-7.65273e-05, yaw_rel=-2.97387e-06
+Received Odometry - Position: x=0.127256, y=0.0742991, Linear Velocity: -0.00404681
+Current yaw: -0.00275464 (roll: -0.0186205, pitch: -0.00442643)
+Received Odometry - Position: x=0.127091, y=0.0739056, Linear Velocity: -0.00389375
+Current yaw: -0.00514433 (roll: -0.0198982, pitch: -0.00286836)
+-------------------------
+[2025-04-25_23-12-29.647] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-1.48519e-05, pitch_rel=-0.00014551, yaw_rel=2.72289e-05
+[Ext IMU] roll_rel=-1.48519e-05, pitch_rel=-0.00014551, yaw_rel=2.72289e-05
+Received Odometry - Position: x=0.126906, y=0.0738778, Linear Velocity: -0.00523568
+Current yaw: -0.00457637 (roll: -0.0190025, pitch: -0.0040916)
+[CBoard Odom] roll_rel=5.24439e-05, pitch_rel=-0.000173199, yaw_rel=-1.99638e-05
+[Ext IMU] roll_rel=5.24439e-05, pitch_rel=-0.000173199, yaw_rel=-1.99638e-05
+-------------------------
+[2025-04-25_23-12-29.747] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.126041, y=0.074754, Linear Velocity: -0.00613767
+Current yaw: -0.00305895 (roll: -0.0196485, pitch: -0.00261576)
+[CBoard Odom] roll_rel=2.77434e-05, pitch_rel=-0.000238693, yaw_rel=-1.87825e-05
+[Ext IMU] roll_rel=2.77434e-05, pitch_rel=-0.000238693, yaw_rel=-1.87825e-05
+[CBoard Odom] roll_rel=1.44211e-05, pitch_rel=-0.000265506, yaw_rel=-2.13569e-05
+[Ext IMU] roll_rel=1.44211e-05, pitch_rel=-0.000265506, yaw_rel=-2.13569e-05
+Received Odometry - Position: x=0.12632, y=0.0744199, Linear Velocity: -0.00523428
+Current yaw: -0.00262148 (roll: -0.0184807, pitch: -0.00434004)
+Received Odometry - Position: x=0.126759, y=0.0728041, Linear Velocity: -0.00270174
+Current yaw: -0.00336567 (roll: -0.019125, pitch: -0.00260638)
+[CBoard Odom] roll_rel=4.34622e-05, pitch_rel=-0.000252823, yaw_rel=2.29801e-05
+[Ext IMU] roll_rel=4.34622e-05, pitch_rel=-0.000252823, yaw_rel=2.29801e-05
+-------------------------
+[2025-04-25_23-12-29.847] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-3.7074e-05, pitch_rel=-0.000231152, yaw_rel=-7.99636e-05
+[Ext IMU] roll_rel=-3.7074e-05, pitch_rel=-0.000231152, yaw_rel=-7.99636e-05
+Received Odometry - Position: x=0.127742, y=0.0731907, Linear Velocity: 1.33663e-06
+Current yaw: -0.00410263 (roll: -0.0188842, pitch: -0.00450463)
+[CBoard Odom] roll_rel=-5.2584e-05, pitch_rel=-0.000251615, yaw_rel=-0.000120831
+[Ext IMU] roll_rel=-5.2584e-05, pitch_rel=-0.000251615, yaw_rel=-0.000120831
+[CBoard Odom] roll_rel=-3.25495e-05, pitch_rel=-0.000263245, yaw_rel=-0.000182726
+[Ext IMU] roll_rel=-3.25495e-05, pitch_rel=-0.000263245, yaw_rel=-0.000182726
+Received Odometry - Position: x=0.127244, y=0.0731678, Linear Velocity: -0.000480473
+Current yaw: -0.00288399 (roll: -0.0189861, pitch: -0.00244362)
+-------------------------
+[2025-04-25_23-12-29.947] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=1.62227e-05, pitch_rel=-0.000216811, yaw_rel=-0.000117744
+[Ext IMU] roll_rel=1.62227e-05, pitch_rel=-0.000216811, yaw_rel=-0.000117744
+Received Odometry - Position: x=0.127892, y=0.0746521, Linear Velocity: 0.00149186
+Current yaw: -0.00355717 (roll: -0.0186926, pitch: -0.00414869)
+Received Odometry - Position: x=0.127849, y=0.0739901, Linear Velocity: 0.00203339
+Current yaw: -0.00322985 (roll: -0.019487, pitch: -0.00270269)
+-------------------------
+[2025-04-25_23-12-30.047] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=9.43346e-05, pitch_rel=-0.000286572, yaw_rel=-0.000206853
+[Ext IMU] roll_rel=9.43346e-05, pitch_rel=-0.000286572, yaw_rel=-0.000206853
+Received Odometry - Position: x=0.12813, y=0.0746602, Linear Velocity: 0.00117078
+Current yaw: -0.0037729 (roll: -0.019144, pitch: -0.00430709)
+[CBoard Odom] roll_rel=3.54808e-05, pitch_rel=-0.000299409, yaw_rel=-0.000199514
+[Ext IMU] roll_rel=3.54808e-05, pitch_rel=-0.000299409, yaw_rel=-0.000199514
+Received Odometry - Position: x=0.127508, y=0.0752552, Linear Velocity: -0.000619148
+Current yaw: -0.00344676 (roll: -0.0187317, pitch: -0.00246229)
+-------------------------
+[2025-04-25_23-12-30.147] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127829, y=0.0746353, Linear Velocity: -0.000697519
+Current yaw: -0.00347215 (roll: -0.0186151, pitch: -0.00472785)
+[CBoard Odom] roll_rel=-4.65161e-05, pitch_rel=-0.000162645, yaw_rel=-0.000271425
+[Ext IMU] roll_rel=-4.65161e-05, pitch_rel=-0.000162645, yaw_rel=-0.000271425
+Received Odometry - Position: x=0.128097, y=0.0740971, Linear Velocity: 0.00181384
+Current yaw: -0.00278691 (roll: -0.0187986, pitch: -0.00284665)
+-------------------------
+[2025-04-25_23-12-30.247] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127852, y=0.0741036, Linear Velocity: -0.000215684
+Current yaw: -0.00219434 (roll: -0.0182727, pitch: -0.00413337)
+[CBoard Odom] roll_rel=-0.000193308, pitch_rel=-8.2799e-05, yaw_rel=-0.000192373
+[Ext IMU] roll_rel=-0.000193308, pitch_rel=-8.2799e-05, yaw_rel=-0.000192373
+Received Odometry - Position: x=0.127776, y=0.0735164, Linear Velocity: -7.0786e-05
+Current yaw: -0.00322442 (roll: -0.0191525, pitch: -0.003038)
+[CBoard Odom] roll_rel=-0.000106894, pitch_rel=-0.00014443, yaw_rel=-0.000190049
+[Ext IMU] roll_rel=-0.000106894, pitch_rel=-0.00014443, yaw_rel=-0.000190049
+-------------------------
+[2025-04-25_23-12-30.347] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128726, y=0.0736463, Linear Velocity: 0.00209325
+Current yaw: -0.00395806 (roll: -0.0185398, pitch: -0.00466953)
+[CBoard Odom] roll_rel=-0.000250756, pitch_rel=-0.000220873, yaw_rel=-0.000220556
+[Ext IMU] roll_rel=-0.000250756, pitch_rel=-0.000220873, yaw_rel=-0.000220556
+[CBoard Odom] roll_rel=-0.000306092, pitch_rel=-0.000300528, yaw_rel=-0.000192651
+[Ext IMU] roll_rel=-0.000306092, pitch_rel=-0.000300528, yaw_rel=-0.000192651
+Received Odometry - Position: x=0.128306, y=0.0738071, Linear Velocity: 0.00235207
+Current yaw: -0.00285153 (roll: -0.0186768, pitch: -0.00250318)
+-------------------------
+[2025-04-25_23-12-30.447] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128455, y=0.0753583, Linear Velocity: 0.00202921
+Current yaw: -0.00303721 (roll: -0.0187672, pitch: -0.00404711)
+[CBoard Odom] roll_rel=-0.00032183, pitch_rel=-0.000368768, yaw_rel=-4.96318e-05
+[Ext IMU] roll_rel=-0.00032183, pitch_rel=-0.000368768, yaw_rel=-4.96318e-05
+[CBoard Odom] roll_rel=-0.000290829, pitch_rel=-0.000352545, yaw_rel=4.96658e-05
+[Ext IMU] roll_rel=-0.000290829, pitch_rel=-0.000352545, yaw_rel=4.96658e-05
+[CBoard Odom] roll_rel=-0.000271649, pitch_rel=-0.00033882, yaw_rel=-7.84389e-05
+[Ext IMU] roll_rel=-0.000271649, pitch_rel=-0.00033882, yaw_rel=-7.84389e-05
+Received Odometry - Position: x=0.128221, y=0.0748975, Linear Velocity: 0.00154572
+Current yaw: -0.00316582 (roll: -0.0186818, pitch: -0.00289726)
+-------------------------
+[2025-04-25_23-12-30.547] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128679, y=0.0748782, Linear Velocity: 0.002558
+Current yaw: -0.00337386 (roll: -0.0187163, pitch: -0.00412678)
+[CBoard Odom] roll_rel=-9.59721e-05, pitch_rel=-0.000370585, yaw_rel=-4.3369e-05
+[Ext IMU] roll_rel=-9.59721e-05, pitch_rel=-0.000370585, yaw_rel=-4.3369e-05
+[CBoard Odom] roll_rel=-9.94871e-05, pitch_rel=-0.000383254, yaw_rel=-5.37488e-05
+[Ext IMU] roll_rel=-9.94871e-05, pitch_rel=-0.000383254, yaw_rel=-5.37488e-05
+Received Odometry - Position: x=0.128449, y=0.0742667, Linear Velocity: 0.00165164
+Current yaw: -0.0033489 (roll: -0.0189661, pitch: -0.00271613)
+-------------------------
+[2025-04-25_23-12-30.647] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128464, y=0.0738098, Linear Velocity: 0.000706936
+Current yaw: -0.00430056 (roll: -0.0183444, pitch: -0.00423819)
+Received Odometry - Position: x=0.128396, y=0.0740587, Linear Velocity: 0.000846451
+Current yaw: -0.00392732 (roll: -0.0189164, pitch: -0.00298102)
+-------------------------
+[2025-04-25_23-12-30.747] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.12855, y=0.0740072, Linear Velocity: 0.00109435
+Current yaw: -0.00324571 (roll: -0.0184058, pitch: -0.00445886)
+[CBoard Odom] roll_rel=-0.000163497, pitch_rel=-0.000448107, yaw_rel=-3.12482e-05
+[Ext IMU] roll_rel=-0.000163497, pitch_rel=-0.000448107, yaw_rel=-3.12482e-05
+[CBoard Odom] roll_rel=-0.000223918, pitch_rel=-0.000413926, yaw_rel=-5.74417e-05
+Received Odometry - Position: x=0.128198, y=0.0735582, Linear Velocity: -0.000145185
+Current yaw: -0.00331866 (roll: -0.0185639, pitch: -0.00295634)
+[Ext IMU] roll_rel=-0.000223918, pitch_rel=-0.000413926, yaw_rel=-5.74417e-05
+-------------------------
+[2025-04-25_23-12-30.847] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=-0.000115463, pitch_rel=-0.000277578, yaw_rel=-0.000101501
+[Ext IMU] roll_rel=-0.000115463, pitch_rel=-0.000277578, yaw_rel=-0.000101501
+Received Odometry - Position: x=0.128408, y=0.0744006, Linear Velocity: 0.000723926
+Current yaw: -0.00356319 (roll: -0.0183919, pitch: -0.00399567)
+[CBoard Odom] roll_rel=-3.58236e-05, pitch_rel=-0.000226861, yaw_rel=-7.99039e-05
+[Ext IMU] roll_rel=-3.58236e-05, pitch_rel=-0.000226861, yaw_rel=-7.99039e-05
+Received Odometry - Position: x=0.128049, y=0.0744794, Linear Velocity: 0.00192559
+Current yaw: -0.00334291 (roll: -0.0192037, pitch: -0.00245727)
+-------------------------
+[2025-04-25_23-12-30.947] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128003, y=0.0759933, Linear Velocity: 0.00138779
+Current yaw: -0.00392091 (roll: -0.0181204, pitch: -0.00423299)
+[CBoard Odom] roll_rel=8.49996e-05, pitch_rel=-0.000255475, yaw_rel=-0.000222105
+[Ext IMU] roll_rel=8.49996e-05, pitch_rel=-0.000255475, yaw_rel=-0.000222105
+Received Odometry - Position: x=0.127685, y=0.0759542, Linear Velocity: 0.000163433
+Current yaw: -0.00285317 (roll: -0.0188093, pitch: -0.00258209)
+-------------------------
+[2025-04-25_23-12-31.047] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.12822, y=0.0749975, Linear Velocity: 0.00177892
+Current yaw: -0.00340438 (roll: -0.0181495, pitch: -0.00391428)
+[CBoard Odom] roll_rel=5.94666e-05, pitch_rel=-0.000283371, yaw_rel=-0.000293498
+[Ext IMU] roll_rel=5.94666e-05, pitch_rel=-0.000283371, yaw_rel=-0.000293498
+Received Odometry - Position: x=0.128132, y=0.0747529, Linear Velocity: 0.00165097
+Current yaw: -0.00317165 (roll: -0.0189778, pitch: -0.00206208)
+-------------------------
+[2025-04-25_23-12-31.147] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000189653, pitch_rel=-0.000271832, yaw_rel=-0.000298551
+[Ext IMU] roll_rel=0.000189653, pitch_rel=-0.000271832, yaw_rel=-0.000298551
+[CBoard Odom] roll_rel=0.000202521, pitch_rel=-0.000342804, yaw_rel=-0.000294763
+[Ext IMU] roll_rel=0.000202521, pitch_rel=-0.000342804, yaw_rel=-0.000294763
+Received Odometry - Position: x=0.127908, y=0.0748258, Linear Velocity: 0.000242445
+Current yaw: -0.00331326 (roll: -0.018746, pitch: -0.00420327)
+[CBoard Odom] roll_rel=0.000282239, pitch_rel=-0.000403906, yaw_rel=-0.000273868
+[Ext IMU] roll_rel=0.000282239, pitch_rel=-0.000403906, yaw_rel=-0.000273868
+[CBoard Odom] roll_rel=0.000312181, pitch_rel=-0.000343383, yaw_rel=-0.000285465
+[Ext IMU] roll_rel=0.000312181, pitch_rel=-0.000343383, yaw_rel=-0.000285465
+Received Odometry - Position: x=0.127715, y=0.0749828, Linear Velocity: -0.000126993
+Current yaw: -0.00279363 (roll: -0.0184836, pitch: -0.00273297)
+-------------------------
+[2025-04-25_23-12-31.247] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127996, y=0.0755777, Linear Velocity: 0.000236288
+Current yaw: -0.00269798 (roll: -0.017626, pitch: -0.00432563)
+Received Odometry - Position: x=0.127722, y=0.0748245, Linear Velocity: -0.000849037
+Current yaw: -0.00318063 (roll: -0.0183378, pitch: -0.00296055)
+-------------------------
+[2025-04-25_23-12-31.347] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000208524, pitch_rel=-0.000352504, yaw_rel=-0.000378312
+[Ext IMU] roll_rel=0.000208524, pitch_rel=-0.000352504, yaw_rel=-0.000378312
+Received Odometry - Position: x=0.127461, y=0.0757206, Linear Velocity: -0.00167045
+Current yaw: -0.00413296 (roll: -0.0185162, pitch: -0.00445066)
+Received Odometry - Position: x=0.127182, y=0.0759638, Linear Velocity: -0.0019504
+Current yaw: -0.00283324 (roll: -0.0188274, pitch: -0.00260625)
+-------------------------
+[2025-04-25_23-12-31.447] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127378, y=0.0769272, Linear Velocity: -0.000995894
+Current yaw: -0.00432374 (roll: -0.0188815, pitch: -0.0038779)
+[CBoard Odom] roll_rel=0.000346644, pitch_rel=-0.000482427, yaw_rel=-0.000474706
+[Ext IMU] roll_rel=0.000346644, pitch_rel=-0.000482427, yaw_rel=-0.000474706
+Received Odometry - Position: x=0.127285, y=0.07701, Linear Velocity: -0.00122277
+Current yaw: -0.00367112 (roll: -0.0191828, pitch: -0.00286849)
+-------------------------
+[2025-04-25_23-12-31.547] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128134, y=0.0767892, Linear Velocity: 0.00254271
+Current yaw: -0.00420467 (roll: -0.0185386, pitch: -0.00431954)
+[CBoard Odom] roll_rel=0.000410594, pitch_rel=-0.000415848, yaw_rel=-0.00035471
+[Ext IMU] roll_rel=0.000410594, pitch_rel=-0.000415848, yaw_rel=-0.00035471
+Received Odometry - Position: x=0.12775, y=0.0763263, Linear Velocity: 0.000766616
+Current yaw: -0.00381547 (roll: -0.0183077, pitch: -0.00244099)
+-------------------------
+[2025-04-25_23-12-31.647] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000369522, pitch_rel=-0.000325008, yaw_rel=-0.000274223
+[Ext IMU] roll_rel=0.000369522, pitch_rel=-0.000325008, yaw_rel=-0.000274223
+Received Odometry - Position: x=0.127495, y=0.0784521, Linear Velocity: 0.000590678
+Current yaw: -0.00289718 (roll: -0.018075, pitch: -0.00396778)
+Received Odometry - Position: x=0.127686, y=0.0769849, Linear Velocity: 4.28425e-05
+Current yaw: -0.00331024 (roll: -0.0180497, pitch: -0.00310852)
+-------------------------
+[2025-04-25_23-12-31.747] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000432658, pitch_rel=-0.00035277, yaw_rel=-0.000240091
+[Ext IMU] roll_rel=0.000432658, pitch_rel=-0.00035277, yaw_rel=-0.000240091
+[CBoard Odom] roll_rel=0.000359951, pitch_rel=-0.000389082, yaw_rel=-0.000316135
+[Ext IMU] roll_rel=0.000359951, pitch_rel=-0.000389082, yaw_rel=-0.000316135
+Received Odometry - Position: x=0.127634, y=0.0774488, Linear Velocity: 0.000446197
+Current yaw: -0.00391263 (roll: -0.0207337, pitch: -0.00381242)
+Received Odometry - Position: x=0.127713, y=0.0765584, Linear Velocity: -0.000197554
+Current yaw: -0.00291455 (roll: -0.0183447, pitch: -0.00338106)
+[CBoard Odom] roll_rel=0.000408771, pitch_rel=-0.000381348, yaw_rel=-0.000370057
+[Ext IMU] roll_rel=0.000408771, pitch_rel=-0.000381348, yaw_rel=-0.000370057
+-------------------------
+[2025-04-25_23-12-31.847] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000419686, pitch_rel=-0.000365426, yaw_rel=-0.00035387
+[Ext IMU] roll_rel=0.000419686, pitch_rel=-0.000365426, yaw_rel=-0.00035387
+Received Odometry - Position: x=0.128084, y=0.0765803, Linear Velocity: 0.00151765
+Current yaw: -0.00404314 (roll: -0.0193759, pitch: -0.00391683)
+Received Odometry - Position: x=0.128343, y=0.075448, Linear Velocity: 0.000131418
+Current yaw: -0.00450087 (roll: -0.0185274, pitch: -0.00349831)
+[CBoard Odom] roll_rel=0.000357427, pitch_rel=-0.000370763, yaw_rel=-0.000346297
+[Ext IMU] roll_rel=0.000357427, pitch_rel=-0.000370763, yaw_rel=-0.000346297
+-------------------------
+[2025-04-25_23-12-31.947] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000384808, pitch_rel=-0.000343501, yaw_rel=-0.000340093
+[Ext IMU] roll_rel=0.000384808, pitch_rel=-0.000343501, yaw_rel=-0.000340093
+Received Odometry - Position: x=0.128047, y=0.0767291, Linear Velocity: -4.05203e-06
+Current yaw: -0.00409093 (roll: -0.0189155, pitch: -0.0029142)
+Received Odometry - Position: x=0.127951, y=0.0773347, Linear Velocity: -3.81636e-05
+Current yaw: -0.00256913 (roll: -0.018454, pitch: -0.0035934)
+-------------------------
+[2025-04-25_23-12-32.047] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127953, y=0.0775262, Linear Velocity: 6.76711e-05
+Current yaw: -0.00364423 (roll: -0.0177629, pitch: -0.00336076)
+[CBoard Odom] roll_rel=0.000355819, pitch_rel=-0.000312786, yaw_rel=-0.000301931
+[Ext IMU] roll_rel=0.000355819, pitch_rel=-0.000312786, yaw_rel=-0.000301931
+Received Odometry - Position: x=0.127999, y=0.0771549, Linear Velocity: -0.00012617
+Current yaw: -0.00328497 (roll: -0.0182045, pitch: -0.00348289)
+-------------------------
+[2025-04-25_23-12-32.147] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000368712, pitch_rel=-0.000567325, yaw_rel=-0.000263844
+[Ext IMU] roll_rel=0.000368712, pitch_rel=-0.000567325, yaw_rel=-0.000263844
+Received Odometry - Position: x=0.127893, y=0.0758295, Linear Velocity: 5.41757e-05
+Current yaw: -0.00411487 (roll: -0.0194814, pitch: -0.00272094)
+[CBoard Odom] roll_rel=0.000494413, pitch_rel=-0.000523188, yaw_rel=-0.000323069
+[Ext IMU] roll_rel=0.000494413, pitch_rel=-0.000523188, yaw_rel=-0.000323069
+Received Odometry - Position: x=0.127971, y=0.0759278, Linear Velocity: -8.48647e-05
+Current yaw: -0.00314619 (roll: -0.0185921, pitch: -0.00365756)
+-------------------------
+[2025-04-25_23-12-32.247] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000511869, pitch_rel=-0.000704445, yaw_rel=-0.000118767
+[Ext IMU] roll_rel=0.000511869, pitch_rel=-0.000704445, yaw_rel=-0.000118767
+Received Odometry - Position: x=0.128106, y=0.0761447, Linear Velocity: 0.000969911
+Current yaw: -0.00404007 (roll: -0.0187873, pitch: -0.00331791)
+Received Odometry - Position: x=0.128586, y=0.0760351, Linear Velocity: 0.00167797
+Current yaw: -0.00320104 (roll: -0.0186251, pitch: -0.00392342)
+[CBoard Odom] roll_rel=0.000477282, pitch_rel=-0.000737034, yaw_rel=-0.000124556
+[Ext IMU] roll_rel=0.000477282, pitch_rel=-0.000737034, yaw_rel=-0.000124556
+-------------------------
+[2025-04-25_23-12-32.347] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000509807, pitch_rel=-0.000633167, yaw_rel=-0.000147478
+[Ext IMU] roll_rel=0.000509807, pitch_rel=-0.000633167, yaw_rel=-0.000147478
+Received Odometry - Position: x=0.128348, y=0.076689, Linear Velocity: 0.000749407
+Current yaw: -0.00423586 (roll: -0.0184788, pitch: -0.00319772)
+[CBoard Odom] roll_rel=0.00052465, pitch_rel=-0.000629676, yaw_rel=-0.000194452
+[Ext IMU] roll_rel=0.00052465, pitch_rel=-0.000629676, yaw_rel=-0.000194452
+[CBoard Odom] roll_rel=0.000506488, pitch_rel=-0.000615482, yaw_rel=-0.000144708
+[Ext IMU] roll_rel=0.000506488, pitch_rel=-0.000615482, yaw_rel=-0.000144708
+Received Odometry - Position: x=0.128869, y=0.076752, Linear Velocity: 0.00121715
+Current yaw: -0.00344758 (roll: -0.0186251, pitch: -0.00430359)
+-------------------------
+[2025-04-25_23-12-32.447] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128623, y=0.0777277, Linear Velocity: 0.00190583
+Current yaw: -0.00381084 (roll: -0.0184541, pitch: -0.00234157)
+Received Odometry - Position: x=0.129044, y=0.0777076, Linear Velocity: 0.00210304
+Current yaw: -0.00350163 (roll: -0.0181868, pitch: -0.00435815)
+[CBoard Odom] roll_rel=0.000580227, pitch_rel=-0.000616063, yaw_rel=-0.000160906
+[Ext IMU] roll_rel=0.000580227, pitch_rel=-0.000616063, yaw_rel=-0.000160906
+-------------------------
+[2025-04-25_23-12-32.547] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127859, y=0.0780262, Linear Velocity: -0.00122598
+Current yaw: -0.0039599 (roll: -0.0191286, pitch: -0.00238976)
+[CBoard Odom] roll_rel=0.000471189, pitch_rel=-0.000736866, yaw_rel=-0.000201719
+[Ext IMU] roll_rel=0.000471189, pitch_rel=-0.000736866, yaw_rel=-0.000201719
+Received Odometry - Position: x=0.128132, y=0.0784209, Linear Velocity: -0.00111964
+Current yaw: -0.00464713 (roll: -0.0185235, pitch: -0.00388908)
+-------------------------
+[2025-04-25_23-12-32.647] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000416318, pitch_rel=-0.000704195, yaw_rel=-0.000197452
+[Ext IMU] roll_rel=0.000416318, pitch_rel=-0.000704195, yaw_rel=-0.000197452
+Received Odometry - Position: x=0.127821, y=0.0776901, Linear Velocity: -0.000548111
+Current yaw: -0.0042039 (roll: -0.0186089, pitch: -0.00238407)
+[CBoard Odom] roll_rel=0.000452437, pitch_rel=-0.000609077, yaw_rel=-0.000143334
+[Ext IMU] roll_rel=0.000452437, pitch_rel=-0.000609077, yaw_rel=-0.000143334
+[CBoard Odom] roll_rel=0.0004309, pitch_rel=-0.000645304, yaw_rel=-0.000155762
+[Ext IMU] roll_rel=0.0004309, pitch_rel=-0.000645304, yaw_rel=-0.000155762
+Received Odometry - Position: x=0.127985, y=0.0782862, Linear Velocity: -0.000999907
+Current yaw: -0.00344943 (roll: -0.0185258, pitch: -0.00399225)
+-------------------------
+[2025-04-25_23-12-32.747] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128075, y=0.076873, Linear Velocity: 0.000546547
+Current yaw: -0.00438938 (roll: -0.0191137, pitch: -0.00298296)
+[CBoard Odom] roll_rel=0.000385524, pitch_rel=-0.000598791, yaw_rel=-0.000145166
+[Ext IMU] roll_rel=0.000385524, pitch_rel=-0.000598791, yaw_rel=-0.000145166
+Received Odometry - Position: x=0.128491, y=0.0769127, Linear Velocity: 0.000829139
+Current yaw: -0.00389088 (roll: -0.0182436, pitch: -0.00452382)
+-------------------------
+[2025-04-25_23-12-32.847] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128667, y=0.0767968, Linear Velocity: 0.00227658
+Current yaw: -0.0045038 (roll: -0.0187996, pitch: -0.0026484)
+Received Odometry - Position: x=0.129043, y=0.0765621, Linear Velocity: 0.00208359
+Current yaw: -0.00432134 (roll: -0.0184064, pitch: -0.00459307)
+-------------------------
+[2025-04-25_23-12-32.947] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128729, y=0.0764493, Linear Velocity: 0.00164961
+Current yaw: -0.00400884 (roll: -0.0185051, pitch: -0.00298419)
+[CBoard Odom] roll_rel=0.000467403, pitch_rel=-0.000771615, yaw_rel=-0.000354999
+[Ext IMU] roll_rel=0.000467403, pitch_rel=-0.000771615, yaw_rel=-0.000354999
+Received Odometry - Position: x=0.128614, y=0.0770775, Linear Velocity: 0.000236795
+Current yaw: -0.00340591 (roll: -0.0181217, pitch: -0.00394278)
+-------------------------
+[2025-04-25_23-12-33.047] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128301, y=0.0763997, Linear Velocity: -0.00013383
+Current yaw: -0.00391079 (roll: -0.0180091, pitch: -0.00257167)
+[CBoard Odom] roll_rel=0.00052052, pitch_rel=-0.000662711, yaw_rel=-0.000575313
+[Ext IMU] roll_rel=0.00052052, pitch_rel=-0.000662711, yaw_rel=-0.000575313
+[CBoard Odom] roll_rel=0.000531873, pitch_rel=-0.000757426, yaw_rel=-0.000504894
+[Ext IMU] roll_rel=0.000531873, pitch_rel=-0.000757426, yaw_rel=-0.000504894
+Received Odometry - Position: x=0.129245, y=0.0766944, Linear Velocity: 0.00182105
+Current yaw: -0.00411791 (roll: -0.0183085, pitch: -0.00400619)
+-------------------------
+[2025-04-25_23-12-33.147] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00045163, pitch_rel=-0.000713667, yaw_rel=-0.000464916
+[Ext IMU] roll_rel=0.00045163, pitch_rel=-0.000713667, yaw_rel=-0.000464916
+Received Odometry - Position: x=0.129007, y=0.0761905, Linear Velocity: 0.00211898
+Current yaw: -0.00387127 (roll: -0.0189677, pitch: -0.00262103)
+[CBoard Odom] roll_rel=0.000515855, pitch_rel=-0.000692499, yaw_rel=-0.000425509
+[Ext IMU] roll_rel=0.000515855, pitch_rel=-0.000692499, yaw_rel=-0.000425509
+Received Odometry - Position: x=0.129678, y=0.0765869, Linear Velocity: 0.00261781
+Current yaw: -0.00476562 (roll: -0.0185386, pitch: -0.00408284)
+-------------------------
+[2025-04-25_23-12-33.247] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.129165, y=0.0760751, Linear Velocity: 0.00197627
+Current yaw: -0.0038805 (roll: -0.0186455, pitch: -0.00252576)
+[CBoard Odom] roll_rel=0.00048458, pitch_rel=-0.000865661, yaw_rel=-0.000506417
+[Ext IMU] roll_rel=0.00048458, pitch_rel=-0.000865661, yaw_rel=-0.000506417
+Received Odometry - Position: x=0.12965, y=0.0753965, Linear Velocity: 0.00225908
+Current yaw: -0.00424657 (roll: -0.0181459, pitch: -0.00433586)
+-------------------------
+[2025-04-25_23-12-33.348] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000443092, pitch_rel=-0.000844037, yaw_rel=-0.000547421
+[Ext IMU] roll_rel=0.000443092, pitch_rel=-0.000844037, yaw_rel=-0.000547421
+[CBoard Odom] roll_rel=0.000442035, pitch_rel=-0.000747682, yaw_rel=-0.000481866
+[Ext IMU] roll_rel=0.000442035, pitch_rel=-0.000747682, yaw_rel=-0.000481866
+[CBoard Odom] roll_rel=0.00042125, pitch_rel=-0.000793322, yaw_rel=-0.000533337
+[Ext IMU] roll_rel=0.00042125, pitch_rel=-0.000793322, yaw_rel=-0.000533337
+Received Odometry - Position: x=0.128995, y=0.0759561, Linear Velocity: 0.00127
+Current yaw: -0.0030623 (roll: -0.01833, pitch: -0.00225615)
+[CBoard Odom] roll_rel=0.000459049, pitch_rel=-0.000743672, yaw_rel=-0.000537112
+[Ext IMU] roll_rel=0.000459049, pitch_rel=-0.000743672, yaw_rel=-0.000537112
+Received Odometry - Position: x=0.128736, y=0.0757939, Linear Velocity: -0.00131077
+Current yaw: -0.00387555 (roll: -0.0177868, pitch: -0.00421016)
+-------------------------
+[2025-04-25_23-12-33.447] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128294, y=0.0759995, Linear Velocity: -0.000793134
+Current yaw: -0.00273744 (roll: -0.0179783, pitch: -0.00250692)
+Received Odometry - Position: x=0.128696, y=0.0757223, Linear Velocity: -0.000729811
+Current yaw: -0.00268622 (roll: -0.017957, pitch: -0.00423401)
+-------------------------
+[2025-04-25_23-12-33.547] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.12873, y=0.0755489, Linear Velocity: 0.000757518
+Current yaw: -0.00333062 (roll: -0.0187152, pitch: -0.00268051)
+[CBoard Odom] roll_rel=0.000397303, pitch_rel=-0.000810252, yaw_rel=-0.000510769
+[Ext IMU] roll_rel=0.000397303, pitch_rel=-0.000810252, yaw_rel=-0.000510769
+[CBoard Odom] roll_rel=0.000416084, pitch_rel=-0.000835832, yaw_rel=-0.000355152
+[Ext IMU] roll_rel=0.000416084, pitch_rel=-0.000835832, yaw_rel=-0.000355152
+Received Odometry - Position: x=0.129489, y=0.0760547, Linear Velocity: 0.00182942
+Current yaw: -0.00353364 (roll: -0.0180302, pitch: -0.00436025)
+-------------------------
+[2025-04-25_23-12-33.647] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.129289, y=0.0753686, Linear Velocity: 0.00188622
+Current yaw: -0.00375838 (roll: -0.0189547, pitch: -0.00261524)
+Received Odometry - Position: x=0.129129, y=0.0760663, Linear Velocity: 5.52876e-05
+Current yaw: -0.0038181 (roll: -0.0177879, pitch: -0.00395452)
+-------------------------
+[2025-04-25_23-12-33.747] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000571484, pitch_rel=-0.000760646, yaw_rel=-0.000367724
+[Ext IMU] roll_rel=0.000571484, pitch_rel=-0.000760646, yaw_rel=-0.000367724
+[CBoard Odom] roll_rel=0.000527522, pitch_rel=-0.000729762, yaw_rel=-0.000379848
+[Ext IMU] roll_rel=0.000527522, pitch_rel=-0.000729762, yaw_rel=-0.000379848
+[CBoard Odom] roll_rel=0.000520064, pitch_rel=-0.000676055, yaw_rel=-0.000390726
+[Ext IMU] roll_rel=0.000520064, pitch_rel=-0.000676055, yaw_rel=-0.000390726
+Received Odometry - Position: x=0.128097, y=0.0759209, Linear Velocity: -0.00261702
+Current yaw: -0.00396424 (roll: -0.0185848, pitch: -0.00228747)
+Received Odometry - Position: x=0.127951, y=0.0758249, Linear Velocity: -0.003473
+Current yaw: -0.0034365 (roll: -0.0180547, pitch: -0.00416871)
+-------------------------
+[2025-04-25_23-12-33.847] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127764, y=0.0755276, Linear Velocity: -0.00228729
+Current yaw: -0.00377659 (roll: -0.0182872, pitch: -0.00218502)
+[CBoard Odom] roll_rel=0.000427786, pitch_rel=-0.000500335, yaw_rel=-0.000345048
+[Ext IMU] roll_rel=0.000427786, pitch_rel=-0.000500335, yaw_rel=-0.000345048
+Received Odometry - Position: x=0.127673, y=0.0757394, Linear Velocity: -0.00287954
+Current yaw: -0.004187 (roll: -0.0181372, pitch: -0.00387904)
+-------------------------
+[2025-04-25_23-12-33.947] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000527128, pitch_rel=-0.000454652, yaw_rel=-0.00041777
+[Ext IMU] roll_rel=0.000527128, pitch_rel=-0.000454652, yaw_rel=-0.00041777
+Received Odometry - Position: x=0.126965, y=0.0758848, Linear Velocity: -0.00355799
+Current yaw: -0.00359434 (roll: -0.0187529, pitch: -0.00249534)
+Received Odometry - Position: x=0.12705, y=0.0744083, Linear Velocity: -0.00427111
+Current yaw: -0.00458916 (roll: -0.0184287, pitch: -0.0040989)
+-------------------------
+[2025-04-25_23-12-34.047] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127101, y=0.0749537, Linear Velocity: -0.00218433
+Current yaw: -0.00393482 (roll: -0.018225, pitch: -0.00262287)
+[CBoard Odom] roll_rel=0.000492912, pitch_rel=-0.000518574, yaw_rel=-0.000373939
+[Ext IMU] roll_rel=0.000492912, pitch_rel=-0.000518574, yaw_rel=-0.000373939
+[CBoard Odom] roll_rel=0.000443968, pitch_rel=-0.000448366, yaw_rel=-0.000238758
+[Ext IMU] roll_rel=0.000443968, pitch_rel=-0.000448366, yaw_rel=-0.000238758
+-------------------------
+[2025-04-25_23-12-34.147] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.12768, y=0.0754929, Linear Velocity: -0.000879796
+Current yaw: -0.00404832 (roll: -0.0186407, pitch: -0.00389824)
+Received Odometry - Position: x=0.12754, y=0.0755606, Linear Velocity: -0.000136504
+Current yaw: -0.00418734 (roll: -0.018904, pitch: -0.00268814)
+Received Odometry - Position: x=0.127902, y=0.0759671, Linear Velocity: -9.37018e-05
+Current yaw: -0.00511314 (roll: -0.0186623, pitch: -0.00377237)
+[CBoard Odom] roll_rel=0.00039006, pitch_rel=-0.000285939, yaw_rel=-0.000320585
+[Ext IMU] roll_rel=0.00039006, pitch_rel=-0.000285939, yaw_rel=-0.000320585
+-------------------------
+[2025-04-25_23-12-34.247] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000364118, pitch_rel=-0.000216857, yaw_rel=-0.000354709
+[Ext IMU] roll_rel=0.000364118, pitch_rel=-0.000216857, yaw_rel=-0.000354709
+Received Odometry - Position: x=0.127327, y=0.0760034, Linear Velocity: -0.000395517
+Current yaw: -0.00422716 (roll: -0.0187609, pitch: -0.0022478)
+[CBoard Odom] roll_rel=0.000469501, pitch_rel=-0.000241685, yaw_rel=-0.000400748
+[Ext IMU] roll_rel=0.000469501, pitch_rel=-0.000241685, yaw_rel=-0.000400748
+[CBoard Odom] roll_rel=0.000458173, pitch_rel=-0.000167654, yaw_rel=-0.000329519
+[Ext IMU] roll_rel=0.000458173, pitch_rel=-0.000167654, yaw_rel=-0.000329519
+-------------------------
+[2025-04-25_23-12-34.347] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127205, y=0.0751013, Linear Velocity: -0.00160827
+Current yaw: -0.00400705 (roll: -0.0186954, pitch: -0.00428735)
+[CBoard Odom] roll_rel=0.000472484, pitch_rel=-0.000237242, yaw_rel=-0.000390524
+[Ext IMU] roll_rel=0.000472484, pitch_rel=-0.000237242, yaw_rel=-0.000390524
+Received Odometry - Position: x=0.126876, y=0.0743313, Linear Velocity: -0.00206731
+Current yaw: -0.00359308 (roll: -0.01896, pitch: -0.00208689)
+[CBoard Odom] roll_rel=0.000376828, pitch_rel=-0.000192974, yaw_rel=-0.000307796
+[Ext IMU] roll_rel=0.000376828, pitch_rel=-0.000192974, yaw_rel=-0.000307796
+Received Odometry - Position: x=0.126514, y=0.0746584, Linear Velocity: -0.00321269
+Current yaw: -0.00424202 (roll: -0.0182571, pitch: -0.00375941)
+-------------------------
+[2025-04-25_23-12-34.447] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000458877, pitch_rel=-0.000229565, yaw_rel=-0.000390054
+[Ext IMU] roll_rel=0.000458877, pitch_rel=-0.000229565, yaw_rel=-0.000390054
+Received Odometry - Position: x=0.126359, y=0.0753515, Linear Velocity: -0.00245714
+Current yaw: -0.0038168 (roll: -0.0185044, pitch: -0.00256245)
+[CBoard Odom] roll_rel=0.00039657, pitch_rel=-0.000232631, yaw_rel=-0.000396575
+[Ext IMU] roll_rel=0.00039657, pitch_rel=-0.000232631, yaw_rel=-0.000396575
+Received Odometry - Position: x=0.126302, y=0.0743586, Linear Velocity: -0.00288763
+Current yaw: -0.00395965 (roll: -0.017814, pitch: -0.0036167)
+-------------------------
+[2025-04-25_23-12-34.547] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.126513, y=0.0749925, Linear Velocity: -0.000866063
+Current yaw: -0.00311853 (roll: -0.0178859, pitch: -0.00229495)
+[CBoard Odom] roll_rel=0.000385405, pitch_rel=-0.000173123, yaw_rel=-0.000307579
+[Ext IMU] roll_rel=0.000385405, pitch_rel=-0.000173123, yaw_rel=-0.000307579
+[CBoard Odom] roll_rel=0.000363191, pitch_rel=-0.000130433, yaw_rel=-0.000301536
+[Ext IMU] roll_rel=0.000363191, pitch_rel=-0.000130433, yaw_rel=-0.000301536
+Received Odometry - Position: x=0.12772, y=0.076192, Linear Velocity: 0.00255797
+Current yaw: -0.00492094 (roll: -0.0188887, pitch: -0.00385074)
+-------------------------
+[2025-04-25_23-12-34.647] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127542, y=0.0764597, Linear Velocity: 0.00223052
+Current yaw: -0.00367769 (roll: -0.0183148, pitch: -0.00218362)
+[CBoard Odom] roll_rel=0.000399896, pitch_rel=-0.000121168, yaw_rel=-0.000215029
+[Ext IMU] roll_rel=0.000399896, pitch_rel=-0.000121168, yaw_rel=-0.000215029
+Received Odometry - Position: x=0.127627, y=0.0763836, Linear Velocity: 0.00156608
+Current yaw: -0.00497597 (roll: -0.0192746, pitch: -0.00323073)
+[CBoard Odom] roll_rel=0.000402163, pitch_rel=-0.000171338, yaw_rel=-0.000108574
+[Ext IMU] roll_rel=0.000402163, pitch_rel=-0.000171338, yaw_rel=-0.000108574
+-------------------------
+[2025-04-25_23-12-34.747] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.127466, y=0.07633, Linear Velocity: 0.00125424
+Current yaw: -0.00342125 (roll: -0.018564, pitch: -0.00264561)
+Received Odometry - Position: x=0.128191, y=0.0758426, Linear Velocity: 0.00332098
+Current yaw: -0.00414588 (roll: -0.0182422, pitch: -0.003333)
+-------------------------
+[2025-04-25_23-12-34.847] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000327252, pitch_rel=-0.000219777, yaw_rel=-9.37396e-05
+[Ext IMU] roll_rel=0.000327252, pitch_rel=-0.000219777, yaw_rel=-9.37396e-05
+[CBoard Odom] roll_rel=0.000375946, pitch_rel=-0.000185994, yaw_rel=-0.000246431
+[Ext IMU] roll_rel=0.000375946, pitch_rel=-0.000185994, yaw_rel=-0.000246431
+Received Odometry - Position: x=0.128281, y=0.0750096, Linear Velocity: 0.00346929
+Current yaw: -0.00313783 (roll: -0.0179334, pitch: -0.00293975)
+Received Odometry - Position: x=0.128107, y=0.0746982, Linear Velocity: 0.00178813
+Current yaw: -0.00449944 (roll: -0.020306, pitch: -0.00276499)
+-------------------------
+[2025-04-25_23-12-34.947] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000415634, pitch_rel=-0.00015156, yaw_rel=-0.000293323
+[Ext IMU] roll_rel=0.000415634, pitch_rel=-0.00015156, yaw_rel=-0.000293323
+Received Odometry - Position: x=0.128122, y=0.0745622, Linear Velocity: 0.00229334
+Current yaw: -0.00299034 (roll: -0.0179907, pitch: -0.00324212)
+[CBoard Odom] roll_rel=0.000410084, pitch_rel=-0.00022954, yaw_rel=-0.000313606
+[Ext IMU] roll_rel=0.000410084, pitch_rel=-0.00022954, yaw_rel=-0.000313606
+Received Odometry - Position: x=0.128049, y=0.0731365, Linear Velocity: 0.000999485
+Current yaw: -0.00438687 (roll: -0.0204165, pitch: -0.00301794)
+-------------------------
+[2025-04-25_23-12-35.047] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128329, y=0.0727711, Linear Velocity: 0.00206981
+Current yaw: -0.0027399 (roll: -0.0180406, pitch: -0.0030887)
+[CBoard Odom] roll_rel=0.000452811, pitch_rel=-0.000176545, yaw_rel=-0.000219707
+[Ext IMU] roll_rel=0.000452811, pitch_rel=-0.000176545, yaw_rel=-0.000219707
+Received Odometry - Position: x=0.128085, y=0.0726369, Linear Velocity: 0.00063295
+Current yaw: -0.00465874 (roll: -0.0197547, pitch: -0.00319624)
+-------------------------
+[2025-04-25_23-12-35.147] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.000422518, pitch_rel=-0.000175722, yaw_rel=-0.000233139
+[Ext IMU] roll_rel=0.000422518, pitch_rel=-0.000175722, yaw_rel=-0.000233139
+[CBoard Odom] roll_rel=0.000438669, pitch_rel=-0.000115389, yaw_rel=-0.000260526
+[Ext IMU] roll_rel=0.000438669, pitch_rel=-0.000115389, yaw_rel=-0.000260526
+Received Odometry - Position: x=0.128567, y=0.072421, Linear Velocity: 0.00264415
+Current yaw: -0.00444434 (roll: -0.0187316, pitch: -0.00317584)
+[CBoard Odom] roll_rel=0.00043346, pitch_rel=-0.000142794, yaw_rel=-0.000259009
+[Ext IMU] roll_rel=0.00043346, pitch_rel=-0.000142794, yaw_rel=-0.000259009
+Received Odometry - Position: x=0.128227, y=0.0743797, Linear Velocity: 0.00158254
+Current yaw: -0.00417607 (roll: -0.019783, pitch: -0.00212363)
+-------------------------
+[2025-04-25_23-12-35.247] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128339, y=0.0743129, Linear Velocity: 0.00186693
+Current yaw: -0.0039047 (roll: -0.0185329, pitch: -0.00357828)
+[CBoard Odom] roll_rel=0.00041952, pitch_rel=-0.000143181, yaw_rel=-0.000266932
+[Ext IMU] roll_rel=0.00041952, pitch_rel=-0.000143181, yaw_rel=-0.000266932
+[CBoard Odom] roll_rel=0.000276475, pitch_rel=-5.96947e-06, yaw_rel=-0.000418317
+[Ext IMU] roll_rel=0.000276475, pitch_rel=-5.96947e-06, yaw_rel=-0.000418317
+Received Odometry - Position: x=0.128682, y=0.0750788, Linear Velocity: 0.0034153
+Current yaw: -0.00364821 (roll: -0.0185885, pitch: -0.00195676)
+-------------------------
+[2025-04-25_23-12-35.347] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=0.00028572, pitch_rel=-6.49527e-05, yaw_rel=-0.00043818
+[Ext IMU] roll_rel=0.00028572, pitch_rel=-6.49527e-05, yaw_rel=-0.00043818
+[CBoard Odom] roll_rel=0.000264653, pitch_rel=-7.44236e-05, yaw_rel=-0.000344487
+[Ext IMU] roll_rel=0.000264653, pitch_rel=-7.44236e-05, yaw_rel=-0.000344487
+Received Odometry - Position: x=0.129095, y=0.0755643, Linear Velocity: 0.00391849
+Current yaw: -0.00294906 (roll: -0.0183282, pitch: -0.00397841)
+[CBoard Odom] roll_rel=0.000271737, pitch_rel=-8.06287e-05, yaw_rel=-0.000261566
+[Ext IMU] roll_rel=0.000271737, pitch_rel=-8.06287e-05, yaw_rel=-0.000261566
+[CBoard Odom] roll_rel=0.000214728, pitch_rel=2.79045e-05, yaw_rel=-0.000316187
+[Ext IMU] roll_rel=0.000214728, pitch_rel=2.79045e-05, yaw_rel=-0.000316187
+Received Odometry - Position: x=0.128764, y=0.0743254, Linear Velocity: 0.0023075
+Current yaw: -0.00418243 (roll: -0.0187418, pitch: -0.00202952)
+-------------------------
+[2025-04-25_23-12-35.447] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.129018, y=0.0746919, Linear Velocity: 0.00284107
+Current yaw: -0.00331008 (roll: -0.0179579, pitch: -0.00365238)
+[CBoard Odom] roll_rel=0.000165824, pitch_rel=-7.88937e-05, yaw_rel=-0.000421256
+[Ext IMU] roll_rel=0.000165824, pitch_rel=-7.88937e-05, yaw_rel=-0.000421256
+Received Odometry - Position: x=0.128618, y=0.0737487, Linear Velocity: 0.0017579
+Current yaw: -0.00448328 (roll: -0.0191057, pitch: -0.00205521)
+-------------------------
+[2025-04-25_23-12-35.547] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.128784, y=0.0744136, Linear Velocity: 0.00181259
+Current yaw: -0.00331256 (roll: -0.0180767, pitch: -0.00392671)
+[CBoard Odom] roll_rel=0.000129123, pitch_rel=-8.79208e-05, yaw_rel=-0.000278167
+[Ext IMU] roll_rel=0.000129123, pitch_rel=-8.79208e-05, yaw_rel=-0.000278167
+Received Odometry - Position: x=0.128608, y=0.073856, Linear Velocity: 0.00144323
+Current yaw: -0.00460634 (roll: -0.0196149, pitch: -0.00283177)
+-------------------------
+[2025-04-25_23-12-35.647] No B-spline trajectory received.
+-------------------------
+Received Odometry - Position: x=0.129022, y=0.0747145, Linear Velocity: 0.00225965
+Current yaw: -0.00383609 (roll: -0.0181867, pitch: -0.00380672)
+[CBoard Odom] roll_rel=1.95151e-05, pitch_rel=-1.56049e-05, yaw_rel=-0.000322509
+[Ext IMU] roll_rel=1.95151e-05, pitch_rel=-1.56049e-05, yaw_rel=-0.000322509
+Received Odometry - Position: x=0.128577, y=0.0751824, Linear Velocity: 0.00175276
+Current yaw: -0.00385338 (roll: -0.0181981, pitch: -0.00183044)
+-------------------------
+[2025-04-25_23-12-35.747] No B-spline trajectory received.
+-------------------------
+[CBoard Odom] roll_rel=1.36028e-05, pitch_rel=-8.23892e-05, yaw_rel=-0.000407318
+[Ext IMU] roll_rel=1.36028e-05, pitch_rel=-8.23892e-05, yaw_rel=-0.000407318
+Received Odometry - Position: x=0.129044, y=0.0761888, Linear Velocity: 0.0023745
+Current yaw: -0.00415896 (roll: -0.0177372, pitch: -0.00392914)
