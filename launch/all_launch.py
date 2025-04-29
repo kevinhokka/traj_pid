@@ -69,7 +69,6 @@ def generate_launch_description():
             package='serial_reader',
             executable='serial_reader_node',
             name='serial_reader_node',
-            output='screen',
             parameters=[],
             remappings=[]
         ),
@@ -111,7 +110,6 @@ def generate_launch_description():
                     package='traj_pid',
                     executable='traj_pid_node',
                     name='traj_pid_node',
-                    output='screen',
                     parameters=[],
                     remappings=[]
                 )

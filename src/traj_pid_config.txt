@@ -17,10 +17,10 @@ pid_angular_velocity_d=0.0
 
 # ========== Other Control Parameters ==========
 k=0
-look_ahead_time_offset=0.5
+look_ahead_time_offset=0.8
 alpha_threshold=3.14
 max_linear_speed=0.7
-max_angular_speed=2.0
+max_angular_speed=1.0
 
 # ========== Robot / Trajectory Related ==========
 sensor_offset_x=-0.12
